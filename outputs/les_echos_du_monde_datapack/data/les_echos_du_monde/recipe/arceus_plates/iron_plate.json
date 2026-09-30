@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BWB",
+    "KWK",
+    "BWB"
+  ],
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "W": {
+      "item": "pixelmon:white_shard"
+    },
+    "K": {
+      "item": "pixelmon:black_shard"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "pixelmon:iron_plate"
+  }
+}

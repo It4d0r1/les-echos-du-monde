@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3400" height="760" viewBox="0 0 3400 760" role="img" aria-labelledby="title desc">
+<title id="title">Progression du prologue</title>
+<desc id="desc">Arbre de quêtes du prologue : deux étapes principales, trois branches de tâches qui convergent, trois défis Dresseur qui convergent, puis une suite linéaire jusqu’au nouveau départ.</desc>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#91a1b4"/></marker>
+  <style>
+    .edge{fill:none;stroke:#91a1b4;stroke-width:3;marker-end:url(#arrow)}
+    .node{fill:#315d3b;stroke:#8fce00;stroke-width:3;rx:17}
+    .start{fill:#27313c;stroke:#99a9ba;stroke-width:2}
+    .title{font:600 19px 'Segoe UI',Arial,sans-serif;fill:#fff}
+    .body{font:400 17px 'Segoe UI',Arial,sans-serif;fill:#eef4ee}
+    .status{font:600 18px 'Segoe UI',Arial,sans-serif;fill:#c5f28d}
+    .small{font:500 18px 'Segoe UI',Arial,sans-serif;fill:#dfe7ef}
+  </style>
+</defs>
+<rect x="0" y="0" width="3400" height="760" fill="#18212b"/>
+<!-- progression edges -->
+<path class="edge" d="M128 380 H160"/>
+<path class="edge" d="M440 380 H480"/>
+<path class="edge" d="M760 380 L800 190"/>
+<path class="edge" d="M760 380 H800"/>
+<path class="edge" d="M760 380 L800 570"/>
+<path class="edge" d="M1080 190 L1120 380"/>
+<path class="edge" d="M1080 380 H1120"/>
+<path class="edge" d="M1080 570 L1120 380"/>
+<path class="edge" d="M1400 380 L1440 190"/>
+<path class="edge" d="M1400 380 H1440"/>
+<path class="edge" d="M1400 380 L1440 570"/>
+<path class="edge" d="M1720 190 L1760 380"/>
+<path class="edge" d="M1720 380 H1760"/>
+<path class="edge" d="M1720 570 L1760 380"/>
+<path class="edge" d="M2040 380 H2080"/>
+<path class="edge" d="M2360 380 H2400"/>
+<path class="edge" d="M2680 380 H2720"/>
+<path class="edge" d="M3000 380 H3040"/>
+<!-- start -->
+<rect class="start" x="24" y="352" width="104" height="56" rx="28"/>
+<text class="title" x="76" y="388" text-anchor="middle">Début</text>
+<!-- nodes -->
+<g><rect class="node" x="160" y="310" width="280" height="140"/><text class="title" x="180" y="340">01 · Un monde qui n’est pas</text><text class="title" x="180" y="362">le mien</text><text class="body" x="180" y="394">🎯 Valider la scène avec Garrick</text><text class="body" x="180" y="424">🎁 5 Poké Balls</text></g>
+<g><rect class="node" x="480" y="310" width="280" height="140"/><text class="title" x="500" y="348">02 · Quelques souvenirs</text><text class="body" x="500" y="382">🎯 Valider la scène avec Garrick</text><text class="body" x="500" y="416">🎁 Outils en pierre</text></g>
+<g><rect class="node" x="800" y="120" width="280" height="140"/><text class="title" x="820" y="168">03A · Dans la mine !</text><text class="status" x="820" y="210">🟢 Validée</text></g>
+<g><rect class="node" x="800" y="310" width="280" height="140"/><text class="title" x="820" y="358">03B · Un peu de bois</text><text class="status" x="820" y="400">🟢 Validée</text></g>
+<g><rect class="node" x="800" y="500" width="280" height="140"/><text class="title" x="820" y="548">03C · Les mains dans</text><text class="title" x="820" y="572">la terre</text><text class="status" x="820" y="606">🟢 Validée</text></g>
+<g><rect class="node" x="1120" y="310" width="280" height="140"/><text class="title" x="1140" y="358">04 · Le repas du soir</text><text class="status" x="1140" y="400">🟢 Validée</text></g>
+<g><rect class="node" x="1440" y="120" width="280" height="140"/><text class="title" x="1460" y="150">05A · Des réflexes de</text><text class="title" x="1460" y="172">Dresseur</text><text class="body" x="1460" y="198">Capturer 5 Pokémon</text><text class="status" x="1460" y="230">🟢 Validée</text></g>
+<g><rect class="node" x="1440" y="310" width="280" height="140"/><text class="title" x="1460" y="348">05B · Toujours à mes côtés</text><text class="body" x="1460" y="384">Faire évoluer 1 Pokémon</text><text class="status" x="1460" y="418">🟢 Validée</text></g>
+<g><rect class="node" x="1440" y="500" width="280" height="140"/><text class="title" x="1460" y="538">05C · Prendre soin des</text><text class="title" x="1460" y="562">siens</text><text class="body" x="1460" y="588">Souvenir : Potion</text><text class="status" x="1460" y="616">🟢 Validée</text></g>
+<g><rect class="node" x="1760" y="310" width="280" height="140"/><text class="title" x="1780" y="348">06 · Sur le chemin</text><text class="body" x="1780" y="382">Activer 1 PokéStop</text><text class="body" x="1780" y="412">Vaincre 15 Pokémon</text><text class="status" x="1780" y="438">🟢 Validée</text></g>
+<g><rect class="node" x="2080" y="310" width="280" height="140"/><text class="title" x="2100" y="358">07 · Peut-être des réponses</text><text class="status" x="2100" y="400">🟢 Validée</text></g>
+<g><rect class="node" x="2400" y="310" width="280" height="140"/><text class="title" x="2420" y="358">08 · L’épreuve de Maëlle</text><text class="status" x="2420" y="400">🟢 Validée</text></g>
+<g><rect class="node" x="2720" y="310" width="280" height="140"/><text class="title" x="2740" y="358">09 · Souvenir</text><text class="status" x="2740" y="400">🟢 Validée</text></g>
+<g><rect class="node" x="3040" y="310" width="280" height="140"/><text class="title" x="3060" y="358">09A · Un nouveau départ</text><text class="body" x="3060" y="390">Résumé du prologue</text><text class="status" x="3060" y="420">🟢 Validée</text></g>
+</svg>

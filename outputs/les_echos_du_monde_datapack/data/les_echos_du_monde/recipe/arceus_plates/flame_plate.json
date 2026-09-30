@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BRB",
+    "RRR",
+    "BRB"
+  ],
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "R": {
+      "item": "pixelmon:red_shard"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "pixelmon:flame_plate"
+  }
+}

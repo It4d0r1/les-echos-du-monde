@@ -1,0 +1,9 @@
+* text=auto eol=lf
+
+*.nbt binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.xlsx binary
+*.jar binary
+*.mcreator binary

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BUB",
+    "KWK",
+    "BUB"
+  ],
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "U": {
+      "item": "pixelmon:blue_shard"
+    },
+    "K": {
+      "item": "pixelmon:black_shard"
+    },
+    "W": {
+      "item": "pixelmon:white_shard"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "pixelmon:dread_plate"
+  }
+}

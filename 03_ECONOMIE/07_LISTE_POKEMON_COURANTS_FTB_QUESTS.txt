@@ -1,0 +1,327 @@
+PIXELMON — LES ÉCHOS DU MONDE
+CLASSEMENT DES RARETÉS PAR FRÉQUENCE DES APPARITIONS
+
+Version visée : Pixelmon 9.4.1 bêta — Minecraft 1.21.1 / NeoForge
+Candidats analysés : 253
+Règle : compter les apparitions de chaque espèce dans chaque catégorie de rareté, puis retenir la catégorie ou les catégories ayant la plus grande part.
+Les pourcentages sont calculés parmi les apparitions pour lesquelles le wiki fournit une catégorie. Si plusieurs catégories ont la même fréquence maximale, elles sont toutes indiquées.
+
+POKÉMON DONT LA CATÉGORIE DOMINANTE INCLUT COMMON
+| N° | Nom français | English name / ID | Part Common | Détail |
+|---:|---|---|---:|---|
+| 0010 | Chenipan | Caterpie | 48,3 % | 14 Common sur 29 |
+| 0013 | Aspicot | Weedle | 53,8 % | 14 Common sur 26 |
+| 0016 | Roucool | Pidgey | 50,0 % | 6 Common sur 12 |
+| 0019 | Rattata | Rattata | 33,3 % | 3 Common / 3 Rare / 3 Ultra Rare sur 9 |
+| 0023 | Abo | Ekans | 69,2 % | 9 Common sur 13 |
+| 0029 | Nidoran♀ | Nidoran♀ | 50,0 % | 2 Common / 2 Ultra Rare sur 4 |
+| 0032 | Nidoran♂ | Nidoran♂ | 50,0 % | 2 Common / 2 Ultra Rare sur 4 |
+| 0056 | Férosinge | Mankey | 33,3 % | 2 Common / 2 Uncommon / 2 Ultra Rare sur 6 |
+| 0066 | Machoc | Machop | 100,0 % | 1 Common sur 1 |
+| 0069 | Chétiflor | Bellsprout | 50,0 % | 3 Common / 3 Ultra Rare sur 6 |
+| 0074 | Racaillou | Geodude | 55,0 % | 11 Common sur 20 |
+| 0098 | Krabby | Krabby | 50,0 % | 5 Common / 5 Uncommon sur 10 |
+| 0129 | Magicarpe | Magikarp | 73,9 % | 17 Common sur 23 |
+| 0161 | Fouinette | Sentret | 100,0 % | 4 Common sur 4 |
+| 0167 | Migalos | Spinarak | 100,0 % | 3 Common sur 3 |
+| 0179 | Wattouat | Mareep | 100,0 % | 2 Common sur 2 |
+| 0187 | Granivol | Hoppip | 100,0 % | 2 Common sur 2 |
+| 0216 | Teddiursa | Teddiursa | 50,0 % | 1 Common / 1 Uncommon sur 2 |
+| 0220 | Marcacrin | Swinub | 100,0 % | 4 Common sur 4 |
+| 0223 | Rémoraid | Remoraid | 100,0 % | 8 Common sur 8 |
+| 0261 | Medhyèna | Poochyena | 50,0 % | 3 Common / 3 Uncommon sur 6 |
+| 0263 | Zigzaton | Zigzagoon | 100,0 % | 10 Common sur 10 |
+| 0309 | Dynavolt | Electrike | 100,0 % | 2 Common sur 2 |
+| 0322 | Chamallot | Numel | 50,0 % | 3 Common / 3 Uncommon sur 6 |
+| 0363 | Obalie | Spheal | 80,0 % | 8 Common sur 10 |
+| 0396 | Étourmi | Starly | 66,7 % | 6 Common sur 9 |
+| 0399 | Keunotor | Bidoof | 100,0 % | 3 Common sur 3 |
+| 0417 | Pachirisu | Pachirisu | 50,0 % | 3 Common / 3 Uncommon sur 6 |
+| 0504 | Ratentif | Patrat | 100,0 % | 2 Common sur 2 |
+| 0509 | Chacripan | Purrloin | 50,0 % | 1 Common / 1 Uncommon sur 2 |
+| 0519 | Poichigeon | Pidove | 63,2 % | 12 Common sur 19 |
+| 0524 | Nodulithe | Roggenrola | 85,7 % | 6 Common sur 7 |
+| 0540 | Larveyette | Sewaddle | 50,0 % | 2 Common / 2 Uncommon sur 4 |
+| 0543 | Venipatte | Venipede | 50,0 % | 1 Common / 1 Uncommon sur 2 |
+| 0582 | Sorbébé | Vanillite | 50,0 % | 1 Common / 1 Uncommon sur 2 |
+| 0613 | Polarhume | Cubchoo | 80,0 % | 8 Common sur 10 |
+| 0659 | Sapereau | Bunnelby | 66,7 % | 2 Common sur 3 |
+| 0664 | Lépidonille | Scatterbug | 42,9 % | 3 Common / 3 Uncommon sur 7 |
+| 0731 | Picassaut | Pikipek | 66,7 % | 4 Common sur 6 |
+| 0734 | Manglouton | Yungoos | 100,0 % | 1 Common sur 1 |
+| 0736 | Larvibule | Grubbin | 42,9 % | 3 Common / 3 Uncommon sur 7 |
+| 0759 | Nounourson | Stufful | 100,0 % | 3 Common sur 3 |
+| 0819 | Rongourmand | Skwovet | 50,0 % | 2 Common / 2 Uncommon sur 4 |
+| 0821 | Minisange | Rookidee | 62,5 % | 10 Common sur 16 |
+| 0824 | Larvadar | Blipbug | 50,0 % | 3 Common sur 6 |
+| 0835 | Voltoutou | Yamper | 33,3 % | 1 Common / 1 Uncommon / 1 Very Rare sur 3 |
+
+CLASSEMENT COMPLET — PAR RARETÉ DOMINANTE, PUIS PAR POKÉDEX
+| Rareté dominante | N° | Nom français | English name / ID | Part | Détail des catégories ex æquo |
+|---|---:|---|---|---:|---|
+| Common | 0010 | Chenipan | Caterpie | 48,3 % | 14 Common sur 29 |
+| Common | 0013 | Aspicot | Weedle | 53,8 % | 14 Common sur 26 |
+| Common | 0016 | Roucool | Pidgey | 50,0 % | 6 Common sur 12 |
+| Common / Rare / Ultra Rare | 0019 | Rattata | Rattata | 33,3 % | 3 Common / 3 Rare / 3 Ultra Rare sur 9 |
+| Common | 0023 | Abo | Ekans | 69,2 % | 9 Common sur 13 |
+| Common / Ultra Rare | 0029 | Nidoran♀ | Nidoran♀ | 50,0 % | 2 Common / 2 Ultra Rare sur 4 |
+| Common / Ultra Rare | 0032 | Nidoran♂ | Nidoran♂ | 50,0 % | 2 Common / 2 Ultra Rare sur 4 |
+| Common / Uncommon / Ultra Rare | 0056 | Férosinge | Mankey | 33,3 % | 2 Common / 2 Uncommon / 2 Ultra Rare sur 6 |
+| Common | 0066 | Machoc | Machop | 100,0 % | 1 Common sur 1 |
+| Common / Ultra Rare | 0069 | Chétiflor | Bellsprout | 50,0 % | 3 Common / 3 Ultra Rare sur 6 |
+| Common | 0074 | Racaillou | Geodude | 55,0 % | 11 Common sur 20 |
+| Common / Uncommon | 0098 | Krabby | Krabby | 50,0 % | 5 Common / 5 Uncommon sur 10 |
+| Common | 0129 | Magicarpe | Magikarp | 73,9 % | 17 Common sur 23 |
+| Common | 0161 | Fouinette | Sentret | 100,0 % | 4 Common sur 4 |
+| Common | 0167 | Migalos | Spinarak | 100,0 % | 3 Common sur 3 |
+| Common | 0179 | Wattouat | Mareep | 100,0 % | 2 Common sur 2 |
+| Common | 0187 | Granivol | Hoppip | 100,0 % | 2 Common sur 2 |
+| Common / Uncommon | 0216 | Teddiursa | Teddiursa | 50,0 % | 1 Common / 1 Uncommon sur 2 |
+| Common | 0220 | Marcacrin | Swinub | 100,0 % | 4 Common sur 4 |
+| Common | 0223 | Rémoraid | Remoraid | 100,0 % | 8 Common sur 8 |
+| Common / Uncommon | 0261 | Medhyèna | Poochyena | 50,0 % | 3 Common / 3 Uncommon sur 6 |
+| Common | 0263 | Zigzaton | Zigzagoon | 100,0 % | 10 Common sur 10 |
+| Common | 0309 | Dynavolt | Electrike | 100,0 % | 2 Common sur 2 |
+| Common / Uncommon | 0322 | Chamallot | Numel | 50,0 % | 3 Common / 3 Uncommon sur 6 |
+| Common | 0363 | Obalie | Spheal | 80,0 % | 8 Common sur 10 |
+| Common | 0396 | Étourmi | Starly | 66,7 % | 6 Common sur 9 |
+| Common | 0399 | Keunotor | Bidoof | 100,0 % | 3 Common sur 3 |
+| Common / Uncommon | 0417 | Pachirisu | Pachirisu | 50,0 % | 3 Common / 3 Uncommon sur 6 |
+| Common | 0504 | Ratentif | Patrat | 100,0 % | 2 Common sur 2 |
+| Common / Uncommon | 0509 | Chacripan | Purrloin | 50,0 % | 1 Common / 1 Uncommon sur 2 |
+| Common | 0519 | Poichigeon | Pidove | 63,2 % | 12 Common sur 19 |
+| Common | 0524 | Nodulithe | Roggenrola | 85,7 % | 6 Common sur 7 |
+| Common / Uncommon | 0540 | Larveyette | Sewaddle | 50,0 % | 2 Common / 2 Uncommon sur 4 |
+| Common / Uncommon | 0543 | Venipatte | Venipede | 50,0 % | 1 Common / 1 Uncommon sur 2 |
+| Common / Uncommon | 0582 | Sorbébé | Vanillite | 50,0 % | 1 Common / 1 Uncommon sur 2 |
+| Common | 0613 | Polarhume | Cubchoo | 80,0 % | 8 Common sur 10 |
+| Common | 0659 | Sapereau | Bunnelby | 66,7 % | 2 Common sur 3 |
+| Common / Uncommon | 0664 | Lépidonille | Scatterbug | 42,9 % | 3 Common / 3 Uncommon sur 7 |
+| Common | 0731 | Picassaut | Pikipek | 66,7 % | 4 Common sur 6 |
+| Common | 0734 | Manglouton | Yungoos | 100,0 % | 1 Common sur 1 |
+| Common / Uncommon | 0736 | Larvibule | Grubbin | 42,9 % | 3 Common / 3 Uncommon sur 7 |
+| Common | 0759 | Nounourson | Stufful | 100,0 % | 3 Common sur 3 |
+| Common / Uncommon | 0819 | Rongourmand | Skwovet | 50,0 % | 2 Common / 2 Uncommon sur 4 |
+| Common | 0821 | Minisange | Rookidee | 62,5 % | 10 Common sur 16 |
+| Common | 0824 | Larvadar | Blipbug | 50,0 % | 3 Common sur 6 |
+| Common / Uncommon / Very Rare | 0835 | Voltoutou | Yamper | 33,3 % | 1 Common / 1 Uncommon / 1 Very Rare sur 3 |
+| Uncommon | 0011 | Chrysacier | Metapod | 75,0 % | 21 Uncommon sur 28 |
+| Uncommon | 0014 | Coconfort | Kakuna | 72,0 % | 18 Uncommon sur 25 |
+| Uncommon | 0021 | Piafabec | Spearow | 100,0 % | 12 Uncommon sur 12 |
+| Uncommon | 0025 | Pikachu | Pikachu | 66,7 % | 2 Uncommon sur 3 |
+| Uncommon | 0037 | Goupix | Vulpix | 66,7 % | 6 Uncommon sur 9 |
+| Uncommon | 0041 | Nosferapti | Zubat | 50,0 % | 8 Uncommon sur 16 |
+| Uncommon | 0043 | Mystherbe | Oddish | 70,0 % | 7 Uncommon sur 10 |
+| Uncommon | 0048 | Mimitoss | Venonat | 75,0 % | 9 Uncommon sur 12 |
+| Uncommon | 0052 | Miaouss | Meowth | 50,0 % | 2 Uncommon sur 4 |
+| Uncommon | 0054 | Psykokwak | Psyduck | 100,0 % | 9 Uncommon sur 9 |
+| Uncommon | 0060 | Ptitard | Poliwag | 60,0 % | 6 Uncommon sur 10 |
+| Uncommon | 0063 | Abra | Abra | 100,0 % | 2 Uncommon sur 2 |
+| Uncommon | 0072 | Tentacool | Tentacool | 100,0 % | 4 Uncommon sur 4 |
+| Uncommon | 0079 | Ramoloss | Slowpoke | 72,7 % | 16 Uncommon sur 22 |
+| Uncommon | 0081 | Magnéti | Magnemite | 100,0 % | 3 Uncommon sur 3 |
+| Uncommon / Ultra Rare | 0084 | Doduo | Doduo | 50,0 % | 1 Uncommon / 1 Ultra Rare sur 2 |
+| Uncommon | 0086 | Otaria | Seel | 88,9 % | 8 Uncommon sur 9 |
+| Uncommon | 0088 | Tadmorv | Grimer | 41,2 % | 7 Uncommon sur 17 |
+| Uncommon | 0092 | Fantominus | Gastly | 100,0 % | 6 Uncommon sur 6 |
+| Uncommon | 0096 | Soporifik | Drowzee | 100,0 % | 3 Uncommon sur 3 |
+| Uncommon | 0100 | Voltorbe | Voltorb | 50,0 % | 2 Uncommon sur 4 |
+| Uncommon | 0104 | Osselait | Cubone | 100,0 % | 3 Uncommon sur 3 |
+| Uncommon | 0109 | Smogo | Koffing | 100,0 % | 7 Uncommon sur 7 |
+| Uncommon | 0118 | Poissirène | Goldeen | 62,5 % | 10 Uncommon sur 16 |
+| Uncommon | 0125 | Élektek | Electabuzz | 66,7 % | 2 Uncommon sur 3 |
+| Uncommon | 0163 | Hoothoot | Hoothoot | 74,1 % | 20 Uncommon sur 27 |
+| Uncommon | 0165 | Coxy | Ledyba | 63,6 % | 7 Uncommon sur 11 |
+| Uncommon | 0170 | Loupio | Chinchou | 100,0 % | 14 Uncommon sur 14 |
+| Uncommon | 0177 | Natu | Natu | 100,0 % | 4 Uncommon sur 4 |
+| Uncommon | 0183 | Marill | Marill | 75,0 % | 3 Uncommon sur 4 |
+| Uncommon | 0193 | Yanma | Yanma | 100,0 % | 4 Uncommon sur 4 |
+| Uncommon | 0198 | Cornèbre | Murkrow | 100,0 % | 7 Uncommon sur 7 |
+| Uncommon | 0203 | Girafarig | Girafarig | 100,0 % | 1 Uncommon sur 1 |
+| Uncommon | 0204 | Pomdepik | Pineco | 100,0 % | 6 Uncommon sur 6 |
+| Uncommon | 0207 | Scorplane | Gligar | 100,0 % | 3 Uncommon sur 3 |
+| Uncommon | 0209 | Snubbull | Snubbull | 100,0 % | 1 Uncommon sur 1 |
+| Uncommon | 0218 | Limagma | Slugma | 100,0 % | 11 Uncommon sur 11 |
+| Uncommon | 0228 | Malosse | Houndour | 100,0 % | 4 Uncommon sur 4 |
+| Uncommon | 0231 | Phanpy | Phanpy | 100,0 % | 6 Uncommon sur 6 |
+| Uncommon | 0265 | Chenipotte | Wurmple | 50,0 % | 2 Uncommon sur 4 |
+| Uncommon | 0270 | Nénupiot | Lotad | 66,7 % | 4 Uncommon sur 6 |
+| Uncommon | 0273 | Grainipiot | Seedot | 100,0 % | 6 Uncommon sur 6 |
+| Uncommon | 0276 | Nirondelle | Taillow | 66,7 % | 6 Uncommon sur 9 |
+| Uncommon | 0280 | Tarsal | Ralts | 75,0 % | 3 Uncommon sur 4 |
+| Uncommon | 0283 | Arakdo | Surskit | 100,0 % | 4 Uncommon sur 4 |
+| Uncommon / Rare | 0285 | Balignon | Shroomish | 40,0 % | 2 Uncommon / 2 Rare sur 5 |
+| Uncommon | 0290 | Ningale | Nincada | 100,0 % | 4 Uncommon sur 4 |
+| Uncommon | 0296 | Makuhita | Makuhita | 100,0 % | 1 Uncommon sur 1 |
+| Uncommon | 0300 | Skitty | Skitty | 100,0 % | 3 Uncommon sur 3 |
+| Uncommon | 0304 | Galekid | Aron | 100,0 % | 2 Uncommon sur 2 |
+| Uncommon | 0311 | Posipi | Plusle | 100,0 % | 2 Uncommon sur 2 |
+| Uncommon | 0312 | Négapi | Minun | 100,0 % | 2 Uncommon sur 2 |
+| Uncommon | 0315 | Rosélia | Roselia | 66,7 % | 2 Uncommon sur 3 |
+| Uncommon | 0318 | Carvanha | Carvanha | 72,7 % | 8 Uncommon sur 11 |
+| Uncommon | 0320 | Wailmer | Wailmer | 100,0 % | 5 Uncommon sur 5 |
+| Uncommon | 0325 | Spoink | Spoink | 100,0 % | 1 Uncommon sur 1 |
+| Uncommon / Ultra Rare | 0328 | Kraknoix | Trapinch | 50,0 % | 1 Uncommon / 1 Ultra Rare sur 2 |
+| Uncommon | 0331 | Cacnea | Cacnea | 66,7 % | 4 Uncommon sur 6 |
+| Uncommon | 0333 | Tylton | Swablu | 100,0 % | 7 Uncommon sur 7 |
+| Uncommon | 0339 | Barloche | Barboach | 54,5 % | 6 Uncommon sur 11 |
+| Uncommon | 0341 | Écayon | Corphish | 46,7 % | 7 Uncommon sur 15 |
+| Uncommon | 0343 | Balbuto | Baltoy | 85,7 % | 6 Uncommon sur 7 |
+| Uncommon | 0353 | Polichombr | Shuppet | 100,0 % | 1 Uncommon sur 1 |
+| Uncommon | 0361 | Stalgamin | Snorunt | 100,0 % | 4 Uncommon sur 4 |
+| Uncommon | 0366 | Coquiperl | Clamperl | 66,7 % | 4 Uncommon sur 6 |
+| Uncommon | 0370 | Lovdisc | Luvdisc | 100,0 % | 7 Uncommon sur 7 |
+| Uncommon | 0397 | Étourvol | Staravia | 100,0 % | 7 Uncommon sur 7 |
+| Uncommon | 0401 | Crikzik | Kricketot | 100,0 % | 1 Uncommon sur 1 |
+| Uncommon | 0403 | Lixy | Shinx | 100,0 % | 1 Uncommon sur 1 |
+| Uncommon / Very Rare | 0412 | Cheniti | Burmy | 50,0 % | 2 Uncommon / 2 Very Rare sur 4 |
+| Uncommon | 0415 | Apitrini | Combee | 100,0 % | 3 Uncommon sur 3 |
+| Uncommon / Rare | 0418 | Mustébouée | Buizel | 50,0 % | 5 Uncommon / 5 Rare sur 10 |
+| Uncommon / Rare | 0420 | Ceribou | Cherubi | 50,0 % | 3 Uncommon / 3 Rare sur 6 |
+| Uncommon | 0422 | Sancoki | Shellos | 100,0 % | 6 Uncommon sur 6 |
+| Uncommon | 0425 | Baudrive | Drifloon | 100,0 % | 3 Uncommon sur 3 |
+| Uncommon | 0427 | Laporeille | Buneary | 100,0 % | 1 Uncommon sur 1 |
+| Uncommon | 0431 | Chaglam | Glameow | 66,7 % | 2 Uncommon sur 3 |
+| Uncommon | 0434 | Moufouette | Stunky | 100,0 % | 4 Uncommon sur 4 |
+| Uncommon | 0443 | Griknot | Gible | 75,0 % | 3 Uncommon sur 4 |
+| Uncommon | 0449 | Hippopotas | Hippopotas | 100,0 % | 3 Uncommon sur 3 |
+| Uncommon | 0451 | Rapion | Skorupi | 100,0 % | 6 Uncommon sur 6 |
+| Uncommon | 0453 | Cradopaud | Croagunk | 100,0 % | 4 Uncommon sur 4 |
+| Uncommon | 0456 | Écayon | Finneon | 52,9 % | 9 Uncommon sur 17 |
+| Uncommon | 0459 | Blizzi | Snover | 100,0 % | 5 Uncommon sur 5 |
+| Uncommon | 0506 | Ponchiot | Lillipup | 100,0 % | 1 Uncommon sur 1 |
+| Uncommon / Rare | 0517 | Munna | Munna | 50,0 % | 1 Uncommon / 1 Rare sur 2 |
+| Uncommon | 0522 | Zébibron | Blitzle | 100,0 % | 1 Uncommon sur 1 |
+| Uncommon | 0527 | Chovsourir | Woobat | 100,0 % | 4 Uncommon sur 4 |
+| Uncommon | 0529 | Rototaupe | Drilbur | 100,0 % | 1 Uncommon sur 1 |
+| Uncommon | 0532 | Charpenti | Timburr | 100,0 % | 1 Uncommon sur 1 |
+| Uncommon | 0535 | Tympito | Tympole | 66,7 % | 6 Uncommon sur 9 |
+| Uncommon | 0546 | Doudouvet | Cottonee | 100,0 % | 1 Uncommon sur 1 |
+| Uncommon | 0550 | Bargantua | Basculin | 68,2 % | 15 Uncommon sur 22 |
+| Uncommon | 0551 | Mascaïman | Sandile | 100,0 % | 2 Uncommon sur 2 |
+| Uncommon | 0557 | Crabicoque | Dwebble | 100,0 % | 5 Uncommon sur 5 |
+| Uncommon | 0559 | Baggiguane | Scraggy | 100,0 % | 2 Uncommon sur 2 |
+| Uncommon | 0572 | Chinchidou | Minccino | 100,0 % | 2 Uncommon sur 2 |
+| Uncommon | 0574 | Scrutella | Gothita | 100,0 % | 6 Uncommon sur 6 |
+| Uncommon | 0577 | Nucléos | Solosis | 100,0 % | 1 Uncommon sur 1 |
+| Uncommon | 0580 | Couaneton | Ducklett | 100,0 % | 3 Uncommon sur 3 |
+| Uncommon | 0585 | Vivaldaim | Deerling | 100,0 % | 8 Uncommon sur 8 |
+| Uncommon | 0588 | Carabing | Karrablast | 100,0 % | 2 Uncommon sur 2 |
+| Uncommon | 0590 | Trompignon | Foongus | 100,0 % | 4 Uncommon sur 4 |
+| Uncommon | 0592 | Viskuse | Frillish | 100,0 % | 7 Uncommon sur 7 |
+| Uncommon / Rare / Very Rare | 0595 | Statitik | Joltik | 33,3 % | 1 Uncommon / 1 Rare / 1 Very Rare sur 3 |
+| Uncommon / Ultra Rare | 0597 | Grindur | Ferroseed | 50,0 % | 2 Uncommon / 2 Ultra Rare sur 4 |
+| Uncommon | 0599 | Tic | Klink | 66,7 % | 2 Uncommon sur 3 |
+| Uncommon / Ultra Rare | 0602 | Anchwatt | Tynamo | 45,5 % | 5 Uncommon / 5 Ultra Rare sur 11 |
+| Uncommon | 0605 | Lewsor | Elgyem | 100,0 % | 6 Uncommon sur 6 |
+| Uncommon | 0607 | Funécire | Litwick | 66,7 % | 2 Uncommon sur 3 |
+| Uncommon | 0610 | Coupenotte | Axew | 66,7 % | 2 Uncommon sur 3 |
+| Uncommon | 0616 | Escargaume | Shelmet | 100,0 % | 2 Uncommon sur 2 |
+| Uncommon / Rare | 0622 | Gringolem | Golett | 40,0 % | 2 Uncommon / 2 Rare sur 5 |
+| Uncommon | 0624 | Scalpion | Pawniard | 100,0 % | 5 Uncommon sur 5 |
+| Uncommon | 0627 | Furaiglon | Rufflet | 100,0 % | 9 Uncommon sur 9 |
+| Uncommon | 0629 | Vostourno | Vullaby | 100,0 % | 8 Uncommon sur 8 |
+| Uncommon | 0632 | Fermite | Durant | 62,5 % | 5 Uncommon sur 8 |
+| Uncommon | 0661 | Passerouge | Fletchling | 63,6 % | 7 Uncommon sur 11 |
+| Uncommon | 0667 | Hélionceau | Litleo | 100,0 % | 1 Uncommon sur 1 |
+| Uncommon | 0672 | Cabriolaine | Skiddo | 100,0 % | 7 Uncommon sur 7 |
+| Uncommon | 0674 | Pandespiègle | Pancham | 100,0 % | 2 Uncommon sur 2 |
+| Uncommon | 0688 | Opermine | Binacle | 100,0 % | 4 Uncommon sur 4 |
+| Uncommon | 0690 | Venalgue | Skrelp | 100,0 % | 12 Uncommon sur 12 |
+| Uncommon | 0694 | Galvaran | Helioptile | 100,0 % | 2 Uncommon sur 2 |
+| Uncommon | 0702 | Dedenne | Dedenne | 100,0 % | 2 Uncommon sur 2 |
+| Uncommon | 0703 | Strassie | Carbink | 80,0 % | 4 Uncommon sur 5 |
+| Uncommon / Rare | 0708 | Brocéliande | Phantump | 50,0 % | 2 Uncommon / 2 Rare sur 4 |
+| Uncommon | 0710 | Pitrouille | Pumpkaboo | 75,0 % | 6 Uncommon sur 8 |
+| Uncommon | 0712 | Grelaçon | Bergmite | 100,0 % | 10 Uncommon sur 10 |
+| Uncommon | 0714 | Sonistrelle | Noibat | 75,0 % | 3 Uncommon sur 4 |
+| Uncommon | 0732 | Piclairon | Trumbeak | 100,0 % | 5 Uncommon sur 5 |
+| Uncommon | 0742 | Bombydou | Cutiefly | 100,0 % | 2 Uncommon sur 2 |
+| Uncommon | 0744 | Rocabot | Rockruff | 100,0 % | 7 Uncommon sur 7 |
+| Uncommon | 0746 | Froussinette | Wishiwashi | 85,7 % | 6 Uncommon sur 7 |
+| Uncommon | 0751 | Araqua | Dewpider | 69,2 % | 9 Uncommon sur 13 |
+| Uncommon | 0757 | Tritox | Salandit | 44,0 % | 11 Uncommon sur 25 |
+| Uncommon | 0761 | Croquine | Bounsweet | 100,0 % | 5 Uncommon sur 5 |
+| Uncommon | 0769 | Bacabouh | Sandygast | 100,0 % | 1 Uncommon sur 1 |
+| Uncommon | 0771 | Concombaffe | Pyukumuku | 87,5 % | 7 Uncommon sur 8 |
+| Uncommon | 0777 | Togedemaru | Togedemaru | 100,0 % | 4 Uncommon sur 4 |
+| Uncommon / Rare | 0820 | Rongrigou | Greedent | 50,0 % | 2 Uncommon / 2 Rare sur 4 |
+| Uncommon | 0822 | Bleuseille | Corvisquire | 100,0 % | 11 Uncommon sur 11 |
+| Uncommon | 0829 | Tournicoton | Gossifleur | 100,0 % | 2 Uncommon sur 2 |
+| Uncommon | 0831 | Moumouflon | Wooloo | 100,0 % | 2 Uncommon sur 2 |
+| Uncommon | 0833 | Khélocrok | Chewtle | 100,0 % | 13 Uncommon sur 13 |
+| Uncommon | 0837 | Charbi | Rolycoly | 72,7 % | 16 Uncommon sur 22 |
+| Uncommon / Ultra Rare | 0843 | Dunaja | Silicobra | 50,0 % | 2 Uncommon / 2 Ultra Rare sur 4 |
+| Uncommon | 0846 | Embrochet | Arrokuda | 100,0 % | 25 Uncommon sur 25 |
+| Uncommon | 0848 | Toxizap | Toxel | 100,0 % | 1 Uncommon sur 1 |
+| Uncommon | 0850 | Grillepattes | Sizzlipede | 100,0 % | 7 Uncommon sur 7 |
+| Uncommon | 0852 | Poulpaf | Clobbopus | 100,0 % | 7 Uncommon sur 7 |
+| Uncommon / Very Rare | 0854 | Théffroi | Sinistea | 50,0 % | 4 Uncommon / 4 Very Rare sur 8 |
+| Uncommon | 0859 | Grimalin | Impidimp | 100,0 % | 14 Uncommon sur 14 |
+| Uncommon | 0871 | Wattapik | Pincurchin | 62,5 % | 5 Uncommon sur 8 |
+| Uncommon | 0872 | Larvadar | Snom | 80,0 % | 4 Uncommon sur 5 |
+| Uncommon | 0877 | Morpeko | Morpeko | 100,0 % | 4 Uncommon sur 4 |
+| Uncommon | 0878 | Charibari | Cufant | 100,0 % | 1 Uncommon sur 1 |
+| Uncommon | 0915 | Gourmelet | Lechonk | 100,0 % | 1 Uncommon sur 1 |
+| Uncommon | 0917 | Tissenboule | Tarountula | 100,0 % | 1 Uncommon sur 1 |
+| Uncommon | 0919 | Lilliterelle | Nymble | 100,0 % | 1 Uncommon sur 1 |
+| Uncommon | 0921 | Pohm | Pawmi | 100,0 % | 2 Uncommon sur 2 |
+| Uncommon | 0924 | Compagnol | Tandemaus | 100,0 % | 2 Uncommon sur 2 |
+| Uncommon | 0926 | Pâtachiot | Fidough | 100,0 % | 1 Uncommon sur 1 |
+| Uncommon | 0928 | Olivini | Smoliv | 100,0 % | 4 Uncommon sur 4 |
+| Uncommon | 0932 | Selutin | Nacli | 100,0 % | 12 Uncommon sur 12 |
+| Uncommon | 0944 | Gribouraigne | Shroodle | 100,0 % | 2 Uncommon sur 2 |
+| Uncommon / Very Rare | 0946 | Virovent | Bramblin | 50,0 % | 3 Uncommon / 3 Very Rare sur 6 |
+| Uncommon | 0948 | Batracné | Toedscool | 100,0 % | 3 Uncommon sur 3 |
+| Uncommon | 0951 | Pimito | Capsakid | 100,0 % | 2 Uncommon sur 2 |
+| Uncommon | 0953 | Pâtachiot | Rellor | 100,0 % | 3 Uncommon sur 3 |
+| Uncommon | 0955 | Flotillon | Flittle | 100,0 % | 2 Uncommon sur 2 |
+| Uncommon | 0957 | Forgerette | Tinkatink | 100,0 % | 3 Uncommon sur 3 |
+| Uncommon | 0960 | Taupikeau | Wiglett | 100,0 % | 4 Uncommon sur 4 |
+| Uncommon | 0963 | Dofin | Finizen | 100,0 % | 6 Uncommon sur 6 |
+| Uncommon | 0969 | Virovent | Glimmet | 100,0 % | 2 Uncommon sur 2 |
+| Uncommon | 0971 | Toutombe | Greavard | 100,0 % | 3 Uncommon sur 3 |
+| Uncommon / Very Rare / Ultra Rare | 0972 | Tomberro | Houndstone | 33,3 % | 1 Uncommon / 1 Very Rare / 1 Ultra Rare sur 3 |
+| Uncommon / Very Rare | 0973 | Flamigo | Flamigo | 50,0 % | 1 Uncommon / 1 Very Rare sur 2 |
+| Uncommon / Very Rare | 1012 | Théffroi | Poltchageist | 50,0 % | 2 Uncommon / 2 Very Rare sur 4 |
+| Rare | 0027 | Sabelette | Sandshrew | 66,7 % | 8 Rare sur 12 |
+| Rare | 0050 | Taupiqueur | Diglett | 37,5 % | 6 Rare sur 16 |
+| Rare | 0075 | Gravalanch | Graveler | 47,8 % | 11 Rare sur 23 |
+| Rare | 0126 | Magmar | Magmar | 52,2 % | 12 Rare sur 23 |
+| Rare | 0200 | Feuforêve | Misdreavus | 75,0 % | 3 Rare sur 4 |
+| Rare | 0436 | Archéomire | Bronzor | 50,0 % | 3 Rare sur 6 |
+| Rare | 0562 | Mascaïman | Yamask | 62,5 % | 5 Rare sur 8 |
+| Rare | 0636 | Pyronille | Larvesta | 66,7 % | 2 Rare sur 3 |
+| Rare | 0840 | Verpom | Applin | 85,7 % | 6 Rare sur 7 |
+| Rare | 0856 | Bibichut | Hatenna | 75,0 % | 3 Rare sur 4 |
+| Rare | 0933 | Amassel | Naclstack | 69,2 % | 9 Rare sur 13 |
+| Rare | 0938 | Têtampoule | Tadbulb | 66,7 % | 6 Rare sur 9 |
+| Rare | 0958 | Forgerette | Tinkatuff | 66,7 % | 2 Rare sur 3 |
+| Very Rare / Ultra Rare | 0194 | Axoloto | Wooper | 35,3 % | 6 Very Rare / 6 Ultra Rare sur 17 |
+| Very Rare / Ultra Rare | 0262 | Grahyèna | Mightyena | 42,9 % | 3 Very Rare / 3 Ultra Rare sur 7 |
+| Very Rare | 0332 | Cacturne | Cacturne | 57,1 % | 4 Very Rare sur 7 |
+| Ultra Rare | 0035 | Mélofée | Clefairy | 75,0 % | 3 Ultra Rare sur 4 |
+| Ultra Rare | 0057 | Colossinge | Primeape | 57,1 % | 4 Ultra Rare sur 7 |
+| Ultra Rare | 0354 | Branette | Banette | 100,0 % | 3 Ultra Rare sur 3 |
+| Ultra Rare | 0374 | Terhal | Beldum | 57,1 % | 4 Ultra Rare sur 7 |
+| Ultra Rare | 0429 | Magirêve | Mismagius | 100,0 % | 4 Ultra Rare sur 4 |
+| Ultra Rare | 0525 | Géolithe | Boldore | 77,8 % | 7 Ultra Rare sur 9 |
+| Ultra Rare | 0570 | Zorua | Zorua | 66,7 % | 4 Ultra Rare sur 6 |
+| Ultra Rare | 0571 | Zoroark | Zoroark | 100,0 % | 6 Ultra Rare sur 6 |
+| Ultra Rare | 0630 | Vaututrice | Mandibuzz | 75,0 % | 3 Ultra Rare sur 4 |
+| Ultra Rare | 0999 | Mordudor | Gimmighoul | 100,0 % | 1 Ultra Rare sur 1 |
+| Uncommon | 0669 | Flabébé | Flabébé | 100,0 % | 4 Uncommon sur 4 |
+| Uncommon | 0749 | Tiboudet | Mudbray | 100,0 % | 2 Uncommon sur 2 |
+
+NOTES DE VÉRIFICATION
+- Les catégories sont regroupées par ordre : Common, Uncommon, Rare, Very Rare, Super Rare, Ultra Rare. Les cas Non vérifiée sont placés à la fin.
+- Si plusieurs catégories ont la même fréquence maximale, elles sont toutes affichées et le Pokémon est rangé avec la première de ces catégories dans cet ordre.
+- Flabébé (4 apparitions sur 4) et Tiboudet (Mudbray, 2 sur 2) sont classés Uncommon selon leurs pages Pixelmon.
+- Cet audit couvre les candidats de la liste initiale et ne démontre pas que toutes les espèces qui pourraient être Common figurent dans ce périmètre.
+- Les catégories viennent des pages du wiki; les noms anglais/français viennent des fichiers de langue Pixelmon 9.4.1 bêta. Le wiki peut être décalé par rapport à cette bêta.
+
+Sources :
+- Pixelmon Wiki — Spawning : https://pixelmonmod.com/wiki/Spawning
+- API du wiki consultée pour les pages Pokémon : https://pixelmonmod.com/w/api.php
+- Fichiers de spawn standard et de langue du jar Pixelmon 9.4.1 bêta.
+

@@ -1,0 +1,136 @@
+DIAGNOSTIC — STRUCTURE DE LA DIMENSION DU PROLOGUE
+Date de rédaction : 29 septembre 2026
+
+1. ENVIRONNEMENT
+
+- Minecraft Java Edition 1.21.1
+- NeoForge 21.1.250
+- Instance CurseForge : Pixelmon Les Échos du Monde
+- Un monde d’essai neuf a été créé ; le problème s’y reproduit.
+- Le jeu a été fermé après environ 10 minutes d’écran noir pendant le test.
+
+2. CHEMINS ET CHARGEMENT DU DATAPACK
+
+Datapack actif vérifié :
+C:\Users\Bastien\curseforge\minecraft\Instances\Pixelmon Les Échos du Monde\global_packs\required_data\les_echos_du_monde
+
+GlobalPacks charge automatiquement les datapacks de global_packs/required_data/.
+Le pack.mcmeta indique pack_format 48, format compatible avec Minecraft 1.21–1.21.1.
+Le datapack est chargé : le journal recense les ressources datapack et crée la dimension les_echos_du_monde:prologue.
+
+Fonction concernée :
+data/les_echos_du_monde/function/world/place_platform.mcfunction
+
+Commande de placement utilisée par la fonction :
+/place template les_echos_du_monde:plateforme_prologue -224 -56 -243
+
+Le fichier est placé ici :
+data/les_echos_du_monde/structure/plateforme_prologue.nbt
+
+La syntaxe de /place template est compatible avec Java 1.21.1. Le journal montre que Minecraft a tenté de charger l’identifiant de la structure ; l’échec n’est donc pas simplement un datapack ignoré ou un nom de ressource introuvable.
+
+3. FICHIER NBT — FAITS VÉRIFIÉS
+
+- Taille compressée : 14 614 656 octets.
+- Décompression GZIP complète réussie ; taille décompressée : 178 354 894 octets.
+- Taille déclarée : 449 × 93 × 486 blocs.
+- Entrées de blocs : 4 954 089.
+- Palette : 103 entrées.
+- DataVersion : 3955, correspondant à Minecraft 1.21.1.
+- Aucun index de palette invalide n’a été relevé.
+- Les positions des blocs restent dans la taille déclarée.
+- Les blocs de la palette observée utilisent des identifiants minecraft:.
+
+Cela confirme un modèle valide du point de vue des contrôles structurels effectués, mais très volumineux une fois décompressé et chargé en mémoire.
+
+4. CAUSE PRÉCISE TROUVÉE DANS LE JOURNAL
+
+Dans logs/latest.log, à 00:06:11.732 :
+
+StructureTemplateManager: Couldn't load structure les_echos_du_monde:plateforme_prologue
+java.lang.OutOfMemoryError: Java heap space: failed reallocation of scalar replaced objects
+
+La ligne suivante indique :
+Can't keep up! Is the server overloaded? Running 89711ms or 1794 ticks behind
+
+Conclusion vérifiée : le tas mémoire Java est épuisé pendant le chargement de plateforme_prologue. Le serveur avait aussi accumulé un retard majeur. Cela correspond à l’écran noir et au long gel observés. Le message Java ne prouve pas une fuite mémoire : une limite maximale du tas trop faible peut aussi provoquer cette erreur.
+
+Le modèle comporte près de 5 millions d’entrées de blocs et représente environ 178 MB de NBT décompressé. La mémoire nécessaire à sa représentation en objets Minecraft peut dépasser largement la taille du fichier décompressé. Le volume du modèle est une explication cohérente de la pression mémoire ; la limite Java exacte de cette instance reste à vérifier.
+
+5. CE QUI N’EST PAS ÉTABLI COMME CAUSE
+
+- Les avertissements Iris sur un état de bloc ancien et Flywheel sur son backend apparaissent avant l’erreur, mais le journal identifie ensuite explicitement l’épuisement du tas lors du chargement du modèle.
+- Aucun élément relevé ne prouve que Sable ou la physique soit à l’origine de l’échec.
+- Les erreurs Pixelmon de sauvegarde avec ServerLifecycleHooks.getCurrentServer() à null apparaissent après l’arrêt du serveur ; elles ne démontrent pas la cause initiale.
+- Le fait que Java ait utilisé environ 8 000 MB dans le Gestionnaire des tâches ne donne pas la limite maximale du tas Java (-Xmx).
+- L’observation d’environ 5 % de CPU et d’aucun cœur logique à 100 % ne suffit pas, à elle seule, à diagnostiquer un blocage.
+
+6. MÉMOIRE CURSEFORGE
+
+Le fichier de profil minecraftinstance.json indique :
+- allocatedMemory : 6144 MB.
+- isMemoryOverride : True (allocation propre à ce profil).
+- javaArgsOverride : vide.
+
+La quantité de RAM physique totale du PC n’a pas été vérifiée. Une hausse de l’allocation ne doit donc pas être recommandée à l’aveugle. Même avec davantage de mémoire, la plateforme représente encore près de 5 millions de blocs et le travail total de placement restera important.
+
+7. DÉCOUPAGE PAR CHUNK ET PLACEMENT AUTOUR DU JOUEUR
+
+Faits vérifiés avant le nouveau découpage :
+- Le joueur arrive à (0.5, -4, 0.5), dans le chunk du monde (0, 0).
+- Le test a confirmé que le chunk d’origine était chargé, mais pas le chunk éloigné x=224, z=-243.
+- Les anciennes tranches découpaient le modèle uniquement en Z : elles conservaient 449 blocs de largeur. Elles traversaient donc encore de nombreux chunks non chargés.
+- La commande /place template de Minecraft 1.21.1 vérifie les chunks de début et de fin de la boîte de structure. La documentation NeoForge 1.21.1 expose PlaceCommand.checkLoaded(ServerLevel, ChunkPos start, ChunkPos end).
+
+Changement installé :
+- Le NBT original plateforme_prologue.nbt n’a pas été modifié. Son SHA-256 avant/après est identique :
+  e93a3f79a73b5c4a64805ff762191229cebe99bbafda86d7951c83ff55373fe8
+- 706 tuiles non vides ont été générées. Chaque NBT a une taille déclarée de 16 × 93 × 16 blocs et ses coordonnées ont été converties au repère local du chunk.
+- Les tuiles sont ordonnées en partant du chunk (0,0), puis en s’éloignant progressivement du point d’arrivée.
+- La première tuile contient 4 865 entrées ; la plus chargée en contient 16 545.
+- Les 4 954 089 entrées d’origine ont été conservées. DataVersion 3955, palette de 103 états et absence d’entités ont été préservés.
+- Les 706 NBT ont été décompressés et reparsés pour vérifier leur intégrité gzip/NBT, leur taille, leur nombre d’entrées et les limites locales x=0..15, y=0..92, z=0..15.
+- Les 706 fonctions attendent le chargement d’un seul chunk, placent sa tuile, relâchent uniquement le ticket de chargement qu’elles ont ajouté, puis planifient la suivante. La construction démarre après l’arrivée du joueur.
+- Les anciens NBT et fonctions découpés en 32 tranches Z sont conservés, mais ne sont plus appelés par le nouveau flux.
+- Une migration unique efface les anciens marqueurs de placement et annule les anciennes tranches éventuellement programmées.
+- Les quatre fonctions de contrôle modifiées (load, tick, world/place_platform, world/migrate_platform_marker) ont été sauvegardées dans :
+  C:\Users\Bastien\Desktop\Les Echo du monde\backups\prologue_chunk_install_20260929_021628
+- Aucun fichier .jar, mod, réglage mémoire ou monde n’a été modifié.
+
+Limite mémoire à surveiller :
+- La documentation NeoForge 1.21.1 montre que StructureTemplateManager possède un Map structureRepository des modèles chargés.
+- Le découpage réduit la quantité de données décompressées à traiter en une seule commande, mais Minecraft peut garder les tuiles déjà chargées en cache. La mémoire totale de fin de génération n’est donc pas encore garantie.
+- Aucun essai en jeu n’a encore été effectué après l’installation des 706 tuiles. Si un OutOfMemoryError revient, il faudra lire l’heure et le modèle concernés dans latest.log avant d’envisager une autre méthode.
+
+Étape de test suivante :
+- Réutiliser le monde d’essai actuel : le fermer jusqu’au menu, puis le rouvrir pour charger les nouvelles fonctions.
+- Ne pas supprimer ni recréer ce monde pour ce test.
+- Observer si la plateforme commence à apparaître autour du point d’arrivée et relever tout nouveau message à l’écran. Le résultat en jeu reste à confirmer.
+
+8. RÉFÉRENCES
+
+Références techniques (version NeoForge 1.21.1) :
+- Notes officielles de Minecraft 1.21 et changements des datapacks :
+  https://feedback.minecraft.net/hc/en-us/articles/27547857163917-Minecraft-Java-Edition-1-21-Tricky-Trials
+- Syntaxe officielle de /place template (notes Minecraft Java) :
+  https://www.minecraft.net/en-us/article/the-wild-update-out-today-java
+- Aide CurseForge — réglages de mémoire globaux et par profil :
+  https://support.curseforge.com/support/solutions/articles/9000218572-getting-started
+- Oracle Java 21 — interprétation de OutOfMemoryError :
+  https://docs.oracle.com/en/java/javase/21/troubleshoot/troubleshooting-memory-leaks.html
+- Documentation NeoForged 1.21.1 sur les registres datapack :
+  https://docs.neoforged.net/docs/1.21.1/concepts/registries/
+
+Wikis communautaires utiles pour recouper les formats :
+- Format NBT des fichiers de structure :
+  https://minecraft.fandom.com/wiki/Structure_Block_file_format
+- Commande /place pour Java Edition :
+  https://minecraft.fandom.com/wiki/Commands/place_%28Java_Edition%29
+- Datapacks :
+  https://minecraft.fandom.com/wiki/Data_pack
+- Dimension personnalisée :
+  https://minecraft.wiki/w/Tutorial%3AAdding_a_new_dimension
+- Fiche Minecraft Java 1.21.1 (format datapack et DataVersion) :
+  https://minecraft.wiki/w/Java_Edition_1.21.1
+
+Les wikis communautaires sont des références secondaires ; pour la compatibilité de version, privilégier les notes Mojang et NeoForged, et pour l’erreur mémoire le journal du jeu et la documentation Oracle.

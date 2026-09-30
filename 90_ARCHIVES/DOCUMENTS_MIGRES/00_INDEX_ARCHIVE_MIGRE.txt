@@ -1,0 +1,45 @@
+PIXELMON — LES ÉCHOS DU MONDE
+DOSSIER DE RÉFÉRENCE LORE / QUÊTES
+
+Version de travail : 21/09/2026
+
+Ce dossier rassemble les prompts et informations de lore construits jusqu’ici.
+Il sert à transmettre le projet à une autre IA sans perdre le contexte.
+
+FICHIER À LIRE EN PRIORITÉ
+- 01_CANON_COMPLET_MAMMOUTH_IA.txt
+- Il rassemble le canon actuel, les éléments à préciser, les tableaux et les consignes pour Mammouth IA.
+- Il prévaut sur tous les autres fichiers lorsqu’ils se contredisent.
+
+FICHIER DES QUÊTES
+- 02_QUETES_EN_CONSTRUCTION.txt
+- Il organise la progression des quêtes FTB Quests. Il doit être réécrit progressivement, une quête à la fois.
+- 03_TABLEAU_PROGRESSION_QUETES.md
+- Il affiche la progression sous forme de tableau et de graphe, dans l’esprit de FTB Quests.
+
+AUTRES DOCUMENTS DE RÉFÉRENCE
+- 04_ECONOMIE_EN_JEU.txt : conception de l’économie en Pokédollars, à distinguer du lore.
+- 05_LISTE_POKEMON_COURANTS_FTB_QUESTS.txt : classement de rareté des Pokémon étudiés pour les quêtes et l’économie.
+- 99_IDEES_A_EXPLORER\ : idées non validées, séparées du canon et des quêtes.
+
+RÈGLES IMPORTANTES
+- Minecraft 1.21.1
+- NeoForge
+- Pixelmon 9.4.1 (bêta ; vérifier la version réellement installée)
+- FTB Quests
+- Monde procédural : ne pas dépendre d’une seed fixe.
+- Ne pas créer de datapack, script, commande ou configuration technique sans demande explicite.
+- Construire l’histoire progressivement avec l’utilisateur.
+- Ne pas inventer toute l’histoire à sa place.
+- Une nouvelle décision de l’utilisateur remplace l’ancienne.
+- Signaler les incohérences importantes.
+- Distinguer ce qui est validé, en cours et seulement envisagé.
+- Ne jamais révéler à Link une information qu’il n’est pas encore censé connaître.
+- Les descriptions FTB Quests sont souvent les pensées/journal de Link.
+- Corriger l’orthographe lors des reformulations.
+
+FICHIER DE BASE POUR LES QUÊTES FTB
+- 05_LISTE_POKEMON_COURANTS_FTB_QUESTS.txt
+- Liste triée des espèces de la bêta 9.4.1 classées Common selon la règle de rareté explicitée dans le fichier.
+
+

@@ -1,0 +1,457 @@
+PIXELMON — LES ÉCHOS DU MONDE
+RÉFÉRENCE COMPLÈTE POUR MAMMOUTH IA
+
+Version : 21 septembre 2026
+Statut : document de référence prioritaire
+
+============================================================
+1. UTILISATION DU DOCUMENT
+============================================================
+
+Lis ce document entièrement avant de répondre.
+
+Il rassemble le canon actuel du modpack, les décisions encore ouvertes et les règles de collaboration.
+En cas de contradiction avec un ancien fichier du dossier, ce document est prioritaire.
+
+Ne transforme jamais un élément « À PRÉCISER », « PROPOSITION » ou « À VÉRIFIER TECHNIQUEMENT »
+en fait établi sans validation explicite de l’utilisateur.
+
+============================================================
+2. IDENTITÉ DU PROJET ET RÈGLES
+============================================================
+
+Nom : PIXELMON — LES ÉCHOS DU MONDE
+
+| Élément | Valeur |
+|---|---|
+| Minecraft | 1.21.1 |
+| Chargeur | NeoForge |
+| Mod Pokémon | Pixelmon 9.4.1 (bêta ; vérifier la version réellement installée) |
+| Système de quêtes | FTB Quests |
+| Monde | Procédural ; ne jamais dépendre d’une seed fixe |
+
+Règles d’écriture :
+- Construire le lore progressivement avec l’utilisateur.
+- Ne pas écrire toute l’histoire, la fin ou une révélation majeure sans accord.
+- Corriger l’orthographe quand un texte est reformulé.
+- Si une idée est incohérente, le dire clairement et expliquer pourquoi.
+- Ne pas prétendre qu’une information technique est certaine sans l’avoir vérifiée.
+- Les descriptions de quêtes sont souvent le journal intérieur de Link.
+- Un automatisme ou une connaissance de Link n’est pas forcément un souvenir.
+- Les vrais souvenirs doivent avoir un déclencheur précis : lieu, objet, combat, sensation, Pokémon, phrase ou énergie.
+- Avant une scène, distinguer ce que savent Link, Maëlle, Garrick, les autres personnages et le joueur.
+- Ne jamais révéler trop tôt un mystère important au joueur.
+- Ne créer ni datapack, ni script, ni commande, ni configuration sans demande explicite.
+
+============================================================
+3. PRINCIPE CENTRAL
+============================================================
+
+Link arrive dans une époque située environ 2 000 ans après le premier Cataclysme.
+Il souffre d’amnésie autobiographique et ne sait pas qu’il a voyagé dans le temps.
+
+Il connaît son nom, les Pokémon, les types, les bases du combat et de nombreux gestes de Dresseur.
+Il ne se souvient pas de sa vie, de son époque, des héros qu’il a connus, du Cataclysme ni de son voyage.
+
+Le joueur reconstitue le passé de Link par des souvenirs rares et progressifs. Chaque réponse doit pouvoir
+ouvrir une nouvelle question.
+
+============================================================
+4. CHRONOLOGIE GÉNÉRALE
+============================================================
+
+| Période | Événement établi |
+|---|---|
+| Il y a environ 2 000 ans | Premier Cataclysme ; Link et ses alliés repoussent les ennemis de justesse. |
+| Fin du premier Cataclysme | Link et son starter sont projetés dans une Ultra-Brèche instable et envoyés à l’époque actuelle. |
+| Après le Cataclysme | Les ancêtres de Maëlle restent dans la dimension de Giratina par peur des séquelles du Cataclysme. |
+| Il y a 25 ans | Maëlle naît dans la dimension de Giratina. |
+| Il y a 19 ans | Les parents de Maëlle meurent lors d’une exploration de l’Overworld. Maëlle a alors 6 ans. |
+| Il y a 15 ans | À 10 ans, Maëlle est évacuée vers l’Overworld par Giratina. |
+| Il y a 7 ans | Maëlle, alors âgée de 18 ans, arrive au village de Garrick. |
+| Il y a 2 ans | Le fils de Garrick est tué par des Pokémon devenus anormalement agressifs. |
+| Début du jeu | Link arrive dans l’époque actuelle à 23 ans ; Maëlle a 25 ans. |
+
+============================================================
+5. LINK
+============================================================
+
+| Sujet | Canon actuel |
+|---|---|
+| Âge | 23 ans au premier Cataclysme et physiquement 23 ans à son arrivée dans l’époque actuelle. |
+| Personnalité actuelle | Il cache surtout sa peur derrière l’humour. |
+| Motivation | Il veut protéger les personnes qui l’ont aidé, même sans retrouver son passé. |
+| Avant l’amnésie | Dresseur exceptionnel qui a empêché plusieurs drames. |
+| Souvenirs conservés | Nom, Pokémon, types, combat, automatismes et connaissances pratiques. |
+| Souvenirs perdus | Passé, époque, Cataclysme, alliés, voyage temporel et détails de l’Ultra-Brèche. |
+| Protection | Arceus intervient pendant le voyage temporel et lui donne une protection limitée. Elle lui permettra plus tard de franchir les Ultra-Brèches. |
+
+Le starter de Link est toujours l’espèce choisie par le joueur. Ne jamais lui imposer une espèce fixe.
+Il commence faible, mais était autrefois très puissant. Pendant la traversée de l’Ultra-Brèche, il a sacrifié
+presque toute sa puissance pour protéger Link des perturbations spatio-temporelles. Arceus ne doit pas annuler
+ou diminuer ce sacrifice.
+
+Le starter regarde souvent Link avec tristesse et grande fatigue. Link ne comprend pas encore pourquoi.
+
+============================================================
+6. CONTINUITÉ FUSION DES JEUX POKÉMON
+============================================================
+
+Cette continuité est une adaptation volontaire : elle ne correspond pas à une chronologie officielle unique.
+Les remakes ne sont pas des aventures séparées. Les spin-offs ne sont pas inclus pour le moment.
+
+Link remplace Red, le héros de Kanto. Pour toutes les autres régions, il aide le héros local au lieu de le remplacer.
+Ces héros deviennent les alliés qui combattent avec lui pendant le premier Cataclysme.
+
+| Âge de Link | Région / histoire | Rôle de Link |
+|---:|---|---|
+| 10 ans | Kanto | Link remplace Red, démantèle la Team Rocket et découvre Mewtwo. Il refuse de traiter Mewtwo comme une arme. |
+| 13 ans | Johto | Il aide le héros de Johto face au retour de la Team Rocket et rencontre Lugia ou Ho-Oh. |
+| 14 ans | Hoenn — Rubis Oméga / Saphir Alpha | Il aide face aux équipes Magma et Aqua, aux Primo-Résurgences et à la crise impliquant Rayquaza. |
+| 15 ans | Sinnoh | Il aide contre la Team Galaxie, rencontre Dialga, Palkia et Giratina, et comprend l’importance de leur équilibre. |
+| 16 ans | Unys — Noir / Blanc | Il aide contre la Team Plasma, N et Ghetis. |
+| 18 ans | Unys — Noir 2 / Blanc 2 | Il aide lors du retour de la Team Plasma et face à Kyurem. |
+| 19 ans | Kalos | Il aide contre la Team Flare et l’Arme Suprême ; il rencontre Xerneas ou Yveltal. |
+| 20 ans | Alola | Il aide face à la Fondation Æther, la Team Skull, les Ultra-Brèches et Necrozma. |
+| 21 ans | Galar | Il aide pendant la crise d’Éthernatos et découvre le Dynamax. |
+| 22 ans | Paldea | Il aide le héros de Paldea face à la Zone Zéro, aux Pokémon Paradoxe et aux dangers du temps. |
+| 23 ans | Premier Cataclysme | Les héros que Link a aidés combattent avec lui et les légendaires. |
+
+POKÉMON LEGENDS: ARCEUS
+
+Le héros de Pokémon Legends: Arceus reste une personne distincte ; Link ne le remplace pas.
+Plus tard, Arceus peut l’envoyer aider Link. Son expérience de Hisui, Dialga, Palkia et Giratina peut devenir utile.
+Son identité, son rôle exact et le moment de son arrivée restent à définir.
+
+À PRÉCISER
+- L’ordre exact des aventures si l’on veut le rendre plus précis que le tableau.
+- Les noms, personnalités et rôles exacts des héros alliés pendant le Cataclysme.
+- La relation de Link avec Mewtwo.
+- La raison pour laquelle Necrozma redevient hostile ou rejoint les ennemis après Alola.
+- Le choix de Lugia ou Ho-Oh, Xerneas ou Yveltal, et les autres branches liées aux versions.
+
+============================================================
+7. MAËLLE
+============================================================
+
+| Sujet | Canon actuel |
+|---|---|
+| Âge | 25 ans au début du jeu. |
+| Origine | Dimension de Giratina. |
+| Enfance | Ses ancêtres y sont restés après le premier Cataclysme. Elle y naît 2 000 ans plus tard. |
+| Parents | Morts lorsqu’elle avait 6 ans, pendant une exploration de l’Overworld ordonnée par Giratina. |
+| Lien avec Giratina | Giratina l’a élevée pendant quatre ans après la mort de ses parents et tient profondément à elle. |
+| Arrivée dans l’Overworld | À 10 ans, après une attaque contre la dimension de Giratina. |
+| Arrivée chez Garrick | À 18 ans ; elle vit sept ans dans son village. |
+| Métier | Chercheuse sur les ruines, anciennes civilisations, anomalies, archives, Ultra-Brèches et énergie. |
+| Appareil | Elle a créé un détecteur capable de mesurer l’énergie des Ultra-Brèches. |
+| Personnalité | Calme, intelligente, cultivée, méthodique, observatrice, légèrement excentrique ; pas omnisciente. |
+
+Les parents de Maëlle sont morts, puis Giratina l’a élevée. Lorsque des Pokémon malveillants attaquent sa dimension
+afin d’en prendre le contrôle, Giratina évacue Maëlle sur son dos et lui donne une protection comparable à celle de Link.
+Il ne peut sauver les autres. Giratina est ensuite scellé par les ennemis.
+
+Maëlle conserve seulement la certitude de venir de cette dimension ; elle n’en garde presque aucun souvenir détaillé.
+Garrick ignore son origine.
+
+Après la destruction du village de Garrick, Maëlle veut construire une nouvelle ville car elle refuse de perdre encore
+un foyer. Elle cache sa peur, mais Link peut la lire dans ses yeux.
+
+À PRÉCISER
+- L’effet exact de la protection accordée par Giratina.
+- Le rôle précis de la dimension de Giratina dans l’équilibre des mondes.
+- La raison exacte de l’attaque qui a conduit au scellement de Giratina.
+
+============================================================
+8. GARRICK ET LES PREMIÈRES QUÊTES
+============================================================
+
+Garrick est un vieux chef de village, bourru, direct, peu démonstratif, sarcastique par moments mais profondément gentil.
+Il montre son affection par ses actes.
+
+- Il retrouve Link épuisé et amnésique, puis le recueille.
+- Il a perdu son fils il y a deux ans. Son fils avait approximativement l’âge de Link.
+- Son fils a été tué par des Pokémon anormalement agressifs. Le ciel semblait se fissurer pendant l’événement.
+- Les outils en pierre donnés à Link appartenaient à ce fils. Link et le joueur ne doivent pas le savoir immédiatement.
+- Lorsque Link part explorer, Garrick revit la tristesse ressentie lorsque son fils est parti avant sa mort.
+
+Les trois Dresseurs qui servent d’entraînement à Link sont les fils d’amis de Garrick. Maëlle demande à Link de les
+affronter pour vérifier qu’il peut l’accompagner. Après ces combats, Link retrouve un souvenir : il conseillait autrefois
+quelqu’un pendant un combat. Cela débloque un chapitre tutoriel sur la stratégie Pokémon.
+
+============================================================
+9. APPAREIL CORROMPU, BADGES ET ARCHIVES
+============================================================
+
+Link possède un Pokédex de dernière génération provenant de son époque. Au début, il ne sait pas ce que c’est ; le récit
+ne doit donc pas le désigner immédiatement comme un Pokédex dans les pensées de Link.
+
+Il est corrompu. Les captures restaurent progressivement des données. Seule la fonction Pokédex est réellement utilisable
+au départ.
+
+À 15 % du Pokédex rempli, Link peut lire les archives associées aux anciens badges.
+
+| Type de badge | Utilité |
+|---|---|
+| Badge d’identité | Badge des champions et chefs de village. Avant le premier Cataclysme, ils y enregistrent des informations pour les survivants. |
+| Badge de challenger | Badge remis aux Dresseurs qui voyagent pour prouver leur valeur. |
+
+La première archive parle de l’arrivée de l’énergie Dynamax. Elle semblait bénéfique, puis le Cataclysme s’est produit.
+Cette archive ne prouve pas encore que le Dynamax a causé le Cataclysme.
+
+Tous les champions d’arène sont aussi les chefs de leur village.
+
+============================================================
+10. VILLAGES, VILLE ET HOMMAGE
+============================================================
+
+| Étape | Événement |
+|---|---|
+| Exploration | Maëlle a aperçu un village MineColonies abandonné. Elle et Link fabriquent une Explorer’s Compass et une Nature’s Compass pour retrouver structures et biomes. |
+| Trois villages | Ils explorent trois villages abandonnés et y trouvent des photos de familles inconnues qui rappellent vaguement leur enfance. Aucun souvenir précis ne se déclenche. |
+| Retour | Ils découvrent le village de Garrick détruit par les antagonistes. |
+| Pertes | Les trois jeunes Dresseurs meurent en protégeant les habitants. Garrick évacue des villageois et ne peut pas identifier les responsables. |
+| Nouvelle ville | Link et Maëlle décident de construire leur propre ville, puis commencent par l’hôtel de ville. |
+| Retour de Garrick | Garrick arrive seul après la construction. Les survivants sont déjà à l’abri ; le joueur n’est pas forcé de construire immédiatement tout le reste de la ville. |
+| Rôle de Garrick | Il devient maire adjoint dans l’histoire. |
+
+QUÊTE FACULTATIVE D’HOMMAGE
+- Objectif : donner neuf fleurs, au choix du joueur, à Garrick.
+- Récompense : trois Poké Balls et trois Potions.
+
+La représentation de Garrick et des autres personnages en PNJ MineColonies reste à vérifier techniquement.
+
+============================================================
+11. CHAMPION ALLIÉ ET OISEAU LÉGENDAIRE
+============================================================
+
+Un champion d’arène, également chef de son village, a recueilli les survivants du village de Garrick.
+Il est strict mais juste. Sa famille et des villageois ont été tués par les personnes qu’il traque.
+
+Il accueille Link et Maëlle froidement et parle à peine avant le combat. Il vérifie surtout que Link est bien celui
+dont Garrick a fait l’éloge. Après sa défaite, il devient un peu plus aimable et explique son test : il cherche des alliés
+capables d’affronter une menace qui a déjà tué trois jeunes Dresseurs très prometteurs.
+
+| Étape | Arc de l’oiseau légendaire |
+|---|---|
+| Découverte | Le champion a aperçu un Pokémon mystérieux : l’un des oiseaux légendaires de première génération. Le choix dépendra du type d’arène et de la faisabilité technique. |
+| Orbe | Il accompagne Link et Maëlle vers une structure où ils trouvent une orbe noire. Il leur confie l’orbe, car il doit gérer son village et ne sait pas l’utiliser. |
+| Pierre | Pour Artikodin, l’orbe est glaciale et reçoit une Pierre Glace. Pour Sulfura ou Électhor, la pierre et l’effet devront être adaptés. |
+| Charge | La pierre fusionne avec l’orbe. L’effet élémentaire s’intensifie à mesure que le joueur vainc des Pokémon. Objectif : 375 Pokémon vaincus. |
+| Sanctuaire | Une fois l’objectif atteint, Link et Maëlle retournent au sanctuaire. L’oiseau les attaque, terrifié et désorienté. |
+| Apaisement | Après le combat, le starter de Link se faufile derrière l’oiseau, le frappe à l’arrière de la tête et le réprimande. Être disputé par un Pokémon plus jeune lui rappelle son passé. |
+| Sommeil | L’oiseau s’endort une semaine près du village de Link et commence à retrouver ses souvenirs. Link retrouve aussi des souvenirs en prenant soin de lui. |
+
+SOUVENIR D’ARTIKODIN
+
+Dans le passé, des ravisseurs ont capturé Artikodin pendant son repos avec une Master Ball modifiée.
+Cette Ball contraint le Pokémon à nuire et provoque des lésions cérébrales ; les Master Balls normales n’ont pas ce pouvoir.
+Link et ses amis détruisent la Ball, puis déjouent un plan de secours destiné à maintenir le contrôle. Link soigne Artikodin.
+
+Dans le présent, Artikodin choisit de rester à l’écart des regards près du village de Link. La capture en jeu, son apparition
+et les équivalents pour Sulfura ou Électhor restent à vérifier techniquement.
+
+============================================================
+12. RELATION LINK / MAËLLE
+============================================================
+
+Link et Maëlle voyagent ensemble.
+
+- Plusieurs dialogues peuvent orienter leur relation vers une amitié profonde, un lien familial ou une romance progressive.
+- Les choix doivent paraître naturels ; aucune étiquette visible ne doit indiquer la branche au joueur.
+- Link comprend les sous-entendus de Maëlle, mais son manque de confiance le pousse à faire semblant de tout prendre au premier degré.
+- Maëlle ne comprend qu’au milieu de l’histoire que Link se protège volontairement de cette manière.
+- Une influence sur l’épilogue est envisagée, sous réserve de faisabilité technique.
+
+La scène où Maëlle comprend cette attitude et les embranchements précis restent à écrire plus tard.
+
+============================================================
+13. INSTITUT HORIZON ET ANTAGONISTES
+============================================================
+
+L’Institut Horizon est la plus grande entreprise de fabrication de matériel Pokémon.
+Il possède aussi une importante branche de recherche sur les énergies et les phénomènes dimensionnels.
+
+| Élément | Canon actuel |
+|---|---|
+| Grand chef | Dirigeant public admiré, grand savant et personne apparemment bienveillante. |
+| Véritable position | Il prépare les Cataclysmes et cache son projet derrière l’Institut Horizon. |
+| Projet Éther | Programme public d’étude et d’exploitation d’une nouvelle source d’énergie. |
+| Influence historique | Il agit derrière les organisations des jeux : financement, matériel, renseignements, identités secrètes et exploitation de leurs crises. Il ne dirige pas directement leurs chefs et ne remplace pas leurs motivations propres. |
+| Soupçons de Link | Link voit des Pokémon anormalement épuisés après des essais Dynamax et des agents près de légendaires, mais n’a aucune preuve avant le Cataclysme. |
+| Légendaires secondaires | L’Institut les capture avec des Master Balls modifiées pour les manipuler. Artikodin est un exemple. |
+| Objectif | Affaiblir Dialga, Palkia et Giratina, les emprisonner, puis créer une ouverture pour tuer Arceus. |
+
+Le grand chef récupère des morceaux de Dialga, Palkia et Giratina lorsque ces légendaires sont blessés pendant le premier
+Cataclysme. Il les implante dans son corps, ce qui lui permet de rester vivant pendant 2 000 ans. Il ne sait pas que Link
+a survécu et qu’il a voyagé dans le futur.
+
+============================================================
+14. ÉTHERNATOS, DYNAMAX, DEOXYS ET NECROZMA
+============================================================
+
+ÉTHERNATOS ET LE DYNAMAX
+
+- L’Institut Horizon fait revenir Éthernatos dans cette dimension sous prétexte de découvrir une nouvelle source d’énergie.
+- Son expérience déclenche le premier Cataclysme.
+- L’énergie Dynamax fonctionne comme un pacte : Éthernatos donne de la puissance, puis reprend le double de l’énergie donnée lorsque le Dynamax se termine.
+- L’énergie Dynamax circule comme un réseau sanguin à travers le monde. Éthernatos récupère aussi naturellement de l’énergie par ce réseau.
+- Un Pokémon récupère avec du repos, mais il reste plus épuisé qu’après un combat normal.
+- Si un Pokémon Dynamax devant Éthernatos, il peut lui reprendre directement son énergie. Les héros découvrent ainsi la vérité.
+- Le grand chef connaît ce prix caché et s’assure que personne ne le découvre.
+
+DEOXYS
+
+Dans ce lore, Deoxys est un virus qui a muté. Il veut se multiplier en utilisant les Pokémon comme incubateurs.
+Dès qu’un Pokémon est contaminé, il ne peut plus être sauvé. Son alliance avec les humains est instable : les humains
+veulent régner, Deoxys veut les utiliser puis les trahir.
+
+NECROZMA
+
+Necrozma peut rejoindre les ennemis dès le premier Cataclysme. Il peut contrôler Solgaleo ou Lunala pour absorber son énergie.
+À la fin du premier Cataclysme, le Pokémon captif est libéré.
+
+À PRÉCISER
+- Comment l’Institut récupère ou utilise Éthernatos après les événements de Galar.
+- La méthode exacte qui permet de faire revenir Éthernatos.
+- Pourquoi Necrozma rejoint les ennemis après Alola.
+- Le rôle actuel de Mewtwo.
+- Le choix entre Solgaleo et Lunala, selon les possibilités techniques.
+
+============================================================
+15. PREMIER CATACLYSME
+============================================================
+
+| Étape | Événement établi |
+|---|---|
+| Préparation | Arceus ressent un danger pour les légendaires et demande à Link de veiller sur eux, sans identifier la menace. |
+| Indices | Link constate les essais Dynamax dangereux et les agents de l’Institut Horizon près de légendaires, notamment Rayquaza. |
+| Déclenchement | Le Projet Éther ramène Éthernatos et déclenche le premier Cataclysme. Deoxys collabore avec les humains ; Necrozma peut aussi intervenir. |
+| Plan ennemi | Capturer les légendaires secondaires, affaiblir Dialga, Palkia et Giratina, tuer Arceus et prendre le contrôle de l’équilibre des mondes. |
+| Grand chef | Il supervise Éthernatos près du cœur de la machine. Durant le chaos final, il récupère des morceaux de Dialga, Palkia et Giratina blessés, puis s’échappe avant l’explosion. |
+| Réponse | Link abandonne son enquête pour sauver les victimes. Avec son starter, il affronte les Pokémon ennemis ou contrôlés par l’Institut Horizon afin de protéger les autres et de leur ouvrir un passage. Pendant ce temps, les Pokémon légendaires se battent entre eux. |
+| Infiltration | Les héros que Link a aidés combattent les officiers de l’Institut Horizon afin d’atteindre la machine qui alimente le Cataclysme. Des anciens chefs d’organisations peuvent rejoindre l’Institut ; leur rôle doit être expliqué clairement à l’utilisateur avant d’être intégré. |
+| Désactivation | Les héros réussissent à désactiver la machine. Le contrôle et l’alimentation qui entretiennent le combat cessent alors. |
+| Explosion | La machine explose en s’arrêtant. Link est projeté dans une Ultra-Brèche instable et les autres héros sont blessés. |
+| Résultat | Victoire défensive de justesse : les ennemis sont repoussés mais survivent. |
+| Prix | Les légendaires, sauf Giratina, unissent leurs forces pour refermer la déchirure créée ou aggravée par l’explosion. Ils perdent une grande partie de leur puissance et beaucoup sombrent dans un long sommeil. |
+| Giratina | Il protège ce qui reste des dimensions. Plus tard, il est scellé après avoir sauvé Maëlle. |
+| Link | Link et son starter sont projetés dans une Ultra-Brèche instable ; Arceus intervient pour les protéger. |
+
+Le village de Garrick est construit sur le lieu où le premier Cataclysme a commencé.
+La concentration d’énergie laissée par les légendaires est importante, mais son effet exact reste à définir.
+
+============================================================
+16. ULTRA-BRÈCHES, ARCEUS ET PLAQUES
+============================================================
+
+À l’époque actuelle, les Ultra-Brèches sont surtout des fenêtres ou cicatrices spatiales :
+- aucune personne ne peut normalement les traverser ;
+- aucun Pokémon ni matière ne peut normalement en sortir ;
+- leur énergie continue cependant à passer.
+
+Link pourra devenir une exception grâce à la protection d’Arceus.
+
+Plus tard, les Plaques d’Arceus pourront protéger d’autres personnes pendant la traversée d’Ultra-Brèches.
+Les lieux des Plaques peuvent suivre leur type, mais aucun emplacement précis n’est canon pour le moment.
+
+À PRÉCISER
+- Les règles exactes de la traversée.
+- La raison du fonctionnement actuel des Ultra-Brèches.
+- Les personnes qui pourront utiliser les Plaques.
+
+============================================================
+17. MYSTÈRES À PRÉSERVER POUR LE JOUEUR
+============================================================
+
+Ne pas révéler trop tôt :
+1. Link vient d’une autre époque.
+2. Le premier Cataclysme a causé son voyage temporel.
+3. Son starter a sacrifié presque toute sa puissance pour le sauver.
+4. Arceus est intervenu pendant la traversée.
+5. Link porte une protection liée à Arceus.
+6. Cette protection permettra de franchir les Ultra-Brèches.
+7. Le Pokédex corrompu vient de son passé et contenait davantage de données.
+8. Les archives des badges parlent du Dynamax et du Cataclysme.
+9. L’Institut Horizon est lié aux organisations des anciennes aventures.
+10. Le prix caché du Dynamax.
+11. Le rôle de Giratina dans la survie de Maëlle.
+12. Le lien entre la mort du fils de Garrick, les Pokémon agressifs et les fissures du ciel.
+13. Les objectifs réels du grand chef et de Deoxys.
+
+============================================================
+18. ÉLÉMENTS À CONSTRUIRE ENSUITE
+============================================================
+
+| Priorité | Sujet |
+|---|---|
+| Haute | Déroulement détaillé du premier Cataclysme : rôle individuel de chaque héros allié, ordre des événements, pertes et survie. |
+| Haute | Méthode de l’Institut Horizon pour ramener Éthernatos et manipuler les légendaires. |
+| Haute | Rôle de Necrozma après Alola et rôle de Mewtwo. |
+| Moyenne | Contenu de chaque archive de badge et ordre de ses révélations. |
+| Moyenne | Identité, rôle et arrivée du héros de Pokémon Legends: Arceus. |
+| Moyenne | Branche Artikodin / Électhor / Sulfura. |
+| Moyenne | Règles des Plaques et des Ultra-Brèches. |
+| Plus tard | Second Cataclysme, bataille finale et épilogue. |
+| Plus tard | Dialogues de relation Link / Maëlle et conséquences sur l’épilogue. |
+| Après la trame principale | Tutoriels MineColonies, Create, nourriture, Noigrumes, automatisations et machine de minage. |
+| Après la trame principale | Commandes, PNJ, téléportations, capture et invocation des légendaires, embranchements de dialogue. |
+
+============================================================
+20. ÉCONOMIE DU JEU
+============================================================
+
+STATUT : en construction ; la monnaie et l’achat de Pokémon sont validés, le reste est à définir.
+
+### Base validée
+
+- La monnaie de l’économie est le Pokédollar.
+- Le joueur pourra dépenser ses Pokédollars pour acheter des Pokémon.
+
+### À construire ensemble
+
+| Partie | Décision actuelle |
+|---|---|
+| Gagner des Pokédollars | À définir : quêtes, missions, ventes, récompenses ou autres activités. |
+| Dépenser des Pokédollars | L’achat de Pokémon est prévu ; autres services et objets à définir. |
+| Boutique Pokémon | Vendeur, emplacement, catalogue, prix, disponibilité et limites d’achat à définir. |
+| Équilibrage | Revenus, prix et rythme de progression à définir ensemble. |
+| Technique | Vérifier les possibilités de Pixelmon 9.4.1 (bêta) / NeoForge et des mods du pack avant de promettre une implémentation. |
+
+Ne pas inventer de montants ou de règles comme s’ils étaient déjà validés. Ne pas créer de configuration,
+commande, script ou datapack sans demande explicite.
+
+### Première question de conception
+
+Choisir la source principale des revenus du joueur : récompenses de quêtes, vente de ressources, missions de Dresseur,
+ou combinaison de ces moyens.
+
+============================================================
+21. BOUTIQUE DE POKÉMON
+============================================================
+
+La boutique permet au joueur d’acheter des Pokémon contre des Pokédollars. Son catalogue, ses prix, son emplacement,
+son vendeur, les règles de disponibilité et les éventuelles limites d’achat restent à définir dans le cadre de l’économie.
+
+============================================================
+22. PROMPT À DONNER À MAMMOUTH IA
+============================================================
+
+Tu es le co-scénariste de « Pixelmon — Les Échos du Monde ».
+
+Utilise ce document comme canon prioritaire. Travaille progressivement avec l’utilisateur : une question ciblée,
+une quête, un dialogue ou une décision à la fois. Ne construis jamais toute l’histoire sans accord.
+
+Quand l’utilisateur propose une idée :
+- corrige ses fautes en reformulant ;
+- distingue les faits établis des propositions ;
+- signale clairement une incohérence au lieu de la valider ;
+- ne présente pas une information technique de Pixelmon ou Minecraft comme certaine sans vérification ;
+- propose des idées seulement lorsqu’elles apportent quelque chose au récit ;
+- respecte les mystères et ce que chaque personnage peut savoir.
+
+Commence par demander ou proposer uniquement le prochain élément le plus utile de la liste « Éléments à construire ensuite ».
+
+============================================================
+FIN DU DOCUMENT
+============================================================

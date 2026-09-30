@@ -1,0 +1,470 @@
+PIXELMON — LES ÉCHOS DU MONDE
+QUÊTES FTB QUESTS — DOCUMENT DE CONSTRUCTION
+
+Statut : en reconstruction depuis le début
+Référence du lore : 01_CANON_COMPLET_MAMMOUTH_IA.txt
+
+============================================================
+1. RÈGLES POUR LES QUÊTES
+============================================================
+
+- Réécrire les quêtes une par une ; ne pas créer toute la progression d’un coup sans validation.
+- Les descriptions peuvent être le journal intérieur de Link.
+- La description d’une quête doit d’abord résumer clairement la scène ou le dialogue que nous écrirons ensuite.
+- Les dialogues complets seront rédigés à la fin, lorsque la progression des quêtes sera validée.
+- Respecter ce que Link sait à ce moment précis.
+- Ne pas faire passer un automatisme pour un véritable souvenir.
+- Chaque souvenir important doit avoir un déclencheur narratif précis.
+- Éviter les objectifs obligatoires qui imposent un niveau trop élevé ou une construction que le joueur ne souhaite pas faire.
+- Les objectifs techniques doivent être vérifiés dans le modpack avant d’être considérés comme définitifs.
+
+Format d’une quête terminée :
+
+Titre :
+Sous-titre :
+Objectif(s) :
+Description :
+Récompense(s) :
+Déblocage / conséquence :
+
+============================================================
+2. PLAN DES ARCS PRINCIPAUX
+============================================================
+
+| Arc | Fonction narrative | État |
+|---|---|---|
+| Prologue | Link est recueilli par Garrick, retrouve ses réflexes, rencontre Maëlle et récupère un souvenir de stratégie. | En cours de validation |
+| Premières explorations | Link et Maëlle fabriquent les boussoles et explorent trois villages abandonnés. | À détailler |
+| Le village détruit | Ils découvrent la destruction du village de Garrick et rendent hommage aux trois Dresseurs morts. | À détailler |
+| Nouvelle ville | Link et Maëlle fondent leur ville ; Garrick les rejoint après l’hôtel de ville. | À détailler |
+| Le champion allié | Rencontre, combat, archives des badges et découverte de l’orbe noire. | À détailler |
+| L’oiseau légendaire | Pierre élémentaire, 375 Pokémon vaincus, sanctuaire et souvenir d’Artikodin, Électhor ou Sulfura. | À détailler |
+| Suite de l’enquête | Archives, Ultra-Brèches, Plaques et révélations sur le passé. | À construire |
+
+============================================================
+3. ACTE I — UN MONDE INCONNU
+============================================================
+
+Chapitre : Prologue
+
+But narratif : présenter Link, son amnésie, Garrick, le starter et le village sans révéler le passé.
+
+Éléments connus du joueur à ce stade :
+- Link connaît son nom, les Pokémon et certaines connaissances pratiques.
+- Il ne connaît pas son passé, son époque, le Cataclysme ou son voyage temporel.
+- Garrick l’a recueilli.
+- Le starter est resté près de lui ; sa tristesse et sa fatigue sont perceptibles mais inexpliquées.
+- Les outils donnés par Garrick appartenaient à son fils, mais Link ne doit pas le savoir.
+
+Quêtes à réécrire dans ce chapitre :
+
+| Ordre | Titre provisoire | Fonction | État |
+|---:|---|---|---|
+| 1 | Un monde qui n’est pas le mien | Présenter l’amnésie de Link et l’accueil de Garrick. | Terminée |
+| 2 | Quelques souvenirs | Montrer les automatismes de Link et les outils de Garrick. | Terminée |
+| 3A | Dans la mine ! | Obtenir 32 pierres, fabriquer 1 four et récupérer 16 charbons. | Validée |
+| 3B | Un peu de bois | Obtenir 32 bûches et 1 pousse d’arbre. | Validée |
+| 3C | Les mains dans la terre | Objectif et récompense à trouver. | Ouverte |
+| 4 | Le repas du soir | Les trois branches se rejoignent ; Link retrouve Garrick. | À valider |
+| 5A | Des réflexes de Dresseur | Link capture cinq Pokémon. | Validée |
+| 5B | Toujours à mes côtés | Link fait évoluer un Pokémon et constate que son partenaire reprend des forces. | Validée |
+| 5C | Prendre soin des siens | Link soigne son équipe ; le souvenir d’une Potion refait surface. | Validée |
+| 6 | Sur le chemin | Link active un PokéStop et vainc quinze Pokémon aux environs du village. | Validée |
+| 7 | Peut-être des réponses | Link parle à Maëlle pour la première fois. | À valider |
+| 8 | L’épreuve de Maëlle | Link affronte trois Dresseurs pour convaincre Maëlle. | À valider |
+| 9 | Souvenir | Un souvenir lié à la stratégie revient à Link après l’épreuve. Fin du prologue. | À valider |
+
+============================================================
+4. ÉTAPES DU PROLOGUE — RÉFLEXES DE DRESSEUR
+============================================================
+
+Éléments validés :
+- Link soigne son équipe.
+- Un alambic déclenche son premier véritable souvenir : il se souvient de la fabrication d’une Potion.
+- Ce souvenir débloque un chapitre tutoriel sur les médicaments Pixelmon.
+- Link capture plusieurs Pokémon.
+- Il découvre dans son sac un appareil corrompu qu’il ne se souvenait pas posséder.
+- Les captures restaurent progressivement certaines données.
+
+============================================================
+5. ÉTAPES DU PROLOGUE — MAËLLE
+============================================================
+
+Éléments validés :
+- Link suit une piste qui le mène vers Maëlle.
+- Maëlle ne tire aucune conclusion sans preuve et veut vérifier les capacités de Link.
+- Son épreuve consiste à lui faire affronter trois jeunes Dresseurs du village.
+- Après l’épreuve, Link retrouve un souvenir de stratégie : il conseillait autrefois quelqu’un pendant un combat.
+- Ce souvenir débloque le chapitre tutoriel sur la stratégie Pokémon.
+- La quête « Souvenir » marque la fin du prologue.
+
+============================================================
+6. ÉLÉMENTS À NE PAS DÉTAILLER TOUT DE SUITE
+============================================================
+
+- Les tutoriels Create, MineColonies, nourriture, Noigrumes et automatisations : après l’histoire principale.
+- Les commandes, PNJ, invocations et téléportations : après validation du scénario.
+- Les quêtes du second Cataclysme et de la fin : lorsque les fondations du récit seront terminées.
+
+============================================================
+PROCHAIN TRAVAIL
+============================================================
+
+Valider les descriptifs des quêtes 4 et 7 à 9, puis définir les récompenses encore ouvertes.
+
+============================================================
+7. QUÊTE 1 — UN MONDE QUI N’EST PAS LE MIEN
+============================================================
+
+Titre : Un monde qui n’est pas le mien
+
+Sous-titre : Un réveil sans réponses
+
+Objectif(s) :
+- Valider la scène avec Garrick.
+
+Type de tâche FTB Quests :
+- Checkmark : le joueur valide la quête après avoir lu la scène et le dialogue.
+
+Description :
+
+« Garrick explique à Link qu’il l’a trouvé épuisé près du village et qu’il peut rester ici le temps de retrouver ses repères.
+
+Link lui avoue qu’il se rappelle des Pokémon et des combats, mais pas de son passé. Son partenaire est resté à ses côtés, lui aussi très fatigué.
+
+Garrick ne peut pas lui donner de réponse, mais lui promet de l’aider à recommencer. »
+
+Récompense(s) :
+- 5 Poké Balls.
+
+Déblocage / conséquence :
+- Garrick explique à Link qu’il ne peut pas répondre à ses questions, mais l’encourage à commencer par se débrouiller.
+- Débloque la quête 2 : « Quelques souvenirs ».
+
+============================================================
+8. QUÊTE 2 — QUELQUES SOUVENIRS
+============================================================
+
+Titre : Quelques souvenirs
+
+Sous-titre : Ce que mes mains n’ont pas oublié
+
+Objectif(s) :
+- Valider la scène avec Garrick.
+
+Type de tâche FTB Quests :
+- Checkmark : le joueur valide la quête après avoir lu la scène et le dialogue.
+
+Description :
+
+« Garrick ne peut pas expliquer l’amnésie de Link, mais il lui propose de commencer par apprendre à se débrouiller au village.
+
+Il lui confie de vieux outils en pierre, usés mais solides. En les tenant, Link constate que ses mains savent déjà s’en servir.
+
+Ce n’est pas un souvenir, seulement un automatisme qui lui paraît étrange. »
+
+Récompense(s) :
+- Une pioche, une hache, une pelle et une houe en pierre.
+
+Déblocage / conséquence :
+- Link reçoit les anciens outils du fils de Garrick, sans connaître leur origine.
+- Débloque les trois branches : « Dans la mine ! », « Un peu de bois » et « Les mains dans la terre ».
+
+============================================================
+9. QUÊTE 3A — DANS LA MINE !
+============================================================
+
+Description :
+
+« La pioche en main, je suis descendu chercher quelques ressources.
+
+Étrangement, creuser me paraît presque naturel.
+
+DANS LA MINE ! DANS LA MINE ! DANS LA MINE ! MINE ! MINE !
+
+… Pourquoi j’ai crié ça, moi ? »
+
+Objectifs :
+- Obtenir 32 pierres.
+- Fabriquer 1 four.
+- Obtenir 16 charbons.
+
+Récompense(s) :
+- 16 torches.
+- Récompense supplémentaire à définir.
+
+============================================================
+10. QUÊTE 3B — UN PEU DE BOIS
+============================================================
+
+Description :
+
+« Si je dois rester ici quelque temps, autant commencer par me rendre utile.
+
+Du bois devrait me permettre de fabriquer mes premières ressources et de préparer ce dont j’aurai besoin pour la suite.
+
+Je pourrais même commencer à aménager un endroit qui m’appartienne vraiment. »
+
+Objectifs :
+- Obtenir 32 bûches.
+- Obtenir 1 pousse d’arbre.
+
+Récompense(s) :
+- À définir.
+
+============================================================
+11. QUÊTE 3C — LES MAINS DANS LA TERRE
+============================================================
+
+Description :
+
+« Cultiver quelques graines paraît banal, mais ici, produire sa propre nourriture pourrait devenir important.
+
+Au moins, je sais que je ne mourrai pas de faim… enfin, si j’arrive à faire pousser quelque chose.
+
+Ce n’est pas grand-chose, mais il faut bien commencer quelque part. »
+
+Objectifs et récompense(s) :
+- À définir.
+
+============================================================
+12. QUÊTE 4 — LE REPAS DU SOIR
+============================================================
+
+STATUT : proposition à valider
+
+Titre : Le repas du soir
+
+Sous-titre : Une place à table
+
+Objectif(s) :
+- Reparler à Garrick.
+
+Type de tâche FTB Quests :
+- Checkmark : le joueur valide la quête après avoir reparlé à Garrick et lu la scène.
+
+Description :
+
+« Cette première journée touche enfin à sa fin.
+
+Ma mémoire a disparu, mais certaines choses que j’ai apprises semblent toujours être là, quelque part.
+
+Garrick m’a invité à partager son repas. Il parle rarement de lui-même et pose peu de questions sur mon passé.
+
+Pendant le repas, j’ai remarqué plusieurs fois son regard posé sur moi, comme s’il cherchait quelque chose.
+
+J’ai parfois l’impression que sa gentillesse cache une histoire qu’il n’est pas encore prêt à raconter. »
+
+Récompense(s) :
+- 8 pains.
+
+Déblocage / conséquence :
+- Débloque « Des réflexes de Dresseur ».
+
+
+------------------------------------------------------------
+QUÊTE 5A — DES RÉFLEXES DE DRESSEUR
+------------------------------------------------------------
+
+Sous-titre : Je me rappelle des Pokémon
+
+Type FTB Quests :
+- Tâche de capture de Pokémon, à confirmer selon les possibilités techniques du modpack.
+
+Objectif :
+- Capturer 5 Pokémon.
+
+Description :
+Link reconnaît les Pokémon qu’il rencontre. Il ne sait pas encore d’où lui viennent ces connaissances, mais ses gestes reviennent naturellement : observer, affaiblir, puis capturer.
+
+Chaque nouvelle rencontre lui donne l’impression de retrouver une petite part du monde qu’il a oublié.
+
+Récompense(s) :
+- 1 000 Pokédollars.
+
+Déblocage / conséquence :
+- Débloque « Toujours à mes côtés ».
+
+
+------------------------------------------------------------
+QUÊTE 5B — TOUJOURS À MES CÔTÉS
+------------------------------------------------------------
+
+Type FTB Quests :
+- Objectif : faire évoluer un Pokémon.
+
+Objectif :
+- Faire évoluer 1 Pokémon.
+
+Description :
+J’ai oublié beaucoup de choses, mais pas le lien qui nous unit.
+
+Depuis mon réveil, mon partenaire est resté à mes côtés. Le voir progresser et retrouver peu à peu sa force me rassure.
+
+Lui aussi semble avoir traversé quelque chose que je ne comprends pas encore.
+
+Je ne sais pas ce qui nous est arrivé avant d’arriver ici. Mais quoi qu’il se soit passé, nous continuerons d’avancer ensemble.
+
+Récompense(s) :
+- 1 Super Bonbon.
+- 5 Potions.
+
+Déblocage / conséquence :
+- Débloque « Prendre soin des siens ».
+
+
+------------------------------------------------------------
+QUÊTE 5C — PRENDRE SOIN DES SIENS
+------------------------------------------------------------
+
+Sous-titre : Souvenir : Potion
+
+Type FTB Quests :
+- Objectif de soin ou de fabrication à confirmer selon les possibilités techniques du modpack.
+
+Objectif :
+- Prendre soin de l’équipe Pokémon.
+
+Description :
+Après les combats, Link ne pense pas seulement à progresser : il s’occupe aussi des Pokémon qui l’accompagnent.
+
+En préparant une Potion, un souvenir bref lui revient. Il a déjà soigné un Pokémon blessé, autrefois. Il ne distingue ni le lieu ni le visage de la personne présente, mais il se souvient du soulagement ressenti.
+
+Récompense(s) :
+- 8 Poudres de Blaze.
+
+Déblocage / conséquence :
+- Débloque « Sur le chemin ».
+
+
+------------------------------------------------------------
+QUÊTE 6 — SUR LE CHEMIN
+------------------------------------------------------------
+
+Sous-titre : Les alentours du village
+
+Type FTB Quests :
+- Activer 1 PokéStop et vaincre 15 Pokémon.
+- La possibilité de suivre ces deux objectifs doit être confirmée dans le modpack.
+
+Objectifs :
+- Activer 1 PokéStop.
+- Vaincre 15 Pokémon.
+
+Description :
+« Je commence à connaître le village et ses environs.
+
+Garrick m’a beaucoup aidé depuis mon arrivée, mais rester éternellement ici ne m’apportera probablement aucune réponse.
+
+En parcourant les chemins autour du village, en affrontant les Pokémon sauvages et en activant un PokéStop, je reprends confiance dans mes réflexes de Dresseur.
+
+Avant mon départ, Garrick m’a parlé de Maëlle. Elle étudie les ruines et les phénomènes étranges de la région.
+
+Elle ne connaît peut-être pas mon passé, mais elle pourrait comprendre ce qui m’est arrivé. Je vais commencer par aller lui parler. »
+
+Récompense(s) :
+- À définir.
+
+Déblocage / conséquence :
+- Débloque « Peut-être des réponses ».
+
+
+------------------------------------------------------------
+QUÊTE 7 — PEUT-ÊTRE DES RÉPONSES
+------------------------------------------------------------
+
+Sous-titre : Une première piste
+
+Objectif :
+- Parler à Maëlle.
+
+Description :
+« Garrick m’a parlé de Maëlle comme de quelqu’un qui pourrait peut-être m’aider.
+
+Elle écoute ce que je sais de moi, de mon partenaire et de mon amnésie. Elle ne prétend pas avoir de réponse : sans preuve, elle refuse de tirer des conclusions.
+
+Mais elle remarque que mes réflexes de Dresseur ne sont pas ceux de quelqu’un qui découvre ce monde. Avant de m’emmener dans ses recherches, elle veut vérifier ce dont je suis réellement capable.
+
+Son épreuve commence ici. »
+
+Récompense(s) :
+- À définir.
+
+Déblocage / conséquence :
+- Débloque « L’épreuve de Maëlle ».
+
+
+------------------------------------------------------------
+QUÊTE 8 — L’ÉPREUVE DE MAËLLE
+------------------------------------------------------------
+
+Sous-titre : Me voir combattre
+
+Objectif :
+- Vaincre les 3 Dresseurs choisis par Maëlle.
+
+Description :
+« Maëlle ne cherche pas seulement à savoir si je peux gagner un combat. Elle veut voir comment je réfléchis, comment je réagis sous pression et comment je protège les Pokémon qui m’accompagnent.
+
+Pour cela, elle me demande d’affronter trois jeunes Dresseurs du village. Ce ne sont pas des ennemis, mais je ne peux pas prendre leurs combats à la légère.
+
+Si je veux l’accompagner dans ses recherches, je dois lui montrer que je peux compter sur mon équipe et qu’elle peut compter sur moi. »
+
+Récompense(s) :
+- 2 500 Pokédollars.
+
+Déblocage / conséquence :
+- Débloque « Souvenir ».
+
+
+------------------------------------------------------------
+QUÊTE 9 — SOUVENIR
+------------------------------------------------------------
+
+Sous-titre : Une stratégie oubliée
+
+Objectif :
+- Valider la scène avec Maëlle.
+
+Description :
+« Pendant les deux premiers combats, de brèves douleurs traversent ma tête. Elles disparaissent aussi vite qu’elles sont venues, alors je préfère ne rien dire.
+
+À la fin du troisième combat, la douleur revient plus forte. Un souvenir me traverse : je me revois conseiller quelqu’un pendant un combat, analyser les types, les capacités et les faiblesses de l’adversaire.
+
+Je ne reconnais ni le lieu ni la personne à qui je parle. Le souvenir s’efface avant que je puisse en comprendre davantage.
+
+Maëlle a remarqué mes douleurs. Elle comprend que quelque chose vient de se passer, mais elle ne me force pas à parler. »
+
+Récompense(s) :
+- 5 Super Balls.
+
+Déblocage / conséquence :
+- Débloque le chapitre tutoriel sur la stratégie Pokémon.
+- Fin du prologue.
+
+
+============================================================
+ARC DU CHAMPION — QUÊTE 1 : UNE SILHOUETTE DANS LE CIEL
+============================================================
+
+Statut : proposition à valider
+
+Sous-titre : Le témoignage du champion
+
+Objectif(s) :
+- Parler au champion après son combat contre Link.
+
+Description :
+
+« Après le combat, le champion m’explique pourquoi il a voulu mesurer mes capacités. Il cherche des alliés capables de faire face à une menace qui a déjà coûté la vie à trois jeunes Dresseurs.
+
+Il me raconte ensuite avoir aperçu un Pokémon qu’il n’a pas pu identifier avec certitude. Sa description évoque un oiseau immense, aperçu près d’un lieu qu’il faudra retrouver.
+
+Maëlle veut en savoir davantage. Moi aussi, mais pour l’instant, nous n’avons qu’un témoignage et aucune explication. »
+
+Récompense(s) :
+- À définir.
+
+Déblocage / conséquence :
+- Lance l’enquête sur le Pokémon aperçu par le champion.
+- L’espèce de l’oiseau et la suite de l’enquête restent à définir ; le canon laisse le choix entre Artikodin, Électhor et Sulfura.

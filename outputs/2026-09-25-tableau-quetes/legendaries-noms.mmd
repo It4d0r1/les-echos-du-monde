@@ -1,0 +1,24 @@
+%% Consigne pour Codex : ne modifie pas les parties ajoutées ou modifiées par l’utilisateur. Ne change que les éléments explicitement demandés et préserve tout le reste.
+flowchart LR
+    subgraph MF["Les Mythes oubliés"]
+        A([Départ])
+        A --> P1["Mew"]
+        A --> P2["Artikodin"] P2 --> P2S["Trouver le Sanctuaire glacé"] P2S --> P2ICE["Trouver la pierre de glace"] P2S --> P2B["Battre 375 Pokémon"] P2ICE --> P2C["Capturer Artikodin"]
+        A --> P2ICE --> P2C["Capturer Artikodin"]P2B --> P2C
+        A --> P3["Pokémon 3"]
+        A --> P4["Pokémon 4"]
+        A --> P5["Pokémon 5"]
+        A --> P6["Pokémon 6"]
+        A --> P8["Pokémon 8"]
+        A --> P9["Pokémon 9"]
+        A --> P10["Pokémon 10"]
+        A --> P11["Pokémon 11"]
+        A --> P12["Pokémon 12"]
+        A --> P13["Pokémon 13"]
+        A --> P14["Pokémon 14"]
+        A --> P15["Pokémon 15"]
+        A --> P2["Artikodin"]
+       
+    end
+    classDef planned fill:#5a4a20,color:#ffffff,stroke:#e4c45a,stroke-width:2px;
+    class ART,S,ICE,B,C planned;

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BUB",
+    "UUU",
+    "BUB"
+  ],
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "U": {
+      "item": "pixelmon:blue_shard"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "pixelmon:splash_plate"
+  }
+}

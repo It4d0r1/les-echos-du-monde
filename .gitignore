@@ -1,0 +1,23 @@
+# Local backups and snapshots (keep them on this PC)
+/90_ARCHIVES/SAUVEGARDES/
+
+# MCreator caches, generated builds, local runs and settings
+/Addons/.gradle/
+/Addons/build/
+/Addons/run/
+/Addons/.mcreator/
+/Addons/.eclipse/
+
+# Temporary editor and operating system files
+*.bak
+*.tmp
+*.log
+Thumbs.db
+.DS_Store
+
+# Patch work copies kept locally for rollback
+/outputs/pause_prologue_patch/backup_before_syntax_fix/
+/outputs/pause_prologue_patch/backup_original/
+
+# Downloaded package dependencies
+node_modules/

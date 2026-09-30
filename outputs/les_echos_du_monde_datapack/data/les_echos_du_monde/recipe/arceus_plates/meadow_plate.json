@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BGB",
+    "YGG",
+    "BGB"
+  ],
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "G": {
+      "item": "pixelmon:green_shard"
+    },
+    "Y": {
+      "item": "pixelmon:yellow_shard"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "pixelmon:meadow_plate"
+  }
+}

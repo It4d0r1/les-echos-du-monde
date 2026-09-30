@@ -1,0 +1,24 @@
+flowchart LR
+    A([Début]) --> Q1["01 · Un monde qui n’est pas le mien<br/>🎯 Valider la scène avec Garrick<br/>🎁 5 Poké Balls"]
+    Q1 --> Q2["02 · Quelques souvenirs<br/>🎯 Valider la scène avec Garrick<br/>🎁 Outils en pierre"]
+    Q2 --> Q3A["03A · Dans la mine !<br/>🟢 Validée"]
+    Q2 --> Q3B["03B · Un peu de bois<br/>🟢 Validée"]
+    Q2 --> Q3C["03C · Les mains dans la terre<br/>🟢 Validée"]
+    Q3A --> Q4["04 · Le repas du soir<br/>🟢 Validée"]
+    Q3B --> Q4
+    Q3C --> Q4
+    Q4 --> Q5A["05A · Des réflexes de Dresseur<br/>Capturer 5 Pokémon · 🟢 Validée"]
+    Q4 --> Q5B["05B · Toujours à mes côtés<br/>Faire évoluer 1 Pokémon · 🟢 Validée"]
+    Q4 --> Q5C["05C · Prendre soin des siens<br/>Souvenir : Potion · 🟢 Validée"]
+    Q5A --> Q6["06 · Sur le chemin<br/>Activer 1 PokéStop + vaincre 15 Pokémon · 🟢 Validée"]
+    Q5B --> Q6
+    Q5C --> Q6
+    Q6 --> Q7["07 · Peut-être des réponses<br/>🟢 Validée"]
+    Q7 --> Q8["08 · L’épreuve de Maëlle<br/>🟢 Validée"]
+    Q8 --> Q9["09 · Souvenir<br/>🟢 Validée"]
+    Q9 --> Q9A["09A · Un nouveau départ<br/>Résumé du prologue · 🟢 Validée"]
+
+    classDef complete fill:#315d3b,color:#ffffff,stroke:#8fce00,stroke-width:2px;
+    classDef planned fill:#5a4a20,color:#ffffff,stroke:#e4c45a,stroke-width:2px;
+    class Q1,Q2 complete;
+    class Q3A,Q3B,Q3C,Q4,Q5A,Q5B,Q5C,Q6,Q7,Q8,Q9,Q9A complete;

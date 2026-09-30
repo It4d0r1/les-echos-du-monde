@@ -1,0 +1,237 @@
+PIXELMON — LES ÉCHOS DU MONDE
+PLAN DE L’ÉCONOMIE EN JEU
+
+Statut : document de conception en cours
+Version : 23/09/2026
+Version de Pixelmon visée : 9.4.1 bêta pour Minecraft 1.21.1 / NeoForge (installation du projet à confirmer)
+
+============================================================
+1. OBJECTIF
+============================================================
+
+Construire une économie où le joueur utilise des Pokédollars pour acheter les biens et services accessibles dans le modpack.
+Ce fichier sert à concevoir et équilibrer cette économie avant toute configuration technique.
+
+Les prix du marché Pokémon et les règles ci-dessous ont été convenus en conception, mais ne sont pas encore configurés en jeu. Les récompenses FTB Quests sont un barème proposé, à valider.
+
+============================================================
+2. PRINCIPES DE BASE
+============================================================
+
+- Monnaie : Pokédollars.
+- Le joueur doit pouvoir acheter les catégories de biens et services retenues pour le modpack.
+- Les prix doivent être cohérents avec la progression : les achats du début de partie restent accessibles, tandis que les biens rares ou puissants demandent davantage d’efforts.
+- Les moyens de gagner de l’argent doivent être assez variés pour éviter de rendre une seule activité obligatoire.
+- Les gains et les dépenses doivent être équilibrés pour que l’argent conserve de la valeur pendant toute la progression.
+- Conserver les prix de revente Pixelmon par défaut pour les objets ; ne pas créer de prix de revente personnalisés.
+- Appliquer le barème de rareté convenu aux prix des Pokémon du marché.
+- Vérifier les possibilités techniques de Minecraft 1.21.1, NeoForge, Pixelmon 9.4.1 bêta et des autres mods du pack avant de promettre une fonction.
+
+============================================================
+3. CATALOGUE À CONSTRUIRE
+============================================================
+
+Pour chaque article, préciser : nom, catégorie, prix, disponibilité, quantité par achat, limite d’achat éventuelle et progression requise.
+
+| Catégorie | Exemples de contenu à recenser | Statut |
+|---|---|---|
+| Pokémon | Espèces proposées, formes, niveaux, rareté, disponibilité | À définir |
+| Objets Pokémon | Poké Balls, Potions, remèdes, objets de combat et objets tenus | À définir |
+| Soins et services | Soins d’équipe, services de Dresseur, transport ou autres services du pack | À définir |
+| Nourriture et agriculture | Nourriture, graines, cultures, Noigrumes et produits associés | À définir |
+| Blocs et matériaux | Blocs de construction, ressources, minerais et composants utiles | À définir |
+| Outils et équipement | Outils, armures, équipements et améliorations | À définir |
+| Machines et technologie | Machines, pièces, énergie et composants des mods installés | À définir |
+| Construction et colonies | Matériaux ou services liés à MineColonies et à la construction de la ville | À définir |
+| Exploration | Cartes, fournitures, objets utiles aux expéditions et accès éventuels | À définir |
+| Cosmétiques et collection | Décorations, objets de collection et éléments sans avantage de puissance | À définir |
+
+La liste finale dépendra de l’inventaire réel des mods du modpack. Ne pas ajouter d’objet qui n’existe pas dans le pack sans le marquer comme idée.
+
+============================================================
+4. COMMENT LE JOUEUR GAGNE DES POKÉDOLLARS
+============================================================
+
+| Source de revenus | Idée / contenu | Déblocage | Montant | Statut |
+|---|---|---|---:|---|
+| Quêtes principales | Récompenses liées à la progression de l’histoire | À définir | À définir | À étudier |
+| Quêtes secondaires | Missions facultatives et demandes des habitants | À définir | À définir | À étudier |
+| Combats de Dresseurs | Récompense pour les combats prévus par le scénario | À définir | À définir | À étudier |
+| Vente de ressources | Revente d’objets ou de ressources à des commerçants | À définir | À définir | À étudier |
+| Revente aux marchands Pixelmon | Objets autorisés par Pixelmon, aux prix de base | Disponible selon la boutique | Prix Pixelmon par défaut | Décision de conception |
+| Activités du monde | Récompenses pour l’exploration ou d’autres activités du modpack | À définir | À définir | À étudier |
+| Événements spéciaux | Récompenses ponctuelles prévues par le scénario | À définir | À définir | À étudier |
+
+Décider quelles ressources peuvent être revendues, à qui, à quel prix et si l’offre est limitée. Éviter les boucles d’achat-revente qui permettraient de créer de l’argent sans effort.
+
+### Modèle recommandé — à valider
+
+- **Revenu principal :** quêtes principales et missions de Dresseur, avec des récompenses prévues selon la progression.
+- **Revenu complémentaire :** vente d’objets ou de ressources aux marchands Pixelmon, aux prix par défaut du mod.
+- **Revenus ponctuels :** quêtes secondaires et événements, pour financer des achats facultatifs.
+- **Garde-fou :** ne pas payer fortement une ressource facile à produire à l’infini. Les gains réguliers devraient venir d’activités variées.
+- **Fabrication automatisée :** les Poké Balls, potions et Anti-Paras peuvent être farmés automatiquement dans le modpack. Les ventes restent aux prix Pixelmon par défaut ; surveiller le revenu produit par ces fermes.
+- **Quêtes FTB :** utiliser le barème proposé à la section 4. La limite quotidienne des quêtes répétables doit être configurée ou contrôlée techniquement.
+
+Le maintien des prix de revente par défaut et le barème des Pokémon ci-dessous sont des décisions de conception. Le barème des récompenses de quêtes reste une proposition à valider.
+
+### Barème proposé pour les récompenses FTB Quests
+
+Ces montants sont des Pokédollars et servent de repères selon la durée et la difficulté. Ils ne sont pas encore validés ni configurés.
+
+| Type de quête | Récompense proposée | Répétable ? |
+|---|---:|---|
+| Petite tâche (récolter ou fabriquer un objet simple) | 500 Pokédollars | Oui, dans la limite quotidienne commune |
+| Quête facile | 1 000 Pokédollars | Oui, dans la limite quotidienne commune |
+| Quête normale | 2 500 Pokédollars | De préférence non |
+| Quête difficile | 7 500 Pokédollars | Non |
+| Défi de boss ou capture rare | 15 000 Pokédollars | Non |
+| Fin de chapitre | 30 000 à 50 000 Pokédollars | Non |
+| Objectif majeur de fin de jeu | 75 000 à 100 000 Pokédollars | Non |
+| Capture d’un Pokémon légendaire | 25 000 Pokédollars | Une seule fois par joueur |
+
+Les revenus des quêtes FTB doivent être crédités en Pokédollars. FTB Quests dispose de récompenses par commande et de récompenses monétaires dépendantes de l’intégration installée ; vérifier en jeu quelle méthode fonctionne avec l’économie du serveur avant de configurer ces montants.
+
+La limite proposée est de 5 000 Pokédollars au total par joueur et par jour pour toutes les quêtes répétables, pas 5 000 par quête.
+
+Références : https://docs.feed-the-beast.com/mod-docs/next/mods/suite/Quests/Developer/Quests/Rewards/ et https://github.com/FTBTeam/FTB-Quests/blob/main/CHANGELOG.md
+
+### Vérification des chaînes automatisées
+
+La revente aux marchands reste activée. Avant de fixer les prix des Poké Balls, recenser les mods et vérifier quelles étapes de fabrication peuvent être automatisées : récolte des Noigrumes, cuisson, fabrication des couvercles, bases et assemblage final. Calculer le coût des matériaux et le nombre de Balls produites par unité de temps. Ajuster au besoin les prix, recettes ou rythme de production pour éviter qu’une chaîne automatisée fournisse un revenu illimité sans coût ou effort significatif.
+
+Ne pas supposer que chaque étape est automatisable dans le modpack : les machines et recettes disponibles restent à vérifier. Les prix de revente restent ceux de Pixelmon ; l’audit doit mesurer le revenu des fermes avec ces tarifs de base.
+
+============================================================
+5. RÈGLES DES BOUTIQUES
+============================================================
+
+| Décision | Valeur |
+|---|---|
+| Boutiques accessibles | À définir |
+| Vendeurs et emplacement | À définir |
+| Catalogue de chaque boutique | À définir |
+| Prix d’achat des objets | À définir |
+| Prix de revente Hyper Ball (Ultra Ball) | Prix de base Pixelmon ; référence documentaire : 600 Pokédollars |
+| Prix de revente CT | Prix de base Pixelmon, selon la CT |
+| Autres prix de revente | Prix de base Pixelmon ; aucun tarif personnalisé |
+| Stock limité ou illimité | À définir |
+| Renouvellement des stocks | À définir |
+| Conditions de déblocage | À définir |
+| Accès au marché lié au Pokédex | Débloqué à 30 % de complétion |
+| Limites d’achat par joueur | À définir |
+| Articles indisponibles à la vente | À définir |
+
+Le marché Pokémon se débloque à 30 % de complétion du Pokédex. Les prix d’achat sont fixés selon les catégories de rareté Pixelmon ci-dessous. Les Pokémon légendaires non chromatiques ne sont pas vendus. Un légendaire chromatique est proposé à 999 999 Pokédollars uniquement si le joueur a déjà capturé une fois la même espèce. Cette condition est une règle de conception ; sa faisabilité dans le système de marché choisi reste à vérifier. Le statut des Pokémon fabuleux et des Ultra-Chimères reste à préciser séparément.
+
+Les catégories de rareté servent de paliers de prix dans le catalogue. Barème de prix d’achat convenu :
+
+| Rareté | Prix indicatif | État |
+|---|---:|---|
+| Common (courant) | 8 250 Pokédollars | Décision de conception |
+| Uncommon (peu courant) | 22 750 Pokédollars | Décision de conception |
+| Rare (rare) | 50 000 Pokédollars | Décision de conception |
+| Super Rare (très rare) | 125 000 Pokédollars | Décision de conception |
+| Ultra Rare (ultra-rare) | 312 500 Pokédollars | Décision de conception |
+
+### Prix des Pokémon chromatiques
+
+Règle validée : le prix d’un Pokémon chromatique est égal à **3 fois** le prix de base de sa catégorie. Si le calcul donne un montant décimal, l’arrondir à l’unité supérieure.
+
+| Rareté | Prix de base convenu | Prix chromatique calculé |
+|---|---:|---:|
+| Common (courant) | 8 250 | 24 750 Pokédollars |
+| Uncommon (peu courant) | 22 750 | 68 250 Pokédollars |
+| Rare (rare) | 50 000 | 150 000 Pokédollars |
+| Super Rare (très rare) | 125 000 | 375 000 Pokédollars |
+| Ultra Rare (ultra-rare) | 312 500 | 937 500 Pokédollars |
+
+Les légendaires chromatiques suivent une règle distincte : 999 999 Pokédollars, après capture préalable de la même espèce. Le prix correspond au plafond de Pokédollars qu’un joueur peut détenir.
+
+Catégories relevées dans la documentation Pixelmon : **Common, Uncommon, Rare, Super Rare et Ultra Rare**. Elles décrivent la rareté d’apparition, pas une cote marchande universelle : Pixelmon calcule l’apparition avec une valeur numérique relative aux conditions (biome, heure, météo, etc.). La classification de chaque Pokémon dans le catalogue devra donc suivre une règle cohérente.
+
+L’Ultra Rare coûte environ 37,9 fois plus qu’un Pokémon courant. Les revenus de vente par défaut peuvent être élevés avec les fermes : à titre indicatif, 64 Poké Balls rapportent 6 400 Pokédollars, 64 Potions 9 600 et 64 Anti-Paras 6 400 selon le tableau de revente Pixelmon. Les débits horaires des fermes restent à mesurer avant l’équilibrage final.
+
+Référence officielle : https://pixelmonmod.com/wiki/Spawning
+
+Le seuil de 30 % pour débloquer le marché est distinct du seuil de 15 % qui ouvre les archives des badges dans le canon. Vérifier techniquement si la progression du Pokédex peut servir de condition de déblocage dans les outils de quêtes ou de boutiques retenus.
+
+Les prix du marché Pokémon sont les prix de conception choisis pour le modpack. Pour les objets, conserver les prix de revente par défaut de Pixelmon : la documentation indique 600 Pokédollars pour une Ultra Ball (appelée Hyper Ball en français), et des montants variables selon la CT. Les montants effectivement fournis avec la bêta visée devront être contrôlés avant configuration.
+
+Référence officielle Pixelmon : https://pixelmonmod.com/wiki/Shopkeeper/Sell_prices et https://pixelmonmod.com/wiki/NPC_JSONs
+
+============================================================
+6. PROGRESSION ET ÉQUILIBRAGE
+============================================================
+
+Construire une grille de prix après avoir recensé les objets réellement disponibles et choisi les sources de revenus.
+
+| Étape de progression | Achats utiles | Revenus attendus | Prix à définir |
+|---|---|---|---|
+| Début de partie | À définir | À définir | À définir |
+| Exploration du monde | À définir | À définir | À définir |
+| Développement de la ville | À définir | À définir | À définir |
+| Milieu de progression | À définir | À définir | À définir |
+| Fin de progression | À définir | À définir | À définir |
+
+Contrôles d’équilibrage à effectuer lorsque les prix seront proposés :
+- Combien de temps ou d’activités faut-il pour acheter un objet courant ?
+- Une récompense de quête permet-elle un achat intéressant sans rendre les autres revenus inutiles ?
+- Les biens puissants sont-ils accessibles au bon moment ?
+- Les Pokémon proposés à l’achat concurrencent-ils trop facilement la capture et l’élevage ?
+- La revente d’une ressource devient-elle une méthode répétitive beaucoup plus rentable que les autres ?
+
+============================================================
+7. SUIVI DES DÉCISIONS
+============================================================
+
+| Sujet | Décision | État |
+|---|---|---|
+| Monnaie | Pokédollars | Validé |
+| Acheter des Pokémon | Oui, contre des Pokédollars | Validé |
+| Prix des Pokémon chromatiques non légendaires | 3 fois le prix de base de leur catégorie | Validé |
+| Pokémon légendaire non chromatique | Non vendu au marché | Validé |
+| Pokémon légendaire chromatique | 999 999 Pokédollars ; achat seulement après capture préalable de la même espèce | Décision de conception ; faisabilité technique à vérifier |
+| Débloquer le marché à 30 % du Pokédex | Seuil choisi ; faisabilité à vérifier | Validé, technique à vérifier |
+| Pokémon proposés | Catégories Common, Uncommon, Rare, Super Rare et Ultra Rare ; légendaires non chromatiques exclus | Validé |
+| Prix par rareté | Common 8 250 ; Uncommon 22 750 ; Rare 50 000 ; Super Rare 125 000 ; Ultra Rare 312 500 Pokédollars | Validé en conception ; équilibre à observer en jeu |
+| Pokémon fabuleux et Ultra-Chimères | À décider s’ils sont inclus dans le catalogue | Ouvert |
+| Utiliser l’économie pour acheter tous les biens et services retenus | Objectif de conception | Validé |
+| Prix de revente des objets | Conserver les prix de base Pixelmon, sans prix personnalisé | Validé en conception ; valeurs de la bêta à vérifier |
+| Récompenses FTB Quests | 500 à 100 000 Pokédollars selon durée/difficulté ; répétables limitées à 5 000 par jour ; capture légendaire : 25 000 une fois | Proposition à valider et intégration à vérifier |
+| Sources de revenus | À définir | Ouvert |
+| Liste complète des articles en vente | À recenser selon les mods | Ouvert |
+| Prix et règles de vente | À équilibrer | Ouvert |
+| Implémentation technique | À étudier une fois le système défini | À vérifier |
+
+============================================================
+TABLEAU RÉCAPITULATIF DES PRIX
+============================================================
+
+| Article / catégorie | Type de prix | Prix normal | Prix chromatique | État |
+|---|---|---:|---:|---|
+| Pokémon courant (Common) | Achat au marché | 8 250 | 24 750 | Barème convenu ; chromatique = ×3 |
+| Pokémon peu courant (Uncommon) | Achat au marché | 22 750 | 68 250 | Barème convenu ; chromatique = ×3 |
+| Pokémon rare (Rare) | Achat au marché | 50 000 | 150 000 | Barème convenu ; chromatique = ×3 |
+| Pokémon très rare (Super Rare) | Achat au marché | 125 000 | 375 000 | Barème convenu ; chromatique = ×3 |
+| Pokémon ultra-rare (Ultra Rare) | Achat au marché | 312 500 | 937 500 | Barème convenu ; chromatique = ×3 |
+| Pokémon légendaire chromatique | Achat au marché | — | 999 999 | Capture préalable de la même espèce ; technique à vérifier |
+| Pokémon légendaire non chromatique | Achat au marché | — | — | Non vendu |
+| Objets Pixelmon | Revente au marchand Pixelmon | — | — | Prix de base Pixelmon, sans personnalisation |
+
+Autres prix d’achat (objets, ressources, services et Pokémon individuels) : à définir. Le barème de récompenses FTB Quests ci-dessus reste à valider. Le statut des Pokémon fabuleux et des Ultra-Chimères reste à décider.
+
+============================================================
+8. PROCHAINES ÉTAPES
+============================================================
+
+1. Recenser les mods et les catégories de biens que le joueur doit pouvoir acheter.
+2. Choisir les principales façons de gagner des Pokédollars.
+3. Définir les boutiques et leurs vendeurs.
+4. Construire le catalogue de chaque boutique.
+5. Proposer puis équilibrer les prix avec la progression.
+6. Vérifier quelles solutions techniques sont compatibles avec les versions du modpack.
+7. Créer la configuration seulement après validation du fonctionnement souhaité et sur demande explicite.
+
+RAPPEL
+Ce document est un plan de conception. Il ne crée pas encore de monnaie, de boutique, de prix ni de configuration dans le jeu.

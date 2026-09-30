@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BUB",
+    "GWU",
+    "BUB"
+  ],
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "U": {
+      "item": "pixelmon:blue_shard"
+    },
+    "G": {
+      "item": "pixelmon:green_shard"
+    },
+    "W": {
+      "item": "pixelmon:white_shard"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "pixelmon:icicle_plate"
+  }
+}

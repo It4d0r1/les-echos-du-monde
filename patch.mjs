@@ -1,0 +1,12 @@
+import fs from 'node:fs/promises';
+const p='outputs/2026-09-25-tableau-quetes/arbre-legendaire.svg';
+let s=await fs.readFile(p,'utf8');
+s=s.replace(/<path class="edge" d="M720 180 H910"\/><path class="edge" d="M1180 180 H1370"\/>/, '<path class="edge" d="M720 180 H910"/>');
+s=s.replace(/<path class="edge" d="M720 340 H910"\/><path class="edge" d="M1180 340 H1370"\/>/, '<path class="edge" d="M720 340 H910"/>');
+s=s.replace(/<path class="edge" d="M720 520 H910"\/><path class="edge" d="M1180 520 H1370"\/>/, '<path class="edge" d="M720 520 H910"/>');
+s=s.replace(/<path class="edge" d="M720 700 H910"\/><path class="edge" d="M1180 700 H1370"\/>/, '<path class="edge" d="M720 700 H910"/>');
+s=s.replace(/<g><rect class="node" x="1370" y="135"[\s\S]*?<\/g>\n/, '');
+s=s.replace(/<g><rect class="node" x="1370" y="295"[\s\S]*?<\/g>\n/, '');
+s=s.replace(/<g><rect class="node" x="1370" y="475"[\s\S]*?<\/g>\n/, '');
+s=s.replace(/<g><rect class="node" x="1370" y="655"[\s\S]*?<\/g>\n/, '');
+await fs.writeFile(p,s);

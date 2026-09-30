@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BYB",
+    "RYY",
+    "BRB"
+  ],
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "Y": {
+      "item": "pixelmon:yellow_shard"
+    },
+    "R": {
+      "item": "pixelmon:red_shard"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "pixelmon:zap_plate"
+  }
+}
