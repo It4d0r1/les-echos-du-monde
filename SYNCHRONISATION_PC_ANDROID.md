@@ -2,13 +2,13 @@
 
 ## Dépôt prêt
 
-Le dépôt GitHub privé [drague036-afk/les-echos-du-monde](https://github.com/drague036-afk/les-echos-du-monde) est créé. La copie du PC a été envoyée sur la branche `main`. Le téléphone Android doit maintenant cloner le dépôt une première fois.
+Le dépôt GitHub privé [It4d0r1/les-echos-du-monde](https://github.com/It4d0r1/les-echos-du-monde) est créé. La copie du PC a été envoyée sur la branche `main`. Le téléphone Android doit maintenant cloner le dépôt une première fois.
 
 ## Sur Android
 
 1. Installer [Gitling depuis F-Droid](https://f-droid.org/packages/com.maneeshacooray.gitling/). Gitling permet de cloner, récupérer et envoyer des changements sur GitHub.
 2. Dans Gitling, connecter le compte GitHub avec la connexion sécurisée proposée par l’application.
-3. Appuyer sur `+`, saisir l’adresse `https://github.com/drague036-afk/les-echos-du-monde.git`, choisir un nom local, puis appuyer sur `Clone`.
+3. Appuyer sur `+`, saisir l’adresse `https://github.com/It4d0r1/les-echos-du-monde.git`, choisir un nom local, puis appuyer sur `Clone`.
 4. Installer aussi une application d’édition de texte compatible avec Android pour modifier les fichiers Markdown. Gitling ouvre les fichiers dans un éditeur externe.
 5. Avant de modifier des fichiers, faire `Pull` dans Gitling.
 6. Après les modifications, ouvrir la liste des changements, sélectionner les fichiers, créer un commit avec un court message, puis faire `Push`.
