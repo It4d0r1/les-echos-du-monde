@@ -1,0 +1,12 @@
+Palette proposée, inspirée de la référence extérieure. Codes indicatifs, non mesurés.
+
+Bois miel : #A87335 — Toiture et encadrements
+Bois sombre : #51351F — Poutres, porte et clôture
+Pierre grise : #77766F — Soubassement et cheminées
+Pierre claire : #B4ACA0 — Contours et marches
+Enduit ivoire : #DED1B7 — Panneaux entre les poutres
+Bleu nuit : #292D50 — Bannières et petits accents
+Vert mousse : #56633A — Lierre et jardinières
+Ambre lumineux : #F5B958 — Lanternes et lumière des fenêtres
+
+Blocs suggérés : épicéa pour la toiture ; bûches d’épicéa pour les poutres ; briques de pierre, pierre et andésite pour les murs ; calcite pour les panneaux clairs ; bannières bleues ; feuilles et lanternes. Le rendu dépend du pack de textures et des shaders.

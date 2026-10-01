@@ -6,6 +6,12 @@ Commencer par le [guide du projet](00_PILOTAGE/00_GUIDE_DU_PROJET.md), qui indiq
 
 Pour synchroniser les fichiers entre le PC et Android, suivre le [guide de synchronisation](SYNCHRONISATION_PC_ANDROID.md).
 
+## Plateforme du prologue — version du 1er octobre 2026
+
+La [copie végétalisée et ses scripts](06_RESSOURCES/Structures_NBT/Vegetation_finale/LISEZ_MOI.txt) sont conservés avec les ressources. Le [datapack exporté](outputs/les_echos_du_monde_datapack/README.md) correspond à la version installée sur le PC : 933 morceaux, arrivée exacte `(7, -3, 1)`, origine **provisoire** `(-235, -30, -250)`.
+
+Les fichiers ont été vérifiés ; **aucun essai en jeu n’a été effectué** pour cette version. Voir les [consignes de construction](Consignes_creation_zone_depart.md) et la [procédure de test](outputs/les_echos_du_monde_datapack/TESTS.md). Les sauvegardes complètes et les caches restent locaux.
+
 ## Structure
 
 - `00_PILOTAGE/` — guide et règles de travail.

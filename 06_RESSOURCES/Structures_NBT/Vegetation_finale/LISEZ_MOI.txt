@@ -1,0 +1,82 @@
+PLATEFORME DE DÉPART VÉGÉTALISÉE — Minecraft Java 1.21.1 / NeoForge
+
+1. FICHIERS
+plateforme__4_vegetalisee.nbt : copie finale.
+generer_vegetation.py : script réglable.
+apercu_zones.png : schéma vu du dessus, pas une capture en jeu.
+rapport_verification.json / analyse_source.json : preuves et coordonnées détaillées.
+
+2. CONFIRMÉ / PROVISOIRE
+Dimensions vérifiées : 562 × 93 × 536. DataVersion : 3955, identique à celui du
+JAR Minecraft 1.21.1 consulté en lecture seule. Blocs ajoutés exclusivement vanilla.
+Origine PROVISOIRE : (-235, -30, -250), sans rotation ni miroir.
+Étendue inclusive : X=-235..326, Y=-30..62, Z=-250..285.
+Les coins approximatifs donnent 461 × 96 × 476, donc ne définissent pas ce NBT.
+Toutes les réserves en coordonnées du monde dépendent de l'origine provisoire.
+Le fichier contient déjà des constructions, conservées conformément à la consigne.
+
+3. MODIFICATIONS
+199 arbres complets (146 chênes,
+53 bouleaux), 177 groupes de buissons,
+10511 plantes : herbes, fougères et fleurs en petites taches, avec des clairières.
+Troncs et couronnes connectés; feuilles persistantes pour empêcher leur disparition.
+Six plaques rectangulaires suspendues et cinq points de repérage retirés :
+3292 blocs remplacés par de l'air, 4 par un sol d'herbe.
+616 blocs de terre exposés sous les plaques rétablis en herbe à hauteur identique.
+305 plantes basses existantes retirées des réserves et de l'arrivée.
+Autres matériaux colorés, constructions et feuillage décoratif existant conservés.
+
+4. ZONES PROTÉGÉES — MONDE, LIMITES INCLUSES
+Anciennes plaques :
+  Jaune    X   -6 a 20   | Z   80 a 125 
+  Bleu     X   -1 a 27   | Z   54 a 74  
+  Magenta  X   70 a 90   | Z   40 a 60  
+  Noir     X  125 a 140  | Z   62 a 73  
+  Cyan     X   40 a 52   | Z  102 a 114 
+  Rouge    X   71 a 92   | Z  100 a 128 
+Marge de 4 blocs autour de chaque rectangle; aucune végétation ajoutée.
+Chemins : marge de 2 blocs. Constructions/blocs avec NBT : marge de 3 blocs.
+Garrik : X=-16..31, Z=-80..-33 (48 × 48), local X=219..266, Z=170..217.
+Aucun tronc, branche, feuille ou buisson ajouté, même depuis un arbre extérieur.
+Les arbres existants restent; les herbes et fleurs sont permises.
+Arrivée : rayon de 5 blocs sans ajout de végétation.
+
+5. ARRIVÉE EXACTE : X=7, Y=-3, Z=1
+Résultat : COMPATIBLE dans le NBT : sol à Y=-4 et air aux pieds/à la tête.
+Position locale : (242, 27, 251). Contrôle des quatre colonnes touchées
+par le joueur; volume 3 × 3 × 3 explicitement dégagé lorsque libre dans la source.
+Un NBT ne définit pas la téléportation. Dans la fonction exécutée en tant que joueur :
+execute in les_echos_du_monde:prologue run tp @s 7 -3 1
+Installation effectuée : le datapack utilise maintenant 7 -3 1 après préparation complète.
+Voir Installation_20261001_175619/INSTALLATION.txt pour créer le monde de test.
+
+6. CONTRÔLES
+Source intacte. 5,557,180 blocs identiques octet par octet;
+4,217 états modifiés seulement pour les marqueurs, leur sol et les plantes à dégager.
+Données des 24 blocs avec NBT, dimensions et métadonnées conservées.
+Réserves contrôlées. Total final : 5,593,060 blocs. Aucun test dans Minecraft.
+Source SHA-256 : f50db3925bc113232490376f3545c56567bf1b2dbb034b3804ca23188a2e8fbf
+Copie SHA-256 : d86156a622a9e9bc9333f1ea80d181144b11423106ec9c0739916250385c89e3
+
+7. REFAIRE / AJUSTER
+Python 3.12 + numpy + Pillow, déjà disponibles sur ce PC. Depuis ce dossier :
+& 'C:\Users\Bastien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' '.\generer_vegetation.py'
+Options : --origin -235 -30 -250 --seed 20261001
+--tree-density 0.0018 --bush-density 0.0016 --plant-density 0.1
+--tree-spacing 11 --building-margin 4 --path-margin 2
+--output 'autre_copie.nbt' ; --audit-only pour analyser sans générer.
+Le script refuse d'écraser la source. MARKERS et MARKER_EXTRAS décrivent ce fichier
+précis : les revoir si les marqueurs changent. Une nouvelle origine recalcule les
+réserves de Garrik et de l'arrivée; consulter de nouveau les résultats des contrôles.
+
+8. À VÉRIFIER EN JEU
+Dans un monde de test : placement à l'origine indiquée, sans rotation ni miroir;
+arrivée exacte et espace du joueur; six réserves et accès; limites de Garrik;
+aspect des arbres, circulation et survie des plantes avec l'éclairage réel.
+Le modèle complet reste volumineux. Si tu utilises le placement par morceaux,
+régénère les morceaux à partir de CE NBT. La copie ne corrige pas les problèmes
+de chargement/mémoire du placement complet. Les cellules absentes et les éventuels
+vides du relief source sont conservés : prévoir une zone de placement appropriée.
+
+Référence des propriétés des feuilles, en complément du JAR vérifié :
+https://lexxie.dev/neoforge/1.21.1/net/minecraft/world/level/block/LeavesBlock.html

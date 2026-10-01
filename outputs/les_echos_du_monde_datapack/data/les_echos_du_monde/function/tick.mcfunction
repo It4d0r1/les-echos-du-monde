@@ -1,8 +1,8 @@
-# Envoie chaque joueur une seule fois dans le prologue. Le tag persiste dans ses données de joueur.
-execute as @a[tag=!edm_prologue_done] at @s run function les_echos_du_monde:player/first_join
-
-# Si Minecraft a refusé le modèle, avertit chaque joueur une seule fois.
-execute as @a[tag=!edm_platform_error_reported] if data storage les_echos_du_monde:state platform_error run function les_echos_du_monde:player/report_platform_error
-
-# Zone de sortie provisoire : ajuster cette boîte à la sortie réelle de la carte.
-execute in les_echos_du_monde:prologue as @a[x=-1,y=-4,z=6,dx=2,dy=2,dz=2] run function les_echos_du_monde:player/exit
+execute if data storage les_echos_du_monde:state {platform_requires_new_world:1b} as @a[tag=!edm_prologue_update_notice] run function les_echos_du_monde:player/report_existing_world
+execute unless data storage les_echos_du_monde:state {prologue_automation_paused:1b} if entity @a unless data storage les_echos_du_monde:state platform_placed unless data storage les_echos_du_monde:state platform_building unless data storage les_echos_du_monde:state platform_error run function les_echos_du_monde:world/place_platform
+execute unless data storage les_echos_du_monde:state {prologue_automation_paused:1b} unless data storage les_echos_du_monde:state platform_placed as @a[tag=!edm_prologue_done,tag=!edm_prologue_waiting] run function les_echos_du_monde:player/wait_prologue
+execute unless data storage les_echos_du_monde:state {prologue_automation_paused:1b} if data storage les_echos_du_monde:state platform_building run scoreboard players add #platform_ui_clock edm_internal 1
+execute unless data storage les_echos_du_monde:state {prologue_automation_paused:1b} if data storage les_echos_du_monde:state platform_building if score #platform_ui_clock edm_internal matches 20.. run function les_echos_du_monde:world/report_progress
+execute unless data storage les_echos_du_monde:state {prologue_automation_paused:1b} if data storage les_echos_du_monde:state platform_placed as @a[tag=!edm_prologue_done] at @s run function les_echos_du_monde:player/first_join
+execute unless data storage les_echos_du_monde:state {prologue_automation_paused:1b} as @a[tag=!edm_platform_error_reported] if data storage les_echos_du_monde:state platform_error run function les_echos_du_monde:player/report_platform_error
+execute unless data storage les_echos_du_monde:state {prologue_automation_paused:1b} if data storage les_echos_du_monde:state platform_placed in les_echos_du_monde:prologue as @a[tag=edm_prologue_done,x=-1,y=-4,z=6,dx=2,dy=2,dz=2] run function les_echos_du_monde:player/exit

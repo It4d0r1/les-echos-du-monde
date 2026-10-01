@@ -1,27 +1,19 @@
-# Tests Minecraft — prologue
+# Essai en jeu — à effectuer
 
-Ces essais restent à effectuer dans Minecraft : l’inspection des fichiers confirme le format et la configuration du chargeur, mais ne remplace pas un lancement réel de NeoForge.
+Les vérifications faites jusqu'ici portent sur les fichiers. Elles ne confirment pas le fonctionnement réel dans Minecraft.
 
-## Préparation
+1. Fermer complètement Minecraft, relancer **Pixelmon Les Échos du Monde**, puis créer un nouveau monde de test.
+2. Vérifier le message de préparation dans l'Overworld et la progression des **933 morceaux**. La durée dépend des performances du modpack; aucun délai réel n'a été mesuré.
+3. Attendre la téléportation automatique dans `les_echos_du_monde:prologue`. Vérifier avec F3 la position d'arrivée initiale **7, -3, 1**, avant de se déplacer.
+4. Vérifier la végétation, les chemins, les six réserves et les limites de Garrik. Le modèle doit utiliser l'origine **-235, -30, -250**.
+5. Tester la reconnexion : l'arrivée ne doit pas être rejouée pour un joueur ayant déjà reçu le tag `edm_prologue_done`.
 
-1. Ferme Minecraft avant toute modification du datapack.
-2. Crée un nouveau monde de test dans l’instance `Pixelmon Les Échos du Monde`.
-3. Vérifie que la partie démarre sans erreur de datapack. Avec les commandes activées, `/datapack list` doit inclure `les_echos_du_monde` parmi les packs activés.
-4. Dans le chat du joueur avec les commandes autorisées, `/execute in les_echos_du_monde:prologue run tp @s 0.5 -4 0.5` peut servir à vérifier manuellement l’arrivée.
+En cas d'arrêt de la préparation, conserver `logs/latest.log`. Avec les commandes autorisées, consulter :
 
-## Parcours demandé
+```mcfunction
+/data get storage les_echos_du_monde:state
+```
 
-1. **Création d’un nouveau monde** — Le premier chargement doit se terminer sans écran d’erreur de datapack ni retour au menu.
-2. **Première connexion** — Le joueur doit arriver dans `les_echos_du_monde:prologue`, au-dessus du terrain importé depuis `plateforme_prologue.nbt`, vers `(0.5, -4, 0.5)`.
-3. **Passage par la sortie** — Entre dans la zone réglée dans `function/tick.mcfunction` (par défaut x=-1..1, y=-4..-2, z=6..8). Le joueur doit arriver à `(0.5, 80, 0.5)` dans l’Overworld. Vérifie que le point est sûr et corrige `player/exit.mcfunction` si le terrain ou le village est ailleurs.
-4. **Reconnexion** — Quitte puis rejoins la sauvegarde. Le joueur doit rester dans l’Overworld, sans retour automatique au prologue.
-5. **Mort et réapparition** — Après la sortie, vérifie `/gamerule spawnRadius` : la valeur doit être `0`. Sans lit, exécute `/kill @s` et vérifie le retour au spawn mondial fixe `(0, 80, 0)`, sans téléportation vers le prologue.
+`platform_placed:1b` indique que tous les morceaux ont réussi leur placement. `platform_error_tile` indique l'indice du morceau arrêté. Ne se téléporter manuellement vers la plateforme que lorsque son placement est terminé.
 
-## Cas complémentaires conseillés
-
-- Rejoins avec un second joueur neuf : lui aussi doit faire le prologue une fois, indépendamment du premier joueur.
-- Rejoins avec le même joueur après la mort : le tag `edm_prologue_done` doit empêcher une nouvelle téléportation.
-- Si un joueur tombe dans le vide du prologue, il peut mourir et réapparaître normalement; la téléportation d’arrivée ne sera pas rejouée.
-- Utilise `/reload` après une modification des fonctions ou des coordonnées. Pour un changement de la dimension elle-même, crée une nouvelle sauvegarde de test.
-- Sur une sauvegarde où le prologue était déjà vide, `/reload` doit déclencher le placement de la structure une fois. Attends la fin du chargement, puis vérifie le sol près de `(0, -5, 0)`. Le datapack marque ensuite `platform_placed` dans le stockage de commandes de cette sauvegarde.
-- Si la structure ne peut pas être placée, le joueur doit recevoir un message rouge au prochain tick. Après une modification du datapack, fermer puis rouvrir le monde recharge aussi la fonction `load`.
+La sortie et le spawn Overworld restent provisoires; leur sécurité dans le terrain réel de l'Overworld n'a pas été testée.

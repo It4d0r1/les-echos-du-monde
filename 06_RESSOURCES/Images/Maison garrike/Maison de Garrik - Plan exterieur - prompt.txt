@@ -1,0 +1,2 @@
+Outil : générateur d’images intégré.
+Consigne : créer une planche de construction extérieure Minecraft à partir de la référence, en préservant son apparence. Inclure quatre façades, une vue du toit, les matériaux et les étapes de construction. Exclure les pièces et le mobilier. Dimensions proposées : 25 × 17 blocs et hauteur indicative de 18 blocs. Cotes estimées, pas un relevé exact ni un schéma bloc par bloc.

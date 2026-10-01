@@ -21,10 +21,10 @@
 
 | Emplacement | Contenu | État |
 |---|---|---|
-| Groupe « Chapitre 1 » | Q-15A à Q-16B : choisir l’arène Glace ou Électrik, puis vaincre le champion correspondant. | À valider |
-| Groupe « Les mythes oubliés » | Q-16A déverrouille Artikodin. Q-16B déverrouille un choix entre Électhor et Sulfura. | À tester |
+| Groupe « Chapitre 1 » | Q-14A à Q-15B : choisir l’arène Glace ou Électrik, puis vaincre le champion correspondant. | À valider |
+| Groupe « Les mythes oubliés » | Q-15A déverrouille Artikodin. Q-15B déverrouille un choix entre Électhor et Sulfura. | À tester |
 | Groupe « Les mythes oubliés » | Trois branches : Artikodin, Électhor et Sulfura. Le joueur n’en choisit qu’une. | Choix validé ; verrouillage technique à tester |
 
 La quête liée affiche la même quête à deux endroits du questbook. Elle ne doit pas être dupliquée : une seule progression et une seule récompense sont conservées.
 
-Q-16A et Q-16B sont les raccords entre le chapitre principal et « Les mythes oubliés » : le champion Glace donne accès à Artikodin, tandis que le champion Électrik donne le choix entre Électhor et Sulfura.
+Q-15A et Q-15B sont les raccords entre le chapitre principal et « Les mythes oubliés » : le champion Glace donne accès à Artikodin, tandis que le champion Électrik donne le choix entre Électhor et Sulfura.

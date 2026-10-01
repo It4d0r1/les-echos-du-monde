@@ -1,0 +1,10356 @@
+{
+  "validation": {
+    "source_unchanged": true,
+    "source_sha256": "f50db3925bc113232490376f3545c56567bf1b2dbb034b3804ca23188a2e8fbf",
+    "output_sha256": "d86156a622a9e9bc9333f1ea80d181144b11423106ec9c0739916250385c89e3",
+    "size_unchanged": true,
+    "root_metadata_unchanged": true,
+    "entities_unchanged": true,
+    "original_blocks_identical": 5557180,
+    "original_blocks_authorized_state_changes": 4217,
+    "original_block_entity_records_identical": 24,
+    "added_records": 31663,
+    "output_blocks": 5593060,
+    "output_palette_states": 368,
+    "protected_zones_added_vegetation": 0,
+    "garrik_added_trees_or_bushes": 0,
+    "new_trees_connected_and_complete": true,
+    "tested_in_minecraft": false
+  },
+  "origin_provisional": [
+    -235,
+    -30,
+    -250
+  ],
+  "placement_bounds_inclusive": [
+    [
+      -235,
+      -30,
+      -250
+    ],
+    [
+      326,
+      62,
+      285
+    ]
+  ],
+  "seed": 20261001,
+  "densities": {
+    "tree": 0.0018,
+    "bush": 0.0016,
+    "plant": 0.1
+  },
+  "candidate_surface_columns": 110791,
+  "added_features": {
+    "tree": 199,
+    "bush": 177,
+    "plant": 10511
+  },
+  "added_tree_species": {
+    "oak": 146,
+    "birch": 53
+  },
+  "added_vegetation_blocks": {
+    "minecraft:oak_log": 990,
+    "minecraft:oak_leaves": 14408,
+    "minecraft:birch_log": 373,
+    "minecraft:birch_leaves": 4610,
+    "minecraft:azalea": 244,
+    "minecraft:flowering_azalea": 58,
+    "minecraft:short_grass": 7155,
+    "minecraft:tall_grass": 414,
+    "minecraft:fern": 1702,
+    "minecraft:pink_tulip": 149,
+    "minecraft:large_fern": 476,
+    "minecraft:dandelion": 141,
+    "minecraft:poppy": 152,
+    "minecraft:white_tulip": 161,
+    "minecraft:azure_bluet": 166,
+    "minecraft:oxeye_daisy": 153,
+    "minecraft:allium": 157,
+    "minecraft:cornflower": 130
+  },
+  "change_reasons_blocks": {
+    "marker_air": 3292,
+    "marker_ground": 4,
+    "marker_soil_grass": 616,
+    "existing_low_plant_clearance": 305,
+    "spawn_explicit_air": 24,
+    "tree": 20303,
+    "bush": 380,
+    "plant": 10956
+  },
+  "modified_original_block_types": {
+    "minecraft:dirt": 616,
+    "minecraft:yellow_concrete": 1243,
+    "minecraft:cyan_concrete": 172,
+    "minecraft:magenta_concrete": 441,
+    "minecraft:black_concrete": 192,
+    "minecraft:blue_concrete": 609,
+    "minecraft:red_concrete": 639,
+    "minecraft:large_fern": 12,
+    "minecraft:short_grass": 153,
+    "minecraft:tall_grass": 18,
+    "minecraft:torchflower": 1,
+    "minecraft:pitcher_plant": 2,
+    "minecraft:fern": 33,
+    "minecraft:cornflower": 12,
+    "minecraft:poppy": 26,
+    "minecraft:oxeye_daisy": 22,
+    "minecraft:dandelion": 22,
+    "minecraft:rose_bush": 2,
+    "minecraft:blue_orchid": 1,
+    "minecraft:allium": 1
+  },
+  "building_reserves": [
+    {
+      "label": "Jaune",
+      "block": "minecraft:yellow_concrete",
+      "local_y": 47,
+      "local_xz": [
+        [
+          229,
+          330
+        ],
+        [
+          255,
+          375
+        ]
+      ],
+      "world_xz": [
+        [
+          -6,
+          80
+        ],
+        [
+          20,
+          125
+        ]
+      ],
+      "count": 1242,
+      "margin": 4
+    },
+    {
+      "label": "Bleu",
+      "block": "minecraft:blue_concrete",
+      "local_y": 42,
+      "local_xz": [
+        [
+          234,
+          304
+        ],
+        [
+          262,
+          324
+        ]
+      ],
+      "world_xz": [
+        [
+          -1,
+          54
+        ],
+        [
+          27,
+          74
+        ]
+      ],
+      "count": 609,
+      "margin": 4
+    },
+    {
+      "label": "Magenta",
+      "block": "minecraft:magenta_concrete",
+      "local_y": 36,
+      "local_xz": [
+        [
+          305,
+          290
+        ],
+        [
+          325,
+          310
+        ]
+      ],
+      "world_xz": [
+        [
+          70,
+          40
+        ],
+        [
+          90,
+          60
+        ]
+      ],
+      "count": 441,
+      "margin": 4
+    },
+    {
+      "label": "Noir",
+      "block": "minecraft:black_concrete",
+      "local_y": 40,
+      "local_xz": [
+        [
+          360,
+          312
+        ],
+        [
+          375,
+          323
+        ]
+      ],
+      "world_xz": [
+        [
+          125,
+          62
+        ],
+        [
+          140,
+          73
+        ]
+      ],
+      "count": 192,
+      "margin": 4
+    },
+    {
+      "label": "Cyan",
+      "block": "minecraft:cyan_concrete",
+      "local_y": 34,
+      "local_xz": [
+        [
+          275,
+          352
+        ],
+        [
+          287,
+          364
+        ]
+      ],
+      "world_xz": [
+        [
+          40,
+          102
+        ],
+        [
+          52,
+          114
+        ]
+      ],
+      "count": 169,
+      "margin": 4
+    },
+    {
+      "label": "Rouge",
+      "block": "minecraft:red_concrete",
+      "local_y": 48,
+      "local_xz": [
+        [
+          306,
+          350
+        ],
+        [
+          327,
+          378
+        ]
+      ],
+      "world_xz": [
+        [
+          71,
+          100
+        ],
+        [
+          92,
+          128
+        ]
+      ],
+      "count": 638,
+      "margin": 4
+    }
+  ],
+  "garrik_world_xz_inclusive": [
+    [
+      -16,
+      -80
+    ],
+    [
+      31,
+      -33
+    ]
+  ],
+  "spawn_world": [
+    7,
+    -3,
+    1
+  ],
+  "spawn_local": [
+    242,
+    27,
+    251
+  ],
+  "spawn_clearance_radius": 5,
+  "arrival_floor_and_clearance_verified": true,
+  "spawn_obstructions_local": [],
+  "block_assets_verification": {
+    "verified": true,
+    "jar_read_only": "C:\\Users\\Bastien\\curseforge\\minecraft\\Install\\versions\\1.21.1\\1.21.1.jar",
+    "version": "1.21.1",
+    "world_version": 3955,
+    "added_states": [
+      {
+        "Name": "minecraft:air"
+      },
+      {
+        "Name": "minecraft:oak_leaves",
+        "Properties": {
+          "distance": "1",
+          "persistent": "true",
+          "waterlogged": "false"
+        }
+      },
+      {
+        "Name": "minecraft:oak_leaves",
+        "Properties": {
+          "distance": "2",
+          "persistent": "true",
+          "waterlogged": "false"
+        }
+      },
+      {
+        "Name": "minecraft:oak_leaves",
+        "Properties": {
+          "distance": "3",
+          "persistent": "true",
+          "waterlogged": "false"
+        }
+      },
+      {
+        "Name": "minecraft:birch_log",
+        "Properties": {
+          "axis": "y"
+        }
+      },
+      {
+        "Name": "minecraft:birch_leaves",
+        "Properties": {
+          "distance": "1",
+          "persistent": "true",
+          "waterlogged": "false"
+        }
+      },
+      {
+        "Name": "minecraft:birch_leaves",
+        "Properties": {
+          "distance": "2",
+          "persistent": "true",
+          "waterlogged": "false"
+        }
+      },
+      {
+        "Name": "minecraft:birch_leaves",
+        "Properties": {
+          "distance": "3",
+          "persistent": "true",
+          "waterlogged": "false"
+        }
+      },
+      {
+        "Name": "minecraft:azalea"
+      },
+      {
+        "Name": "minecraft:flowering_azalea"
+      },
+      {
+        "Name": "minecraft:pink_tulip"
+      },
+      {
+        "Name": "minecraft:white_tulip"
+      },
+      {
+        "Name": "minecraft:azure_bluet"
+      }
+    ]
+  },
+  "features": [
+    {
+      "kind": "tree",
+      "center_local": [
+        122,
+        24,
+        330
+      ],
+      "center_world": [
+        -113,
+        -6,
+        80
+      ],
+      "blocks": 124,
+      "local_bounds": [
+        [
+          119,
+          25,
+          327
+        ],
+        [
+          125,
+          31,
+          333
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        45,
+        23,
+        314
+      ],
+      "center_world": [
+        -190,
+        -7,
+        64
+      ],
+      "blocks": 95,
+      "local_bounds": [
+        [
+          43,
+          24,
+          312
+        ],
+        [
+          47,
+          32,
+          316
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        161,
+        24,
+        200
+      ],
+      "center_world": [
+        -74,
+        -6,
+        -50
+      ],
+      "blocks": 126,
+      "local_bounds": [
+        [
+          158,
+          25,
+          197
+        ],
+        [
+          164,
+          32,
+          203
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        136,
+        29,
+        341
+      ],
+      "center_world": [
+        -99,
+        -1,
+        91
+      ],
+      "blocks": 91,
+      "local_bounds": [
+        [
+          134,
+          30,
+          339
+        ],
+        [
+          138,
+          36,
+          343
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        15,
+        20,
+        290
+      ],
+      "center_world": [
+        -220,
+        -10,
+        40
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          13,
+          21,
+          288
+        ],
+        [
+          17,
+          28,
+          292
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        460,
+        45,
+        324
+      ],
+      "center_world": [
+        225,
+        15,
+        74
+      ],
+      "blocks": 91,
+      "local_bounds": [
+        [
+          458,
+          46,
+          322
+        ],
+        [
+          462,
+          52,
+          326
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        396,
+        20,
+        424
+      ],
+      "center_world": [
+        161,
+        -10,
+        174
+      ],
+      "blocks": 125,
+      "local_bounds": [
+        [
+          393,
+          21,
+          421
+        ],
+        [
+          399,
+          26,
+          427
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        422,
+        27,
+        272
+      ],
+      "center_world": [
+        187,
+        -3,
+        22
+      ],
+      "blocks": 92,
+      "local_bounds": [
+        [
+          420,
+          28,
+          270
+        ],
+        [
+          424,
+          33,
+          274
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        418,
+        19,
+        441
+      ],
+      "center_world": [
+        183,
+        -11,
+        191
+      ],
+      "blocks": 92,
+      "local_bounds": [
+        [
+          416,
+          20,
+          439
+        ],
+        [
+          420,
+          26,
+          443
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        284,
+        34,
+        82
+      ],
+      "center_world": [
+        49,
+        4,
+        -168
+      ],
+      "blocks": 125,
+      "local_bounds": [
+        [
+          281,
+          35,
+          79
+        ],
+        [
+          287,
+          42,
+          85
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        329,
+        23,
+        392
+      ],
+      "center_world": [
+        94,
+        -7,
+        142
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          327,
+          24,
+          390
+        ],
+        [
+          331,
+          29,
+          394
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        39,
+        25,
+        291
+      ],
+      "center_world": [
+        -196,
+        -5,
+        41
+      ],
+      "blocks": 90,
+      "local_bounds": [
+        [
+          37,
+          26,
+          289
+        ],
+        [
+          41,
+          31,
+          293
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        187,
+        22,
+        399
+      ],
+      "center_world": [
+        -48,
+        -8,
+        149
+      ],
+      "blocks": 124,
+      "local_bounds": [
+        [
+          184,
+          23,
+          396
+        ],
+        [
+          190,
+          29,
+          402
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        146,
+        39,
+        431
+      ],
+      "center_world": [
+        -89,
+        9,
+        181
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          144,
+          40,
+          429
+        ],
+        [
+          148,
+          47,
+          433
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        208,
+        25,
+        466
+      ],
+      "center_world": [
+        -27,
+        -5,
+        216
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          206,
+          26,
+          464
+        ],
+        [
+          210,
+          33,
+          468
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        191,
+        38,
+        454
+      ],
+      "center_world": [
+        -44,
+        8,
+        204
+      ],
+      "blocks": 92,
+      "local_bounds": [
+        [
+          189,
+          39,
+          452
+        ],
+        [
+          193,
+          45,
+          456
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        454,
+        48,
+        335
+      ],
+      "center_world": [
+        219,
+        18,
+        85
+      ],
+      "blocks": 126,
+      "local_bounds": [
+        [
+          451,
+          49,
+          332
+        ],
+        [
+          457,
+          56,
+          338
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        23,
+        17,
+        227
+      ],
+      "center_world": [
+        -212,
+        -13,
+        -23
+      ],
+      "blocks": 125,
+      "local_bounds": [
+        [
+          20,
+          18,
+          224
+        ],
+        [
+          26,
+          24,
+          230
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        319,
+        25,
+        222
+      ],
+      "center_world": [
+        84,
+        -5,
+        -28
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          317,
+          26,
+          220
+        ],
+        [
+          321,
+          33,
+          224
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        64,
+        23,
+        259
+      ],
+      "center_world": [
+        -171,
+        -7,
+        9
+      ],
+      "blocks": 91,
+      "local_bounds": [
+        [
+          62,
+          24,
+          257
+        ],
+        [
+          66,
+          30,
+          261
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        395,
+        21,
+        412
+      ],
+      "center_world": [
+        160,
+        -9,
+        162
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          393,
+          22,
+          410
+        ],
+        [
+          397,
+          28,
+          414
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        167,
+        31,
+        100
+      ],
+      "center_world": [
+        -68,
+        1,
+        -150
+      ],
+      "blocks": 95,
+      "local_bounds": [
+        [
+          165,
+          32,
+          98
+        ],
+        [
+          169,
+          39,
+          102
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        466,
+        45,
+        359
+      ],
+      "center_world": [
+        231,
+        15,
+        109
+      ],
+      "blocks": 92,
+      "local_bounds": [
+        [
+          464,
+          46,
+          357
+        ],
+        [
+          468,
+          52,
+          361
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        472,
+        45,
+        285
+      ],
+      "center_world": [
+        237,
+        15,
+        35
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          470,
+          46,
+          283
+        ],
+        [
+          474,
+          52,
+          287
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        191,
+        21,
+        252
+      ],
+      "center_world": [
+        -44,
+        -9,
+        2
+      ],
+      "blocks": 126,
+      "local_bounds": [
+        [
+          188,
+          22,
+          249
+        ],
+        [
+          194,
+          27,
+          255
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        164,
+        22,
+        370
+      ],
+      "center_world": [
+        -71,
+        -8,
+        120
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          162,
+          23,
+          368
+        ],
+        [
+          166,
+          30,
+          372
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        67,
+        24,
+        291
+      ],
+      "center_world": [
+        -168,
+        -6,
+        41
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          65,
+          25,
+          289
+        ],
+        [
+          69,
+          32,
+          293
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        304,
+        42,
+        497
+      ],
+      "center_world": [
+        69,
+        12,
+        247
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          302,
+          43,
+          495
+        ],
+        [
+          306,
+          50,
+          499
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        257,
+        38,
+        222
+      ],
+      "center_world": [
+        22,
+        8,
+        -28
+      ],
+      "blocks": 95,
+      "local_bounds": [
+        [
+          255,
+          39,
+          220
+        ],
+        [
+          259,
+          47,
+          224
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        48,
+        20,
+        453
+      ],
+      "center_world": [
+        -187,
+        -10,
+        203
+      ],
+      "blocks": 95,
+      "local_bounds": [
+        [
+          46,
+          21,
+          451
+        ],
+        [
+          50,
+          28,
+          455
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        448,
+        42,
+        381
+      ],
+      "center_world": [
+        213,
+        12,
+        131
+      ],
+      "blocks": 125,
+      "local_bounds": [
+        [
+          445,
+          43,
+          378
+        ],
+        [
+          451,
+          50,
+          384
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        356,
+        25,
+        198
+      ],
+      "center_world": [
+        121,
+        -5,
+        -52
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          354,
+          26,
+          196
+        ],
+        [
+          358,
+          32,
+          200
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        20,
+        24,
+        273
+      ],
+      "center_world": [
+        -215,
+        -6,
+        23
+      ],
+      "blocks": 96,
+      "local_bounds": [
+        [
+          18,
+          25,
+          271
+        ],
+        [
+          22,
+          32,
+          275
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        154,
+        38,
+        474
+      ],
+      "center_world": [
+        -81,
+        8,
+        224
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          152,
+          39,
+          472
+        ],
+        [
+          156,
+          46,
+          476
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        368,
+        25,
+        223
+      ],
+      "center_world": [
+        133,
+        -5,
+        -27
+      ],
+      "blocks": 92,
+      "local_bounds": [
+        [
+          366,
+          26,
+          221
+        ],
+        [
+          370,
+          31,
+          225
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        450,
+        53,
+        281
+      ],
+      "center_world": [
+        215,
+        23,
+        31
+      ],
+      "blocks": 126,
+      "local_bounds": [
+        [
+          447,
+          54,
+          278
+        ],
+        [
+          453,
+          61,
+          284
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        441,
+        43,
+        366
+      ],
+      "center_world": [
+        206,
+        13,
+        116
+      ],
+      "blocks": 126,
+      "local_bounds": [
+        [
+          438,
+          44,
+          363
+        ],
+        [
+          444,
+          51,
+          369
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        173,
+        21,
+        332
+      ],
+      "center_world": [
+        -62,
+        -9,
+        82
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          171,
+          22,
+          330
+        ],
+        [
+          175,
+          28,
+          334
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        300,
+        34,
+        117
+      ],
+      "center_world": [
+        65,
+        4,
+        -133
+      ],
+      "blocks": 125,
+      "local_bounds": [
+        [
+          297,
+          35,
+          114
+        ],
+        [
+          303,
+          41,
+          120
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        188,
+        24,
+        150
+      ],
+      "center_world": [
+        -47,
+        -6,
+        -100
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          186,
+          25,
+          148
+        ],
+        [
+          190,
+          31,
+          152
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        317,
+        26,
+        324
+      ],
+      "center_world": [
+        82,
+        -4,
+        74
+      ],
+      "blocks": 125,
+      "local_bounds": [
+        [
+          314,
+          27,
+          321
+        ],
+        [
+          320,
+          32,
+          327
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        358,
+        43,
+        463
+      ],
+      "center_world": [
+        123,
+        13,
+        213
+      ],
+      "blocks": 91,
+      "local_bounds": [
+        [
+          356,
+          44,
+          461
+        ],
+        [
+          360,
+          49,
+          465
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        96,
+        29,
+        345
+      ],
+      "center_world": [
+        -139,
+        -1,
+        95
+      ],
+      "blocks": 126,
+      "local_bounds": [
+        [
+          93,
+          30,
+          342
+        ],
+        [
+          99,
+          37,
+          348
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        325,
+        25,
+        274
+      ],
+      "center_world": [
+        90,
+        -5,
+        24
+      ],
+      "blocks": 125,
+      "local_bounds": [
+        [
+          322,
+          26,
+          271
+        ],
+        [
+          328,
+          31,
+          277
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        470,
+        45,
+        406
+      ],
+      "center_world": [
+        235,
+        15,
+        156
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          468,
+          46,
+          404
+        ],
+        [
+          472,
+          53,
+          408
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        406,
+        23,
+        365
+      ],
+      "center_world": [
+        171,
+        -7,
+        115
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          404,
+          24,
+          363
+        ],
+        [
+          408,
+          31,
+          367
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        80,
+        22,
+        243
+      ],
+      "center_world": [
+        -155,
+        -8,
+        -7
+      ],
+      "blocks": 97,
+      "local_bounds": [
+        [
+          78,
+          23,
+          241
+        ],
+        [
+          82,
+          31,
+          245
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        284,
+        24,
+        441
+      ],
+      "center_world": [
+        49,
+        -6,
+        191
+      ],
+      "blocks": 124,
+      "local_bounds": [
+        [
+          281,
+          25,
+          438
+        ],
+        [
+          287,
+          31,
+          444
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        404,
+        21,
+        380
+      ],
+      "center_world": [
+        169,
+        -9,
+        130
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          402,
+          22,
+          378
+        ],
+        [
+          406,
+          28,
+          382
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        380,
+        32,
+        428
+      ],
+      "center_world": [
+        145,
+        2,
+        178
+      ],
+      "blocks": 92,
+      "local_bounds": [
+        [
+          378,
+          33,
+          426
+        ],
+        [
+          382,
+          39,
+          430
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        411,
+        25,
+        272
+      ],
+      "center_world": [
+        176,
+        -5,
+        22
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          409,
+          26,
+          270
+        ],
+        [
+          413,
+          32,
+          274
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        61,
+        25,
+        243
+      ],
+      "center_world": [
+        -174,
+        -5,
+        -7
+      ],
+      "blocks": 124,
+      "local_bounds": [
+        [
+          58,
+          26,
+          240
+        ],
+        [
+          64,
+          33,
+          246
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        319,
+        22,
+        185
+      ],
+      "center_world": [
+        84,
+        -8,
+        -65
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          317,
+          23,
+          183
+        ],
+        [
+          321,
+          30,
+          187
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        42,
+        33,
+        261
+      ],
+      "center_world": [
+        -193,
+        3,
+        11
+      ],
+      "blocks": 92,
+      "local_bounds": [
+        [
+          40,
+          34,
+          259
+        ],
+        [
+          44,
+          40,
+          263
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        279,
+        22,
+        122
+      ],
+      "center_world": [
+        44,
+        -8,
+        -128
+      ],
+      "blocks": 95,
+      "local_bounds": [
+        [
+          277,
+          23,
+          120
+        ],
+        [
+          281,
+          30,
+          124
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        201,
+        34,
+        490
+      ],
+      "center_world": [
+        -34,
+        4,
+        240
+      ],
+      "blocks": 96,
+      "local_bounds": [
+        [
+          199,
+          35,
+          488
+        ],
+        [
+          203,
+          43,
+          492
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        104,
+        28,
+        124
+      ],
+      "center_world": [
+        -131,
+        -2,
+        -126
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          102,
+          29,
+          122
+        ],
+        [
+          106,
+          36,
+          126
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        242,
+        25,
+        156
+      ],
+      "center_world": [
+        7,
+        -5,
+        -94
+      ],
+      "blocks": 95,
+      "local_bounds": [
+        [
+          240,
+          26,
+          154
+        ],
+        [
+          244,
+          33,
+          158
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        119,
+        26,
+        162
+      ],
+      "center_world": [
+        -116,
+        -4,
+        -88
+      ],
+      "blocks": 125,
+      "local_bounds": [
+        [
+          116,
+          27,
+          159
+        ],
+        [
+          122,
+          34,
+          165
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        28,
+        22,
+        438
+      ],
+      "center_world": [
+        -207,
+        -8,
+        188
+      ],
+      "blocks": 90,
+      "local_bounds": [
+        [
+          26,
+          23,
+          436
+        ],
+        [
+          30,
+          28,
+          440
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        266,
+        28,
+        525
+      ],
+      "center_world": [
+        31,
+        -2,
+        275
+      ],
+      "blocks": 92,
+      "local_bounds": [
+        [
+          264,
+          29,
+          523
+        ],
+        [
+          268,
+          34,
+          527
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        215,
+        27,
+        515
+      ],
+      "center_world": [
+        -20,
+        -3,
+        265
+      ],
+      "blocks": 127,
+      "local_bounds": [
+        [
+          212,
+          28,
+          512
+        ],
+        [
+          218,
+          35,
+          518
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        393,
+        25,
+        453
+      ],
+      "center_world": [
+        158,
+        -5,
+        203
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          391,
+          26,
+          451
+        ],
+        [
+          395,
+          32,
+          455
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        419,
+        24,
+        367
+      ],
+      "center_world": [
+        184,
+        -6,
+        117
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          417,
+          25,
+          365
+        ],
+        [
+          421,
+          31,
+          369
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        203,
+        23,
+        138
+      ],
+      "center_world": [
+        -32,
+        -7,
+        -112
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          201,
+          24,
+          136
+        ],
+        [
+          205,
+          29,
+          140
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        330,
+        24,
+        210
+      ],
+      "center_world": [
+        95,
+        -6,
+        -40
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          328,
+          25,
+          208
+        ],
+        [
+          332,
+          30,
+          212
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        473,
+        43,
+        417
+      ],
+      "center_world": [
+        238,
+        13,
+        167
+      ],
+      "blocks": 92,
+      "local_bounds": [
+        [
+          471,
+          44,
+          415
+        ],
+        [
+          475,
+          50,
+          419
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        378,
+        25,
+        214
+      ],
+      "center_world": [
+        143,
+        -5,
+        -36
+      ],
+      "blocks": 125,
+      "local_bounds": [
+        [
+          375,
+          26,
+          211
+        ],
+        [
+          381,
+          33,
+          217
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        378,
+        23,
+        404
+      ],
+      "center_world": [
+        143,
+        -7,
+        154
+      ],
+      "blocks": 123,
+      "local_bounds": [
+        [
+          375,
+          24,
+          401
+        ],
+        [
+          381,
+          30,
+          407
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        257,
+        24,
+        158
+      ],
+      "center_world": [
+        22,
+        -6,
+        -92
+      ],
+      "blocks": 95,
+      "local_bounds": [
+        [
+          255,
+          25,
+          156
+        ],
+        [
+          259,
+          32,
+          160
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        154,
+        21,
+        178
+      ],
+      "center_world": [
+        -81,
+        -9,
+        -72
+      ],
+      "blocks": 92,
+      "local_bounds": [
+        [
+          152,
+          22,
+          176
+        ],
+        [
+          156,
+          27,
+          180
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        80,
+        22,
+        288
+      ],
+      "center_world": [
+        -155,
+        -8,
+        38
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          78,
+          23,
+          286
+        ],
+        [
+          82,
+          29,
+          290
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        308,
+        22,
+        175
+      ],
+      "center_world": [
+        73,
+        -8,
+        -75
+      ],
+      "blocks": 92,
+      "local_bounds": [
+        [
+          306,
+          23,
+          173
+        ],
+        [
+          310,
+          29,
+          177
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        331,
+        22,
+        147
+      ],
+      "center_world": [
+        96,
+        -8,
+        -103
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          329,
+          23,
+          145
+        ],
+        [
+          333,
+          29,
+          149
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        82,
+        26,
+        312
+      ],
+      "center_world": [
+        -153,
+        -4,
+        62
+      ],
+      "blocks": 125,
+      "local_bounds": [
+        [
+          79,
+          27,
+          309
+        ],
+        [
+          85,
+          32,
+          315
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        15,
+        16,
+        239
+      ],
+      "center_world": [
+        -220,
+        -14,
+        -11
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          13,
+          17,
+          237
+        ],
+        [
+          17,
+          25,
+          241
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        297,
+        41,
+        509
+      ],
+      "center_world": [
+        62,
+        11,
+        259
+      ],
+      "blocks": 91,
+      "local_bounds": [
+        [
+          295,
+          42,
+          507
+        ],
+        [
+          299,
+          47,
+          511
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        162,
+        42,
+        461
+      ],
+      "center_world": [
+        -73,
+        12,
+        211
+      ],
+      "blocks": 91,
+      "local_bounds": [
+        [
+          160,
+          43,
+          459
+        ],
+        [
+          164,
+          48,
+          463
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        14,
+        22,
+        395
+      ],
+      "center_world": [
+        -221,
+        -8,
+        145
+      ],
+      "blocks": 126,
+      "local_bounds": [
+        [
+          11,
+          23,
+          392
+        ],
+        [
+          17,
+          30,
+          398
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        318,
+        24,
+        392
+      ],
+      "center_world": [
+        83,
+        -6,
+        142
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          316,
+          25,
+          390
+        ],
+        [
+          320,
+          31,
+          394
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        304,
+        26,
+        450
+      ],
+      "center_world": [
+        69,
+        -4,
+        200
+      ],
+      "blocks": 124,
+      "local_bounds": [
+        [
+          301,
+          27,
+          447
+        ],
+        [
+          307,
+          32,
+          453
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        261,
+        22,
+        116
+      ],
+      "center_world": [
+        26,
+        -8,
+        -134
+      ],
+      "blocks": 124,
+      "local_bounds": [
+        [
+          258,
+          23,
+          113
+        ],
+        [
+          264,
+          29,
+          119
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        178,
+        24,
+        367
+      ],
+      "center_world": [
+        -57,
+        -6,
+        117
+      ],
+      "blocks": 92,
+      "local_bounds": [
+        [
+          176,
+          25,
+          365
+        ],
+        [
+          180,
+          30,
+          369
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        299,
+        23,
+        421
+      ],
+      "center_world": [
+        64,
+        -7,
+        171
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          297,
+          24,
+          419
+        ],
+        [
+          301,
+          32,
+          423
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        424,
+        47,
+        304
+      ],
+      "center_world": [
+        189,
+        17,
+        54
+      ],
+      "blocks": 96,
+      "local_bounds": [
+        [
+          422,
+          48,
+          302
+        ],
+        [
+          426,
+          55,
+          306
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        258,
+        43,
+        512
+      ],
+      "center_world": [
+        23,
+        13,
+        262
+      ],
+      "blocks": 91,
+      "local_bounds": [
+        [
+          256,
+          44,
+          510
+        ],
+        [
+          260,
+          49,
+          514
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        291,
+        24,
+        183
+      ],
+      "center_world": [
+        56,
+        -6,
+        -67
+      ],
+      "blocks": 123,
+      "local_bounds": [
+        [
+          288,
+          25,
+          180
+        ],
+        [
+          294,
+          30,
+          186
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        168,
+        23,
+        167
+      ],
+      "center_world": [
+        -67,
+        -7,
+        -83
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          166,
+          24,
+          165
+        ],
+        [
+          170,
+          31,
+          169
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        203,
+        25,
+        508
+      ],
+      "center_world": [
+        -32,
+        -5,
+        258
+      ],
+      "blocks": 123,
+      "local_bounds": [
+        [
+          200,
+          26,
+          505
+        ],
+        [
+          206,
+          31,
+          511
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        130,
+        22,
+        360
+      ],
+      "center_world": [
+        -105,
+        -8,
+        110
+      ],
+      "blocks": 92,
+      "local_bounds": [
+        [
+          128,
+          23,
+          358
+        ],
+        [
+          132,
+          30,
+          362
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        232,
+        23,
+        140
+      ],
+      "center_world": [
+        -3,
+        -7,
+        -110
+      ],
+      "blocks": 91,
+      "local_bounds": [
+        [
+          230,
+          24,
+          138
+        ],
+        [
+          234,
+          29,
+          142
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        343,
+        29,
+        410
+      ],
+      "center_world": [
+        108,
+        -1,
+        160
+      ],
+      "blocks": 91,
+      "local_bounds": [
+        [
+          341,
+          30,
+          408
+        ],
+        [
+          345,
+          35,
+          412
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        199,
+        22,
+        293
+      ],
+      "center_world": [
+        -36,
+        -8,
+        43
+      ],
+      "blocks": 125,
+      "local_bounds": [
+        [
+          196,
+          23,
+          290
+        ],
+        [
+          202,
+          30,
+          296
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        106,
+        24,
+        361
+      ],
+      "center_world": [
+        -129,
+        -6,
+        111
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          104,
+          25,
+          359
+        ],
+        [
+          108,
+          33,
+          363
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        136,
+        21,
+        319
+      ],
+      "center_world": [
+        -99,
+        -9,
+        69
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          134,
+          22,
+          317
+        ],
+        [
+          138,
+          28,
+          321
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        345,
+        25,
+        204
+      ],
+      "center_world": [
+        110,
+        -5,
+        -46
+      ],
+      "blocks": 91,
+      "local_bounds": [
+        [
+          343,
+          26,
+          202
+        ],
+        [
+          347,
+          31,
+          206
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        336,
+        25,
+        222
+      ],
+      "center_world": [
+        101,
+        -5,
+        -28
+      ],
+      "blocks": 125,
+      "local_bounds": [
+        [
+          333,
+          26,
+          219
+        ],
+        [
+          339,
+          33,
+          225
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        192,
+        40,
+        439
+      ],
+      "center_world": [
+        -43,
+        10,
+        189
+      ],
+      "blocks": 92,
+      "local_bounds": [
+        [
+          190,
+          41,
+          437
+        ],
+        [
+          194,
+          46,
+          441
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        101,
+        25,
+        325
+      ],
+      "center_world": [
+        -134,
+        -5,
+        75
+      ],
+      "blocks": 124,
+      "local_bounds": [
+        [
+          98,
+          26,
+          322
+        ],
+        [
+          104,
+          31,
+          328
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        440,
+        52,
+        274
+      ],
+      "center_world": [
+        205,
+        22,
+        24
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          438,
+          53,
+          272
+        ],
+        [
+          442,
+          59,
+          276
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        139,
+        41,
+        446
+      ],
+      "center_world": [
+        -96,
+        11,
+        196
+      ],
+      "blocks": 96,
+      "local_bounds": [
+        [
+          137,
+          42,
+          444
+        ],
+        [
+          141,
+          49,
+          448
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        315,
+        21,
+        415
+      ],
+      "center_world": [
+        80,
+        -9,
+        165
+      ],
+      "blocks": 126,
+      "local_bounds": [
+        [
+          312,
+          22,
+          412
+        ],
+        [
+          318,
+          29,
+          418
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        305,
+        33,
+        92
+      ],
+      "center_world": [
+        70,
+        3,
+        -158
+      ],
+      "blocks": 124,
+      "local_bounds": [
+        [
+          302,
+          34,
+          89
+        ],
+        [
+          308,
+          41,
+          95
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        439,
+        51,
+        289
+      ],
+      "center_world": [
+        204,
+        21,
+        39
+      ],
+      "blocks": 91,
+      "local_bounds": [
+        [
+          437,
+          52,
+          287
+        ],
+        [
+          441,
+          57,
+          291
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        294,
+        22,
+        158
+      ],
+      "center_world": [
+        59,
+        -8,
+        -92
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          292,
+          23,
+          156
+        ],
+        [
+          296,
+          30,
+          160
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        464,
+        43,
+        371
+      ],
+      "center_world": [
+        229,
+        13,
+        121
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          462,
+          44,
+          369
+        ],
+        [
+          466,
+          51,
+          373
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        327,
+        24,
+        249
+      ],
+      "center_world": [
+        92,
+        -6,
+        -1
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          325,
+          25,
+          247
+        ],
+        [
+          329,
+          32,
+          251
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        463,
+        45,
+        348
+      ],
+      "center_world": [
+        228,
+        15,
+        98
+      ],
+      "blocks": 95,
+      "local_bounds": [
+        [
+          461,
+          46,
+          346
+        ],
+        [
+          465,
+          53,
+          350
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        176,
+        22,
+        154
+      ],
+      "center_world": [
+        -59,
+        -8,
+        -96
+      ],
+      "blocks": 125,
+      "local_bounds": [
+        [
+          173,
+          23,
+          151
+        ],
+        [
+          179,
+          29,
+          157
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        111,
+        28,
+        344
+      ],
+      "center_world": [
+        -124,
+        -2,
+        94
+      ],
+      "blocks": 92,
+      "local_bounds": [
+        [
+          109,
+          29,
+          342
+        ],
+        [
+          113,
+          34,
+          346
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        440,
+        33,
+        411
+      ],
+      "center_world": [
+        205,
+        3,
+        161
+      ],
+      "blocks": 92,
+      "local_bounds": [
+        [
+          438,
+          34,
+          409
+        ],
+        [
+          442,
+          40,
+          413
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        308,
+        23,
+        188
+      ],
+      "center_world": [
+        73,
+        -7,
+        -62
+      ],
+      "blocks": 95,
+      "local_bounds": [
+        [
+          306,
+          24,
+          186
+        ],
+        [
+          310,
+          31,
+          190
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        215,
+        30,
+        163
+      ],
+      "center_world": [
+        -20,
+        0,
+        -87
+      ],
+      "blocks": 95,
+      "local_bounds": [
+        [
+          213,
+          31,
+          161
+        ],
+        [
+          217,
+          38,
+          165
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        178,
+        36,
+        472
+      ],
+      "center_world": [
+        -57,
+        6,
+        222
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          176,
+          37,
+          470
+        ],
+        [
+          180,
+          43,
+          474
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        61,
+        21,
+        274
+      ],
+      "center_world": [
+        -174,
+        -9,
+        24
+      ],
+      "blocks": 92,
+      "local_bounds": [
+        [
+          59,
+          22,
+          272
+        ],
+        [
+          63,
+          27,
+          276
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        301,
+        26,
+        222
+      ],
+      "center_world": [
+        66,
+        -4,
+        -28
+      ],
+      "blocks": 91,
+      "local_bounds": [
+        [
+          299,
+          27,
+          220
+        ],
+        [
+          303,
+          33,
+          224
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        337,
+        31,
+        420
+      ],
+      "center_world": [
+        102,
+        1,
+        170
+      ],
+      "blocks": 95,
+      "local_bounds": [
+        [
+          335,
+          32,
+          418
+        ],
+        [
+          339,
+          39,
+          422
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        260,
+        22,
+        415
+      ],
+      "center_world": [
+        25,
+        -8,
+        165
+      ],
+      "blocks": 95,
+      "local_bounds": [
+        [
+          258,
+          23,
+          413
+        ],
+        [
+          262,
+          30,
+          417
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        294,
+        26,
+        258
+      ],
+      "center_world": [
+        59,
+        -4,
+        8
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          292,
+          27,
+          256
+        ],
+        [
+          296,
+          34,
+          260
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        111,
+        25,
+        330
+      ],
+      "center_world": [
+        -124,
+        -5,
+        80
+      ],
+      "blocks": 126,
+      "local_bounds": [
+        [
+          108,
+          26,
+          327
+        ],
+        [
+          114,
+          32,
+          333
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        289,
+        28,
+        527
+      ],
+      "center_world": [
+        54,
+        -2,
+        277
+      ],
+      "blocks": 125,
+      "local_bounds": [
+        [
+          286,
+          29,
+          524
+        ],
+        [
+          292,
+          35,
+          530
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        387,
+        29,
+        475
+      ],
+      "center_world": [
+        152,
+        -1,
+        225
+      ],
+      "blocks": 124,
+      "local_bounds": [
+        [
+          384,
+          30,
+          472
+        ],
+        [
+          390,
+          36,
+          478
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        205,
+        28,
+        443
+      ],
+      "center_world": [
+        -30,
+        -2,
+        193
+      ],
+      "blocks": 126,
+      "local_bounds": [
+        [
+          202,
+          29,
+          440
+        ],
+        [
+          208,
+          36,
+          446
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        355,
+        25,
+        182
+      ],
+      "center_world": [
+        120,
+        -5,
+        -68
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          353,
+          26,
+          180
+        ],
+        [
+          357,
+          31,
+          184
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        271,
+        26,
+        178
+      ],
+      "center_world": [
+        36,
+        -4,
+        -72
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          269,
+          27,
+          176
+        ],
+        [
+          273,
+          33,
+          180
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        63,
+        21,
+        462
+      ],
+      "center_world": [
+        -172,
+        -9,
+        212
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          61,
+          22,
+          460
+        ],
+        [
+          65,
+          28,
+          464
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        189,
+        21,
+        131
+      ],
+      "center_world": [
+        -46,
+        -9,
+        -119
+      ],
+      "blocks": 127,
+      "local_bounds": [
+        [
+          186,
+          22,
+          128
+        ],
+        [
+          192,
+          29,
+          134
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        477,
+        45,
+        298
+      ],
+      "center_world": [
+        242,
+        15,
+        48
+      ],
+      "blocks": 125,
+      "local_bounds": [
+        [
+          474,
+          46,
+          295
+        ],
+        [
+          480,
+          52,
+          301
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        117,
+        29,
+        101
+      ],
+      "center_world": [
+        -118,
+        -1,
+        -149
+      ],
+      "blocks": 123,
+      "local_bounds": [
+        [
+          114,
+          30,
+          98
+        ],
+        [
+          120,
+          36,
+          104
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        159,
+        21,
+        395
+      ],
+      "center_world": [
+        -76,
+        -9,
+        145
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          157,
+          22,
+          393
+        ],
+        [
+          161,
+          27,
+          397
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        469,
+        45,
+        316
+      ],
+      "center_world": [
+        234,
+        15,
+        66
+      ],
+      "blocks": 96,
+      "local_bounds": [
+        [
+          467,
+          46,
+          314
+        ],
+        [
+          471,
+          54,
+          318
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        252,
+        24,
+        387
+      ],
+      "center_world": [
+        17,
+        -6,
+        137
+      ],
+      "blocks": 92,
+      "local_bounds": [
+        [
+          250,
+          25,
+          385
+        ],
+        [
+          254,
+          32,
+          389
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        471,
+        45,
+        389
+      ],
+      "center_world": [
+        236,
+        15,
+        139
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          469,
+          46,
+          387
+        ],
+        [
+          473,
+          54,
+          391
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        287,
+        23,
+        171
+      ],
+      "center_world": [
+        52,
+        -7,
+        -79
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          285,
+          24,
+          169
+        ],
+        [
+          289,
+          31,
+          173
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        18,
+        25,
+        376
+      ],
+      "center_world": [
+        -217,
+        -5,
+        126
+      ],
+      "blocks": 125,
+      "local_bounds": [
+        [
+          15,
+          26,
+          373
+        ],
+        [
+          21,
+          32,
+          379
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        386,
+        24,
+        384
+      ],
+      "center_world": [
+        151,
+        -6,
+        134
+      ],
+      "blocks": 96,
+      "local_bounds": [
+        [
+          384,
+          25,
+          382
+        ],
+        [
+          388,
+          33,
+          386
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        340,
+        24,
+        190
+      ],
+      "center_world": [
+        105,
+        -6,
+        -60
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          338,
+          25,
+          188
+        ],
+        [
+          342,
+          32,
+          192
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        138,
+        21,
+        147
+      ],
+      "center_world": [
+        -97,
+        -9,
+        -103
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          136,
+          22,
+          145
+        ],
+        [
+          140,
+          29,
+          149
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        296,
+        24,
+        396
+      ],
+      "center_world": [
+        61,
+        -6,
+        146
+      ],
+      "blocks": 92,
+      "local_bounds": [
+        [
+          294,
+          25,
+          394
+        ],
+        [
+          298,
+          31,
+          398
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        105,
+        22,
+        372
+      ],
+      "center_world": [
+        -130,
+        -8,
+        122
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          103,
+          23,
+          370
+        ],
+        [
+          107,
+          30,
+          374
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        234,
+        43,
+        512
+      ],
+      "center_world": [
+        -1,
+        13,
+        262
+      ],
+      "blocks": 126,
+      "local_bounds": [
+        [
+          231,
+          44,
+          509
+        ],
+        [
+          237,
+          50,
+          515
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        324,
+        21,
+        170
+      ],
+      "center_world": [
+        89,
+        -9,
+        -80
+      ],
+      "blocks": 95,
+      "local_bounds": [
+        [
+          322,
+          22,
+          168
+        ],
+        [
+          326,
+          30,
+          172
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        292,
+        28,
+        211
+      ],
+      "center_world": [
+        57,
+        -2,
+        -39
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          290,
+          29,
+          209
+        ],
+        [
+          294,
+          35,
+          213
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        302,
+        26,
+        236
+      ],
+      "center_world": [
+        67,
+        -4,
+        -14
+      ],
+      "blocks": 95,
+      "local_bounds": [
+        [
+          300,
+          27,
+          234
+        ],
+        [
+          304,
+          35,
+          238
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        282,
+        21,
+        145
+      ],
+      "center_world": [
+        47,
+        -9,
+        -105
+      ],
+      "blocks": 122,
+      "local_bounds": [
+        [
+          279,
+          22,
+          142
+        ],
+        [
+          285,
+          27,
+          148
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        354,
+        44,
+        487
+      ],
+      "center_world": [
+        119,
+        14,
+        237
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          352,
+          45,
+          485
+        ],
+        [
+          356,
+          52,
+          489
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        347,
+        23,
+        528
+      ],
+      "center_world": [
+        112,
+        -7,
+        278
+      ],
+      "blocks": 95,
+      "local_bounds": [
+        [
+          345,
+          24,
+          526
+        ],
+        [
+          349,
+          32,
+          530
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        313,
+        28,
+        436
+      ],
+      "center_world": [
+        78,
+        -2,
+        186
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          311,
+          29,
+          434
+        ],
+        [
+          315,
+          35,
+          438
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        334,
+        24,
+        522
+      ],
+      "center_world": [
+        99,
+        -6,
+        272
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          332,
+          25,
+          520
+        ],
+        [
+          336,
+          31,
+          524
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        416,
+        26,
+        425
+      ],
+      "center_world": [
+        181,
+        -4,
+        175
+      ],
+      "blocks": 125,
+      "local_bounds": [
+        [
+          413,
+          27,
+          422
+        ],
+        [
+          419,
+          32,
+          428
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        28,
+        25,
+        314
+      ],
+      "center_world": [
+        -207,
+        -5,
+        64
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          26,
+          26,
+          312
+        ],
+        [
+          30,
+          32,
+          316
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        156,
+        40,
+        439
+      ],
+      "center_world": [
+        -79,
+        10,
+        189
+      ],
+      "blocks": 124,
+      "local_bounds": [
+        [
+          153,
+          41,
+          436
+        ],
+        [
+          159,
+          46,
+          442
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        222,
+        20,
+        378
+      ],
+      "center_world": [
+        -13,
+        -10,
+        128
+      ],
+      "blocks": 95,
+      "local_bounds": [
+        [
+          220,
+          21,
+          376
+        ],
+        [
+          224,
+          28,
+          380
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        365,
+        25,
+        244
+      ],
+      "center_world": [
+        130,
+        -5,
+        -6
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          363,
+          26,
+          242
+        ],
+        [
+          367,
+          32,
+          246
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        18,
+        16,
+        324
+      ],
+      "center_world": [
+        -217,
+        -14,
+        74
+      ],
+      "blocks": 91,
+      "local_bounds": [
+        [
+          16,
+          17,
+          322
+        ],
+        [
+          20,
+          23,
+          326
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        270,
+        24,
+        167
+      ],
+      "center_world": [
+        35,
+        -6,
+        -83
+      ],
+      "blocks": 92,
+      "local_bounds": [
+        [
+          268,
+          25,
+          165
+        ],
+        [
+          272,
+          32,
+          169
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        350,
+        22,
+        164
+      ],
+      "center_world": [
+        115,
+        -8,
+        -86
+      ],
+      "blocks": 96,
+      "local_bounds": [
+        [
+          348,
+          23,
+          162
+        ],
+        [
+          352,
+          31,
+          166
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        308,
+        25,
+        203
+      ],
+      "center_world": [
+        73,
+        -5,
+        -47
+      ],
+      "blocks": 95,
+      "local_bounds": [
+        [
+          306,
+          26,
+          201
+        ],
+        [
+          310,
+          34,
+          205
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        398,
+        25,
+        268
+      ],
+      "center_world": [
+        163,
+        -5,
+        18
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          396,
+          26,
+          266
+        ],
+        [
+          400,
+          33,
+          270
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        329,
+        24,
+        195
+      ],
+      "center_world": [
+        94,
+        -6,
+        -55
+      ],
+      "blocks": 95,
+      "local_bounds": [
+        [
+          327,
+          25,
+          193
+        ],
+        [
+          331,
+          32,
+          197
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        243,
+        23,
+        410
+      ],
+      "center_world": [
+        8,
+        -7,
+        160
+      ],
+      "blocks": 125,
+      "local_bounds": [
+        [
+          240,
+          24,
+          407
+        ],
+        [
+          246,
+          29,
+          413
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        453,
+        52,
+        309
+      ],
+      "center_world": [
+        218,
+        22,
+        59
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          451,
+          53,
+          307
+        ],
+        [
+          455,
+          61,
+          311
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        12,
+        26,
+        419
+      ],
+      "center_world": [
+        -223,
+        -4,
+        169
+      ],
+      "blocks": 90,
+      "local_bounds": [
+        [
+          10,
+          27,
+          417
+        ],
+        [
+          14,
+          32,
+          421
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        335,
+        24,
+        377
+      ],
+      "center_world": [
+        100,
+        -6,
+        127
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          333,
+          25,
+          375
+        ],
+        [
+          337,
+          30,
+          379
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        181,
+        41,
+        447
+      ],
+      "center_world": [
+        -54,
+        11,
+        197
+      ],
+      "blocks": 125,
+      "local_bounds": [
+        [
+          178,
+          42,
+          444
+        ],
+        [
+          184,
+          48,
+          450
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        168,
+        40,
+        442
+      ],
+      "center_world": [
+        -67,
+        10,
+        192
+      ],
+      "blocks": 92,
+      "local_bounds": [
+        [
+          166,
+          41,
+          440
+        ],
+        [
+          170,
+          46,
+          444
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        275,
+        38,
+        222
+      ],
+      "center_world": [
+        40,
+        8,
+        -28
+      ],
+      "blocks": 92,
+      "local_bounds": [
+        [
+          273,
+          39,
+          220
+        ],
+        [
+          277,
+          45,
+          224
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        418,
+        39,
+        341
+      ],
+      "center_world": [
+        183,
+        9,
+        91
+      ],
+      "blocks": 95,
+      "local_bounds": [
+        [
+          416,
+          40,
+          339
+        ],
+        [
+          420,
+          47,
+          343
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        19,
+        22,
+        251
+      ],
+      "center_world": [
+        -216,
+        -8,
+        1
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          17,
+          23,
+          249
+        ],
+        [
+          21,
+          30,
+          253
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        30,
+        28,
+        279
+      ],
+      "center_world": [
+        -205,
+        -2,
+        29
+      ],
+      "blocks": 125,
+      "local_bounds": [
+        [
+          27,
+          29,
+          276
+        ],
+        [
+          33,
+          36,
+          282
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        210,
+        24,
+        349
+      ],
+      "center_world": [
+        -25,
+        -6,
+        99
+      ],
+      "blocks": 92,
+      "local_bounds": [
+        [
+          208,
+          25,
+          347
+        ],
+        [
+          212,
+          31,
+          351
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        202,
+        24,
+        309
+      ],
+      "center_world": [
+        -33,
+        -6,
+        59
+      ],
+      "blocks": 122,
+      "local_bounds": [
+        [
+          199,
+          25,
+          306
+        ],
+        [
+          205,
+          30,
+          312
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        219,
+        24,
+        149
+      ],
+      "center_world": [
+        -16,
+        -6,
+        -101
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          217,
+          25,
+          147
+        ],
+        [
+          221,
+          31,
+          151
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        373,
+        30,
+        414
+      ],
+      "center_world": [
+        138,
+        0,
+        164
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          371,
+          31,
+          412
+        ],
+        [
+          375,
+          38,
+          416
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        304,
+        32,
+        477
+      ],
+      "center_world": [
+        69,
+        2,
+        227
+      ],
+      "blocks": 95,
+      "local_bounds": [
+        [
+          302,
+          33,
+          475
+        ],
+        [
+          306,
+          40,
+          479
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        295,
+        25,
+        326
+      ],
+      "center_world": [
+        60,
+        -5,
+        76
+      ],
+      "blocks": 127,
+      "local_bounds": [
+        [
+          292,
+          26,
+          323
+        ],
+        [
+          298,
+          33,
+          329
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        340,
+        42,
+        506
+      ],
+      "center_world": [
+        105,
+        12,
+        256
+      ],
+      "blocks": 123,
+      "local_bounds": [
+        [
+          337,
+          43,
+          503
+        ],
+        [
+          343,
+          48,
+          509
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        169,
+        22,
+        233
+      ],
+      "center_world": [
+        -66,
+        -8,
+        -17
+      ],
+      "blocks": 125,
+      "local_bounds": [
+        [
+          166,
+          23,
+          230
+        ],
+        [
+          172,
+          30,
+          236
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        358,
+        42,
+        429
+      ],
+      "center_world": [
+        123,
+        12,
+        179
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          356,
+          43,
+          427
+        ],
+        [
+          360,
+          49,
+          431
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        209,
+        24,
+        324
+      ],
+      "center_world": [
+        -26,
+        -6,
+        74
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          207,
+          25,
+          322
+        ],
+        [
+          211,
+          30,
+          326
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        170,
+        27,
+        417
+      ],
+      "center_world": [
+        -65,
+        -3,
+        167
+      ],
+      "blocks": 91,
+      "local_bounds": [
+        [
+          168,
+          28,
+          415
+        ],
+        [
+          172,
+          33,
+          419
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        437,
+        52,
+        308
+      ],
+      "center_world": [
+        202,
+        22,
+        58
+      ],
+      "blocks": 92,
+      "local_bounds": [
+        [
+          435,
+          53,
+          306
+        ],
+        [
+          439,
+          59,
+          310
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        443,
+        47,
+        337
+      ],
+      "center_world": [
+        208,
+        17,
+        87
+      ],
+      "blocks": 126,
+      "local_bounds": [
+        [
+          440,
+          48,
+          334
+        ],
+        [
+          446,
+          54,
+          340
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        49,
+        25,
+        279
+      ],
+      "center_world": [
+        -186,
+        -5,
+        29
+      ],
+      "blocks": 95,
+      "local_bounds": [
+        [
+          47,
+          26,
+          277
+        ],
+        [
+          51,
+          33,
+          281
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        275,
+        41,
+        514
+      ],
+      "center_world": [
+        40,
+        11,
+        264
+      ],
+      "blocks": 124,
+      "local_bounds": [
+        [
+          272,
+          42,
+          511
+        ],
+        [
+          278,
+          48,
+          517
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        134,
+        32,
+        419
+      ],
+      "center_world": [
+        -101,
+        2,
+        169
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          132,
+          33,
+          417
+        ],
+        [
+          136,
+          41,
+          421
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        269,
+        38,
+        204
+      ],
+      "center_world": [
+        34,
+        8,
+        -46
+      ],
+      "blocks": 92,
+      "local_bounds": [
+        [
+          267,
+          39,
+          202
+        ],
+        [
+          271,
+          44,
+          206
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        341,
+        22,
+        174
+      ],
+      "center_world": [
+        106,
+        -8,
+        -76
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          339,
+          23,
+          172
+        ],
+        [
+          343,
+          30,
+          176
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        399,
+        22,
+        436
+      ],
+      "center_world": [
+        164,
+        -8,
+        186
+      ],
+      "blocks": 95,
+      "local_bounds": [
+        [
+          397,
+          23,
+          434
+        ],
+        [
+          401,
+          30,
+          438
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        400,
+        27,
+        400
+      ],
+      "center_world": [
+        165,
+        -3,
+        150
+      ],
+      "blocks": 126,
+      "local_bounds": [
+        [
+          397,
+          28,
+          397
+        ],
+        [
+          403,
+          35,
+          403
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        451,
+        53,
+        293
+      ],
+      "center_world": [
+        216,
+        23,
+        43
+      ],
+      "blocks": 97,
+      "local_bounds": [
+        [
+          449,
+          54,
+          291
+        ],
+        [
+          453,
+          62,
+          295
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        220,
+        26,
+        324
+      ],
+      "center_world": [
+        -15,
+        -4,
+        74
+      ],
+      "blocks": 90,
+      "local_bounds": [
+        [
+          218,
+          27,
+          322
+        ],
+        [
+          222,
+          32,
+          326
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        104,
+        22,
+        108
+      ],
+      "center_world": [
+        -131,
+        -8,
+        -142
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          102,
+          23,
+          106
+        ],
+        [
+          106,
+          28,
+          110
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        289,
+        24,
+        451
+      ],
+      "center_world": [
+        54,
+        -6,
+        201
+      ],
+      "blocks": 91,
+      "local_bounds": [
+        [
+          287,
+          25,
+          449
+        ],
+        [
+          291,
+          30,
+          453
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        118,
+        32,
+        444
+      ],
+      "center_world": [
+        -117,
+        2,
+        194
+      ],
+      "blocks": 93,
+      "local_bounds": [
+        [
+          116,
+          33,
+          442
+        ],
+        [
+          120,
+          40,
+          446
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        352,
+        26,
+        214
+      ],
+      "center_world": [
+        117,
+        -4,
+        -36
+      ],
+      "blocks": 96,
+      "local_bounds": [
+        [
+          350,
+          27,
+          212
+        ],
+        [
+          354,
+          34,
+          216
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        79,
+        28,
+        331
+      ],
+      "center_world": [
+        -156,
+        -2,
+        81
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          77,
+          29,
+          329
+        ],
+        [
+          81,
+          36,
+          333
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        201,
+        26,
+        404
+      ],
+      "center_world": [
+        -34,
+        -4,
+        154
+      ],
+      "blocks": 94,
+      "local_bounds": [
+        [
+          199,
+          27,
+          402
+        ],
+        [
+          203,
+          33,
+          406
+        ]
+      ],
+      "species": "oak"
+    },
+    {
+      "kind": "tree",
+      "center_local": [
+        176,
+        27,
+        177
+      ],
+      "center_world": [
+        -59,
+        -3,
+        -73
+      ],
+      "blocks": 95,
+      "local_bounds": [
+        [
+          174,
+          28,
+          175
+        ],
+        [
+          178,
+          35,
+          179
+        ]
+      ],
+      "species": "birch"
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        37,
+        25,
+        298
+      ],
+      "center_world": [
+        -198,
+        -5,
+        48
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          36,
+          26,
+          297
+        ],
+        [
+          37,
+          26,
+          299
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        209,
+        32,
+        228
+      ],
+      "center_world": [
+        -26,
+        2,
+        -22
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          209,
+          33,
+          228
+        ],
+        [
+          209,
+          33,
+          228
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        220,
+        25,
+        328
+      ],
+      "center_world": [
+        -15,
+        -5,
+        78
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          219,
+          26,
+          328
+        ],
+        [
+          221,
+          26,
+          329
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        362,
+        24,
+        270
+      ],
+      "center_world": [
+        127,
+        -6,
+        20
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          361,
+          25,
+          270
+        ],
+        [
+          363,
+          25,
+          270
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        284,
+        34,
+        78
+      ],
+      "center_world": [
+        49,
+        4,
+        -172
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          284,
+          34,
+          77
+        ],
+        [
+          284,
+          34,
+          77
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        15,
+        20,
+        290
+      ],
+      "center_world": [
+        -220,
+        -10,
+        40
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          16,
+          22,
+          290
+        ],
+        [
+          16,
+          22,
+          290
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        356,
+        27,
+        216
+      ],
+      "center_world": [
+        121,
+        -3,
+        -34
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          356,
+          28,
+          216
+        ],
+        [
+          356,
+          28,
+          216
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        198,
+        38,
+        435
+      ],
+      "center_world": [
+        -37,
+        8,
+        185
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          197,
+          39,
+          435
+        ],
+        [
+          198,
+          39,
+          435
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        396,
+        25,
+        270
+      ],
+      "center_world": [
+        161,
+        -5,
+        20
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          395,
+          26,
+          269
+        ],
+        [
+          396,
+          26,
+          270
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        166,
+        27,
+        419
+      ],
+      "center_world": [
+        -69,
+        -3,
+        169
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          165,
+          28,
+          419
+        ],
+        [
+          165,
+          28,
+          419
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        295,
+        32,
+        78
+      ],
+      "center_world": [
+        60,
+        2,
+        -172
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          295,
+          33,
+          78
+        ],
+        [
+          295,
+          33,
+          78
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        472,
+        45,
+        315
+      ],
+      "center_world": [
+        237,
+        15,
+        65
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          471,
+          46,
+          315
+        ],
+        [
+          471,
+          46,
+          315
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        413,
+        33,
+        404
+      ],
+      "center_world": [
+        178,
+        3,
+        154
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          414,
+          35,
+          404
+        ],
+        [
+          414,
+          35,
+          404
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        450,
+        44,
+        374
+      ],
+      "center_world": [
+        215,
+        14,
+        124
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          451,
+          45,
+          374
+        ],
+        [
+          451,
+          45,
+          374
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        219,
+        23,
+        140
+      ],
+      "center_world": [
+        -16,
+        -7,
+        -110
+      ],
+      "blocks": 6,
+      "local_bounds": [
+        [
+          218,
+          24,
+          139
+        ],
+        [
+          220,
+          25,
+          141
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        268,
+        24,
+        393
+      ],
+      "center_world": [
+        33,
+        -6,
+        143
+      ],
+      "blocks": 6,
+      "local_bounds": [
+        [
+          267,
+          25,
+          392
+        ],
+        [
+          269,
+          26,
+          394
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        433,
+        32,
+        408
+      ],
+      "center_world": [
+        198,
+        2,
+        158
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          433,
+          33,
+          408
+        ],
+        [
+          433,
+          33,
+          409
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        184,
+        41,
+        448
+      ],
+      "center_world": [
+        -51,
+        11,
+        198
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          184,
+          42,
+          447
+        ],
+        [
+          184,
+          42,
+          447
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        409,
+        25,
+        274
+      ],
+      "center_world": [
+        174,
+        -5,
+        24
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          410,
+          26,
+          274
+        ],
+        [
+          410,
+          26,
+          274
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        418,
+        19,
+        441
+      ],
+      "center_world": [
+        183,
+        -11,
+        191
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          419,
+          19,
+          441
+        ],
+        [
+          419,
+          19,
+          441
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        50,
+        21,
+        303
+      ],
+      "center_world": [
+        -185,
+        -9,
+        53
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          50,
+          22,
+          302
+        ],
+        [
+          50,
+          22,
+          302
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        400,
+        40,
+        332
+      ],
+      "center_world": [
+        165,
+        10,
+        82
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          399,
+          40,
+          331
+        ],
+        [
+          401,
+          42,
+          332
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        111,
+        28,
+        346
+      ],
+      "center_world": [
+        -124,
+        -2,
+        96
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          110,
+          29,
+          346
+        ],
+        [
+          112,
+          29,
+          346
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        370,
+        31,
+        179
+      ],
+      "center_world": [
+        135,
+        1,
+        -71
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          370,
+          32,
+          179
+        ],
+        [
+          371,
+          32,
+          179
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        69,
+        20,
+        270
+      ],
+      "center_world": [
+        -166,
+        -10,
+        20
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          69,
+          22,
+          269
+        ],
+        [
+          69,
+          22,
+          269
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        390,
+        27,
+        449
+      ],
+      "center_world": [
+        155,
+        -3,
+        199
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          390,
+          27,
+          449
+        ],
+        [
+          391,
+          28,
+          449
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        121,
+        26,
+        425
+      ],
+      "center_world": [
+        -114,
+        -4,
+        175
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          120,
+          27,
+          424
+        ],
+        [
+          121,
+          27,
+          426
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        117,
+        26,
+        162
+      ],
+      "center_world": [
+        -118,
+        -4,
+        -88
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          116,
+          27,
+          162
+        ],
+        [
+          117,
+          28,
+          163
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        314,
+        23,
+        400
+      ],
+      "center_world": [
+        79,
+        -7,
+        150
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          314,
+          25,
+          399
+        ],
+        [
+          314,
+          25,
+          399
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        14,
+        27,
+        415
+      ],
+      "center_world": [
+        -221,
+        -3,
+        165
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          13,
+          28,
+          415
+        ],
+        [
+          13,
+          28,
+          415
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        226,
+        22,
+        399
+      ],
+      "center_world": [
+        -9,
+        -8,
+        149
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          225,
+          23,
+          399
+        ],
+        [
+          227,
+          24,
+          399
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        35,
+        24,
+        228
+      ],
+      "center_world": [
+        -200,
+        -6,
+        -22
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          35,
+          25,
+          228
+        ],
+        [
+          35,
+          25,
+          228
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        97,
+        25,
+        324
+      ],
+      "center_world": [
+        -138,
+        -5,
+        74
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          97,
+          26,
+          323
+        ],
+        [
+          97,
+          26,
+          323
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        329,
+        23,
+        392
+      ],
+      "center_world": [
+        94,
+        -7,
+        142
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          329,
+          24,
+          392
+        ],
+        [
+          330,
+          24,
+          393
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        301,
+        33,
+        110
+      ],
+      "center_world": [
+        66,
+        3,
+        -140
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          300,
+          34,
+          110
+        ],
+        [
+          302,
+          35,
+          111
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        337,
+        25,
+        288
+      ],
+      "center_world": [
+        102,
+        -5,
+        38
+      ],
+      "blocks": 6,
+      "local_bounds": [
+        [
+          336,
+          26,
+          287
+        ],
+        [
+          338,
+          27,
+          289
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        412,
+        26,
+        419
+      ],
+      "center_world": [
+        177,
+        -4,
+        169
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          411,
+          27,
+          419
+        ],
+        [
+          413,
+          28,
+          419
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        367,
+        24,
+        244
+      ],
+      "center_world": [
+        132,
+        -6,
+        -6
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          366,
+          25,
+          244
+        ],
+        [
+          367,
+          26,
+          245
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        273,
+        22,
+        147
+      ],
+      "center_world": [
+        38,
+        -8,
+        -103
+      ],
+      "blocks": 6,
+      "local_bounds": [
+        [
+          272,
+          23,
+          146
+        ],
+        [
+          274,
+          24,
+          148
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        477,
+        45,
+        314
+      ],
+      "center_world": [
+        242,
+        15,
+        64
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          477,
+          46,
+          313
+        ],
+        [
+          478,
+          46,
+          314
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        389,
+        28,
+        307
+      ],
+      "center_world": [
+        154,
+        -2,
+        57
+      ],
+      "blocks": 6,
+      "local_bounds": [
+        [
+          388,
+          29,
+          306
+        ],
+        [
+          390,
+          30,
+          308
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        405,
+        24,
+        387
+      ],
+      "center_world": [
+        170,
+        -6,
+        137
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          405,
+          24,
+          386
+        ],
+        [
+          405,
+          26,
+          388
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        367,
+        42,
+        468
+      ],
+      "center_world": [
+        132,
+        12,
+        218
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          366,
+          42,
+          468
+        ],
+        [
+          368,
+          43,
+          469
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        235,
+        23,
+        145
+      ],
+      "center_world": [
+        0,
+        -7,
+        -105
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          235,
+          24,
+          145
+        ],
+        [
+          235,
+          24,
+          145
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        348,
+        25,
+        238
+      ],
+      "center_world": [
+        113,
+        -5,
+        -12
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          348,
+          26,
+          237
+        ],
+        [
+          348,
+          26,
+          238
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        314,
+        38,
+        130
+      ],
+      "center_world": [
+        79,
+        8,
+        -120
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          313,
+          38,
+          129
+        ],
+        [
+          314,
+          40,
+          130
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        423,
+        42,
+        216
+      ],
+      "center_world": [
+        188,
+        12,
+        -34
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          422,
+          42,
+          216
+        ],
+        [
+          424,
+          44,
+          217
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        352,
+        28,
+        402
+      ],
+      "center_world": [
+        117,
+        -2,
+        152
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          351,
+          29,
+          401
+        ],
+        [
+          352,
+          30,
+          403
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        39,
+        16,
+        214
+      ],
+      "center_world": [
+        -196,
+        -14,
+        -36
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          39,
+          18,
+          215
+        ],
+        [
+          39,
+          18,
+          215
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        461,
+        45,
+        330
+      ],
+      "center_world": [
+        226,
+        15,
+        80
+      ],
+      "blocks": 6,
+      "local_bounds": [
+        [
+          460,
+          46,
+          329
+        ],
+        [
+          462,
+          47,
+          331
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        187,
+        22,
+        399
+      ],
+      "center_world": [
+        -48,
+        -8,
+        149
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          186,
+          23,
+          399
+        ],
+        [
+          186,
+          23,
+          399
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        264,
+        22,
+        148
+      ],
+      "center_world": [
+        29,
+        -8,
+        -102
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          263,
+          23,
+          147
+        ],
+        [
+          265,
+          23,
+          148
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        305,
+        38,
+        492
+      ],
+      "center_world": [
+        70,
+        8,
+        242
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          304,
+          38,
+          491
+        ],
+        [
+          305,
+          39,
+          492
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        305,
+        25,
+        209
+      ],
+      "center_world": [
+        70,
+        -5,
+        -41
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          305,
+          27,
+          210
+        ],
+        [
+          305,
+          27,
+          210
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        335,
+        23,
+        523
+      ],
+      "center_world": [
+        100,
+        -7,
+        273
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          334,
+          24,
+          523
+        ],
+        [
+          336,
+          24,
+          524
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        136,
+        36,
+        433
+      ],
+      "center_world": [
+        -99,
+        6,
+        183
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          136,
+          37,
+          432
+        ],
+        [
+          137,
+          38,
+          433
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        191,
+        38,
+        454
+      ],
+      "center_world": [
+        -44,
+        8,
+        204
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          191,
+          39,
+          453
+        ],
+        [
+          192,
+          39,
+          454
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        287,
+        28,
+        96
+      ],
+      "center_world": [
+        52,
+        -2,
+        -154
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          287,
+          29,
+          96
+        ],
+        [
+          288,
+          29,
+          96
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        401,
+        25,
+        404
+      ],
+      "center_world": [
+        166,
+        -5,
+        154
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          401,
+          26,
+          403
+        ],
+        [
+          402,
+          27,
+          404
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        454,
+        48,
+        335
+      ],
+      "center_world": [
+        219,
+        18,
+        85
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          453,
+          49,
+          335
+        ],
+        [
+          454,
+          49,
+          336
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        101,
+        29,
+        128
+      ],
+      "center_world": [
+        -134,
+        -1,
+        -122
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          101,
+          30,
+          128
+        ],
+        [
+          102,
+          30,
+          129
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        307,
+        25,
+        262
+      ],
+      "center_world": [
+        72,
+        -5,
+        12
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          307,
+          26,
+          261
+        ],
+        [
+          308,
+          26,
+          263
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        330,
+        24,
+        276
+      ],
+      "center_world": [
+        95,
+        -6,
+        26
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          330,
+          25,
+          275
+        ],
+        [
+          330,
+          25,
+          277
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        319,
+        25,
+        222
+      ],
+      "center_world": [
+        84,
+        -5,
+        -28
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          319,
+          26,
+          221
+        ],
+        [
+          319,
+          26,
+          223
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        14,
+        15,
+        230
+      ],
+      "center_world": [
+        -221,
+        -15,
+        -20
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          13,
+          15,
+          230
+        ],
+        [
+          15,
+          16,
+          230
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        395,
+        21,
+        412
+      ],
+      "center_world": [
+        160,
+        -9,
+        162
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          394,
+          22,
+          412
+        ],
+        [
+          394,
+          22,
+          412
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        178,
+        22,
+        148
+      ],
+      "center_world": [
+        -57,
+        -8,
+        -102
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          177,
+          23,
+          148
+        ],
+        [
+          178,
+          23,
+          148
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        253,
+        27,
+        525
+      ],
+      "center_world": [
+        18,
+        -3,
+        275
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          253,
+          27,
+          525
+        ],
+        [
+          253,
+          28,
+          526
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        364,
+        46,
+        449
+      ],
+      "center_world": [
+        129,
+        16,
+        199
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          364,
+          47,
+          449
+        ],
+        [
+          364,
+          47,
+          449
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        474,
+        45,
+        404
+      ],
+      "center_world": [
+        239,
+        15,
+        154
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          473,
+          46,
+          404
+        ],
+        [
+          474,
+          46,
+          404
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        132,
+        30,
+        413
+      ],
+      "center_world": [
+        -103,
+        0,
+        163
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          132,
+          31,
+          413
+        ],
+        [
+          132,
+          31,
+          413
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        466,
+        45,
+        359
+      ],
+      "center_world": [
+        231,
+        15,
+        109
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          465,
+          46,
+          358
+        ],
+        [
+          466,
+          46,
+          359
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        204,
+        23,
+        300
+      ],
+      "center_world": [
+        -31,
+        -7,
+        50
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          203,
+          24,
+          300
+        ],
+        [
+          204,
+          24,
+          300
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        397,
+        24,
+        444
+      ],
+      "center_world": [
+        162,
+        -6,
+        194
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          397,
+          25,
+          444
+        ],
+        [
+          397,
+          25,
+          444
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        472,
+        45,
+        285
+      ],
+      "center_world": [
+        237,
+        15,
+        35
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          471,
+          46,
+          285
+        ],
+        [
+          473,
+          46,
+          286
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        338,
+        24,
+        269
+      ],
+      "center_world": [
+        103,
+        -6,
+        19
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          339,
+          25,
+          269
+        ],
+        [
+          339,
+          25,
+          269
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        198,
+        23,
+        394
+      ],
+      "center_world": [
+        -37,
+        -7,
+        144
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          198,
+          24,
+          394
+        ],
+        [
+          199,
+          24,
+          395
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        263,
+        24,
+        330
+      ],
+      "center_world": [
+        28,
+        -6,
+        80
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          263,
+          25,
+          331
+        ],
+        [
+          263,
+          25,
+          331
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        158,
+        22,
+        215
+      ],
+      "center_world": [
+        -77,
+        -8,
+        -35
+      ],
+      "blocks": 6,
+      "local_bounds": [
+        [
+          157,
+          23,
+          214
+        ],
+        [
+          159,
+          24,
+          216
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        411,
+        30,
+        206
+      ],
+      "center_world": [
+        176,
+        0,
+        -44
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          411,
+          31,
+          206
+        ],
+        [
+          411,
+          31,
+          206
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        172,
+        35,
+        97
+      ],
+      "center_world": [
+        -63,
+        5,
+        -153
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          172,
+          37,
+          96
+        ],
+        [
+          172,
+          37,
+          96
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        141,
+        26,
+        329
+      ],
+      "center_world": [
+        -94,
+        -4,
+        79
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          141,
+          28,
+          330
+        ],
+        [
+          141,
+          28,
+          330
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        164,
+        22,
+        370
+      ],
+      "center_world": [
+        -71,
+        -8,
+        120
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          164,
+          22,
+          370
+        ],
+        [
+          165,
+          23,
+          371
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        152,
+        42,
+        94
+      ],
+      "center_world": [
+        -83,
+        12,
+        -156
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          152,
+          43,
+          93
+        ],
+        [
+          152,
+          43,
+          95
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        293,
+        40,
+        512
+      ],
+      "center_world": [
+        58,
+        10,
+        262
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          292,
+          41,
+          512
+        ],
+        [
+          292,
+          41,
+          512
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        267,
+        38,
+        212
+      ],
+      "center_world": [
+        32,
+        8,
+        -38
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          268,
+          39,
+          212
+        ],
+        [
+          268,
+          39,
+          212
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        117,
+        27,
+        433
+      ],
+      "center_world": [
+        -118,
+        -3,
+        183
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          116,
+          28,
+          433
+        ],
+        [
+          118,
+          28,
+          433
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        406,
+        29,
+        202
+      ],
+      "center_world": [
+        171,
+        -1,
+        -48
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          407,
+          31,
+          202
+        ],
+        [
+          407,
+          31,
+          202
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        280,
+        45,
+        504
+      ],
+      "center_world": [
+        45,
+        15,
+        254
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          281,
+          47,
+          504
+        ],
+        [
+          281,
+          47,
+          504
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        286,
+        23,
+        174
+      ],
+      "center_world": [
+        51,
+        -7,
+        -76
+      ],
+      "blocks": 6,
+      "local_bounds": [
+        [
+          285,
+          24,
+          173
+        ],
+        [
+          287,
+          25,
+          175
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        305,
+        28,
+        77
+      ],
+      "center_world": [
+        70,
+        -2,
+        -173
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          306,
+          29,
+          77
+        ],
+        [
+          306,
+          29,
+          77
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        281,
+        20,
+        413
+      ],
+      "center_world": [
+        46,
+        -10,
+        163
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          281,
+          21,
+          413
+        ],
+        [
+          282,
+          21,
+          413
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        150,
+        40,
+        111
+      ],
+      "center_world": [
+        -85,
+        10,
+        -139
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          151,
+          40,
+          111
+        ],
+        [
+          151,
+          40,
+          111
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        388,
+        25,
+        224
+      ],
+      "center_world": [
+        153,
+        -5,
+        -26
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          388,
+          26,
+          225
+        ],
+        [
+          388,
+          26,
+          225
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        197,
+        21,
+        297
+      ],
+      "center_world": [
+        -38,
+        -9,
+        47
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          197,
+          22,
+          297
+        ],
+        [
+          197,
+          22,
+          297
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        190,
+        29,
+        171
+      ],
+      "center_world": [
+        -45,
+        -1,
+        -79
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          189,
+          30,
+          171
+        ],
+        [
+          190,
+          30,
+          172
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        392,
+        26,
+        214
+      ],
+      "center_world": [
+        157,
+        -4,
+        -36
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          391,
+          27,
+          214
+        ],
+        [
+          393,
+          27,
+          215
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        163,
+        39,
+        89
+      ],
+      "center_world": [
+        -72,
+        9,
+        -161
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          162,
+          41,
+          89
+        ],
+        [
+          162,
+          41,
+          89
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        70,
+        24,
+        242
+      ],
+      "center_world": [
+        -165,
+        -6,
+        -8
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          69,
+          25,
+          242
+        ],
+        [
+          70,
+          25,
+          243
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        257,
+        38,
+        222
+      ],
+      "center_world": [
+        22,
+        8,
+        -28
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          256,
+          39,
+          222
+        ],
+        [
+          257,
+          39,
+          223
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        48,
+        20,
+        453
+      ],
+      "center_world": [
+        -187,
+        -10,
+        203
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          47,
+          20,
+          453
+        ],
+        [
+          49,
+          21,
+          453
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        217,
+        21,
+        111
+      ],
+      "center_world": [
+        -18,
+        -9,
+        -139
+      ],
+      "blocks": 6,
+      "local_bounds": [
+        [
+          216,
+          22,
+          110
+        ],
+        [
+          218,
+          23,
+          112
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        152,
+        25,
+        361
+      ],
+      "center_world": [
+        -83,
+        -5,
+        111
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          152,
+          26,
+          361
+        ],
+        [
+          153,
+          26,
+          361
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        286,
+        30,
+        207
+      ],
+      "center_world": [
+        51,
+        0,
+        -43
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          286,
+          32,
+          208
+        ],
+        [
+          286,
+          32,
+          208
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        333,
+        22,
+        182
+      ],
+      "center_world": [
+        98,
+        -8,
+        -68
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          333,
+          23,
+          182
+        ],
+        [
+          333,
+          23,
+          182
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        407,
+        24,
+        420
+      ],
+      "center_world": [
+        172,
+        -6,
+        170
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          406,
+          25,
+          420
+        ],
+        [
+          406,
+          25,
+          420
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        416,
+        31,
+        284
+      ],
+      "center_world": [
+        181,
+        1,
+        34
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          416,
+          32,
+          284
+        ],
+        [
+          417,
+          33,
+          285
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        178,
+        24,
+        408
+      ],
+      "center_world": [
+        -57,
+        -6,
+        158
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          178,
+          25,
+          407
+        ],
+        [
+          178,
+          25,
+          409
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        397,
+        20,
+        427
+      ],
+      "center_world": [
+        162,
+        -10,
+        177
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          397,
+          21,
+          426
+        ],
+        [
+          398,
+          21,
+          427
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        272,
+        37,
+        63
+      ],
+      "center_world": [
+        37,
+        7,
+        -187
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          272,
+          37,
+          63
+        ],
+        [
+          273,
+          38,
+          63
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        388,
+        25,
+        429
+      ],
+      "center_world": [
+        153,
+        -5,
+        179
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          387,
+          26,
+          429
+        ],
+        [
+          388,
+          27,
+          430
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        388,
+        29,
+        478
+      ],
+      "center_world": [
+        153,
+        -1,
+        228
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          387,
+          29,
+          478
+        ],
+        [
+          389,
+          31,
+          478
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        441,
+        48,
+        331
+      ],
+      "center_world": [
+        206,
+        18,
+        81
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          441,
+          50,
+          330
+        ],
+        [
+          442,
+          50,
+          331
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        166,
+        22,
+        229
+      ],
+      "center_world": [
+        -69,
+        -8,
+        -21
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          167,
+          23,
+          229
+        ],
+        [
+          167,
+          23,
+          229
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        331,
+        31,
+        134
+      ],
+      "center_world": [
+        96,
+        1,
+        -116
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          330,
+          32,
+          134
+        ],
+        [
+          332,
+          32,
+          134
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        332,
+        25,
+        226
+      ],
+      "center_world": [
+        97,
+        -5,
+        -24
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          331,
+          26,
+          226
+        ],
+        [
+          332,
+          26,
+          226
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        213,
+        24,
+        348
+      ],
+      "center_world": [
+        -22,
+        -6,
+        98
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          212,
+          25,
+          348
+        ],
+        [
+          213,
+          25,
+          348
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        157,
+        42,
+        461
+      ],
+      "center_world": [
+        -78,
+        12,
+        211
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          156,
+          43,
+          460
+        ],
+        [
+          158,
+          43,
+          461
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        96,
+        27,
+        452
+      ],
+      "center_world": [
+        -139,
+        -3,
+        202
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          95,
+          28,
+          452
+        ],
+        [
+          96,
+          28,
+          453
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        51,
+        25,
+        283
+      ],
+      "center_world": [
+        -184,
+        -5,
+        33
+      ],
+      "blocks": 6,
+      "local_bounds": [
+        [
+          50,
+          26,
+          282
+        ],
+        [
+          52,
+          27,
+          284
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        182,
+        21,
+        398
+      ],
+      "center_world": [
+        -53,
+        -9,
+        148
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          181,
+          22,
+          397
+        ],
+        [
+          182,
+          23,
+          399
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        460,
+        45,
+        364
+      ],
+      "center_world": [
+        225,
+        15,
+        114
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          459,
+          46,
+          364
+        ],
+        [
+          459,
+          46,
+          364
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        149,
+        29,
+        417
+      ],
+      "center_world": [
+        -86,
+        -1,
+        167
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          149,
+          30,
+          417
+        ],
+        [
+          149,
+          30,
+          417
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        252,
+        24,
+        384
+      ],
+      "center_world": [
+        17,
+        -6,
+        134
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          252,
+          25,
+          384
+        ],
+        [
+          253,
+          25,
+          385
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        101,
+        28,
+        348
+      ],
+      "center_world": [
+        -134,
+        -2,
+        98
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          101,
+          29,
+          348
+        ],
+        [
+          101,
+          29,
+          348
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        280,
+        24,
+        394
+      ],
+      "center_world": [
+        45,
+        -6,
+        144
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          280,
+          25,
+          394
+        ],
+        [
+          280,
+          25,
+          394
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        64,
+        22,
+        460
+      ],
+      "center_world": [
+        -171,
+        -8,
+        210
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          65,
+          23,
+          460
+        ],
+        [
+          65,
+          23,
+          460
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        113,
+        28,
+        130
+      ],
+      "center_world": [
+        -122,
+        -2,
+        -120
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          113,
+          29,
+          129
+        ],
+        [
+          113,
+          29,
+          130
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        307,
+        26,
+        134
+      ],
+      "center_world": [
+        72,
+        -4,
+        -116
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          306,
+          27,
+          134
+        ],
+        [
+          307,
+          27,
+          134
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        200,
+        22,
+        135
+      ],
+      "center_world": [
+        -35,
+        -8,
+        -115
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          199,
+          23,
+          135
+        ],
+        [
+          200,
+          23,
+          136
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        342,
+        23,
+        527
+      ],
+      "center_world": [
+        107,
+        -7,
+        277
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          341,
+          24,
+          527
+        ],
+        [
+          342,
+          24,
+          527
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        324,
+        23,
+        394
+      ],
+      "center_world": [
+        89,
+        -7,
+        144
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          324,
+          24,
+          393
+        ],
+        [
+          324,
+          25,
+          395
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        402,
+        27,
+        207
+      ],
+      "center_world": [
+        167,
+        -3,
+        -43
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          401,
+          28,
+          207
+        ],
+        [
+          403,
+          28,
+          207
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        167,
+        22,
+        153
+      ],
+      "center_world": [
+        -68,
+        -8,
+        -97
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          167,
+          23,
+          152
+        ],
+        [
+          167,
+          23,
+          152
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        206,
+        27,
+        506
+      ],
+      "center_world": [
+        -29,
+        -3,
+        256
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          206,
+          27,
+          506
+        ],
+        [
+          207,
+          28,
+          507
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        347,
+        25,
+        521
+      ],
+      "center_world": [
+        112,
+        -5,
+        271
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          347,
+          26,
+          520
+        ],
+        [
+          348,
+          27,
+          521
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        333,
+        29,
+        420
+      ],
+      "center_world": [
+        98,
+        -1,
+        170
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          333,
+          29,
+          419
+        ],
+        [
+          334,
+          30,
+          421
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        297,
+        21,
+        156
+      ],
+      "center_world": [
+        62,
+        -9,
+        -94
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          297,
+          22,
+          156
+        ],
+        [
+          297,
+          22,
+          156
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        121,
+        31,
+        441
+      ],
+      "center_world": [
+        -114,
+        1,
+        191
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          121,
+          33,
+          442
+        ],
+        [
+          121,
+          33,
+          442
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        317,
+        26,
+        324
+      ],
+      "center_world": [
+        82,
+        -4,
+        74
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          316,
+          27,
+          324
+        ],
+        [
+          316,
+          27,
+          324
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        472,
+        45,
+        304
+      ],
+      "center_world": [
+        237,
+        15,
+        54
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          471,
+          46,
+          304
+        ],
+        [
+          472,
+          46,
+          305
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        268,
+        24,
+        388
+      ],
+      "center_world": [
+        33,
+        -6,
+        138
+      ],
+      "blocks": 6,
+      "local_bounds": [
+        [
+          267,
+          25,
+          387
+        ],
+        [
+          269,
+          26,
+          389
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        225,
+        43,
+        510
+      ],
+      "center_world": [
+        -10,
+        13,
+        260
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          225,
+          44,
+          511
+        ],
+        [
+          225,
+          44,
+          511
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        358,
+        43,
+        463
+      ],
+      "center_world": [
+        123,
+        13,
+        213
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          358,
+          44,
+          462
+        ],
+        [
+          358,
+          44,
+          462
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        193,
+        41,
+        473
+      ],
+      "center_world": [
+        -42,
+        11,
+        223
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          193,
+          42,
+          472
+        ],
+        [
+          194,
+          42,
+          473
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        96,
+        29,
+        345
+      ],
+      "center_world": [
+        -139,
+        -1,
+        95
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          96,
+          30,
+          346
+        ],
+        [
+          96,
+          30,
+          346
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        118,
+        26,
+        351
+      ],
+      "center_world": [
+        -117,
+        -4,
+        101
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          118,
+          27,
+          352
+        ],
+        [
+          118,
+          27,
+          352
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        426,
+        30,
+        411
+      ],
+      "center_world": [
+        191,
+        0,
+        161
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          426,
+          31,
+          411
+        ],
+        [
+          427,
+          31,
+          412
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        320,
+        23,
+        145
+      ],
+      "center_world": [
+        85,
+        -7,
+        -105
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          319,
+          24,
+          145
+        ],
+        [
+          321,
+          25,
+          145
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        327,
+        41,
+        508
+      ],
+      "center_world": [
+        92,
+        11,
+        258
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          327,
+          42,
+          509
+        ],
+        [
+          327,
+          42,
+          509
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        160,
+        24,
+        404
+      ],
+      "center_world": [
+        -75,
+        -6,
+        154
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          160,
+          25,
+          404
+        ],
+        [
+          160,
+          25,
+          405
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        327,
+        21,
+        170
+      ],
+      "center_world": [
+        92,
+        -9,
+        -80
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          326,
+          22,
+          170
+        ],
+        [
+          327,
+          22,
+          171
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        388,
+        23,
+        423
+      ],
+      "center_world": [
+        153,
+        -7,
+        173
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          388,
+          24,
+          422
+        ],
+        [
+          388,
+          24,
+          424
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        380,
+        32,
+        428
+      ],
+      "center_world": [
+        145,
+        2,
+        178
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          380,
+          32,
+          427
+        ],
+        [
+          380,
+          33,
+          429
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        122,
+        29,
+        142
+      ],
+      "center_world": [
+        -113,
+        -1,
+        -108
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          122,
+          30,
+          141
+        ],
+        [
+          122,
+          30,
+          141
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        342,
+        24,
+        196
+      ],
+      "center_world": [
+        107,
+        -6,
+        -54
+      ],
+      "blocks": 6,
+      "local_bounds": [
+        [
+          341,
+          25,
+          195
+        ],
+        [
+          343,
+          26,
+          197
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        58,
+        21,
+        454
+      ],
+      "center_world": [
+        -177,
+        -9,
+        204
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          57,
+          22,
+          453
+        ],
+        [
+          58,
+          22,
+          454
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        44,
+        32,
+        248
+      ],
+      "center_world": [
+        -191,
+        2,
+        -2
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          44,
+          33,
+          247
+        ],
+        [
+          45,
+          33,
+          249
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        50,
+        32,
+        241
+      ],
+      "center_world": [
+        -185,
+        2,
+        -9
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          49,
+          32,
+          241
+        ],
+        [
+          51,
+          33,
+          241
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        27,
+        28,
+        275
+      ],
+      "center_world": [
+        -208,
+        -2,
+        25
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          26,
+          28,
+          275
+        ],
+        [
+          27,
+          29,
+          275
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        257,
+        22,
+        142
+      ],
+      "center_world": [
+        22,
+        -8,
+        -108
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          257,
+          23,
+          141
+        ],
+        [
+          257,
+          23,
+          143
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        384,
+        22,
+        392
+      ],
+      "center_world": [
+        149,
+        -8,
+        142
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          385,
+          23,
+          392
+        ],
+        [
+          385,
+          23,
+          392
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        451,
+        33,
+        412
+      ],
+      "center_world": [
+        216,
+        3,
+        162
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          450,
+          33,
+          412
+        ],
+        [
+          452,
+          34,
+          412
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        195,
+        25,
+        241
+      ],
+      "center_world": [
+        -40,
+        -5,
+        -9
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          194,
+          25,
+          241
+        ],
+        [
+          194,
+          25,
+          241
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        82,
+        22,
+        459
+      ],
+      "center_world": [
+        -153,
+        -8,
+        209
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          82,
+          23,
+          459
+        ],
+        [
+          82,
+          23,
+          459
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        42,
+        33,
+        261
+      ],
+      "center_world": [
+        -193,
+        3,
+        11
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          41,
+          34,
+          260
+        ],
+        [
+          42,
+          34,
+          261
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        439,
+        52,
+        310
+      ],
+      "center_world": [
+        204,
+        22,
+        60
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          439,
+          53,
+          310
+        ],
+        [
+          439,
+          53,
+          310
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        175,
+        39,
+        83
+      ],
+      "center_world": [
+        -60,
+        9,
+        -167
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          175,
+          40,
+          82
+        ],
+        [
+          176,
+          40,
+          83
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        403,
+        27,
+        282
+      ],
+      "center_world": [
+        168,
+        -3,
+        32
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          403,
+          28,
+          282
+        ],
+        [
+          403,
+          28,
+          282
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        162,
+        24,
+        198
+      ],
+      "center_world": [
+        -73,
+        -6,
+        -52
+      ],
+      "blocks": 6,
+      "local_bounds": [
+        [
+          161,
+          25,
+          197
+        ],
+        [
+          163,
+          26,
+          199
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        298,
+        31,
+        104
+      ],
+      "center_world": [
+        63,
+        1,
+        -146
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          298,
+          32,
+          103
+        ],
+        [
+          299,
+          32,
+          104
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        279,
+        22,
+        122
+      ],
+      "center_world": [
+        44,
+        -8,
+        -128
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          278,
+          23,
+          122
+        ],
+        [
+          278,
+          23,
+          122
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        55,
+        24,
+        296
+      ],
+      "center_world": [
+        -180,
+        -6,
+        46
+      ],
+      "blocks": 3,
+      "local_bounds": [
+        [
+          55,
+          25,
+          295
+        ],
+        [
+          56,
+          25,
+          297
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        220,
+        44,
+        503
+      ],
+      "center_world": [
+        -15,
+        14,
+        253
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          220,
+          45,
+          502
+        ],
+        [
+          220,
+          46,
+          504
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        200,
+        27,
+        410
+      ],
+      "center_world": [
+        -35,
+        -3,
+        160
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          200,
+          29,
+          410
+        ],
+        [
+          201,
+          29,
+          411
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        175,
+        26,
+        215
+      ],
+      "center_world": [
+        -60,
+        -4,
+        -35
+      ],
+      "blocks": 2,
+      "local_bounds": [
+        [
+          175,
+          27,
+          215
+        ],
+        [
+          176,
+          27,
+          216
+        ]
+      ]
+    },
+    {
+      "kind": "bush",
+      "center_local": [
+        286,
+        26,
+        263
+      ],
+      "center_world": [
+        51,
+        -4,
+        13
+      ],
+      "blocks": 1,
+      "local_bounds": [
+        [
+          286,
+          27,
+          264
+        ],
+        [
+          286,
+          27,
+          264
+        ]
+      ]
+    }
+  ],
+  "limitations": [
+    "Origine provisoire; les reserves en coordonnees du monde dependent de cette origine.",
+    "Aucun test ni placement dans Minecraft.",
+    "Un NBT de structure ne definit pas le point de teleportation du joueur.",
+    "Les constructions presentes dans le fichier source sont conservees.",
+    "Le NBT source est sparse: les cellules absentes restent inchangées dans le monde cible."
+  ]
+}

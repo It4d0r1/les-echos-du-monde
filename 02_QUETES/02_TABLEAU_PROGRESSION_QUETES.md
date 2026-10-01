@@ -52,36 +52,38 @@ flowchart LR
 flowchart LR
     P["Prologue<br/>Quêtes 1 à 9A"] --> C4["Q-10 à Q-11<br/>Premières explorations et cités abandonnées"]
     C4 --> C5["Q-12<br/>Le retour au village"]
-    C5 --> C6["Q-13A à Q-14<br/>Construire une nouvelle ville"]
-    C6 --> C7["Q-15A à Q-16B<br/>Choisir un champion allié"]
+    C5 --> C6["Q-13A ou Q-13B<br/>Ravitaillement et hôtel de ville"]
+    C6 --> C7["Q-14A à Q-15B<br/>Choisir un champion allié"]
     C7 --> C8["Les oiseaux divins"]
 ```
 
 ## Chapitre 1 — Premières explorations
+ # partie 1
 
 ```mermaid
 flowchart LR
     Q9A["09A · Un nouveau départ<br/>Résumé du prologue · 🟢 Validée"] --> Q10["10 · Les pistes de Maëlle<br/>Fabriquer les boussoles et le sac à dos · 🟡 À valider"]
     Q10 --> Q11["11 · À la recherche de réponses<br/>Fouiller les coffres et trouver la photographie · 🟡 À valider"]
     Q11 --> Q12["12 · Le retour au village<br/>Un silence inquiétant · 🟡 À valider"]
-    Q12 --> CHOIX_RAVITAILLEMENT{"Choisir le camp ou le bateau"}
-    CHOIX_RAVITAILLEMENT --> Q13A["13A · Le camp de ravitaillement<br/>Construire le camp · 🟡 À valider"]
-    CHOIX_RAVITAILLEMENT --> Q13B["13B · Le bateau de ravitaillement<br/>Construire le bateau · 🟡 À valider"]
-    Q13A --> Q14["14 · L’hôtel de ville<br/>Récupérer le bloc dans le coffre · 🟡 À valider"]
-    Q13B --> Q14
-    Q14 --> CHOIX{"Choisir l’arène Glace ou Électrik"}
-    CHOIX --> Q15A["15A · Vers l’arène Glace<br/>Visiter le village de l’arène · 🟡 À valider"]
-    CHOIX --> Q15B["15B · Vers l’arène Électrik<br/>Visiter le village de l’arène · 🟡 À valider"]
-    Q15A --> Q16A["16A · Le champion Glace<br/>Vaincre le champion · 🟡 À valider"] --> A1["Quêtes d’Artikodin"]
-    Q15B --> Q16B["16B · Le champion Électrik<br/>Vaincre le champion · 🟡 À valider"] --> CHOIX_ELEC{"Choisir Électhor ou Sulfura"}
-    CHOIX_ELEC --> B1["Quêtes d’Électhor"]
-    CHOIX_ELEC --> C1["Quêtes de Sulfurar"]
+    Q12 --> AUX1["AUX1 · Checkmark explicatif<br/>Camp ou bateau ?<br/>Le choix ne bloque pas la suite"]
+    AUX1 --> Q13A["13A · Le camp de ravitaillement<br/>Installer le camp et récupérer le bloc de l’hôtel de ville · 🟡 À valider"]
+    AUX1 --> Q13B["13B · Le bateau de ravitaillement<br/>Installer le bateau et récupérer le bloc de l’hôtel de ville · 🟡 À valider"]
+    Q13A --> AUX2["AUX2 · Checkmark explicatif<br/>Arène Glace ou Électrik ?<br/>Le choix ne bloque pas la suite"]
+    Q13B --> AUX2
+    AUX2 --> Q14A["14A · Vers l’arène Glace<br/>Visiter le village de l’arène · 🟡 À valider"]
+    AUX2 --> Q14B["14B · Vers l’arène Électrik<br/>Visiter le village de l’arène · 🟡 À valider"]
+    Q14A --> Q15A["15A · Le champion Glace<br/>Vaincre le champion · 🟡 À valider"] --> A1["Quêtes d’Artikodin"]
+    Q14B --> Q15B["15B · Le champion Électrik<br/>Vaincre le champion · 🟡 À valider"] --> AUX3["AUX3 · Checkmark explicatif<br/>Électhor ou Sulfura ?<br/>Le choix ne bloque pas la suite"]
+    AUX3 --> B1["Quêtes d’Électhor"]
+    AUX3 --> C1["Quêtes de Sulfura"]
 
     
     classDef complete fill:#315d3b,color:#ffffff,stroke:#8fce00,stroke-width:2px;
     classDef planned fill:#5a4a20,color:#ffffff,stroke:#e4c45a,stroke-width:2px;
     class Q9A complete;
-    class Q10,Q11,Q12,CHOIX_RAVITAILLEMENT,Q13A,Q13B,Q14,CHOIX,Q15A,Q15B,Q16A,Q16B,CHOIX_ELEC,A1,B1,C1 planned;
+    class Q10,Q11,Q12,Q13A,Q13B,Q14A,Q14B,Q15A,Q15B,A1,B1,C1 planned;
+    classDef explanatory fill:#39445e,color:#ffffff,stroke:#9aaad0,stroke-dasharray:5 5;
+    class AUX1,AUX2,AUX3 explanatory;
 ```
 
 | N° | Quête | Objectif principal | Récompense | État |
@@ -89,10 +91,44 @@ flowchart LR
 | 10 | Les pistes de Maëlle | Fabriquer une Explorer’s Compass, une Nature’s Compass et un sac à dos | 2 500 Pokédollars | À valider |
 | 11 | À la recherche de réponses | Fouiller les coffres des cités abandonnées et obtenir une photographie de famille | 2 500 Pokédollars (proposition) | À valider |
 | 12 | Le retour au village | Retourner au village de Garrick | Aucune | À valider |
-| 13A | Le camp de ravitaillement | Construire le camp de ravitaillement | Débloque l’hôtel de ville | À valider |
-| 13B | Le bateau de ravitaillement | Construire le bateau de ravitaillement | Débloque l’hôtel de ville | À valider |
-| 14 | L’hôtel de ville | Récupérer le bloc de l’hôtel de ville dans le coffre de ravitaillement | Débloque le choix d’une arène | À valider |
-| 15A | Vers l’arène Glace | Visiter le village de l’arène Glace | Accès au champion Glace | À valider |
-| 15B | Vers l’arène Électrik | Visiter le village de l’arène Électrik | Accès au champion Électrik | À valider |
-| 16A | Le champion Glace | Vaincre le champion Glace | Débloque les quêtes d’Artikodin | À valider |
-| 16B | Le champion Électrik | Vaincre le champion Électrik | Débloque le choix entre les quêtes d’Électhor et de Sulfura | À valider |
+| AUX1 | Checkmark explicatif — Camp ou bateau ? | Expliquer le choix entre le camp et le bateau. Ce choix ne bloque pas la suite de l’histoire. | Aucune | Explicatif |
+| 13A | Le camp de ravitaillement | Installer le camp et récupérer le bloc de l’hôtel de ville dans son coffre | 5 000 Pokédollars ; débloque le choix d’une arène | À valider |
+| 13B | Le bateau de ravitaillement | Installer le bateau et récupérer le bloc de l’hôtel de ville dans son coffre | 5 000 Pokédollars ; débloque le choix d’une arène | À valider |
+| AUX2 | Checkmark explicatif — Arène Glace ou Électrik ? | Expliquer le choix entre les deux arènes. Ce choix ne bloque pas la suite de l’histoire. | Aucune | Explicatif |
+| 14A | Vers l’arène Glace | Visiter le village de l’arène Glace | Accès au champion Glace | À valider |
+| 14B | Vers l’arène Électrik | Visiter le village de l’arène Électrik | Accès au champion Électrik | À valider |
+| AUX3 | Checkmark explicatif — Électhor ou Sulfura ? | Expliquer le choix entre les deux oiseaux. Ce choix ne bloque pas la suite de l’histoire. | Aucune | Explicatif |
+| 15A | Le champion Glace | Vaincre le champion Glace | Débloque les quêtes d’Artikodin | À valider |
+| 15B | Le champion Électrik | Vaincre le champion Électrik | Débloque le choix entre les quêtes d’Électhor et de Sulfura | À valider |
+
+## Chapitre 1 — Premières explorations
+ # Partie 2
+
+```mermaid
+flowchart LR
+    A([Débloque les quêtes d’Artikodi])
+    B([Débloque les quêtes de Sulfura et Électhor])
+    A --> ART["Artikodin"]
+    ART --> ICE["Trouver le Sanctuair glacé"]
+    ICE --> ART1["Trouver la pierre de Glace"]
+    ICE --> ART2["Battre 375 Pokémon"]
+    ART1 --> ART3["Capturer Artikodin<br/>Je m’amuse"]
+    ART2 --> ART3
+    B -->SUL["Sulfura"]
+    SUL --> FIRE["Trouver le Sanctuair ardent"]
+    FIRE --> SUL1["Trouver la pierre de feu"]
+    FIRE --> SUL2["Battre 375 Pokémon"]
+    SUL1 --> SUL3["Capturer Sulfura"]
+    SUL2 --> SUL3
+    B --> THOR["Électhor"]
+    THOR --> ELEC["Trouver le Sanctuair statique"]
+    ELEC --> THOR1["Trouver la pierre de Foudre"]
+    ELEC --> THOR2["Battre 375 Pokémon"]
+    THOR1 --> THOR3["Capturer Électhor"]
+    THOR2 --> THOR3
+    ART3 --> F[Chapitre 2 — Tutoriels Pokémon]
+    SUL3 --> F
+    THOR3 --> F
+```
+
+Le chapitre 2 comprendra un groupe de tutoriels Pokémon à créer : stratégie, EV, IV et talents. Ce groupe s’ouvre après la fin de la quête de l’oiseau divin choisi.

@@ -7,3 +7,6 @@
 *.xlsx binary
 *.jar binary
 *.mcreator binary
+*.schematic binary
+*.schem binary
+*.pdf binary

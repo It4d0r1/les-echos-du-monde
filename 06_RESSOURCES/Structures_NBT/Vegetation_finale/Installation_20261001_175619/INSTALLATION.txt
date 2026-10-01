@@ -1,0 +1,24 @@
+INSTALLATION DU PROLOGUE VÉGÉTALISÉ
+Datapack : C:\Users\Bastien\curseforge\minecraft\Instances\Pixelmon Les Échos du Monde\global_packs\required_data\les_echos_du_monde
+Origine provisoire : -235, -30, -250. Arrivée exacte : 7, -3, 1.
+933 morceaux alignés sur les chunks, en partant du chunk 0, 0.
+5,593,060 blocs reconstitués à l'identique; données NBT préservées.
+Un seul chunk forcé à la fois; attente de son chargement avant placement.
+Le joueur reste dans l'Overworld pendant la préparation, avec un indicateur,
+puis est téléporté automatiquement lorsque la plateforme entière est placée.
+La pause automatique au démarrage des nouveaux mondes a été retirée.
+Les anciennes sauvegardes sont mises en pause afin d'éviter la superposition
+des modèles. Aucun fichier de monde n'a été modifié par l'installation.
+Les fichiers NBT originaux et les anciens morceaux restent conservés.
+
+Sauvegarde avant remplacement : C:\Users\Bastien\Desktop\Les Echo du monde\90_ARCHIVES\Sauvegardes_datapack\prologue_vegetation_20261001_175619
+Rapport : rapport_installation.json (contrôles, coordonnées et sommes SHA-256).
+Minecraft n'a pas été lancé pour tester : les vérifications portent sur les fichiers.
+
+ESSAI : ferme complètement Minecraft, relance le modpack et crée un nouveau monde.
+Attends la préparation du prologue dans l'Overworld : l'arrivée est automatique.
+En cas d'erreur, conserve latest.log et le stockage les_echos_du_monde:state.
+L'origine reste à confirmer visuellement pour la réserve de Garrik.
+
+RETOUR ARRIÈRE : restaurer le dossier datapack de la sauvegarde à la place du
+datapack installé, jeu fermé. La sauvegarde contient l'intégralité de la version précédente.

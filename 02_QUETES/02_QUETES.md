@@ -73,13 +73,23 @@ Q-09A marque la fin du prologue.
 | ID | Étape narrative | Statut |
 |---|---|---|
 | Q-12 | Le retour au village : revenir auprès de Garrick après la fouille des cités abandonnées. | À valider |
-| Q-13A | Le camp de ravitaillement : construire le camp de ravitaillement. Une seule des deux quêtes de ravitaillement est nécessaire. | À valider |
-| Q-13B | Le bateau de ravitaillement : construire le bateau de ravitaillement. Une seule des deux quêtes de ravitaillement est nécessaire. | À valider |
-| Q-14 | L’hôtel de ville : récupérer le bloc de l’hôtel de ville MineColonies dans le coffre de ravitaillement. | À valider |
-| Q-15A | Vers l’arène Glace : visiter le village de l’arène Glace. | À valider |
-| Q-15B | Vers l’arène Électrik : visiter le village de l’arène Électrik. | À valider |
-| Q-16A | Le champion Glace : vaincre le champion et déverrouiller les quêtes d’Artikodin. | À valider |
-| Q-16B | Le champion Électrik : vaincre le champion et choisir entre les quêtes d’Électhor et de Sulfura. | À valider |
+| Q-13A | Le camp de ravitaillement : installer le camp et récupérer le bloc de l’hôtel de ville dans son coffre. | À valider |
+| Q-13B | Le bateau de ravitaillement : installer le bateau et récupérer le bloc de l’hôtel de ville dans son coffre. | À valider |
+| Q-14A | Vers l’arène Glace : visiter le village de l’arène Glace. | À valider |
+| Q-14B | Vers l’arène Électrik : visiter le village de l’arène Électrik. | À valider |
+| Q-15A | Le champion Glace : vaincre le champion et déverrouiller les quêtes d’Artikodin. | À valider |
+| Q-15B | Le champion Électrik : vaincre le champion et choisir entre les quêtes d’Électhor et de Sulfura. | À valider |
+
+## Chapitre 2 — Groupe de tutoriels Pokémon
+
+Groupe prévu après la fin de l’arc de l’oiseau divin. Les quêtes et leur ordre restent à créer.
+
+| Quête à créer | Sujet | Statut |
+|---|---|---|
+| Tutoriel de stratégie | Bases de la stratégie et des combats Pokémon | À définir |
+| Tutoriel des EV | Valeurs d’effort : rôle et entraînement | À définir |
+| Tutoriel des IV | Valeurs individuelles : rôle et lecture | À définir |
+| Tutoriel des talents | Effets des talents et choix d’équipe | À définir |
 
 ## Q-01 — UN MONDE QUI N’EST PAS LE MIEN
 
@@ -411,7 +421,6 @@ Récompense :
 
 Déblocage :
 - Débloque Q-10, « Les pistes de Maëlle ».
-- Débloque le chapitre tutoriel sur la stratégie Pokémon.
 - Ajoute le stage joueur `prologue_sortie`, qui ouvre la sortie de la zone de départ.
 - Fin du prologue.
 
@@ -513,3 +522,55 @@ Déblocage :
 Liens :
 - Garrick, Maëlle et les trois jeunes Dresseurs.
 - Repère de destruction du village : fonction technique à tester.
+
+## Q-13A — Le camp de ravitaillement
+
+Statut : À valider  
+Arc : Chapitre 1
+
+Sous-titre FTB Quests :
+Un nouveau chez-nous
+
+Objectif :
+- Installer le camp de ravitaillement MineColonies.
+
+Description :
+« Après la destruction du village, nous avons décidé de bâtir un nouvel endroit où vivre. Nous voulons protéger ce qui nous est cher et offrir un foyer à ceux qui nous accompagneront.
+
+Le camp de ravitaillement nous permettra de nous installer et de commencer à reconstruire. Ce sera la première étape pour créer un nouveau chez-nous. »
+
+Récompense :
+- 5 000 Pokédollars.
+
+Déblocage :
+- Une fois cette quête terminée, débloque le choix entre Q-14A, « Vers l’arène Glace », et Q-14B, « Vers l’arène Électrik ».
+- Q-13B, « Le bateau de ravitaillement », est une autre voie possible ; une seule des deux quêtes est nécessaire.
+
+Liens :
+- MineColonies : vérifier en jeu comment suivre l’installation du camp.
+
+## Q-13B — Le bateau de ravitaillement
+
+Statut : À valider  
+Arc : Chapitre 1
+
+Sous-titre FTB Quests :
+Un nouveau chez-nous
+
+Objectif :
+- Installer le bateau de ravitaillement MineColonies.
+
+Description :
+« Après la destruction du village, nous avons décidé de bâtir un nouvel endroit où vivre. Nous voulons protéger ce qui nous est cher et offrir un foyer à ceux qui nous accompagneront.
+
+Le bateau de ravitaillement nous apportera les premières ressources nécessaires pour nous installer et reconstruire. Ce sera la première étape pour créer un nouveau chez-nous. »
+
+Récompense :
+- 5 000 Pokédollars.
+
+Déblocage :
+- Une fois cette quête terminée, débloque le choix entre Q-14A, « Vers l’arène Glace », et Q-14B, « Vers l’arène Électrik ».
+- Q-13A, « Le camp de ravitaillement », est une autre voie possible ; une seule des deux quêtes est nécessaire.
+
+Liens :
+- MineColonies : vérifier en jeu comment suivre l’installation du bateau.

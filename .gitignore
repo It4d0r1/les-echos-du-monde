@@ -21,3 +21,16 @@ Thumbs.db
 
 # Downloaded package dependencies
 node_modules/
+
+# Local datapack recovery copies
+/90_ARCHIVES/Sauvegardes_datapack/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Installation staging duplicated by the exported datapack
+/06_RESSOURCES/Structures_NBT/Vegetation_finale/Installation_*/datapack_patch/
+
+# Intermediate images for the Garrik plan
+/outputs/garrik_plan_v2/qa/

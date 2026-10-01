@@ -1,0 +1,2 @@
+Mode : outil intégré de génération d’images.
+Consigne : créer une référence Minecraft complète inspirée de essaie.png, sans copie exacte. Maison médiévale bois et enduit sur terrasse en pierre, piliers et panneaux encadrés, escalier latéral, chemin sinueux, lac, rivière, collines et végétation. Vue de trois quarts en hauteur, lumière chaude, sans zones noires ni texte.

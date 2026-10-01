@@ -1,2 +1,73 @@
+# Migration vers le placement par chunks; conserve les structures d'origine et les anciennes tranches.
 data remove storage les_echos_du_monde:state platform_placed
+data remove storage les_echos_du_monde:state platform_building
+data remove storage les_echos_du_monde:state platform_error
+data remove storage les_echos_du_monde:state platform_tile_forced
+data remove storage les_echos_du_monde:state platform_tile_loaded
+data remove storage les_echos_du_monde:state platform_tile_owned
+schedule clear les_echos_du_monde:world/place_platform_part_00
+schedule clear les_echos_du_monde:world/place_platform_part_01
+schedule clear les_echos_du_monde:world/place_platform_part_02
+schedule clear les_echos_du_monde:world/place_platform_part_03
+schedule clear les_echos_du_monde:world/place_platform_part_04
+schedule clear les_echos_du_monde:world/place_platform_part_05
+schedule clear les_echos_du_monde:world/place_platform_part_06
+schedule clear les_echos_du_monde:world/place_platform_part_07
+schedule clear les_echos_du_monde:world/place_platform_part_08
+schedule clear les_echos_du_monde:world/place_platform_part_09
+schedule clear les_echos_du_monde:world/place_platform_part_10
+schedule clear les_echos_du_monde:world/place_platform_part_11
+schedule clear les_echos_du_monde:world/place_platform_part_12
+schedule clear les_echos_du_monde:world/place_platform_part_13
+schedule clear les_echos_du_monde:world/place_platform_part_14
+schedule clear les_echos_du_monde:world/place_platform_part_15
+schedule clear les_echos_du_monde:world/place_platform_part_16
+schedule clear les_echos_du_monde:world/place_platform_part_17
+schedule clear les_echos_du_monde:world/place_platform_part_18
+schedule clear les_echos_du_monde:world/place_platform_part_19
+schedule clear les_echos_du_monde:world/place_platform_part_20
+schedule clear les_echos_du_monde:world/place_platform_part_21
+schedule clear les_echos_du_monde:world/place_platform_part_22
+schedule clear les_echos_du_monde:world/place_platform_part_23
+schedule clear les_echos_du_monde:world/place_platform_part_24
+schedule clear les_echos_du_monde:world/place_platform_part_25
+schedule clear les_echos_du_monde:world/place_platform_part_26
+schedule clear les_echos_du_monde:world/place_platform_part_27
+schedule clear les_echos_du_monde:world/place_platform_part_28
+schedule clear les_echos_du_monde:world/place_platform_part_29
+schedule clear les_echos_du_monde:world/place_platform_part_30
+schedule clear les_echos_du_monde:world/place_platform_part_31
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_00
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_01
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_02
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_03
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_04
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_05
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_06
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_07
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_08
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_09
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_10
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_11
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_12
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_13
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_14
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_15
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_16
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_17
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_18
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_19
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_20
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_21
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_22
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_23
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_24
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_25
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_26
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_27
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_28
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_29
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_30
+execute in les_echos_du_monde:prologue run schedule clear les_echos_du_monde:world/place_platform_part_31
 data modify storage les_echos_du_monde:state platform_verified set value 1b
+data modify storage les_echos_du_monde:state platform_chunk_migrated set value 1b

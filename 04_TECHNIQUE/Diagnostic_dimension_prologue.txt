@@ -1,3 +1,10 @@
+NOTE DE VERSION — 1er octobre 2026
+Ce diagnostic conserve l’historique de l’ancienne plateforme (706 morceaux).
+La version actuelle utilise plateforme__4_vegetalisee.nbt, 562 × 93 × 536,
+933 morceaux, origine PROVISOIRE (-235, -30, -250), arrivée exacte (7, -3, 1).
+Voir Consignes_creation_zone_depart.md et outputs/les_echos_du_monde_datapack/README.md.
+La nouvelle installation a été vérifiée dans les fichiers, sans essai dans Minecraft.
+
 DIAGNOSTIC — STRUCTURE DE LA DIMENSION DU PROLOGUE
 Date de rédaction : 29 septembre 2026
 

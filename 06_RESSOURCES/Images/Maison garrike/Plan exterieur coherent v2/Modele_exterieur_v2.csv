@@ -1,0 +1,1722 @@
+﻿X;Y;Z;Code;Materiau;Montee_escalier
+5;-1;-4;A;Escaliers du perron;Z+
+6;-1;-4;A;Escaliers du perron;Z+
+7;-1;-4;A;Escaliers du perron;Z+
+8;-1;-4;A;Escaliers du perron;Z+
+5;0;-3;A;Escaliers du perron;Z+
+6;0;-3;A;Escaliers du perron;Z+
+7;0;-3;A;Escaliers du perron;Z+
+8;0;-3;A;Escaliers du perron;Z+
+4;0;-2;B;Poutres en bois;
+5;0;-2;S;Pierre de fondation;
+6;0;-2;S;Pierre de fondation;
+7;0;-2;S;Pierre de fondation;
+8;0;-2;S;Pierre de fondation;
+10;0;-2;B;Poutres en bois;
+5;0;-1;S;Pierre de fondation;
+6;0;-1;S;Pierre de fondation;
+7;0;-1;S;Pierre de fondation;
+8;0;-1;S;Pierre de fondation;
+0;0;0;S;Pierre de fondation;
+1;0;0;S;Pierre de fondation;
+2;0;0;S;Pierre de fondation;
+3;0;0;S;Pierre de fondation;
+4;0;0;S;Pierre de fondation;
+5;0;0;S;Pierre de fondation;
+6;0;0;S;Pierre de fondation;
+7;0;0;S;Pierre de fondation;
+8;0;0;S;Pierre de fondation;
+9;0;0;S;Pierre de fondation;
+10;0;0;S;Pierre de fondation;
+11;0;0;S;Pierre de fondation;
+12;0;0;S;Pierre de fondation;
+13;0;0;S;Pierre de fondation;
+14;0;0;S;Pierre de fondation;
+15;0;0;S;Pierre de fondation;
+16;0;0;S;Pierre de fondation;
+17;0;0;S;Pierre de fondation;
+18;0;0;S;Pierre de fondation;
+19;0;0;S;Pierre de fondation;
+20;0;0;S;Pierre de fondation;
+21;0;0;S;Pierre de fondation;
+22;0;0;S;Pierre de fondation;
+23;0;0;S;Pierre de fondation;
+24;0;0;S;Pierre de fondation;
+0;0;1;S;Pierre de fondation;
+24;0;1;S;Pierre de fondation;
+0;0;2;S;Pierre de fondation;
+24;0;2;S;Pierre de fondation;
+0;0;3;S;Pierre de fondation;
+24;0;3;S;Pierre de fondation;
+0;0;4;S;Pierre de fondation;
+24;0;4;S;Pierre de fondation;
+0;0;5;S;Pierre de fondation;
+24;0;5;S;Pierre de fondation;
+0;0;6;S;Pierre de fondation;
+24;0;6;S;Pierre de fondation;
+0;0;7;S;Pierre de fondation;
+24;0;7;S;Pierre de fondation;
+0;0;8;S;Pierre de fondation;
+24;0;8;S;Pierre de fondation;
+0;0;9;S;Pierre de fondation;
+24;0;9;S;Pierre de fondation;
+0;0;10;S;Pierre de fondation;
+24;0;10;S;Pierre de fondation;
+0;0;11;S;Pierre de fondation;
+24;0;11;S;Pierre de fondation;
+0;0;12;S;Pierre de fondation;
+24;0;12;S;Pierre de fondation;
+0;0;13;S;Pierre de fondation;
+24;0;13;S;Pierre de fondation;
+0;0;14;S;Pierre de fondation;
+24;0;14;S;Pierre de fondation;
+0;0;15;S;Pierre de fondation;
+24;0;15;S;Pierre de fondation;
+0;0;16;S;Pierre de fondation;
+1;0;16;S;Pierre de fondation;
+2;0;16;S;Pierre de fondation;
+3;0;16;S;Pierre de fondation;
+4;0;16;S;Pierre de fondation;
+5;0;16;S;Pierre de fondation;
+6;0;16;S;Pierre de fondation;
+7;0;16;S;Pierre de fondation;
+8;0;16;S;Pierre de fondation;
+9;0;16;S;Pierre de fondation;
+10;0;16;S;Pierre de fondation;
+11;0;16;S;Pierre de fondation;
+12;0;16;S;Pierre de fondation;
+13;0;16;S;Pierre de fondation;
+14;0;16;S;Pierre de fondation;
+15;0;16;S;Pierre de fondation;
+16;0;16;S;Pierre de fondation;
+17;0;16;S;Pierre de fondation;
+18;0;16;S;Pierre de fondation;
+19;0;16;S;Pierre de fondation;
+20;0;16;S;Pierre de fondation;
+21;0;16;S;Pierre de fondation;
+22;0;16;S;Pierre de fondation;
+23;0;16;S;Pierre de fondation;
+24;0;16;S;Pierre de fondation;
+4;1;-2;B;Poutres en bois;
+10;1;-2;B;Poutres en bois;
+13;1;-1;V;Feuillage et jardinières;
+14;1;-1;V;Feuillage et jardinières;
+0;1;0;S;Pierre de fondation;
+1;1;0;B;Poutres en bois;
+2;1;0;G;Vitres;
+3;1;0;G;Vitres;
+4;1;0;G;Vitres;
+5;1;0;B;Poutres en bois;
+6;1;0;D;Portes : partie basse / haute;
+7;1;0;D;Portes : partie basse / haute;
+8;1;0;B;Poutres en bois;
+9;1;0;B;Poutres en bois;
+10;1;0;G;Vitres;
+11;1;0;G;Vitres;
+12;1;0;G;Vitres;
+13;1;0;B;Poutres en bois;
+14;1;0;S;Pierre de fondation;
+15;1;0;S;Pierre de fondation;
+16;1;0;B;Poutres en bois;
+17;1;0;G;Vitres;
+18;1;0;G;Vitres;
+19;1;0;G;Vitres;
+20;1;0;B;Poutres en bois;
+21;1;0;G;Vitres;
+22;1;0;G;Vitres;
+23;1;0;G;Vitres;
+24;1;0;B;Poutres en bois;
+0;1;1;B;Poutres en bois;
+24;1;1;B;Poutres en bois;
+0;1;2;G;Vitres;
+24;1;2;G;Vitres;
+0;1;3;G;Vitres;
+24;1;3;G;Vitres;
+0;1;4;G;Vitres;
+24;1;4;G;Vitres;
+-1;1;5;V;Feuillage et jardinières;
+0;1;5;B;Poutres en bois;
+24;1;5;B;Poutres en bois;
+0;1;6;B;Poutres en bois;
+24;1;6;B;Poutres en bois;
+0;1;7;G;Vitres;
+24;1;7;G;Vitres;
+0;1;8;G;Vitres;
+24;1;8;G;Vitres;
+0;1;9;G;Vitres;
+24;1;9;G;Vitres;
+0;1;10;B;Poutres en bois;
+24;1;10;B;Poutres en bois;
+0;1;11;B;Poutres en bois;
+24;1;11;B;Poutres en bois;
+0;1;12;G;Vitres;
+24;1;12;G;Vitres;
+0;1;13;G;Vitres;
+24;1;13;G;Vitres;
+0;1;14;G;Vitres;
+24;1;14;G;Vitres;
+0;1;15;B;Poutres en bois;
+24;1;15;B;Poutres en bois;
+0;1;16;S;Pierre de fondation;
+1;1;16;S;Pierre de fondation;
+2;1;16;B;Poutres en bois;
+3;1;16;G;Vitres;
+4;1;16;G;Vitres;
+5;1;16;G;Vitres;
+6;1;16;B;Poutres en bois;
+7;1;16;S;Pierre de fondation;
+8;1;16;S;Pierre de fondation;
+9;1;16;S;Pierre de fondation;
+10;1;16;B;Poutres en bois;
+11;1;16;G;Vitres;
+12;1;16;G;Vitres;
+13;1;16;G;Vitres;
+14;1;16;B;Poutres en bois;
+15;1;16;S;Pierre de fondation;
+16;1;16;S;Pierre de fondation;
+17;1;16;S;Pierre de fondation;
+18;1;16;B;Poutres en bois;
+19;1;16;G;Vitres;
+20;1;16;G;Vitres;
+21;1;16;G;Vitres;
+22;1;16;B;Poutres en bois;
+23;1;16;S;Pierre de fondation;
+24;1;16;S;Pierre de fondation;
+4;2;-2;B;Poutres en bois;
+10;2;-2;B;Poutres en bois;
+13;2;-1;V;Feuillage et jardinières;
+14;2;-1;V;Feuillage et jardinières;
+0;2;0;S;Pierre de fondation;
+1;2;0;B;Poutres en bois;
+2;2;0;G;Vitres;
+3;2;0;G;Vitres;
+4;2;0;G;Vitres;
+5;2;0;B;Poutres en bois;
+6;2;0;D;Portes : partie basse / haute;
+7;2;0;D;Portes : partie basse / haute;
+8;2;0;B;Poutres en bois;
+9;2;0;B;Poutres en bois;
+10;2;0;G;Vitres;
+11;2;0;G;Vitres;
+12;2;0;G;Vitres;
+13;2;0;B;Poutres en bois;
+14;2;0;S;Pierre de fondation;
+15;2;0;S;Pierre de fondation;
+16;2;0;B;Poutres en bois;
+17;2;0;G;Vitres;
+18;2;0;G;Vitres;
+19;2;0;G;Vitres;
+20;2;0;B;Poutres en bois;
+21;2;0;G;Vitres;
+22;2;0;G;Vitres;
+23;2;0;G;Vitres;
+24;2;0;B;Poutres en bois;
+0;2;1;B;Poutres en bois;
+24;2;1;B;Poutres en bois;
+0;2;2;G;Vitres;
+24;2;2;G;Vitres;
+0;2;3;G;Vitres;
+24;2;3;G;Vitres;
+0;2;4;G;Vitres;
+24;2;4;G;Vitres;
+-1;2;5;V;Feuillage et jardinières;
+0;2;5;B;Poutres en bois;
+24;2;5;B;Poutres en bois;
+0;2;6;B;Poutres en bois;
+24;2;6;B;Poutres en bois;
+0;2;7;G;Vitres;
+24;2;7;G;Vitres;
+0;2;8;G;Vitres;
+24;2;8;G;Vitres;
+0;2;9;G;Vitres;
+24;2;9;G;Vitres;
+0;2;10;B;Poutres en bois;
+24;2;10;B;Poutres en bois;
+0;2;11;B;Poutres en bois;
+24;2;11;B;Poutres en bois;
+25;2;11;V;Feuillage et jardinières;
+0;2;12;G;Vitres;
+24;2;12;G;Vitres;
+0;2;13;G;Vitres;
+24;2;13;G;Vitres;
+0;2;14;G;Vitres;
+24;2;14;G;Vitres;
+0;2;15;B;Poutres en bois;
+24;2;15;B;Poutres en bois;
+0;2;16;S;Pierre de fondation;
+1;2;16;S;Pierre de fondation;
+2;2;16;B;Poutres en bois;
+3;2;16;G;Vitres;
+4;2;16;G;Vitres;
+5;2;16;G;Vitres;
+6;2;16;B;Poutres en bois;
+7;2;16;S;Pierre de fondation;
+8;2;16;S;Pierre de fondation;
+9;2;16;S;Pierre de fondation;
+10;2;16;B;Poutres en bois;
+11;2;16;G;Vitres;
+12;2;16;G;Vitres;
+13;2;16;G;Vitres;
+14;2;16;B;Poutres en bois;
+15;2;16;S;Pierre de fondation;
+16;2;16;S;Pierre de fondation;
+17;2;16;S;Pierre de fondation;
+18;2;16;B;Poutres en bois;
+19;2;16;G;Vitres;
+20;2;16;G;Vitres;
+21;2;16;G;Vitres;
+22;2;16;B;Poutres en bois;
+23;2;16;S;Pierre de fondation;
+24;2;16;S;Pierre de fondation;
+7;2;17;V;Feuillage et jardinières;
+4;3;-3;R;Escaliers de toiture;X+
+10;3;-3;R;Escaliers de toiture;X-
+4;3;-2;R;Escaliers de toiture;X+
+10;3;-2;R;Escaliers de toiture;X-
+4;3;-1;R;Escaliers de toiture;X+
+10;3;-1;R;Escaliers de toiture;X-
+13;3;-1;V;Feuillage et jardinières;
+14;3;-1;V;Feuillage et jardinières;
+0;3;0;S;Pierre de fondation;
+1;3;0;B;Poutres en bois;
+2;3;0;G;Vitres;
+3;3;0;G;Vitres;
+4;3;0;G;Vitres;
+5;3;0;B;Poutres en bois;
+6;3;0;G;Vitres;
+7;3;0;G;Vitres;
+8;3;0;B;Poutres en bois;
+9;3;0;B;Poutres en bois;
+10;3;0;G;Vitres;
+11;3;0;G;Vitres;
+12;3;0;G;Vitres;
+13;3;0;B;Poutres en bois;
+14;3;0;S;Pierre de fondation;
+15;3;0;S;Pierre de fondation;
+16;3;0;B;Poutres en bois;
+17;3;0;G;Vitres;
+18;3;0;G;Vitres;
+19;3;0;G;Vitres;
+20;3;0;B;Poutres en bois;
+21;3;0;G;Vitres;
+22;3;0;G;Vitres;
+23;3;0;G;Vitres;
+24;3;0;B;Poutres en bois;
+0;3;1;B;Poutres en bois;
+24;3;1;B;Poutres en bois;
+0;3;2;G;Vitres;
+24;3;2;G;Vitres;
+0;3;3;G;Vitres;
+24;3;3;G;Vitres;
+0;3;4;G;Vitres;
+24;3;4;G;Vitres;
+-1;3;5;V;Feuillage et jardinières;
+0;3;5;B;Poutres en bois;
+24;3;5;B;Poutres en bois;
+0;3;6;B;Poutres en bois;
+24;3;6;B;Poutres en bois;
+0;3;7;G;Vitres;
+24;3;7;G;Vitres;
+0;3;8;G;Vitres;
+24;3;8;G;Vitres;
+0;3;9;G;Vitres;
+24;3;9;G;Vitres;
+0;3;10;B;Poutres en bois;
+24;3;10;B;Poutres en bois;
+0;3;11;B;Poutres en bois;
+24;3;11;B;Poutres en bois;
+25;3;11;V;Feuillage et jardinières;
+0;3;12;G;Vitres;
+24;3;12;G;Vitres;
+0;3;13;G;Vitres;
+24;3;13;G;Vitres;
+0;3;14;G;Vitres;
+24;3;14;G;Vitres;
+0;3;15;B;Poutres en bois;
+24;3;15;B;Poutres en bois;
+0;3;16;S;Pierre de fondation;
+1;3;16;S;Pierre de fondation;
+2;3;16;B;Poutres en bois;
+3;3;16;G;Vitres;
+4;3;16;G;Vitres;
+5;3;16;G;Vitres;
+6;3;16;B;Poutres en bois;
+7;3;16;S;Pierre de fondation;
+8;3;16;S;Pierre de fondation;
+9;3;16;S;Pierre de fondation;
+10;3;16;B;Poutres en bois;
+11;3;16;G;Vitres;
+12;3;16;G;Vitres;
+13;3;16;G;Vitres;
+14;3;16;B;Poutres en bois;
+15;3;16;S;Pierre de fondation;
+16;3;16;S;Pierre de fondation;
+17;3;16;S;Pierre de fondation;
+18;3;16;B;Poutres en bois;
+19;3;16;G;Vitres;
+20;3;16;G;Vitres;
+21;3;16;G;Vitres;
+22;3;16;B;Poutres en bois;
+23;3;16;S;Pierre de fondation;
+24;3;16;S;Pierre de fondation;
+7;3;17;V;Feuillage et jardinières;
+5;4;-3;R;Escaliers de toiture;X+
+9;4;-3;R;Escaliers de toiture;X-
+5;4;-2;R;Escaliers de toiture;X+
+9;4;-2;R;Escaliers de toiture;X-
+5;4;-1;R;Escaliers de toiture;X+
+9;4;-1;R;Escaliers de toiture;X-
+13;4;-1;V;Feuillage et jardinières;
+14;4;-1;V;Feuillage et jardinières;
+0;4;0;S;Pierre de fondation;
+1;4;0;S;Pierre de fondation;
+2;4;0;B;Poutres en bois;
+3;4;0;B;Poutres en bois;
+4;4;0;B;Poutres en bois;
+5;4;0;B;Poutres en bois;
+6;4;0;B;Poutres en bois;
+7;4;0;B;Poutres en bois;
+8;4;0;B;Poutres en bois;
+9;4;0;S;Pierre de fondation;
+10;4;0;B;Poutres en bois;
+11;4;0;B;Poutres en bois;
+12;4;0;B;Poutres en bois;
+13;4;0;S;Pierre de fondation;
+14;4;0;S;Pierre de fondation;
+15;4;0;S;Pierre de fondation;
+16;4;0;S;Pierre de fondation;
+17;4;0;B;Poutres en bois;
+18;4;0;B;Poutres en bois;
+19;4;0;B;Poutres en bois;
+20;4;0;S;Pierre de fondation;
+21;4;0;B;Poutres en bois;
+22;4;0;B;Poutres en bois;
+23;4;0;B;Poutres en bois;
+24;4;0;S;Pierre de fondation;
+0;4;1;S;Pierre de fondation;
+24;4;1;S;Pierre de fondation;
+0;4;2;B;Poutres en bois;
+24;4;2;B;Poutres en bois;
+0;4;3;B;Poutres en bois;
+24;4;3;B;Poutres en bois;
+0;4;4;B;Poutres en bois;
+24;4;4;B;Poutres en bois;
+-1;4;5;V;Feuillage et jardinières;
+0;4;5;S;Pierre de fondation;
+24;4;5;S;Pierre de fondation;
+0;4;6;S;Pierre de fondation;
+24;4;6;S;Pierre de fondation;
+0;4;7;B;Poutres en bois;
+24;4;7;B;Poutres en bois;
+0;4;8;B;Poutres en bois;
+24;4;8;B;Poutres en bois;
+0;4;9;B;Poutres en bois;
+24;4;9;B;Poutres en bois;
+0;4;10;S;Pierre de fondation;
+24;4;10;S;Pierre de fondation;
+0;4;11;S;Pierre de fondation;
+24;4;11;S;Pierre de fondation;
+25;4;11;V;Feuillage et jardinières;
+0;4;12;B;Poutres en bois;
+24;4;12;B;Poutres en bois;
+0;4;13;B;Poutres en bois;
+24;4;13;B;Poutres en bois;
+0;4;14;B;Poutres en bois;
+24;4;14;B;Poutres en bois;
+0;4;15;S;Pierre de fondation;
+24;4;15;S;Pierre de fondation;
+0;4;16;S;Pierre de fondation;
+1;4;16;S;Pierre de fondation;
+2;4;16;S;Pierre de fondation;
+3;4;16;B;Poutres en bois;
+4;4;16;B;Poutres en bois;
+5;4;16;B;Poutres en bois;
+6;4;16;S;Pierre de fondation;
+7;4;16;S;Pierre de fondation;
+8;4;16;S;Pierre de fondation;
+9;4;16;S;Pierre de fondation;
+10;4;16;S;Pierre de fondation;
+11;4;16;B;Poutres en bois;
+12;4;16;B;Poutres en bois;
+13;4;16;B;Poutres en bois;
+14;4;16;S;Pierre de fondation;
+15;4;16;S;Pierre de fondation;
+16;4;16;S;Pierre de fondation;
+17;4;16;S;Pierre de fondation;
+18;4;16;S;Pierre de fondation;
+19;4;16;B;Poutres en bois;
+20;4;16;B;Poutres en bois;
+21;4;16;B;Poutres en bois;
+22;4;16;S;Pierre de fondation;
+23;4;16;S;Pierre de fondation;
+24;4;16;S;Pierre de fondation;
+7;4;17;V;Feuillage et jardinières;
+6;5;-3;R;Escaliers de toiture;X+
+8;5;-3;R;Escaliers de toiture;X-
+6;5;-2;R;Escaliers de toiture;X+
+8;5;-2;R;Escaliers de toiture;X-
+2;5;-1;V;Feuillage et jardinières;
+3;5;-1;V;Feuillage et jardinières;
+4;5;-1;V;Feuillage et jardinières;
+6;5;-1;R;Escaliers de toiture;X+
+8;5;-1;R;Escaliers de toiture;X-
+10;5;-1;V;Feuillage et jardinières;
+11;5;-1;V;Feuillage et jardinières;
+12;5;-1;V;Feuillage et jardinières;
+13;5;-1;V;Feuillage et jardinières;
+14;5;-1;V;Feuillage et jardinières;
+17;5;-1;V;Feuillage et jardinières;
+18;5;-1;V;Feuillage et jardinières;
+19;5;-1;V;Feuillage et jardinières;
+21;5;-1;V;Feuillage et jardinières;
+22;5;-1;V;Feuillage et jardinières;
+23;5;-1;V;Feuillage et jardinières;
+0;5;0;B;Poutres en bois;
+1;5;0;B;Poutres en bois;
+2;5;0;B;Poutres en bois;
+3;5;0;B;Poutres en bois;
+4;5;0;B;Poutres en bois;
+5;5;0;B;Poutres en bois;
+6;5;0;B;Poutres en bois;
+7;5;0;B;Poutres en bois;
+8;5;0;B;Poutres en bois;
+9;5;0;B;Poutres en bois;
+10;5;0;B;Poutres en bois;
+11;5;0;B;Poutres en bois;
+12;5;0;B;Poutres en bois;
+13;5;0;B;Poutres en bois;
+14;5;0;B;Poutres en bois;
+15;5;0;B;Poutres en bois;
+16;5;0;B;Poutres en bois;
+17;5;0;B;Poutres en bois;
+18;5;0;B;Poutres en bois;
+19;5;0;B;Poutres en bois;
+20;5;0;B;Poutres en bois;
+21;5;0;B;Poutres en bois;
+22;5;0;B;Poutres en bois;
+23;5;0;B;Poutres en bois;
+24;5;0;B;Poutres en bois;
+0;5;1;B;Poutres en bois;
+24;5;1;B;Poutres en bois;
+0;5;2;B;Poutres en bois;
+24;5;2;B;Poutres en bois;
+0;5;3;B;Poutres en bois;
+24;5;3;B;Poutres en bois;
+0;5;4;B;Poutres en bois;
+24;5;4;B;Poutres en bois;
+-1;5;5;V;Feuillage et jardinières;
+0;5;5;B;Poutres en bois;
+24;5;5;B;Poutres en bois;
+0;5;6;B;Poutres en bois;
+24;5;6;B;Poutres en bois;
+0;5;7;B;Poutres en bois;
+24;5;7;B;Poutres en bois;
+0;5;8;B;Poutres en bois;
+24;5;8;B;Poutres en bois;
+0;5;9;B;Poutres en bois;
+24;5;9;B;Poutres en bois;
+0;5;10;B;Poutres en bois;
+24;5;10;B;Poutres en bois;
+0;5;11;B;Poutres en bois;
+24;5;11;B;Poutres en bois;
+25;5;11;V;Feuillage et jardinières;
+0;5;12;B;Poutres en bois;
+24;5;12;B;Poutres en bois;
+0;5;13;B;Poutres en bois;
+24;5;13;B;Poutres en bois;
+0;5;14;B;Poutres en bois;
+24;5;14;B;Poutres en bois;
+0;5;15;B;Poutres en bois;
+24;5;15;B;Poutres en bois;
+0;5;16;B;Poutres en bois;
+1;5;16;B;Poutres en bois;
+2;5;16;B;Poutres en bois;
+3;5;16;B;Poutres en bois;
+4;5;16;B;Poutres en bois;
+5;5;16;B;Poutres en bois;
+6;5;16;B;Poutres en bois;
+7;5;16;B;Poutres en bois;
+8;5;16;B;Poutres en bois;
+9;5;16;B;Poutres en bois;
+10;5;16;B;Poutres en bois;
+11;5;16;B;Poutres en bois;
+12;5;16;B;Poutres en bois;
+13;5;16;B;Poutres en bois;
+14;5;16;B;Poutres en bois;
+15;5;16;B;Poutres en bois;
+16;5;16;B;Poutres en bois;
+17;5;16;B;Poutres en bois;
+18;5;16;B;Poutres en bois;
+19;5;16;B;Poutres en bois;
+20;5;16;B;Poutres en bois;
+21;5;16;B;Poutres en bois;
+22;5;16;B;Poutres en bois;
+23;5;16;B;Poutres en bois;
+24;5;16;B;Poutres en bois;
+7;5;17;V;Feuillage et jardinières;
+7;6;-3;H;Bois plein : faîtage;
+7;6;-2;H;Bois plein : faîtage;
+7;6;-1;H;Bois plein : faîtage;
+13;6;-1;V;Feuillage et jardinières;
+14;6;-1;V;Feuillage et jardinières;
+0;6;0;B;Poutres en bois;
+1;6;0;B;Poutres en bois;
+2;6;0;G;Vitres;
+3;6;0;G;Vitres;
+4;6;0;G;Vitres;
+5;6;0;B;Poutres en bois;
+6;6;0;G;Vitres;
+7;6;0;G;Vitres;
+8;6;0;G;Vitres;
+9;6;0;B;Poutres en bois;
+10;6;0;G;Vitres;
+11;6;0;G;Vitres;
+12;6;0;G;Vitres;
+13;6;0;B;Poutres en bois;
+14;6;0;B;Poutres en bois;
+15;6;0;P;Planches en bois;
+16;6;0;B;Poutres en bois;
+17;6;0;G;Vitres;
+18;6;0;G;Vitres;
+19;6;0;G;Vitres;
+20;6;0;B;Poutres en bois;
+21;6;0;G;Vitres;
+22;6;0;G;Vitres;
+23;6;0;G;Vitres;
+24;6;0;B;Poutres en bois;
+0;6;1;B;Poutres en bois;
+24;6;1;B;Poutres en bois;
+0;6;2;G;Vitres;
+24;6;2;G;Vitres;
+0;6;3;G;Vitres;
+24;6;3;G;Vitres;
+0;6;4;G;Vitres;
+24;6;4;G;Vitres;
+-1;6;5;V;Feuillage et jardinières;
+0;6;5;B;Poutres en bois;
+24;6;5;B;Poutres en bois;
+0;6;6;B;Poutres en bois;
+24;6;6;B;Poutres en bois;
+0;6;7;G;Vitres;
+24;6;7;G;Vitres;
+0;6;8;G;Vitres;
+24;6;8;G;Vitres;
+0;6;9;G;Vitres;
+24;6;9;G;Vitres;
+0;6;10;B;Poutres en bois;
+24;6;10;B;Poutres en bois;
+0;6;11;B;Poutres en bois;
+24;6;11;B;Poutres en bois;
+0;6;12;G;Vitres;
+24;6;12;G;Vitres;
+0;6;13;G;Vitres;
+24;6;13;G;Vitres;
+0;6;14;G;Vitres;
+24;6;14;G;Vitres;
+0;6;15;B;Poutres en bois;
+24;6;15;B;Poutres en bois;
+0;6;16;B;Poutres en bois;
+1;6;16;P;Planches en bois;
+2;6;16;B;Poutres en bois;
+3;6;16;G;Vitres;
+4;6;16;G;Vitres;
+5;6;16;G;Vitres;
+6;6;16;B;Poutres en bois;
+7;6;16;P;Planches en bois;
+8;6;16;P;Planches en bois;
+9;6;16;B;Poutres en bois;
+10;6;16;B;Poutres en bois;
+11;6;16;G;Vitres;
+12;6;16;G;Vitres;
+13;6;16;G;Vitres;
+14;6;16;B;Poutres en bois;
+15;6;16;P;Planches en bois;
+16;6;16;B;Poutres en bois;
+17;6;16;P;Planches en bois;
+18;6;16;B;Poutres en bois;
+19;6;16;G;Vitres;
+20;6;16;G;Vitres;
+21;6;16;G;Vitres;
+22;6;16;B;Poutres en bois;
+23;6;16;P;Planches en bois;
+24;6;16;B;Poutres en bois;
+7;6;17;V;Feuillage et jardinières;
+1;7;-1;L;Lanternes;
+13;7;-1;V;Feuillage et jardinières;
+14;7;-1;V;Feuillage et jardinières;
+15;7;-1;L;Lanternes;
+24;7;-1;L;Lanternes;
+0;7;0;B;Poutres en bois;
+1;7;0;B;Poutres en bois;
+2;7;0;G;Vitres;
+3;7;0;G;Vitres;
+4;7;0;G;Vitres;
+5;7;0;B;Poutres en bois;
+6;7;0;G;Vitres;
+7;7;0;G;Vitres;
+8;7;0;G;Vitres;
+9;7;0;B;Poutres en bois;
+10;7;0;G;Vitres;
+11;7;0;G;Vitres;
+12;7;0;G;Vitres;
+13;7;0;B;Poutres en bois;
+14;7;0;B;Poutres en bois;
+15;7;0;P;Planches en bois;
+16;7;0;B;Poutres en bois;
+17;7;0;G;Vitres;
+18;7;0;G;Vitres;
+19;7;0;G;Vitres;
+20;7;0;B;Poutres en bois;
+21;7;0;G;Vitres;
+22;7;0;G;Vitres;
+23;7;0;G;Vitres;
+24;7;0;B;Poutres en bois;
+-1;7;1;L;Lanternes;
+0;7;1;B;Poutres en bois;
+24;7;1;B;Poutres en bois;
+25;7;1;L;Lanternes;
+0;7;2;G;Vitres;
+24;7;2;G;Vitres;
+0;7;3;G;Vitres;
+24;7;3;G;Vitres;
+0;7;4;G;Vitres;
+24;7;4;G;Vitres;
+-1;7;5;V;Feuillage et jardinières;
+0;7;5;B;Poutres en bois;
+24;7;5;B;Poutres en bois;
+25;7;5;N;Bannières décoratives;
+0;7;6;B;Poutres en bois;
+24;7;6;B;Poutres en bois;
+0;7;7;G;Vitres;
+24;7;7;G;Vitres;
+0;7;8;G;Vitres;
+24;7;8;G;Vitres;
+0;7;9;G;Vitres;
+24;7;9;G;Vitres;
+0;7;10;B;Poutres en bois;
+24;7;10;B;Poutres en bois;
+0;7;11;B;Poutres en bois;
+24;7;11;B;Poutres en bois;
+25;7;11;N;Bannières décoratives;
+0;7;12;G;Vitres;
+24;7;12;G;Vitres;
+0;7;13;G;Vitres;
+24;7;13;G;Vitres;
+0;7;14;G;Vitres;
+24;7;14;G;Vitres;
+-1;7;15;L;Lanternes;
+0;7;15;B;Poutres en bois;
+24;7;15;B;Poutres en bois;
+25;7;15;L;Lanternes;
+0;7;16;B;Poutres en bois;
+1;7;16;P;Planches en bois;
+2;7;16;B;Poutres en bois;
+3;7;16;G;Vitres;
+4;7;16;G;Vitres;
+5;7;16;G;Vitres;
+6;7;16;B;Poutres en bois;
+7;7;16;P;Planches en bois;
+8;7;16;P;Planches en bois;
+9;7;16;B;Poutres en bois;
+10;7;16;B;Poutres en bois;
+11;7;16;G;Vitres;
+12;7;16;G;Vitres;
+13;7;16;G;Vitres;
+14;7;16;B;Poutres en bois;
+15;7;16;P;Planches en bois;
+16;7;16;B;Poutres en bois;
+17;7;16;P;Planches en bois;
+18;7;16;B;Poutres en bois;
+19;7;16;G;Vitres;
+20;7;16;G;Vitres;
+21;7;16;G;Vitres;
+22;7;16;B;Poutres en bois;
+23;7;16;P;Planches en bois;
+24;7;16;B;Poutres en bois;
+1;7;17;L;Lanternes;
+7;7;17;V;Feuillage et jardinières;
+23;7;17;L;Lanternes;
+13;8;-1;V;Feuillage et jardinières;
+14;8;-1;V;Feuillage et jardinières;
+0;8;0;B;Poutres en bois;
+1;8;0;B;Poutres en bois;
+2;8;0;G;Vitres;
+3;8;0;G;Vitres;
+4;8;0;G;Vitres;
+5;8;0;B;Poutres en bois;
+6;8;0;G;Vitres;
+7;8;0;G;Vitres;
+8;8;0;G;Vitres;
+9;8;0;B;Poutres en bois;
+10;8;0;G;Vitres;
+11;8;0;G;Vitres;
+12;8;0;G;Vitres;
+13;8;0;B;Poutres en bois;
+14;8;0;B;Poutres en bois;
+15;8;0;P;Planches en bois;
+16;8;0;B;Poutres en bois;
+17;8;0;G;Vitres;
+18;8;0;G;Vitres;
+19;8;0;G;Vitres;
+20;8;0;B;Poutres en bois;
+21;8;0;G;Vitres;
+22;8;0;G;Vitres;
+23;8;0;G;Vitres;
+24;8;0;B;Poutres en bois;
+0;8;1;B;Poutres en bois;
+24;8;1;B;Poutres en bois;
+0;8;2;G;Vitres;
+24;8;2;G;Vitres;
+0;8;3;G;Vitres;
+24;8;3;G;Vitres;
+0;8;4;G;Vitres;
+24;8;4;G;Vitres;
+-1;8;5;V;Feuillage et jardinières;
+0;8;5;B;Poutres en bois;
+24;8;5;B;Poutres en bois;
+25;8;5;N;Bannières décoratives;
+0;8;6;B;Poutres en bois;
+24;8;6;B;Poutres en bois;
+0;8;7;G;Vitres;
+24;8;7;G;Vitres;
+0;8;8;G;Vitres;
+24;8;8;G;Vitres;
+0;8;9;G;Vitres;
+24;8;9;G;Vitres;
+0;8;10;B;Poutres en bois;
+24;8;10;B;Poutres en bois;
+0;8;11;B;Poutres en bois;
+24;8;11;B;Poutres en bois;
+25;8;11;N;Bannières décoratives;
+0;8;12;G;Vitres;
+24;8;12;G;Vitres;
+0;8;13;G;Vitres;
+24;8;13;G;Vitres;
+0;8;14;G;Vitres;
+24;8;14;G;Vitres;
+0;8;15;B;Poutres en bois;
+24;8;15;B;Poutres en bois;
+0;8;16;B;Poutres en bois;
+1;8;16;P;Planches en bois;
+2;8;16;B;Poutres en bois;
+3;8;16;G;Vitres;
+4;8;16;G;Vitres;
+5;8;16;G;Vitres;
+6;8;16;B;Poutres en bois;
+7;8;16;P;Planches en bois;
+8;8;16;P;Planches en bois;
+9;8;16;B;Poutres en bois;
+10;8;16;B;Poutres en bois;
+11;8;16;G;Vitres;
+12;8;16;G;Vitres;
+13;8;16;G;Vitres;
+14;8;16;B;Poutres en bois;
+15;8;16;P;Planches en bois;
+16;8;16;B;Poutres en bois;
+17;8;16;P;Planches en bois;
+18;8;16;B;Poutres en bois;
+19;8;16;G;Vitres;
+20;8;16;G;Vitres;
+21;8;16;G;Vitres;
+22;8;16;B;Poutres en bois;
+23;8;16;P;Planches en bois;
+24;8;16;B;Poutres en bois;
+7;8;17;V;Feuillage et jardinières;
+16;9;-1;R;Escaliers de toiture;Z+
+17;9;-1;R;Escaliers de toiture;Z+
+18;9;-1;R;Escaliers de toiture;Z+
+19;9;-1;R;Escaliers de toiture;Z+
+20;9;-1;R;Escaliers de toiture;Z+
+21;9;-1;R;Escaliers de toiture;Z+
+22;9;-1;R;Escaliers de toiture;Z+
+23;9;-1;R;Escaliers de toiture;Z+
+24;9;-1;R;Escaliers de toiture;Z+
+25;9;-1;R;Escaliers de toiture;Z+
+0;9;0;B;Poutres en bois;
+1;9;0;B;Poutres en bois;
+2;9;0;B;Poutres en bois;
+3;9;0;B;Poutres en bois;
+4;9;0;B;Poutres en bois;
+5;9;0;B;Poutres en bois;
+6;9;0;B;Poutres en bois;
+7;9;0;B;Poutres en bois;
+8;9;0;B;Poutres en bois;
+9;9;0;B;Poutres en bois;
+10;9;0;B;Poutres en bois;
+11;9;0;B;Poutres en bois;
+12;9;0;B;Poutres en bois;
+13;9;0;B;Poutres en bois;
+14;9;0;B;Poutres en bois;
+15;9;0;B;Poutres en bois;
+16;9;0;B;Poutres en bois;
+17;9;0;B;Poutres en bois;
+18;9;0;B;Poutres en bois;
+19;9;0;B;Poutres en bois;
+20;9;0;B;Poutres en bois;
+21;9;0;B;Poutres en bois;
+22;9;0;B;Poutres en bois;
+23;9;0;B;Poutres en bois;
+24;9;0;B;Poutres en bois;
+0;9;1;B;Poutres en bois;
+24;9;1;B;Poutres en bois;
+0;9;2;B;Poutres en bois;
+24;9;2;B;Poutres en bois;
+0;9;3;B;Poutres en bois;
+24;9;3;B;Poutres en bois;
+0;9;4;B;Poutres en bois;
+24;9;4;B;Poutres en bois;
+0;9;5;B;Poutres en bois;
+24;9;5;B;Poutres en bois;
+25;9;5;N;Bannières décoratives;
+0;9;6;B;Poutres en bois;
+24;9;6;B;Poutres en bois;
+0;9;7;B;Poutres en bois;
+24;9;7;B;Poutres en bois;
+0;9;8;B;Poutres en bois;
+24;9;8;B;Poutres en bois;
+0;9;9;B;Poutres en bois;
+24;9;9;B;Poutres en bois;
+0;9;10;B;Poutres en bois;
+24;9;10;B;Poutres en bois;
+0;9;11;B;Poutres en bois;
+24;9;11;B;Poutres en bois;
+25;9;11;N;Bannières décoratives;
+0;9;12;B;Poutres en bois;
+24;9;12;B;Poutres en bois;
+0;9;13;B;Poutres en bois;
+24;9;13;B;Poutres en bois;
+0;9;14;B;Poutres en bois;
+24;9;14;B;Poutres en bois;
+0;9;15;B;Poutres en bois;
+24;9;15;B;Poutres en bois;
+0;9;16;B;Poutres en bois;
+1;9;16;B;Poutres en bois;
+2;9;16;B;Poutres en bois;
+3;9;16;B;Poutres en bois;
+4;9;16;B;Poutres en bois;
+5;9;16;B;Poutres en bois;
+6;9;16;B;Poutres en bois;
+7;9;16;B;Poutres en bois;
+8;9;16;B;Poutres en bois;
+9;9;16;B;Poutres en bois;
+10;9;16;B;Poutres en bois;
+11;9;16;B;Poutres en bois;
+12;9;16;B;Poutres en bois;
+13;9;16;B;Poutres en bois;
+14;9;16;B;Poutres en bois;
+15;9;16;B;Poutres en bois;
+16;9;16;B;Poutres en bois;
+17;9;16;B;Poutres en bois;
+18;9;16;B;Poutres en bois;
+19;9;16;B;Poutres en bois;
+20;9;16;B;Poutres en bois;
+21;9;16;B;Poutres en bois;
+22;9;16;B;Poutres en bois;
+23;9;16;B;Poutres en bois;
+24;9;16;B;Poutres en bois;
+-1;9;17;R;Escaliers de toiture;Z-
+0;9;17;R;Escaliers de toiture;Z-
+1;9;17;R;Escaliers de toiture;Z-
+2;9;17;R;Escaliers de toiture;Z-
+3;9;17;R;Escaliers de toiture;Z-
+4;9;17;R;Escaliers de toiture;Z-
+5;9;17;R;Escaliers de toiture;Z-
+6;9;17;R;Escaliers de toiture;Z-
+7;9;17;R;Escaliers de toiture;Z-
+8;9;17;R;Escaliers de toiture;Z-
+9;9;17;R;Escaliers de toiture;Z-
+10;9;17;R;Escaliers de toiture;Z-
+11;9;17;R;Escaliers de toiture;Z-
+12;9;17;R;Escaliers de toiture;Z-
+13;9;17;R;Escaliers de toiture;Z-
+14;9;17;R;Escaliers de toiture;Z-
+15;9;17;R;Escaliers de toiture;Z-
+16;9;17;R;Escaliers de toiture;Z-
+17;9;17;R;Escaliers de toiture;Z-
+18;9;17;R;Escaliers de toiture;Z-
+19;9;17;R;Escaliers de toiture;Z-
+20;9;17;R;Escaliers de toiture;Z-
+21;9;17;R;Escaliers de toiture;Z-
+22;9;17;R;Escaliers de toiture;Z-
+23;9;17;R;Escaliers de toiture;Z-
+24;9;17;R;Escaliers de toiture;Z-
+25;9;17;R;Escaliers de toiture;Z-
+-1;10;-1;R;Escaliers de toiture;X+
+15;10;-1;R;Escaliers de toiture;X-
+-1;10;0;R;Escaliers de toiture;Z+
+0;10;0;B;Poutres en bois;
+1;10;0;E;Enduit clair;
+2;10;0;E;Enduit clair;
+3;10;0;E;Enduit clair;
+4;10;0;E;Enduit clair;
+5;10;0;E;Enduit clair;
+6;10;0;E;Enduit clair;
+7;10;0;B;Poutres en bois;
+8;10;0;E;Enduit clair;
+9;10;0;E;Enduit clair;
+10;10;0;E;Enduit clair;
+11;10;0;E;Enduit clair;
+12;10;0;E;Enduit clair;
+13;10;0;E;Enduit clair;
+14;10;0;B;Poutres en bois;
+15;10;0;R;Escaliers de toiture;Z+
+16;10;0;R;Escaliers de toiture;Z+
+17;10;0;R;Escaliers de toiture;Z+
+18;10;0;R;Escaliers de toiture;Z+
+19;10;0;R;Escaliers de toiture;Z+
+20;10;0;R;Escaliers de toiture;Z+
+21;10;0;R;Escaliers de toiture;Z+
+22;10;0;R;Escaliers de toiture;Z+
+23;10;0;R;Escaliers de toiture;Z+
+24;10;0;R;Escaliers de toiture;Z+
+25;10;0;R;Escaliers de toiture;Z+
+-1;10;1;R;Escaliers de toiture;Z+
+0;10;1;B;Poutres en bois;
+15;10;1;R;Escaliers de toiture;Z+
+16;10;1;R;Escaliers de toiture;Z+
+17;10;1;R;Escaliers de toiture;Z+
+18;10;1;B;Poutres en bois;
+19;10;1;P;Planches en bois;
+20;10;1;P;Planches en bois;
+21;10;1;P;Planches en bois;
+22;10;1;B;Poutres en bois;
+23;10;1;R;Escaliers de toiture;Z+
+24;10;1;R;Escaliers de toiture;Z+
+25;10;1;R;Escaliers de toiture;Z+
+0;10;2;B;Poutres en bois;
+24;10;2;B;Poutres en bois;
+0;10;3;E;Enduit clair;
+24;10;3;E;Enduit clair;
+0;10;4;E;Enduit clair;
+24;10;4;E;Enduit clair;
+0;10;5;E;Enduit clair;
+24;10;5;E;Enduit clair;
+0;10;6;E;Enduit clair;
+24;10;6;E;Enduit clair;
+0;10;7;E;Enduit clair;
+24;10;7;E;Enduit clair;
+0;10;8;B;Poutres en bois;
+24;10;8;B;Poutres en bois;
+0;10;9;E;Enduit clair;
+24;10;9;E;Enduit clair;
+0;10;10;E;Enduit clair;
+24;10;10;E;Enduit clair;
+0;10;11;E;Enduit clair;
+24;10;11;E;Enduit clair;
+0;10;12;E;Enduit clair;
+24;10;12;E;Enduit clair;
+0;10;13;E;Enduit clair;
+24;10;13;E;Enduit clair;
+0;10;14;B;Poutres en bois;
+24;10;14;B;Poutres en bois;
+-1;10;15;R;Escaliers de toiture;Z-
+0;10;15;R;Escaliers de toiture;Z-
+1;10;15;R;Escaliers de toiture;Z-
+2;10;15;R;Escaliers de toiture;Z-
+3;10;15;R;Escaliers de toiture;Z-
+4;10;15;R;Escaliers de toiture;Z-
+5;10;15;R;Escaliers de toiture;Z-
+6;10;15;R;Escaliers de toiture;Z-
+7;10;15;R;Escaliers de toiture;Z-
+8;10;15;R;Escaliers de toiture;Z-
+9;10;15;R;Escaliers de toiture;Z-
+10;10;15;B;Poutres en bois;
+11;10;15;P;Planches en bois;
+12;10;15;P;Planches en bois;
+13;10;15;P;Planches en bois;
+14;10;15;B;Poutres en bois;
+15;10;15;R;Escaliers de toiture;Z-
+16;10;15;R;Escaliers de toiture;Z-
+17;10;15;R;Escaliers de toiture;Z-
+18;10;15;R;Escaliers de toiture;Z-
+19;10;15;R;Escaliers de toiture;Z-
+20;10;15;R;Escaliers de toiture;Z-
+21;10;15;R;Escaliers de toiture;Z-
+22;10;15;R;Escaliers de toiture;Z-
+23;10;15;R;Escaliers de toiture;Z-
+24;10;15;R;Escaliers de toiture;Z-
+25;10;15;R;Escaliers de toiture;Z-
+-1;10;16;R;Escaliers de toiture;Z-
+0;10;16;R;Escaliers de toiture;Z-
+1;10;16;R;Escaliers de toiture;Z-
+2;10;16;R;Escaliers de toiture;Z-
+3;10;16;R;Escaliers de toiture;Z-
+4;10;16;R;Escaliers de toiture;Z-
+5;10;16;R;Escaliers de toiture;Z-
+6;10;16;R;Escaliers de toiture;Z-
+7;10;16;R;Escaliers de toiture;Z-
+8;10;16;R;Escaliers de toiture;Z-
+9;10;16;R;Escaliers de toiture;Z-
+10;10;16;R;Escaliers de toiture;Z-
+11;10;16;R;Escaliers de toiture;Z-
+12;10;16;R;Escaliers de toiture;Z-
+13;10;16;R;Escaliers de toiture;Z-
+14;10;16;R;Escaliers de toiture;Z-
+15;10;16;R;Escaliers de toiture;Z-
+16;10;16;R;Escaliers de toiture;Z-
+17;10;16;R;Escaliers de toiture;Z-
+18;10;16;R;Escaliers de toiture;Z-
+19;10;16;R;Escaliers de toiture;Z-
+20;10;16;R;Escaliers de toiture;Z-
+21;10;16;R;Escaliers de toiture;Z-
+22;10;16;R;Escaliers de toiture;Z-
+23;10;16;R;Escaliers de toiture;Z-
+24;10;16;R;Escaliers de toiture;Z-
+25;10;16;R;Escaliers de toiture;Z-
+0;11;-1;R;Escaliers de toiture;X+
+14;11;-1;R;Escaliers de toiture;X-
+0;11;0;R;Escaliers de toiture;X+
+1;11;0;B;Poutres en bois;
+2;11;0;E;Enduit clair;
+3;11;0;E;Enduit clair;
+4;11;0;E;Enduit clair;
+5;11;0;E;Enduit clair;
+6;11;0;B;Poutres en bois;
+7;11;0;B;Poutres en bois;
+8;11;0;B;Poutres en bois;
+9;11;0;E;Enduit clair;
+10;11;0;E;Enduit clair;
+11;11;0;E;Enduit clair;
+12;11;0;E;Enduit clair;
+13;11;0;B;Poutres en bois;
+14;11;0;R;Escaliers de toiture;X-
+0;11;1;R;Escaliers de toiture;X+
+14;11;1;R;Escaliers de toiture;X-
+18;11;1;B;Poutres en bois;
+19;11;1;B;Poutres en bois;
+20;11;1;B;Poutres en bois;
+21;11;1;B;Poutres en bois;
+22;11;1;B;Poutres en bois;
+-1;11;2;R;Escaliers de toiture;Z+
+0;11;2;R;Escaliers de toiture;Z+
+14;11;2;R;Escaliers de toiture;Z+
+15;11;2;R;Escaliers de toiture;Z+
+16;11;2;R;Escaliers de toiture;Z+
+17;11;2;R;Escaliers de toiture;Z+
+18;11;2;B;Poutres en bois;
+19;11;2;R;Escaliers de toiture;Z+
+20;11;2;R;Escaliers de toiture;Z+
+21;11;2;R;Escaliers de toiture;Z+
+22;11;2;B;Poutres en bois;
+23;11;2;R;Escaliers de toiture;Z+
+24;11;2;R;Escaliers de toiture;Z+
+25;11;2;R;Escaliers de toiture;Z+
+0;11;3;B;Poutres en bois;
+24;11;3;B;Poutres en bois;
+0;11;4;E;Enduit clair;
+24;11;4;E;Enduit clair;
+0;11;5;E;Enduit clair;
+24;11;5;E;Enduit clair;
+0;11;6;E;Enduit clair;
+24;11;6;E;Enduit clair;
+0;11;7;B;Poutres en bois;
+24;11;7;B;Poutres en bois;
+0;11;8;B;Poutres en bois;
+24;11;8;B;Poutres en bois;
+0;11;9;B;Poutres en bois;
+24;11;9;B;Poutres en bois;
+0;11;10;E;Enduit clair;
+24;11;10;E;Enduit clair;
+0;11;11;E;Enduit clair;
+24;11;11;E;Enduit clair;
+0;11;12;E;Enduit clair;
+24;11;12;E;Enduit clair;
+0;11;13;B;Poutres en bois;
+24;11;13;B;Poutres en bois;
+-1;11;14;R;Escaliers de toiture;Z-
+0;11;14;R;Escaliers de toiture;Z-
+1;11;14;R;Escaliers de toiture;Z-
+2;11;14;R;Escaliers de toiture;Z-
+3;11;14;R;Escaliers de toiture;Z-
+4;11;14;R;Escaliers de toiture;Z-
+5;11;14;R;Escaliers de toiture;Z-
+6;11;14;R;Escaliers de toiture;Z-
+7;11;14;R;Escaliers de toiture;Z-
+8;11;14;R;Escaliers de toiture;Z-
+9;11;14;R;Escaliers de toiture;Z-
+10;11;14;B;Poutres en bois;
+11;11;14;R;Escaliers de toiture;Z-
+12;11;14;R;Escaliers de toiture;Z-
+13;11;14;R;Escaliers de toiture;Z-
+14;11;14;B;Poutres en bois;
+15;11;14;R;Escaliers de toiture;Z-
+16;11;14;R;Escaliers de toiture;Z-
+17;11;14;R;Escaliers de toiture;Z-
+18;11;14;R;Escaliers de toiture;Z-
+19;11;14;R;Escaliers de toiture;Z-
+20;11;14;R;Escaliers de toiture;Z-
+21;11;14;R;Escaliers de toiture;Z-
+22;11;14;R;Escaliers de toiture;Z-
+23;11;14;R;Escaliers de toiture;Z-
+24;11;14;R;Escaliers de toiture;Z-
+25;11;14;R;Escaliers de toiture;Z-
+10;11;15;B;Poutres en bois;
+11;11;15;B;Poutres en bois;
+12;11;15;B;Poutres en bois;
+13;11;15;B;Poutres en bois;
+14;11;15;B;Poutres en bois;
+1;12;-1;R;Escaliers de toiture;X+
+13;12;-1;R;Escaliers de toiture;X-
+1;12;0;R;Escaliers de toiture;X+
+2;12;0;B;Poutres en bois;
+3;12;0;E;Enduit clair;
+4;12;0;E;Enduit clair;
+5;12;0;B;Poutres en bois;
+6;12;0;G;Vitres;
+7;12;0;G;Vitres;
+8;12;0;G;Vitres;
+9;12;0;B;Poutres en bois;
+10;12;0;E;Enduit clair;
+11;12;0;E;Enduit clair;
+12;12;0;B;Poutres en bois;
+13;12;0;R;Escaliers de toiture;X-
+1;12;1;R;Escaliers de toiture;X+
+13;12;1;R;Escaliers de toiture;X-
+18;12;1;B;Poutres en bois;
+19;12;1;G;Vitres;
+20;12;1;G;Vitres;
+21;12;1;G;Vitres;
+22;12;1;B;Poutres en bois;
+1;12;2;R;Escaliers de toiture;X+
+13;12;2;R;Escaliers de toiture;X-
+18;12;2;B;Poutres en bois;
+22;12;2;B;Poutres en bois;
+-1;12;3;R;Escaliers de toiture;Z+
+0;12;3;R;Escaliers de toiture;Z+
+1;12;3;R;Escaliers de toiture;Z+
+13;12;3;R;Escaliers de toiture;Z+
+14;12;3;R;Escaliers de toiture;Z+
+15;12;3;R;Escaliers de toiture;Z+
+16;12;3;R;Escaliers de toiture;Z+
+17;12;3;R;Escaliers de toiture;Z+
+18;12;3;B;Poutres en bois;
+19;12;3;R;Escaliers de toiture;Z+
+20;12;3;R;Escaliers de toiture;Z+
+21;12;3;R;Escaliers de toiture;Z+
+22;12;3;B;Poutres en bois;
+23;12;3;R;Escaliers de toiture;Z+
+24;12;3;R;Escaliers de toiture;Z+
+25;12;3;R;Escaliers de toiture;Z+
+0;12;4;B;Poutres en bois;
+24;12;4;B;Poutres en bois;
+0;12;5;B;Poutres en bois;
+24;12;5;B;Poutres en bois;
+0;12;6;B;Poutres en bois;
+24;12;6;B;Poutres en bois;
+0;12;7;G;Vitres;
+24;12;7;G;Vitres;
+0;12;8;G;Vitres;
+24;12;8;G;Vitres;
+0;12;9;G;Vitres;
+24;12;9;G;Vitres;
+0;12;10;B;Poutres en bois;
+24;12;10;B;Poutres en bois;
+0;12;11;B;Poutres en bois;
+24;12;11;B;Poutres en bois;
+0;12;12;B;Poutres en bois;
+24;12;12;B;Poutres en bois;
+-1;12;13;R;Escaliers de toiture;Z-
+0;12;13;R;Escaliers de toiture;Z-
+1;12;13;R;Escaliers de toiture;Z-
+2;12;13;R;Escaliers de toiture;Z-
+3;12;13;R;Escaliers de toiture;Z-
+4;12;13;R;Escaliers de toiture;Z-
+5;12;13;R;Escaliers de toiture;Z-
+6;12;13;R;Escaliers de toiture;Z-
+7;12;13;R;Escaliers de toiture;Z-
+8;12;13;R;Escaliers de toiture;Z-
+9;12;13;R;Escaliers de toiture;Z-
+10;12;13;B;Poutres en bois;
+11;12;13;R;Escaliers de toiture;Z-
+12;12;13;R;Escaliers de toiture;Z-
+13;12;13;R;Escaliers de toiture;Z-
+14;12;13;B;Poutres en bois;
+15;12;13;R;Escaliers de toiture;Z-
+16;12;13;R;Escaliers de toiture;Z-
+17;12;13;R;Escaliers de toiture;Z-
+18;12;13;R;Escaliers de toiture;Z-
+19;12;13;R;Escaliers de toiture;Z-
+20;12;13;R;Escaliers de toiture;Z-
+21;12;13;R;Escaliers de toiture;Z-
+22;12;13;R;Escaliers de toiture;Z-
+23;12;13;R;Escaliers de toiture;Z-
+24;12;13;R;Escaliers de toiture;Z-
+25;12;13;R;Escaliers de toiture;Z-
+10;12;14;B;Poutres en bois;
+14;12;14;B;Poutres en bois;
+10;12;15;B;Poutres en bois;
+11;12;15;G;Vitres;
+12;12;15;G;Vitres;
+13;12;15;G;Vitres;
+14;12;15;B;Poutres en bois;
+2;13;-1;R;Escaliers de toiture;X+
+12;13;-1;R;Escaliers de toiture;X-
+2;13;0;R;Escaliers de toiture;X+
+3;13;0;B;Poutres en bois;
+4;13;0;E;Enduit clair;
+5;13;0;B;Poutres en bois;
+6;13;0;G;Vitres;
+7;13;0;G;Vitres;
+8;13;0;G;Vitres;
+9;13;0;B;Poutres en bois;
+10;13;0;E;Enduit clair;
+11;13;0;B;Poutres en bois;
+12;13;0;R;Escaliers de toiture;X-
+2;13;1;R;Escaliers de toiture;X+
+12;13;1;R;Escaliers de toiture;X-
+18;13;1;R;Escaliers de toiture;X+
+19;13;1;G;Vitres;
+20;13;1;G;Vitres;
+21;13;1;G;Vitres;
+22;13;1;R;Escaliers de toiture;X-
+2;13;2;R;Escaliers de toiture;X+
+12;13;2;R;Escaliers de toiture;X-
+18;13;2;R;Escaliers de toiture;X+
+22;13;2;R;Escaliers de toiture;X-
+2;13;3;R;Escaliers de toiture;X+
+12;13;3;R;Escaliers de toiture;X-
+18;13;3;R;Escaliers de toiture;X+
+22;13;3;R;Escaliers de toiture;X-
+-1;13;4;R;Escaliers de toiture;Z+
+0;13;4;R;Escaliers de toiture;Z+
+1;13;4;R;Escaliers de toiture;Z+
+2;13;4;R;Escaliers de toiture;Z+
+12;13;4;R;Escaliers de toiture;Z+
+13;13;4;R;Escaliers de toiture;Z+
+14;13;4;R;Escaliers de toiture;Z+
+15;13;4;R;Escaliers de toiture;Z+
+16;13;4;R;Escaliers de toiture;Z+
+17;13;4;R;Escaliers de toiture;Z+
+18;13;4;R;Escaliers de toiture;Z+
+19;13;4;R;Escaliers de toiture;Z+
+20;13;4;R;Escaliers de toiture;Z+
+21;13;4;R;Escaliers de toiture;Z+
+22;13;4;R;Escaliers de toiture;Z+
+23;13;4;R;Escaliers de toiture;Z+
+24;13;4;R;Escaliers de toiture;Z+
+25;13;4;R;Escaliers de toiture;Z+
+-1;13;5;R;Escaliers de toiture;Z+
+0;13;5;R;Escaliers de toiture;Z+
+1;13;5;R;Escaliers de toiture;Z+
+2;13;5;R;Escaliers de toiture;Z+
+3;13;5;R;Escaliers de toiture;Z+
+11;13;5;R;Escaliers de toiture;Z+
+12;13;5;R;Escaliers de toiture;Z+
+13;13;5;R;Escaliers de toiture;Z+
+14;13;5;R;Escaliers de toiture;Z+
+15;13;5;R;Escaliers de toiture;Z+
+16;13;5;R;Escaliers de toiture;Z+
+17;13;5;R;Escaliers de toiture;Z+
+18;13;5;R;Escaliers de toiture;Z+
+19;13;5;R;Escaliers de toiture;Z+
+20;13;5;R;Escaliers de toiture;Z+
+21;13;5;R;Escaliers de toiture;Z+
+22;13;5;R;Escaliers de toiture;Z+
+23;13;5;R;Escaliers de toiture;Z+
+24;13;5;R;Escaliers de toiture;Z+
+25;13;5;R;Escaliers de toiture;Z+
+0;13;6;B;Poutres en bois;
+24;13;6;B;Poutres en bois;
+0;13;7;G;Vitres;
+24;13;7;G;Vitres;
+0;13;8;G;Vitres;
+24;13;8;G;Vitres;
+0;13;9;G;Vitres;
+24;13;9;G;Vitres;
+0;13;10;B;Poutres en bois;
+24;13;10;B;Poutres en bois;
+-1;13;11;R;Escaliers de toiture;Z-
+0;13;11;R;Escaliers de toiture;Z-
+1;13;11;R;Escaliers de toiture;Z-
+2;13;11;C;Pierre des cheminées;
+3;13;11;C;Pierre des cheminées;
+4;13;11;R;Escaliers de toiture;Z-
+5;13;11;R;Escaliers de toiture;Z-
+6;13;11;R;Escaliers de toiture;Z-
+7;13;11;R;Escaliers de toiture;Z-
+8;13;11;R;Escaliers de toiture;Z-
+9;13;11;R;Escaliers de toiture;Z-
+10;13;11;R;Escaliers de toiture;Z-
+11;13;11;R;Escaliers de toiture;Z-
+12;13;11;R;Escaliers de toiture;Z-
+13;13;11;R;Escaliers de toiture;Z-
+14;13;11;R;Escaliers de toiture;Z-
+15;13;11;R;Escaliers de toiture;Z-
+16;13;11;R;Escaliers de toiture;Z-
+17;13;11;R;Escaliers de toiture;Z-
+18;13;11;R;Escaliers de toiture;Z-
+19;13;11;R;Escaliers de toiture;Z-
+20;13;11;R;Escaliers de toiture;Z-
+21;13;11;C;Pierre des cheminées;
+22;13;11;C;Pierre des cheminées;
+23;13;11;R;Escaliers de toiture;Z-
+24;13;11;R;Escaliers de toiture;Z-
+25;13;11;R;Escaliers de toiture;Z-
+-1;13;12;R;Escaliers de toiture;Z-
+0;13;12;R;Escaliers de toiture;Z-
+1;13;12;R;Escaliers de toiture;Z-
+2;13;12;C;Pierre des cheminées;
+3;13;12;C;Pierre des cheminées;
+4;13;12;R;Escaliers de toiture;Z-
+5;13;12;R;Escaliers de toiture;Z-
+6;13;12;R;Escaliers de toiture;Z-
+7;13;12;R;Escaliers de toiture;Z-
+8;13;12;R;Escaliers de toiture;Z-
+9;13;12;R;Escaliers de toiture;Z-
+10;13;12;R;Escaliers de toiture;Z-
+11;13;12;R;Escaliers de toiture;Z-
+12;13;12;R;Escaliers de toiture;Z-
+13;13;12;R;Escaliers de toiture;Z-
+14;13;12;R;Escaliers de toiture;Z-
+15;13;12;R;Escaliers de toiture;Z-
+16;13;12;R;Escaliers de toiture;Z-
+17;13;12;R;Escaliers de toiture;Z-
+18;13;12;R;Escaliers de toiture;Z-
+19;13;12;R;Escaliers de toiture;Z-
+20;13;12;R;Escaliers de toiture;Z-
+21;13;12;C;Pierre des cheminées;
+22;13;12;C;Pierre des cheminées;
+23;13;12;R;Escaliers de toiture;Z-
+24;13;12;R;Escaliers de toiture;Z-
+25;13;12;R;Escaliers de toiture;Z-
+10;13;13;R;Escaliers de toiture;X+
+14;13;13;R;Escaliers de toiture;X-
+10;13;14;R;Escaliers de toiture;X+
+14;13;14;R;Escaliers de toiture;X-
+10;13;15;R;Escaliers de toiture;X+
+11;13;15;G;Vitres;
+12;13;15;G;Vitres;
+13;13;15;G;Vitres;
+14;13;15;R;Escaliers de toiture;X-
+3;14;-1;R;Escaliers de toiture;X+
+11;14;-1;R;Escaliers de toiture;X-
+3;14;0;R;Escaliers de toiture;X+
+4;14;0;B;Poutres en bois;
+5;14;0;B;Poutres en bois;
+6;14;0;G;Vitres;
+7;14;0;G;Vitres;
+8;14;0;G;Vitres;
+9;14;0;B;Poutres en bois;
+10;14;0;B;Poutres en bois;
+11;14;0;R;Escaliers de toiture;X-
+3;14;1;R;Escaliers de toiture;X+
+11;14;1;R;Escaliers de toiture;X-
+19;14;1;B;Poutres en bois;
+20;14;1;B;Poutres en bois;
+21;14;1;B;Poutres en bois;
+3;14;2;R;Escaliers de toiture;X+
+11;14;2;R;Escaliers de toiture;X-
+19;14;2;R;Escaliers de toiture;X+
+21;14;2;R;Escaliers de toiture;X-
+3;14;3;R;Escaliers de toiture;X+
+11;14;3;R;Escaliers de toiture;X-
+19;14;3;R;Escaliers de toiture;X+
+21;14;3;R;Escaliers de toiture;X-
+3;14;4;R;Escaliers de toiture;X+
+11;14;4;R;Escaliers de toiture;X-
+19;14;4;R;Escaliers de toiture;X+
+21;14;4;R;Escaliers de toiture;X-
+4;14;5;R;Escaliers de toiture;X+
+10;14;5;R;Escaliers de toiture;X-
+19;14;5;R;Escaliers de toiture;X+
+21;14;5;R;Escaliers de toiture;X-
+-1;14;6;R;Escaliers de toiture;Z+
+0;14;6;R;Escaliers de toiture;Z+
+1;14;6;R;Escaliers de toiture;Z+
+2;14;6;R;Escaliers de toiture;Z+
+3;14;6;R;Escaliers de toiture;Z+
+4;14;6;R;Escaliers de toiture;Z+
+5;14;6;R;Escaliers de toiture;Z+
+9;14;6;R;Escaliers de toiture;Z+
+10;14;6;R;Escaliers de toiture;Z+
+11;14;6;R;Escaliers de toiture;Z+
+12;14;6;R;Escaliers de toiture;Z+
+13;14;6;R;Escaliers de toiture;Z+
+14;14;6;R;Escaliers de toiture;Z+
+15;14;6;R;Escaliers de toiture;Z+
+16;14;6;R;Escaliers de toiture;Z+
+17;14;6;R;Escaliers de toiture;Z+
+18;14;6;R;Escaliers de toiture;Z+
+19;14;6;R;Escaliers de toiture;Z+
+20;14;6;R;Escaliers de toiture;Z+
+21;14;6;R;Escaliers de toiture;Z+
+22;14;6;R;Escaliers de toiture;Z+
+23;14;6;R;Escaliers de toiture;Z+
+24;14;6;R;Escaliers de toiture;Z+
+25;14;6;R;Escaliers de toiture;Z+
+0;14;7;G;Vitres;
+24;14;7;G;Vitres;
+0;14;8;G;Vitres;
+24;14;8;G;Vitres;
+0;14;9;G;Vitres;
+24;14;9;G;Vitres;
+-1;14;10;R;Escaliers de toiture;Z-
+0;14;10;R;Escaliers de toiture;Z-
+1;14;10;R;Escaliers de toiture;Z-
+2;14;10;R;Escaliers de toiture;Z-
+3;14;10;R;Escaliers de toiture;Z-
+4;14;10;R;Escaliers de toiture;Z-
+5;14;10;R;Escaliers de toiture;Z-
+6;14;10;R;Escaliers de toiture;Z-
+7;14;10;R;Escaliers de toiture;Z-
+8;14;10;R;Escaliers de toiture;Z-
+9;14;10;R;Escaliers de toiture;Z-
+10;14;10;R;Escaliers de toiture;Z-
+11;14;10;R;Escaliers de toiture;Z-
+12;14;10;R;Escaliers de toiture;Z-
+13;14;10;R;Escaliers de toiture;Z-
+14;14;10;R;Escaliers de toiture;Z-
+15;14;10;R;Escaliers de toiture;Z-
+16;14;10;R;Escaliers de toiture;Z-
+17;14;10;R;Escaliers de toiture;Z-
+18;14;10;R;Escaliers de toiture;Z-
+19;14;10;R;Escaliers de toiture;Z-
+20;14;10;R;Escaliers de toiture;Z-
+21;14;10;R;Escaliers de toiture;Z-
+22;14;10;R;Escaliers de toiture;Z-
+23;14;10;R;Escaliers de toiture;Z-
+24;14;10;R;Escaliers de toiture;Z-
+25;14;10;R;Escaliers de toiture;Z-
+2;14;11;C;Pierre des cheminées;
+3;14;11;C;Pierre des cheminées;
+11;14;11;R;Escaliers de toiture;X+
+13;14;11;R;Escaliers de toiture;X-
+21;14;11;C;Pierre des cheminées;
+22;14;11;C;Pierre des cheminées;
+2;14;12;C;Pierre des cheminées;
+3;14;12;C;Pierre des cheminées;
+11;14;12;R;Escaliers de toiture;X+
+13;14;12;R;Escaliers de toiture;X-
+21;14;12;C;Pierre des cheminées;
+22;14;12;C;Pierre des cheminées;
+11;14;13;R;Escaliers de toiture;X+
+13;14;13;R;Escaliers de toiture;X-
+11;14;14;R;Escaliers de toiture;X+
+13;14;14;R;Escaliers de toiture;X-
+11;14;15;B;Poutres en bois;
+12;14;15;B;Poutres en bois;
+13;14;15;B;Poutres en bois;
+4;15;-1;R;Escaliers de toiture;X+
+10;15;-1;R;Escaliers de toiture;X-
+4;15;0;R;Escaliers de toiture;X+
+5;15;0;B;Poutres en bois;
+6;15;0;G;Vitres;
+7;15;0;G;Vitres;
+8;15;0;G;Vitres;
+9;15;0;B;Poutres en bois;
+10;15;0;R;Escaliers de toiture;X-
+4;15;1;R;Escaliers de toiture;X+
+10;15;1;R;Escaliers de toiture;X-
+20;15;1;H;Bois plein : faîtage;
+4;15;2;R;Escaliers de toiture;X+
+10;15;2;R;Escaliers de toiture;X-
+20;15;2;H;Bois plein : faîtage;
+4;15;3;R;Escaliers de toiture;X+
+10;15;3;R;Escaliers de toiture;X-
+20;15;3;H;Bois plein : faîtage;
+4;15;4;R;Escaliers de toiture;X+
+10;15;4;R;Escaliers de toiture;X-
+20;15;4;H;Bois plein : faîtage;
+5;15;5;R;Escaliers de toiture;X+
+9;15;5;R;Escaliers de toiture;X-
+20;15;5;H;Bois plein : faîtage;
+0;15;6;B;Poutres en bois;
+6;15;6;R;Escaliers de toiture;X+
+8;15;6;R;Escaliers de toiture;X-
+24;15;6;B;Poutres en bois;
+-1;15;7;R;Escaliers de toiture;Z+
+0;15;7;R;Escaliers de toiture;Z+
+1;15;7;R;Escaliers de toiture;Z+
+2;15;7;R;Escaliers de toiture;Z+
+3;15;7;R;Escaliers de toiture;Z+
+4;15;7;R;Escaliers de toiture;Z+
+5;15;7;R;Escaliers de toiture;Z+
+6;15;7;R;Escaliers de toiture;Z+
+7;15;7;R;Escaliers de toiture;Z+
+8;15;7;R;Escaliers de toiture;Z+
+9;15;7;R;Escaliers de toiture;Z+
+10;15;7;R;Escaliers de toiture;Z+
+11;15;7;R;Escaliers de toiture;Z+
+12;15;7;R;Escaliers de toiture;Z+
+13;15;7;R;Escaliers de toiture;Z+
+14;15;7;R;Escaliers de toiture;Z+
+15;15;7;R;Escaliers de toiture;Z+
+16;15;7;R;Escaliers de toiture;Z+
+17;15;7;R;Escaliers de toiture;Z+
+18;15;7;R;Escaliers de toiture;Z+
+19;15;7;R;Escaliers de toiture;Z+
+20;15;7;R;Escaliers de toiture;Z+
+21;15;7;R;Escaliers de toiture;Z+
+22;15;7;R;Escaliers de toiture;Z+
+23;15;7;R;Escaliers de toiture;Z+
+24;15;7;R;Escaliers de toiture;Z+
+25;15;7;R;Escaliers de toiture;Z+
+0;15;8;G;Vitres;
+24;15;8;G;Vitres;
+-1;15;9;R;Escaliers de toiture;Z-
+0;15;9;R;Escaliers de toiture;Z-
+1;15;9;R;Escaliers de toiture;Z-
+2;15;9;R;Escaliers de toiture;Z-
+3;15;9;R;Escaliers de toiture;Z-
+4;15;9;R;Escaliers de toiture;Z-
+5;15;9;R;Escaliers de toiture;Z-
+6;15;9;R;Escaliers de toiture;Z-
+7;15;9;R;Escaliers de toiture;Z-
+8;15;9;R;Escaliers de toiture;Z-
+9;15;9;R;Escaliers de toiture;Z-
+10;15;9;R;Escaliers de toiture;Z-
+11;15;9;R;Escaliers de toiture;Z-
+12;15;9;R;Escaliers de toiture;Z-
+13;15;9;R;Escaliers de toiture;Z-
+14;15;9;R;Escaliers de toiture;Z-
+15;15;9;R;Escaliers de toiture;Z-
+16;15;9;R;Escaliers de toiture;Z-
+17;15;9;R;Escaliers de toiture;Z-
+18;15;9;R;Escaliers de toiture;Z-
+19;15;9;R;Escaliers de toiture;Z-
+20;15;9;R;Escaliers de toiture;Z-
+21;15;9;R;Escaliers de toiture;Z-
+22;15;9;R;Escaliers de toiture;Z-
+23;15;9;R;Escaliers de toiture;Z-
+24;15;9;R;Escaliers de toiture;Z-
+25;15;9;R;Escaliers de toiture;Z-
+0;15;10;B;Poutres en bois;
+24;15;10;B;Poutres en bois;
+2;15;11;C;Pierre des cheminées;
+3;15;11;C;Pierre des cheminées;
+12;15;11;H;Bois plein : faîtage;
+21;15;11;C;Pierre des cheminées;
+22;15;11;C;Pierre des cheminées;
+2;15;12;C;Pierre des cheminées;
+3;15;12;C;Pierre des cheminées;
+12;15;12;H;Bois plein : faîtage;
+21;15;12;C;Pierre des cheminées;
+22;15;12;C;Pierre des cheminées;
+12;15;13;H;Bois plein : faîtage;
+12;15;14;H;Bois plein : faîtage;
+12;15;15;H;Bois plein : faîtage;
+5;16;-1;R;Escaliers de toiture;X+
+9;16;-1;R;Escaliers de toiture;X-
+5;16;0;R;Escaliers de toiture;X+
+6;16;0;B;Poutres en bois;
+7;16;0;B;Poutres en bois;
+8;16;0;B;Poutres en bois;
+9;16;0;R;Escaliers de toiture;X-
+5;16;1;R;Escaliers de toiture;X+
+9;16;1;R;Escaliers de toiture;X-
+5;16;2;R;Escaliers de toiture;X+
+9;16;2;R;Escaliers de toiture;X-
+5;16;3;R;Escaliers de toiture;X+
+9;16;3;R;Escaliers de toiture;X-
+5;16;4;R;Escaliers de toiture;X+
+9;16;4;R;Escaliers de toiture;X-
+6;16;5;R;Escaliers de toiture;X+
+8;16;5;R;Escaliers de toiture;X-
+7;16;6;H;Bois plein : faîtage;
+0;16;7;B;Poutres en bois;
+24;16;7;B;Poutres en bois;
+-1;16;8;H;Bois plein : faîtage;
+0;16;8;H;Bois plein : faîtage;
+1;16;8;H;Bois plein : faîtage;
+2;16;8;H;Bois plein : faîtage;
+3;16;8;H;Bois plein : faîtage;
+4;16;8;H;Bois plein : faîtage;
+5;16;8;H;Bois plein : faîtage;
+6;16;8;H;Bois plein : faîtage;
+7;16;8;H;Bois plein : faîtage;
+8;16;8;H;Bois plein : faîtage;
+9;16;8;H;Bois plein : faîtage;
+10;16;8;H;Bois plein : faîtage;
+11;16;8;H;Bois plein : faîtage;
+12;16;8;H;Bois plein : faîtage;
+13;16;8;H;Bois plein : faîtage;
+14;16;8;H;Bois plein : faîtage;
+15;16;8;H;Bois plein : faîtage;
+16;16;8;H;Bois plein : faîtage;
+17;16;8;H;Bois plein : faîtage;
+18;16;8;H;Bois plein : faîtage;
+19;16;8;H;Bois plein : faîtage;
+20;16;8;H;Bois plein : faîtage;
+21;16;8;H;Bois plein : faîtage;
+22;16;8;H;Bois plein : faîtage;
+23;16;8;H;Bois plein : faîtage;
+24;16;8;H;Bois plein : faîtage;
+25;16;8;H;Bois plein : faîtage;
+0;16;9;B;Poutres en bois;
+24;16;9;B;Poutres en bois;
+2;16;11;C;Pierre des cheminées;
+3;16;11;C;Pierre des cheminées;
+21;16;11;C;Pierre des cheminées;
+22;16;11;C;Pierre des cheminées;
+2;16;12;C;Pierre des cheminées;
+3;16;12;C;Pierre des cheminées;
+21;16;12;C;Pierre des cheminées;
+22;16;12;C;Pierre des cheminées;
+6;17;-1;R;Escaliers de toiture;X+
+8;17;-1;R;Escaliers de toiture;X-
+6;17;0;R;Escaliers de toiture;X+
+7;17;0;B;Poutres en bois;
+8;17;0;R;Escaliers de toiture;X-
+6;17;1;R;Escaliers de toiture;X+
+8;17;1;R;Escaliers de toiture;X-
+6;17;2;R;Escaliers de toiture;X+
+8;17;2;R;Escaliers de toiture;X-
+6;17;3;R;Escaliers de toiture;X+
+8;17;3;R;Escaliers de toiture;X-
+6;17;4;R;Escaliers de toiture;X+
+8;17;4;R;Escaliers de toiture;X-
+7;17;5;H;Bois plein : faîtage;
+2;17;11;C;Pierre des cheminées;
+3;17;11;C;Pierre des cheminées;
+21;17;11;C;Pierre des cheminées;
+22;17;11;C;Pierre des cheminées;
+2;17;12;C;Pierre des cheminées;
+3;17;12;C;Pierre des cheminées;
+21;17;12;C;Pierre des cheminées;
+22;17;12;C;Pierre des cheminées;
+7;18;-1;H;Bois plein : faîtage;
+7;18;0;H;Bois plein : faîtage;
+7;18;1;H;Bois plein : faîtage;
+7;18;2;H;Bois plein : faîtage;
+7;18;3;H;Bois plein : faîtage;
+7;18;4;H;Bois plein : faîtage;
+2;18;11;C;Pierre des cheminées;
+3;18;11;C;Pierre des cheminées;
+21;18;11;C;Pierre des cheminées;
+22;18;11;C;Pierre des cheminées;
+2;18;12;C;Pierre des cheminées;
+3;18;12;C;Pierre des cheminées;
+21;18;12;C;Pierre des cheminées;
+22;18;12;C;Pierre des cheminées;
+2;19;11;C;Pierre des cheminées;
+3;19;11;C;Pierre des cheminées;
+21;19;11;C;Pierre des cheminées;
+22;19;11;C;Pierre des cheminées;
+2;19;12;C;Pierre des cheminées;
+3;19;12;C;Pierre des cheminées;
+21;19;12;C;Pierre des cheminées;
+22;19;12;C;Pierre des cheminées;
+2;20;11;C;Pierre des cheminées;
+3;20;11;C;Pierre des cheminées;
+21;20;11;C;Pierre des cheminées;
+22;20;11;C;Pierre des cheminées;
+2;20;12;C;Pierre des cheminées;
+3;20;12;C;Pierre des cheminées;
+21;20;12;C;Pierre des cheminées;
+22;20;12;C;Pierre des cheminées;
+2;21;11;C;Pierre des cheminées;
+3;21;11;C;Pierre des cheminées;
+21;21;11;C;Pierre des cheminées;
+22;21;11;C;Pierre des cheminées;
+2;21;12;C;Pierre des cheminées;
+3;21;12;C;Pierre des cheminées;
+21;21;12;C;Pierre des cheminées;
+22;21;12;C;Pierre des cheminées;
+2;22;11;C;Pierre des cheminées;
+3;22;11;C;Pierre des cheminées;
+21;22;11;C;Pierre des cheminées;
+22;22;11;C;Pierre des cheminées;
+2;22;12;C;Pierre des cheminées;
+3;22;12;C;Pierre des cheminées;
+21;22;12;C;Pierre des cheminées;
+22;22;12;C;Pierre des cheminées;

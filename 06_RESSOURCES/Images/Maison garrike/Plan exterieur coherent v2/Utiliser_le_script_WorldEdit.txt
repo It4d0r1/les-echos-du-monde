@@ -1,0 +1,17 @@
+SCRIPT WORLDEDIT — MAISON DE GARRIK
+
+Instance détectée : Minecraft 1.21.1, NeoForge, WorldEdit 7.3.8.
+Le CraftScript est installé dans le dossier craftscripts de cette instance.
+
+UTILISATION
+1. Dans le monde, repère un terrain plat et libre.
+2. Place-toi sur le bloc au nord et à l’est du futur coin gauche de la façade. C’est-à-dire un bloc devant la façade et un bloc à gauche en la regardant depuis le nord. La façade sera tournée vers le nord.
+3. Lance : /cs Maison_Garrik
+
+L’origine est calculée depuis le bloc sous les pieds. Le script commence la maison un bloc à l’ouest, un bloc au sud et une couche au-dessus de ce bloc. Le sol où tu te tiens n’est pas remplacé. Le plan place le bâtiment en X=0..24 et Z=0..16, son toit déborde jusqu’à X=-1..25 et Z=-1..17. Le perron avance jusqu’à Z=-4. La structure monte jusqu’à Y=22 (23 blocs au-dessus du niveau d’origine).
+
+La maison suit le modèle extérieur v2 ; la palette devient des blocs Minecraft vanilla : briques de pierre patinées, rondins et planches d’épicéa, calcite, vitres, escaliers, lanternes, feuillage et bannières bleues. Les bannières de l’image n’ayant pas de motif exportable depuis le modèle, WorldEdit crée des bannières bleues simples.
+
+Le script remplace les blocs aux positions prévues. Fais la pose sur un site libre. Pour l’annuler, utilise immédiatement //undo avant toute autre opération WorldEdit. Aucun sol intérieur ni ameublement n’est ajouté.
+
+Le fichier est construit depuis Modele_exterieur_v2.csv. Le script est un CraftScript WorldEdit JavaScript (commande /cs), et non un fichier datapack .mcfunction.

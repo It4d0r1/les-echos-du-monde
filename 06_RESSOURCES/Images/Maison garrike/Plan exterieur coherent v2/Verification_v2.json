@@ -1,0 +1,44 @@
+{
+  "wall_footprint": [
+    25,
+    17
+  ],
+  "roof_envelope": [
+    27,
+    19
+  ],
+  "wall_height": 10,
+  "roof_height": 19,
+  "chimney_height": 23,
+  "chimneys": [
+    [
+      2,
+      3,
+      11,
+      12
+    ],
+    [
+      21,
+      22,
+      11,
+      12
+    ]
+  ],
+  "unique_cells": 1721,
+  "counts": {
+    "S": 164,
+    "B": 483,
+    "G": 289,
+    "P": 27,
+    "D": 4,
+    "E": 58,
+    "R": 498,
+    "H": 48,
+    "C": 80,
+    "A": 8,
+    "V": 47,
+    "N": 6,
+    "L": 9
+  },
+  "checks": "Toutes les vues et couches proviennent du même dictionnaire de blocs. Dimensions vérifiées sur les coordonnées, pas sur la photographie."
+}
