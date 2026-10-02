@@ -40,7 +40,7 @@ Trois blocs LOAD et leurs données sont préservés : `ferme`, `poke_shop`, `pok
 
 Fichiers de travail : `outputs/prologue_plateforme17/`. Code : `prepare_platform.py`, `build_functions.py`, `integrate_pack.py`. Instructions, réglages et tests : **[TESTS_ET_UTILISATION.md](outputs/prologue_plateforme17/TESTS_ET_UTILISATION.md)**. Plan des réserves : `plan_zones.png`. Rapport : `rapport_preparation.json`.
 
-Le chargement reste assuré par `global_packs/required_data/les_echos_du_monde/`. Les anciens mondes sont mis en pause pour protéger les constructions. Aucun essai de cette version n’a été réalisé dans Minecraft.
+Le chargement reste assuré par `global_packs/required_data/les_echos_du_monde/`. Les anciens mondes sont mis en pause pour protéger les constructions. La préparation initiale a été contrôlée hors jeu. Les journaux et la sauvegarde du monde 1 confirment ensuite l’arrivée et 127 segments terminés avant le correctif des feuilles. Le correctif reste à observer en jeu.
 
 Les informations suivantes décrivent les anciennes versions et restent conservées comme historique.
 

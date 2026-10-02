@@ -4,9 +4,9 @@
 
 Datapack installé : `C:\Users\Bastien\curseforge\minecraft\Instances\Pixelmon Les Échos du Monde\global_packs\required_data\les_echos_du_monde`.
 
-**0 fichiers créés et 0 fichiers modifiés** par rapport au datapack sauvegardé. Aucun fichier supprimé. Liste exhaustive dans `fichiers_changes.json`, chemins relatifs au dossier ci-dessus. Les **4,860 fichiers** du datapack installé correspondent aux empreintes de la copie préparée.
+Les **4 860 fichiers** du datapack installé correspondent exactement à la copie préparée, à l’export du projet et au contenu du ZIP. Le contrôle SHA-256 ne relève aucun fichier différent, absent ou supplémentaire. Le rapport `fichiers_changes.json` compare la dernière copie de synchronisation, déjà identique : ses compteurs n’indiquent pas le nombre de modifications depuis l’ancienne plateforme.
 
-## Principaux fichiers créés
+## Principaux fichiers livrés
 
 - `data/les_echos_du_monde/structure/platform_segments_v17/` : **203 NBT** de 32 × 89 × 32 blocs.
 - `data/les_echos_du_monde/function/world/segments_v17/` : **1 249 fonctions** de génération, attente, pause, reprise et contrôle.
@@ -16,8 +16,11 @@ Datapack installé : `C:\Users\Bastien\curseforge\minecraft\Instances\Pixelmon L
 - `data/les_echos_du_monde/structure/ferme.nbt`, `poke_shop.nbt`, `poke_centre.nbt` : sources existantes copiées sans modification, disponibles aux blocs LOAD.
 - `GENERATION_SEGMENTS.md` et archives de documentation précédente.
 
-## Fichiers modifiés dans le datapack
+## Correctif des feuilles du 2 octobre
 
+- `data/les_echos_du_monde/function/world/leaves_v17/` : 15 fonctions, dont 12 helpers par chunk.
+- Les segments corrigés ne contiennent plus les 109 feuilles de chêne isolées recensées. Le nettoyage des mondes existants cible ces mêmes positions sans remplacer les segments terminés.
+- `CORRECTIF_FEUILLES.md` et `../prologue_feuilles_20261002/verification_correctif.json` indiquent les preuves et les limites.
 
 ## Dans le projet
 
@@ -34,4 +37,4 @@ Le NBT original, les sauvegardes de monde, les configurations GlobalPacks/OpenLo
 
 Redémarrer complètement Minecraft, puis créer un **nouveau monde de test**. Suivre `TESTS_ET_UTILISATION.md` : première arrivée, exploration, sortie, reconnexion, mort/réapparition, durabilité des constructions, pause/reprise et multijoueur.
 
-La vérification des fichiers et la lecture des commandes vanilla ont réussi. **Aucun test exécuté dans Minecraft.** L’arrivée Overworld à `0.5 80 0.5` reste provisoire et son sol doit être contrôlé avant le partage du modpack.
+La vérification des fichiers et la lecture des commandes vanilla ont réussi. Les journaux et la sauvegarde confirment l’arrivée et 127 segments terminés avant le correctif. **Le correctif des feuilles reste à observer dans Minecraft.** L’arrivée Overworld à `0.5 80 0.5` reste provisoire et son sol doit être contrôlé avant le partage du modpack.

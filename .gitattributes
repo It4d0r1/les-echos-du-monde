@@ -10,3 +10,5 @@
 *.schematic binary
 *.schem binary
 *.pdf binary
+*.bp binary
+*.zip binary

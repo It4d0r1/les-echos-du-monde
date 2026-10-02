@@ -34,3 +34,9 @@ __pycache__/
 
 # Intermediate images for the Garrik plan
 /outputs/garrik_plan_v2/qa/
+
+# Local recovery copies, duplicated installation staging and dependencies
+/backups/
+/outputs/prologue_plateforme17/datapack/
+/outputs/axiom_conversion/dependencies/
+*.class
