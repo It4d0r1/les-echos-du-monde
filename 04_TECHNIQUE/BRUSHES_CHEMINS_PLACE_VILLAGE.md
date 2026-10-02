@@ -166,6 +166,8 @@ Faire un premier clic sur une petite zone libre. Pour les chemins et la place, v
 
 ## Références
 
+Pour retrouver ce guide dans Gitling et lire les commandes avec Markor, consulter [Lire les commandes sur Android](LIRE_LES_COMMANDES_SUR_ANDROID.md).
+
 - [Brushes WorldEdit 7.3](https://worldedit.enginehub.org/en/7.3.19/usage/tools/brushes/)
 - [Outil de génération d'arbres](https://worldedit.enginehub.org/en/7.3.19/usage/tools/tools/#tree-generation-tool)
 - [Commande du brush forêt dans le code de WorldEdit 7.3.8](https://github.com/EngineHub/WorldEdit/blob/7.3.8/worldedit-core/src/main/java/com/sk89q/worldedit/command/BrushCommands.java)
