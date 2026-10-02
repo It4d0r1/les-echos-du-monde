@@ -16,7 +16,7 @@ Minecraft Java 1.21.1 / NeoForge, datapack format 48. Installation automatique p
 
 Voir **TESTS.md** pour les coordonnées, toutes les commandes, les fichiers modifiables et les tests manuels. **GENERATION_SEGMENTS.md** décrit les états et le nettoyage des chargements temporaires.
 
-Les fichiers ont été contrôlés hors jeu. **Aucun test Minecraft effectué pour cette version.** Le point Overworld `0.5 80 0.5` demeure provisoire ; son terrain n’a pas été validé. Aucun verrouillage de quête ajouté.
+La préparation initiale a été contrôlée hors jeu. Les journaux et la sauvegarde analysés confirment ensuite l’arrivée dans le prologue et 127 segments terminés avant le correctif. **Le correctif des feuilles reste à observer dans Minecraft.** Le point Overworld `0.5 80 0.5` demeure provisoire ; son terrain n’a pas été validé. Aucun verrouillage de quête ajouté.
 
 Les anciennes fonctions et structures restent présentes pour permettre l’annulation de leurs chaînes planifiées ; elles ne sont plus utilisées pour créer les nouveaux mondes.
 
