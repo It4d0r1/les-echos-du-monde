@@ -1,0 +1,27 @@
+{
+  "manifest": "C:\\Users\\Bastien\\Desktop\\Les Echo du monde\\outputs\\prologue_plateforme17\\segments_manifest.json",
+  "pack": "C:\\Users\\Bastien\\Desktop\\Les Echo du monde\\outputs\\prologue_plateforme17\\datapack",
+  "segments": 203,
+  "radius_segments": 2,
+  "radius_chunks": 4,
+  "max_temporary_forceload_tickets": 9,
+  "runtime_functions": 1249,
+  "arrival_segments": [
+    "s_m01_m01",
+    "s_m01_p00",
+    "s_m01_p01",
+    "s_p00_m01",
+    "s_p00_p00",
+    "s_p00_p01",
+    "s_p01_m01",
+    "s_p01_p00",
+    "s_p01_p01"
+  ],
+  "layout": "segments_v17",
+  "integration": {
+    "load": "les_echos_du_monde:world/segments_v17/setup",
+    "tick": "les_echos_du_monde:world/segments_v17/tick",
+    "ready_storage": "les_echos_du_monde:segments_v17",
+    "ready_path": "spawn_ready"
+  }
+}

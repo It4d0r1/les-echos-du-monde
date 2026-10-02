@@ -1,0 +1,466 @@
+{
+  "target_world_xyz": [
+    -20,
+    -1,
+    6
+  ],
+  "target_template": "s_m01_p00",
+  "target_template_local_xyz": [
+    12,
+    25,
+    6
+  ],
+  "read_only": true,
+  "segment_comparisons": [
+    {
+      "segment": "s_m02_m01",
+      "size": [
+        32,
+        89,
+        32
+      ],
+      "block_count": 20822,
+      "live_sha256": "8cf38d32f4928d7ab021926f08718d7319fb976cef4ef47a38dfd0f4bc30bd6a",
+      "same_as_staging": true
+    },
+    {
+      "segment": "s_m02_p00",
+      "size": [
+        32,
+        89,
+        32
+      ],
+      "block_count": 21099,
+      "live_sha256": "039171e82fb446e38a6de81d03bb33f276f41701c2a81b5b165676dbb2ef7140",
+      "same_as_staging": true
+    },
+    {
+      "segment": "s_m02_p01",
+      "size": [
+        32,
+        89,
+        32
+      ],
+      "block_count": 19985,
+      "live_sha256": "ee323e122d7847ddaf913a70a7177f2af997bae237663a6b8f514f0f55632730",
+      "same_as_staging": true
+    },
+    {
+      "segment": "s_m01_m01",
+      "size": [
+        32,
+        89,
+        32
+      ],
+      "block_count": 22364,
+      "live_sha256": "4607beb9458021b528351dc64d389077b7a2f80e6499ee3be0e8a4442896261d",
+      "same_as_staging": true
+    },
+    {
+      "segment": "s_m01_p00",
+      "size": [
+        32,
+        89,
+        32
+      ],
+      "block_count": 20431,
+      "live_sha256": "805641adecd342b26fbb81da49754a8cd541ca1d2e9f0bf5330a717eddcb020f",
+      "same_as_staging": true
+    },
+    {
+      "segment": "s_m01_p01",
+      "size": [
+        32,
+        89,
+        32
+      ],
+      "block_count": 21154,
+      "live_sha256": "87b517ee1d171f1283b6526f0315caacd8db6aadfdaa96dd757b1e4cba21e111",
+      "same_as_staging": true
+    },
+    {
+      "segment": "s_p00_m01",
+      "size": [
+        32,
+        89,
+        32
+      ],
+      "block_count": 21360,
+      "live_sha256": "c98a508d75fccac9f22e52636b5cad1d38e815bf686889d1d805c6d08fa2d56b",
+      "same_as_staging": true
+    },
+    {
+      "segment": "s_p00_p00",
+      "size": [
+        32,
+        89,
+        32
+      ],
+      "block_count": 20100,
+      "live_sha256": "1d23c4bc495465c30b5a4dcae3025cf53487ff4b2dcec057b4c6b945be8187e4",
+      "same_as_staging": true
+    },
+    {
+      "segment": "s_p00_p01",
+      "size": [
+        32,
+        89,
+        32
+      ],
+      "block_count": 19688,
+      "live_sha256": "002bb1375ffa72ff2d167a6e69682aece95827ec3c19cbd7bdedad14f67fda5b",
+      "same_as_staging": true
+    }
+  ],
+  "function_comparisons": [
+    {
+      "function": "segment/s_m01_p00/place",
+      "same_as_staging": true
+    },
+    {
+      "function": "segment/s_m01_p00/start",
+      "same_as_staging": true
+    },
+    {
+      "function": "segment/s_m01_p00/poll",
+      "same_as_staging": true
+    },
+    {
+      "function": "select_spawn",
+      "same_as_staging": true
+    },
+    {
+      "function": "cycle",
+      "same_as_staging": true
+    },
+    {
+      "function": "ready_spawn",
+      "same_as_staging": true
+    },
+    {
+      "function": "player",
+      "same_as_staging": true
+    }
+  ],
+  "target_and_neighbours": [
+    {
+      "world_xyz": [
+        -20,
+        -1,
+        6
+      ],
+      "state": {
+        "Name": "minecraft:oak_leaves",
+        "Properties": {
+          "waterlogged": "false",
+          "distance": "1",
+          "persistent": "false"
+        }
+      }
+    },
+    {
+      "world_xyz": [
+        -21,
+        -1,
+        6
+      ],
+      "state": "ABSENT"
+    },
+    {
+      "world_xyz": [
+        -19,
+        -1,
+        6
+      ],
+      "state": "ABSENT"
+    },
+    {
+      "world_xyz": [
+        -20,
+        -2,
+        6
+      ],
+      "state": "ABSENT"
+    },
+    {
+      "world_xyz": [
+        -20,
+        0,
+        6
+      ],
+      "state": {
+        "Name": "minecraft:oak_leaves",
+        "Properties": {
+          "waterlogged": "false",
+          "distance": "2",
+          "persistent": "false"
+        }
+      }
+    },
+    {
+      "world_xyz": [
+        -20,
+        -1,
+        5
+      ],
+      "state": "ABSENT"
+    },
+    {
+      "world_xyz": [
+        -20,
+        -1,
+        7
+      ],
+      "state": "ABSENT"
+    }
+  ],
+  "leaf_connected_component_count": 9,
+  "leaf_component_min_xyz": [
+    -21,
+    -1,
+    5
+  ],
+  "leaf_component_max_xyz": [
+    -19,
+    1,
+    7
+  ],
+  "touching_log_count": 0,
+  "nearest_logs": [
+    {
+      "world_xyz": [
+        -50,
+        -4,
+        -4
+      ],
+      "manhattan_distance": 43,
+      "state": {
+        "Name": "minecraft:oak_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+    {
+      "world_xyz": [
+        -34,
+        -3,
+        -21
+      ],
+      "manhattan_distance": 43,
+      "state": {
+        "Name": "minecraft:oak_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+    {
+      "world_xyz": [
+        -50,
+        -5,
+        -4
+      ],
+      "manhattan_distance": 44,
+      "state": {
+        "Name": "minecraft:oak_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+    {
+      "world_xyz": [
+        -34,
+        -4,
+        -21
+      ],
+      "manhattan_distance": 44,
+      "state": {
+        "Name": "minecraft:oak_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+    {
+      "world_xyz": [
+        -50,
+        -6,
+        -4
+      ],
+      "manhattan_distance": 45,
+      "state": {
+        "Name": "minecraft:oak_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+    {
+      "world_xyz": [
+        -54,
+        -7,
+        -7
+      ],
+      "manhattan_distance": 53,
+      "state": {
+        "Name": "minecraft:oak_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+    {
+      "world_xyz": [
+        -53,
+        -8,
+        -11
+      ],
+      "manhattan_distance": 57,
+      "state": {
+        "Name": "minecraft:oak_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    }
+  ],
+  "target_component_leaves_in_radius_6": [
+    {
+      "world_xyz": [
+        -21,
+        0,
+        5
+      ],
+      "state": {
+        "Name": "minecraft:oak_leaves",
+        "Properties": {
+          "waterlogged": "false",
+          "distance": "4",
+          "persistent": "false"
+        }
+      }
+    },
+    {
+      "world_xyz": [
+        -21,
+        0,
+        6
+      ],
+      "state": {
+        "Name": "minecraft:oak_leaves",
+        "Properties": {
+          "waterlogged": "false",
+          "distance": "3",
+          "persistent": "false"
+        }
+      }
+    },
+    {
+      "world_xyz": [
+        -21,
+        0,
+        7
+      ],
+      "state": {
+        "Name": "minecraft:oak_leaves",
+        "Properties": {
+          "waterlogged": "false",
+          "distance": "4",
+          "persistent": "false"
+        }
+      }
+    },
+    {
+      "world_xyz": [
+        -20,
+        -1,
+        6
+      ],
+      "state": {
+        "Name": "minecraft:oak_leaves",
+        "Properties": {
+          "waterlogged": "false",
+          "distance": "1",
+          "persistent": "false"
+        }
+      }
+    },
+    {
+      "world_xyz": [
+        -20,
+        0,
+        5
+      ],
+      "state": {
+        "Name": "minecraft:oak_leaves",
+        "Properties": {
+          "waterlogged": "false",
+          "distance": "3",
+          "persistent": "false"
+        }
+      }
+    },
+    {
+      "world_xyz": [
+        -20,
+        0,
+        6
+      ],
+      "state": {
+        "Name": "minecraft:oak_leaves",
+        "Properties": {
+          "waterlogged": "false",
+          "distance": "2",
+          "persistent": "false"
+        }
+      }
+    },
+    {
+      "world_xyz": [
+        -20,
+        0,
+        7
+      ],
+      "state": {
+        "Name": "minecraft:oak_leaves",
+        "Properties": {
+          "waterlogged": "false",
+          "distance": "3",
+          "persistent": "false"
+        }
+      }
+    },
+    {
+      "world_xyz": [
+        -20,
+        1,
+        6
+      ],
+      "state": {
+        "Name": "minecraft:oak_leaves",
+        "Properties": {
+          "waterlogged": "false",
+          "distance": "3",
+          "persistent": "false"
+        }
+      }
+    },
+    {
+      "world_xyz": [
+        -19,
+        0,
+        6
+      ],
+      "state": {
+        "Name": "minecraft:oak_leaves",
+        "Properties": {
+          "waterlogged": "false",
+          "distance": "3",
+          "persistent": "false"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+# Exact orphan positions recorded in the original export; preserve other blocks and different leaf states.
+execute if block -31 -1 3 minecraft:oak_leaves[persistent=false] run setblock -31 -1 3 minecraft:air
+execute if block -31 -1 4 minecraft:oak_leaves[persistent=false] run setblock -31 -1 4 minecraft:air
+execute if block -30 -2 3 minecraft:oak_leaves[persistent=false] run setblock -30 -2 3 minecraft:air
+execute if block -30 -1 2 minecraft:oak_leaves[persistent=false] run setblock -30 -1 2 minecraft:air
+execute if block -30 -1 3 minecraft:oak_leaves[persistent=false] run setblock -30 -1 3 minecraft:air
+execute if block -30 -1 4 minecraft:oak_leaves[persistent=false] run setblock -30 -1 4 minecraft:air
+execute if block -30 0 3 minecraft:oak_leaves[persistent=false] run setblock -30 0 3 minecraft:air
+execute if block -29 -1 2 minecraft:oak_leaves[persistent=false] run setblock -29 -1 2 minecraft:air
+execute if block -29 -1 3 minecraft:oak_leaves[persistent=false] run setblock -29 -1 3 minecraft:air
+execute if block -29 -1 4 minecraft:oak_leaves[persistent=false] run setblock -29 -1 4 minecraft:air
+execute if block -23 0 0 minecraft:oak_leaves[persistent=false] run setblock -23 0 0 minecraft:air
+execute if block -23 0 1 minecraft:oak_leaves[persistent=false] run setblock -23 0 1 minecraft:air
+execute if block -22 -1 0 minecraft:oak_leaves[persistent=false] run setblock -22 -1 0 minecraft:air
+execute if block -22 0 0 minecraft:oak_leaves[persistent=false] run setblock -22 0 0 minecraft:air
+execute if block -22 0 1 minecraft:oak_leaves[persistent=false] run setblock -22 0 1 minecraft:air
+execute if block -22 1 0 minecraft:oak_leaves[persistent=false] run setblock -22 1 0 minecraft:air
+execute if block -21 0 0 minecraft:oak_leaves[persistent=false] run setblock -21 0 0 minecraft:air
+execute if block -21 0 1 minecraft:oak_leaves[persistent=false] run setblock -21 0 1 minecraft:air
+execute if block -21 0 5 minecraft:oak_leaves[persistent=false] run setblock -21 0 5 minecraft:air
+execute if block -21 0 6 minecraft:oak_leaves[persistent=false] run setblock -21 0 6 minecraft:air
+execute if block -21 0 7 minecraft:oak_leaves[persistent=false] run setblock -21 0 7 minecraft:air
+execute if block -20 -1 6 minecraft:oak_leaves[persistent=false] run setblock -20 -1 6 minecraft:air
+execute if block -20 0 5 minecraft:oak_leaves[persistent=false] run setblock -20 0 5 minecraft:air
+execute if block -20 0 6 minecraft:oak_leaves[persistent=false] run setblock -20 0 6 minecraft:air
+execute if block -20 0 7 minecraft:oak_leaves[persistent=false] run setblock -20 0 7 minecraft:air
+execute if block -20 1 6 minecraft:oak_leaves[persistent=false] run setblock -20 1 6 minecraft:air
+execute if block -19 0 6 minecraft:oak_leaves[persistent=false] run setblock -19 0 6 minecraft:air
+scoreboard players set c_m02_p00 edm_leaf_fix 1

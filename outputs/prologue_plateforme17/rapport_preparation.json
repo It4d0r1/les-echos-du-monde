@@ -1,0 +1,594 @@
+{
+  "source": "C:\\Users\\Bastien\\Desktop\\Les Echo du monde\\06_RESSOURCES\\Structures_NBT\\plateforme__17.nbt",
+  "source_size_xyz": [
+    451,
+    89,
+    461
+  ],
+  "origin_xyz": [
+    -250,
+    -26,
+    -235
+  ],
+  "world_bounds_inclusive": [
+    [
+      -250,
+      -26,
+      -235
+    ],
+    [
+      200,
+      62,
+      225
+    ]
+  ],
+  "arrival_xyz": [
+    0,
+    -4,
+    0
+  ],
+  "arrival_floor_world_y": -5,
+  "arrival_columns": [
+    {
+      "world_xz": [
+        -1,
+        -1
+      ],
+      "floor": {
+        "Name": "minecraft:gravel"
+      },
+      "gravel_supported": true,
+      "clearance": [
+        "ABSENT",
+        "ABSENT"
+      ],
+      "safe": true
+    },
+    {
+      "world_xz": [
+        -1,
+        0
+      ],
+      "floor": {
+        "Name": "minecraft:stone_bricks"
+      },
+      "gravel_supported": true,
+      "clearance": [
+        "ABSENT",
+        "ABSENT"
+      ],
+      "safe": true
+    },
+    {
+      "world_xz": [
+        0,
+        -1
+      ],
+      "floor": {
+        "Name": "minecraft:gravel"
+      },
+      "gravel_supported": true,
+      "clearance": [
+        "ABSENT",
+        "ABSENT"
+      ],
+      "safe": true
+    },
+    {
+      "world_xz": [
+        0,
+        0
+      ],
+      "floor": {
+        "Name": "minecraft:coarse_dirt"
+      },
+      "gravel_supported": true,
+      "clearance": [
+        "ABSENT",
+        "ABSENT"
+      ],
+      "safe": true
+    }
+  ],
+  "village_columns": 8526,
+  "plant_candidate_columns": 1660,
+  "seed": 20261001,
+  "grass_probability": 0.04,
+  "flower_probability": 0.007,
+  "building_margin": 4,
+  "path_margin": 2,
+  "spawn_radius": 5,
+  "changes": {
+    "buried_marker_dirt": 93,
+    "floating_marker_air": 8864,
+    "buried_marker_stone": 2469,
+    "village_plant": 65,
+    "orphan_oak_leaf_air": 109
+  },
+  "plants": {
+    "minecraft:short_grass": 48,
+    "minecraft:cornflower": 6,
+    "minecraft:dandelion": 6,
+    "minecraft:poppy": 5
+  },
+  "regions": [
+    {
+      "block": "minecraft:black_concrete",
+      "columns": 195,
+      "filled_columns": 195,
+      "world_xz_inclusive": [
+        [
+          98,
+          25
+        ],
+        [
+          114,
+          36
+        ]
+      ],
+      "usage": "reserved_building",
+      "components": [
+        {
+          "world_xz_inclusive": [
+            [
+              98,
+              25
+            ],
+            [
+              114,
+              36
+            ]
+          ],
+          "columns": 195
+        }
+      ]
+    },
+    {
+      "block": "minecraft:blue_concrete",
+      "columns": 609,
+      "filled_columns": 609,
+      "world_xz_inclusive": [
+        [
+          -27,
+          17
+        ],
+        [
+          1,
+          37
+        ]
+      ],
+      "usage": "reserved_building",
+      "components": [
+        {
+          "world_xz_inclusive": [
+            [
+              -27,
+              17
+            ],
+            [
+              1,
+              37
+            ]
+          ],
+          "columns": 609
+        }
+      ]
+    },
+    {
+      "block": "minecraft:brown_concrete",
+      "columns": 546,
+      "filled_columns": 8526,
+      "world_xz_inclusive": [
+        [
+          -32,
+          2
+        ],
+        [
+          65,
+          88
+        ]
+      ],
+      "usage": "village",
+      "components": [
+        {
+          "world_xz_inclusive": [
+            [
+              -32,
+              2
+            ],
+            [
+              65,
+              88
+            ]
+          ],
+          "columns": 546
+        }
+      ]
+    },
+    {
+      "block": "minecraft:cyan_concrete",
+      "columns": 172,
+      "filled_columns": 172,
+      "world_xz_inclusive": [
+        [
+          14,
+          64
+        ],
+        [
+          26,
+          77
+        ]
+      ],
+      "usage": "reserved_building",
+      "components": [
+        {
+          "world_xz_inclusive": [
+            [
+              14,
+              64
+            ],
+            [
+              26,
+              77
+            ]
+          ],
+          "columns": 172
+        }
+      ]
+    },
+    {
+      "block": "minecraft:gray_concrete",
+      "columns": 967,
+      "filled_columns": 967,
+      "world_xz_inclusive": [
+        [
+          -16,
+          -51
+        ],
+        [
+          200,
+          -25
+        ]
+      ],
+      "usage": "reserved_building",
+      "components": [
+        {
+          "world_xz_inclusive": [
+            [
+              -16,
+              -51
+            ],
+            [
+              -16,
+              -51
+            ]
+          ],
+          "columns": 1
+        },
+        {
+          "world_xz_inclusive": [
+            [
+              159,
+              -47
+            ],
+            [
+              200,
+              -25
+            ]
+          ],
+          "columns": 966
+        }
+      ]
+    },
+    {
+      "block": "minecraft:light_gray_concrete",
+      "columns": 714,
+      "filled_columns": 715,
+      "world_xz_inclusive": [
+        [
+          162,
+          -50
+        ],
+        [
+          200,
+          -25
+        ]
+      ],
+      "usage": "reserved_building",
+      "components": [
+        {
+          "world_xz_inclusive": [
+            [
+              162,
+              -50
+            ],
+            [
+              200,
+              -25
+            ]
+          ],
+          "columns": 714
+        }
+      ]
+    },
+    {
+      "block": "minecraft:lime_concrete",
+      "columns": 25,
+      "filled_columns": 25,
+      "world_xz_inclusive": [
+        [
+          5,
+          -2
+        ],
+        [
+          9,
+          2
+        ]
+      ],
+      "usage": "reserved_building",
+      "components": [
+        {
+          "world_xz_inclusive": [
+            [
+              5,
+              -2
+            ],
+            [
+              9,
+              2
+            ]
+          ],
+          "columns": 25
+        }
+      ]
+    },
+    {
+      "block": "minecraft:magenta_concrete",
+      "columns": 442,
+      "filled_columns": 442,
+      "world_xz_inclusive": [
+        [
+          44,
+          2
+        ],
+        [
+          65,
+          23
+        ]
+      ],
+      "usage": "reserved_building",
+      "components": [
+        {
+          "world_xz_inclusive": [
+            [
+              65,
+              2
+            ],
+            [
+              65,
+              2
+            ]
+          ],
+          "columns": 1
+        },
+        {
+          "world_xz_inclusive": [
+            [
+              44,
+              3
+            ],
+            [
+              64,
+              23
+            ]
+          ],
+          "columns": 441
+        }
+      ]
+    },
+    {
+      "block": "minecraft:orange_concrete",
+      "columns": 3069,
+      "filled_columns": 3069,
+      "world_xz_inclusive": [
+        [
+          -36,
+          -82
+        ],
+        [
+          34,
+          -30
+        ]
+      ],
+      "usage": "reserved_building",
+      "components": [
+        {
+          "world_xz_inclusive": [
+            [
+              -36,
+              -82
+            ],
+            [
+              34,
+              -30
+            ]
+          ],
+          "columns": 3069
+        }
+      ]
+    },
+    {
+      "block": "minecraft:purple_concrete",
+      "columns": 1521,
+      "filled_columns": 1521,
+      "world_xz_inclusive": [
+        [
+          -27,
+          139
+        ],
+        [
+          11,
+          177
+        ]
+      ],
+      "usage": "reserved_building",
+      "components": [
+        {
+          "world_xz_inclusive": [
+            [
+              -27,
+              139
+            ],
+            [
+              11,
+              177
+            ]
+          ],
+          "columns": 1521
+        }
+      ]
+    },
+    {
+      "block": "minecraft:red_concrete",
+      "columns": 639,
+      "filled_columns": 639,
+      "world_xz_inclusive": [
+        [
+          45,
+          63
+        ],
+        [
+          67,
+          92
+        ]
+      ],
+      "usage": "reserved_building",
+      "components": [
+        {
+          "world_xz_inclusive": [
+            [
+              45,
+              63
+            ],
+            [
+              66,
+              91
+            ]
+          ],
+          "columns": 638
+        },
+        {
+          "world_xz_inclusive": [
+            [
+              67,
+              92
+            ],
+            [
+              67,
+              92
+            ]
+          ],
+          "columns": 1
+        }
+      ]
+    },
+    {
+      "block": "minecraft:yellow_concrete",
+      "columns": 1308,
+      "filled_columns": 1308,
+      "world_xz_inclusive": [
+        [
+          -36,
+          -82
+        ],
+        [
+          28,
+          88
+        ]
+      ],
+      "usage": "reserved_building",
+      "components": [
+        {
+          "world_xz_inclusive": [
+            [
+              -36,
+              -82
+            ],
+            [
+              -24,
+              -76
+            ]
+          ],
+          "columns": 31
+        },
+        {
+          "world_xz_inclusive": [
+            [
+              -22,
+              -82
+            ],
+            [
+              -6,
+              -82
+            ]
+          ],
+          "columns": 17
+        },
+        {
+          "world_xz_inclusive": [
+            [
+              13,
+              -82
+            ],
+            [
+              28,
+              -81
+            ]
+          ],
+          "columns": 17
+        },
+        {
+          "world_xz_inclusive": [
+            [
+              -32,
+              43
+            ],
+            [
+              -5,
+              88
+            ]
+          ],
+          "columns": 1243
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "source_unchanged": true,
+    "source_sha256": "1bf0913d429eae1fbebe28d3ed21f314d3fc79678ab89ed1d67bc14d9cda7c78",
+    "output_sha256": "963062659c362bcc5ecc886181f5877a52ec15cd7dc791536d390041d9f47cb6",
+    "size_unchanged": true,
+    "root_metadata_unchanged": true,
+    "entities_unchanged": true,
+    "original_blocks_identical": 3893811,
+    "original_blocks_authorized_state_changes": 11535,
+    "original_block_entity_records_identical": 3,
+    "added_records": 65,
+    "output_blocks": 3905411,
+    "output_palette_states": 78,
+    "protected_zones_added_vegetation": 0,
+    "garrik_added_trees_or_bushes": 0,
+    "tested_in_minecraft": false,
+    "segments_reassembled_identically": true,
+    "segment_records": 3905411,
+    "segment_count": 203,
+    "segment_block_entity_records_identical": 3,
+    "markers_remaining": 0,
+    "added_trees": 0,
+    "added_bushes": 0,
+    "orphan_oak_leaves_removed": 109
+  },
+  "terrain_repair_inference": "Buried concrete covered by stone replaced by stone; covered by grass/dirt replaced by dirt. Original material cannot be recovered.",
+  "source_corner_discrepancy": "Stated Y26..65 gives40 blocks; actual NBT height89. Y origin calculated from actual arrival floor.",
+  "tested_in_minecraft": false
+}

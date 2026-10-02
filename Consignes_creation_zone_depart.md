@@ -7,7 +7,7 @@ Construire la zone d’arrivée du prologue, puis noter ici les éléments néce
 ## Consignes de construction
 
 - Construire et tester la zone dans la dimension du prologue.
-- Garder une arrivée sûre pour le joueur : point fixé exactement à `(7, -3, 1)`. Vérifier le sol, l’espace libre au-dessus et l’absence de danger.
+- Garder une arrivée sûre pour le joueur : point fixé exactement à `(0, -4, 0)`. Vérifier le sol, l’espace libre au-dessus et l’absence de danger.
 - Définir clairement les limites de la zone et noter les coordonnées des constructions importantes.
 - Prévoir une sortie visible et accessible vers le village principal.
 - Conserver le NBT original intact. Générer une copie avec les scripts documentés plutôt que modifier ses données manuellement.
@@ -17,7 +17,34 @@ Construire la zone d’arrivée du prologue, puis noter ici les éléments néce
 
 ## Génération et découpage de la plateforme
 
-### Version installée le 1er octobre 2026
+### Version actuelle — plateforme 17
+
+La source `06_RESSOURCES/Structures_NBT/plateforme__17.nbt` mesure réellement **451 × 89 × 461 blocs**. Elle est conservée intacte. L’origine du terrain est **(-250, -26, -235)**, sans rotation ni miroir ; l’arrivée du joueur est exactement **(0, -4, 0)**, avec sol à **Y=-5**.
+
+Le datapack utilise **203 segments de 32 × 89 × 32 blocs**, soit **quatre chunks (2 × 2)** par segment. Les neuf segments proches de l’arrivée sont préparés avant la première téléportation. Les autres se placent autour des joueurs, avec un rayon de deux segments et au plus un placement toutes les deux ticks. Les segments terminés ne sont jamais remis à zéro automatiquement.
+
+```text
+monde_x = nbt_x - 250
+monde_y = nbt_y - 26
+monde_z = nbt_z - 235
+segment_x = floor(monde_x / 32)
+segment_z = floor(monde_z / 32)
+local_x = monde_x - 32 * segment_x
+local_z = monde_z - 32 * segment_z
+origine_segment = (32 * segment_x, -26, 32 * segment_z)
+```
+
+Les repères en béton ont été enregistrés puis retirés. Le village délimité en marron reçoit **48 herbes et 17 fleurs**. Les autres repères réservent les bâtiments, avec une marge de quatre blocs sans végétation ajoutée. Les repères gris enterrés ont été remplacés par pierre ou terre selon leur couverture. Aucun arbre ni buisson ajouté ; les arbres existants sont conservés.
+
+Trois blocs LOAD et leurs données sont préservés : `ferme`, `poke_shop`, `poke_centre`. Le datapack fournit ces trois NBT ; il ne déclenche pas leur chargement automatique. Leurs tailles vérifiées sont **27 × 22 × 46**, **29 × 17 × 21** et **22 × 22 × 29**. Ces tailles lues dans les fichiers priment sur les calculs approximatifs des anciens tableaux.
+
+Fichiers de travail : `outputs/prologue_plateforme17/`. Code : `prepare_platform.py`, `build_functions.py`, `integrate_pack.py`. Instructions, réglages et tests : **[TESTS_ET_UTILISATION.md](outputs/prologue_plateforme17/TESTS_ET_UTILISATION.md)**. Plan des réserves : `plan_zones.png`. Rapport : `rapport_preparation.json`.
+
+Le chargement reste assuré par `global_packs/required_data/les_echos_du_monde/`. Les anciens mondes sont mis en pause pour protéger les constructions. Aucun essai de cette version n’a été réalisé dans Minecraft.
+
+Les informations suivantes décrivent les anciennes versions et restent conservées comme historique.
+
+### Historique — ancienne plateforme 4, installée le 1er octobre 2026
 
 Les informations ci-dessous sont confirmées dans les fichiers. **Aucun essai dans Minecraft n’a été effectué pour cette version.**
 
@@ -31,7 +58,7 @@ Les informations ci-dessous sont confirmées dans les fichiers. **Aucun essai da
 
 Les coins approximatifs précédemment fournis donnent 461 × 96 × 476 et ne correspondent pas à la boîte réelle du NBT. L’étendue, avec l’origine provisoire, est X=-235..326, Y=-30..62, Z=-250..285, limites incluses. Toutes les réserves exprimées en coordonnées du monde dépendent de cette origine.
 
-### Découpage actuel : 933 morceaux
+### Ancien découpage : 933 morceaux
 
 1. Convertir chaque position locale du NBT en coordonnées du monde avec l’origine provisoire.
 2. Regrouper les blocs par chunk du monde, avec une division arrondie vers le bas, y compris pour les coordonnées négatives.
@@ -94,7 +121,7 @@ La précédente plateforme mesurait 449 × 93 × 486, avec 706 morceaux et une o
 
 | Structure | Nom des blocs de structure | Poteau 1 `CORNER` (X, Y, Z) | Poteau 2 `CORNER` (X, Y, Z) | Taille calculée (X × Y × Z, blocs) | Fichier `.nbt` |
 |---|---|---|---|---|---|
-| Plateforme |  | Origine provisoire : X=-235 ; Y=-30 ; Z=-250 | Limite réelle : X=326 ; Y=62 ; Z=285 | 562 × 93 × 536 | `plateforme__4_vegetalisee.nbt` |
+| Plateforme actuelle | `plateforme__17` | Origine de placement : X=-250 ; Y=-26 ; Z=-235 | Limite inclusive : X=200 ; Y=62 ; Z=225 | 451 × 89 × 461 (NBT vérifié) | `plateforme__17_preparee.nbt` |
 | Waystone | `waypoint` | X=-2 ; Y=-5 ; Z=1 | X=2 ; Y=0 ; Z=--3 | À confirmer : 5 × 6 × 5 si Z=-3 ; 5 × 6 × 3 si Z=3 | `waypoint.nbt` |
 | Pokécentre | `poke_centre` | X=49 ; Y=-5 ; Z=64 | X=70 ; Y=17 ; Z=92 | 22 × 23 × 29 | `poke_centre.nbt` |
 | Pokéshop | `poke_shop` | X=-7 ; Y=-6 ; Z=35 | X=-35 ; Y=11 ; Z=15 | 29 × 18 × 21 | `poke_shop.nbt` |
@@ -116,3 +143,29 @@ Les tailles calculées comptent les deux positions `CORNER` dans la sélection :
 ## Notes
 
 <!-- Ajoute ici les détails et décisions de construction. -->
+
+## Correctif du 2 octobre 2026 — feuilles flottantes
+
+La feuille de chêne visée sur la capture à **(-20, -1, 6)** existe déjà dans le NBT original. Elle appartient à un fragment de neuf feuilles sans tronc ni support voisin. La préparation et le découpage avaient conservé ce fragment. En jeu, sa distance aux troncs a été recalculée de 1 à 7.
+
+La copie préparée et ses segments retirent désormais **109 feuilles de chêne**, réparties en **14 fragments isolés** : aucune connexion à un tronc, au sol ou au décor proche. Les feuilles des arbres et des buissons soutenus sont conservées. Les fragments de cerisier proches des canopées et les feuilles d’azalée n’ont pas été modifiés par ce correctif.
+
+### Monde déjà créé
+
+Au prochain démarrage du monde utilisant `segments_v17`, les fonctions `world/leaves_v17` nettoient automatiquement les **positions exactes** de ces fragments, lorsque leur chunk déjà généré est chargé. Aucune commande joueur nécessaire. La réparation est enregistrée par chunk et ne remplace pas les segments terminés. Les constructions restent en place. Les autres types de blocs aux positions recensées sont conservés.
+
+Parmi les fragments d’origine, **103 feuilles sont non persistantes** et **6 sont persistantes**. Le nettoyage vérifie ce caractère à chaque position ; pour les six persistantes, il exige aussi `distance=7` et `waterlogged=false`. Une feuille de chêne ajoutée depuis avec exactement ces mêmes propriétés et au même emplacement serait également retirée lors du premier passage du correctif.
+
+La réparation respecte la pause du prologue. Si la génération est volontairement en pause, utiliser la reprise habituelle lorsque le nettoyage est souhaité.
+
+### Vérification au retour
+
+1. Redémarrer complètement Minecraft, puis ouvrir le monde actuel **1**.
+2. Revenir près de **(-20, -1, 6)** : le fragment de la capture doit avoir disparu.
+3. Parcourir la zone pour charger les autres chunks concernés ; vérifier que les arbres complets et les buissons posés au sol restent présents.
+4. Vérifier qu’une construction ou un bloc modifié dans un segment terminé reste intact ; se reconnecter et vérifier à nouveau.
+5. Facultatif : créer un nouveau monde de test et vérifier l’absence de ces mêmes fragments.
+
+Contrôles hors jeu : source originale inchangée ; comparaison de la copie avant/après limitée aux **109 états de feuilles remplacés par de l’air** ; toutes les autres entrées, les plantes ajoutées et les données NBT conservées. Le nettoyage utilise uniquement les coordonnées enregistrées, ajoute zéro chargement forcé et ne remet aucun score de génération à zéro.
+
+Les journaux et la sauvegarde du monde 1 confirment le chargement du datapack, l’arrivée dans le prologue et **127 segments terminés** avant ce correctif. **Le nettoyage correctif n’a pas encore été observé dans Minecraft.**

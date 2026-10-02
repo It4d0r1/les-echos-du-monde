@@ -1,0 +1,88 @@
+{
+  "pack_format": 48,
+  "json_files_parsed": 22,
+  "function_files": 2954,
+  "function_references_resolved": 10992,
+  "template_references_resolved": 1874,
+  "new_segments": 203,
+  "segment_hashes_match": true,
+  "source_hash_still_matches": true,
+  "load_tick_tags_present": true,
+  "nine_loading_and_ownership_cleanup_checks_per_segment": true,
+  "exit_ground_columns": [
+    {
+      "world_xz": [
+        -1,
+        6
+      ],
+      "surface_y": -5,
+      "surface_block": "minecraft:stone_bricks"
+    },
+    {
+      "world_xz": [
+        -1,
+        7
+      ],
+      "surface_y": -5,
+      "surface_block": "minecraft:grass_block"
+    },
+    {
+      "world_xz": [
+        -1,
+        8
+      ],
+      "surface_y": -5,
+      "surface_block": "minecraft:grass_block"
+    },
+    {
+      "world_xz": [
+        0,
+        6
+      ],
+      "surface_y": -5,
+      "surface_block": "minecraft:andesite"
+    },
+    {
+      "world_xz": [
+        0,
+        7
+      ],
+      "surface_y": -5,
+      "surface_block": "minecraft:stone_bricks"
+    },
+    {
+      "world_xz": [
+        0,
+        8
+      ],
+      "surface_y": -5,
+      "surface_block": "minecraft:grass_block"
+    },
+    {
+      "world_xz": [
+        1,
+        6
+      ],
+      "surface_y": -5,
+      "surface_block": "minecraft:stone_bricks"
+    },
+    {
+      "world_xz": [
+        1,
+        7
+      ],
+      "surface_y": -5,
+      "surface_block": "minecraft:stone_bricks"
+    },
+    {
+      "world_xz": [
+        1,
+        8
+      ],
+      "surface_y": -5,
+      "surface_block": "minecraft:cobblestone"
+    }
+  ],
+  "minecraft_executed": false,
+  "limit": "Static consistency and NBT checks; command compatibility reviewed against installed vanilla1.21.1 bytecode. This is not a Minecraft execution test."
+}

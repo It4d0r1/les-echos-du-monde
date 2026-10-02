@@ -1,0 +1,3 @@
+scoreboard players add #wait edm_seg_ctl 2
+execute if loaded 32 0 -224 if loaded 32 0 -208 if loaded 32 0 -192 if loaded 48 0 -224 if loaded 48 0 -208 if loaded 48 0 -192 if loaded 64 0 -224 if loaded 64 0 -208 if loaded 64 0 -192 run function les_echos_du_monde:world/segments_v17/segment/s_p01_m07/place
+execute if score #active edm_seg_ctl matches 120 if score #wait edm_seg_ctl matches 100.. run function les_echos_du_monde:world/segments_v17/segment/s_p01_m07/fail

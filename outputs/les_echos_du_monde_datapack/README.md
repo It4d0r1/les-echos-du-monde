@@ -1,37 +1,47 @@
-# Les Échos du Monde — prologue végétalisé
+# Les Échos du Monde — plateforme du prologue 17
 
-Minecraft Java 1.21.1 / NeoForge. GlobalPacks charge ce dossier dans les datapacks obligatoires.
+Minecraft Java 1.21.1 / NeoForge, datapack format 48. Installation automatique par GlobalPacks.
 
-## Nouveau monde
+## Version actuelle
 
-Relance complètement Minecraft, puis crée un nouveau monde dans l'instance **Pixelmon Les Échos du Monde**. Le joueur attend dans l'Overworld pendant la préparation du prologue; un indicateur affiche le nombre de morceaux placés. Il est ensuite téléporté automatiquement dans `les_echos_du_monde:prologue`, exactement à **X=7, Y=-3, Z=1**.
+- Source `plateforme__17.nbt` préservée, dimensions **451 × 89 × 461**.
+- **203 segments** de 32 × 89 × 32 blocs, alignés sur les chunks ; quatre chunks de contenu par segment.
+- Origine du terrain **(-250, -26, -235)** ; arrivée du joueur **(0, -4, 0)**.
+- Préparation des neuf segments d’arrivée avant la première téléportation, puis génération autour des joueurs.
+- Chaque segment est placé une seule fois et reste enregistré dans le monde.
+- Repères retirés, zones réservées enregistrées, 48 herbes et 17 fleurs ajoutées au village ; aucun arbre ni buisson ajouté.
+- Anciens mondes protégés contre la superposition. Tester cette version dans un **nouveau monde**, après un redémarrage complet de Minecraft.
 
-## Plateforme
+## Coordonnées et tests
 
-La copie végétalisée mesure **562 × 93 × 536**, pour **5 593 060 blocs**. Elle est placée à l'origine **provisoire** `-235 -30 -250`, sans rotation ni miroir. Le sol à l'arrivée est à Y=-4.
+Voir **TESTS.md** pour les coordonnées, toutes les commandes, les fichiers modifiables et les tests manuels. **GENERATION_SEGMENTS.md** décrit les états et le nettoyage des chargements temporaires.
 
-Le placement utilise **933 morceaux**, alignés sur les chunks, depuis le chunk `0, 0` vers l'extérieur. Chaque morceau attend que son chunk soit chargé. Un seul nouveau chunk est forcé à la fois; seuls les chargements forcés ajoutés par cette chaîne sont retirés.
+Les fichiers ont été contrôlés hors jeu. **Aucun test Minecraft effectué pour cette version.** Le point Overworld `0.5 80 0.5` demeure provisoire ; son terrain n’a pas été validé. Aucun verrouillage de quête ajouté.
 
-Les anciennes structures et fonctions restent conservées, mais le démarrage des nouveaux mondes utilise `structure/prologue_vegetation_chunks` et `function/world/vegetation_chunks`.
+Les anciennes fonctions et structures restent présentes pour permettre l’annulation de leurs chaînes planifiées ; elles ne sont plus utilisées pour créer les nouveaux mondes.
 
-La végétation ajoutée respecte les six réserves de bâtiments et leur marge de 4 blocs. Aucun arbre ni buisson ajouté ne pénètre dans la réserve de Garrik : **X=-16..31, Z=-80..-33**, limites incluses. L'origine reste à confirmer visuellement avant de construire les bâtiments définitifs.
+## Correctif du 2 octobre 2026 — feuilles flottantes
 
-## Anciennes sauvegardes
+La feuille de chêne visée sur la capture à **(-20, -1, 6)** existe déjà dans le NBT original. Elle appartient à un fragment de neuf feuilles sans tronc ni support voisin. La préparation et le découpage avaient conservé ce fragment. En jeu, sa distance aux troncs a été recalculée de 1 à 7.
 
-Leur automatisation est mise en pause pour éviter la superposition de modèles ayant des origines différentes. Crée un nouveau monde pour cet essai. Aucun fichier de sauvegarde n'a été modifié pendant l'installation.
+La copie préparée et ses segments retirent désormais **109 feuilles de chêne**, réparties en **14 fragments isolés** : aucune connexion à un tronc, au sol ou au décor proche. Les feuilles des arbres et des buissons soutenus sont conservées. Les fragments de cerisier proches des canopées et les feuilles d’azalée n’ont pas été modifiés par ce correctif.
 
-## Sortie et réapparition
+### Monde déjà créé
 
-La sortie provisoire reste `X=-1..1, Y=-4..-2, Z=6..8`. Elle envoie le joueur dans l'Overworld à `0.5 80 0.5`. Le spawn Overworld reste `0 80 0`, avec `spawnRadius=0`. Ces points sont provisoires et ne désignent pas un village vérifié.
+Au prochain démarrage du monde utilisant `segments_v17`, les fonctions `world/leaves_v17` nettoient automatiquement les **positions exactes** de ces fragments, lorsque leur chunk déjà généré est chargé. Aucune commande joueur nécessaire. La réparation est enregistrée par chunk et ne remplace pas les segments terminés. Les constructions restent en place. Les autres types de blocs aux positions recensées sont conservés.
 
-## Vérifications
+Parmi les fragments d’origine, **103 feuilles sont non persistantes** et **6 sont persistantes**. Le nettoyage vérifie ce caractère à chaque position ; pour les six persistantes, il exige aussi `distance=7` et `waterlogged=false`. Une feuille de chêne ajoutée depuis avec exactement ces mêmes propriétés et au même emplacement serait également retirée lors du premier passage du correctif.
 
-Le découpage a été reconstitué et comparé à la copie complète : mêmes positions, mêmes états, données NBT préservées, aucun bloc manquant ni chevauchement. Les références de fonctions et de modèles ainsi que les messages JSON ont été vérifiés.
+La réparation respecte la pause du prologue. Si la génération est volontairement en pause, utiliser la reprise habituelle lorsque le nettoyage est souhaité.
 
-**Aucun essai dans Minecraft n'a été effectué.** Voir `TESTS.md` pour l'essai en jeu. Aucun mod ni fichier JAR n'a été ajouté ou modifié.
+### Vérification au retour
 
-Sauvegarde complète avant installation :
-`C:/Users/Bastien/Desktop/Les Echo du monde/90_ARCHIVES/Sauvegardes_datapack/prologue_vegetation_20261001_175619/datapack`
+1. Redémarrer complètement Minecraft, puis ouvrir le monde actuel **1**.
+2. Revenir près de **(-20, -1, 6)** : le fragment de la capture doit avoir disparu.
+3. Parcourir la zone pour charger les autres chunks concernés ; vérifier que les arbres complets et les buissons posés au sol restent présents.
+4. Vérifier qu’une construction ou un bloc modifié dans un segment terminé reste intact ; se reconnecter et vérifier à nouveau.
+5. Facultatif : créer un nouveau monde de test et vérifier l’absence de ces mêmes fragments.
 
-Rapport et script d'installation :
-`C:/Users/Bastien/Desktop/Les Echo du monde/06_RESSOURCES/Structures_NBT/Vegetation_finale/`
+Contrôles hors jeu : source originale inchangée ; comparaison de la copie avant/après limitée aux **109 états de feuilles remplacés par de l’air** ; toutes les autres entrées, les plantes ajoutées et les données NBT conservées. Le nettoyage utilise uniquement les coordonnées enregistrées, ajoute zéro chargement forcé et ne remet aucun score de génération à zéro.
+
+Les journaux et la sauvegarde du monde 1 confirment le chargement du datapack, l’arrivée dans le prologue et **127 segments terminés** avant ce correctif. **Le nettoyage correctif n’a pas encore été observé dans Minecraft.**

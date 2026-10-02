@@ -1,0 +1,1851 @@
+{
+  "source": "C:\\Users\\Bastien\\Desktop\\Les Echo du monde\\06_RESSOURCES\\Structures_NBT\\plateforme__17.nbt",
+  "sha256": "1bf0913d429eae1fbebe28d3ed21f314d3fc79678ab89ed1d67bc14d9cda7c78",
+  "size_xyz": [
+    451,
+    89,
+    461
+  ],
+  "DataVersion": 3955,
+  "block_entries": 3905346,
+  "duplicates": 0,
+  "block_entities_count": 3,
+  "entities_count": 0,
+  "stated_source_corner_1": [
+    -250,
+    26,
+    -235
+  ],
+  "stated_source_corner_2": [
+    200,
+    65,
+    225
+  ],
+  "inclusive_size_from_stated_corners": [
+    451,
+    40,
+    461
+  ],
+  "corners_match_size": false,
+  "markers": [
+    {
+      "block": "minecraft:gray_concrete",
+      "color": "gray",
+      "count": 1650,
+      "min_local": [
+        234,
+        10,
+        184
+      ],
+      "max_local": [
+        450,
+        32,
+        210
+      ],
+      "component_count": 2,
+      "components": [
+        {
+          "min_x": 409,
+          "max_x": 450,
+          "min_z": 188,
+          "max_z": 210,
+          "columns": 966
+        },
+        {
+          "min_x": 234,
+          "max_x": 234,
+          "min_z": 184,
+          "max_z": 184,
+          "columns": 1
+        }
+      ]
+    },
+    {
+      "block": "minecraft:yellow_concrete",
+      "color": "yellow",
+      "count": 1309,
+      "min_local": [
+        214,
+        20,
+        153
+      ],
+      "max_local": [
+        278,
+        43,
+        323
+      ],
+      "component_count": 4,
+      "components": [
+        {
+          "min_x": 218,
+          "max_x": 245,
+          "min_z": 278,
+          "max_z": 323,
+          "columns": 1243
+        },
+        {
+          "min_x": 214,
+          "max_x": 226,
+          "min_z": 153,
+          "max_z": 159,
+          "columns": 31
+        },
+        {
+          "min_x": 228,
+          "max_x": 244,
+          "min_z": 153,
+          "max_z": 153,
+          "columns": 17
+        },
+        {
+          "min_x": 263,
+          "max_x": 278,
+          "min_z": 153,
+          "max_z": 154,
+          "columns": 17
+        }
+      ]
+    },
+    {
+      "block": "minecraft:cyan_concrete",
+      "color": "cyan",
+      "count": 172,
+      "min_local": [
+        264,
+        20,
+        299
+      ],
+      "max_local": [
+        276,
+        30,
+        312
+      ],
+      "component_count": 1,
+      "components": [
+        {
+          "min_x": 264,
+          "max_x": 276,
+          "min_z": 299,
+          "max_z": 312,
+          "columns": 172
+        }
+      ]
+    },
+    {
+      "block": "minecraft:lime_terracotta",
+      "color": "lime",
+      "count": 1,
+      "min_local": [
+        370,
+        20,
+        268
+      ],
+      "max_local": [
+        370,
+        20,
+        268
+      ],
+      "component_count": 1,
+      "components": [
+        {
+          "min_x": 370,
+          "max_x": 370,
+          "min_z": 268,
+          "max_z": 268,
+          "columns": 1
+        }
+      ]
+    },
+    {
+      "block": "minecraft:light_gray_concrete",
+      "color": "light_gray",
+      "count": 1247,
+      "min_local": [
+        412,
+        21,
+        185
+      ],
+      "max_local": [
+        450,
+        38,
+        210
+      ],
+      "component_count": 1,
+      "components": [
+        {
+          "min_x": 412,
+          "max_x": 450,
+          "min_z": 185,
+          "max_z": 210,
+          "columns": 714
+        }
+      ]
+    },
+    {
+      "block": "minecraft:lime_concrete",
+      "color": "lime",
+      "count": 27,
+      "min_local": [
+        255,
+        22,
+        233
+      ],
+      "max_local": [
+        259,
+        28,
+        237
+      ],
+      "component_count": 1,
+      "components": [
+        {
+          "min_x": 255,
+          "max_x": 259,
+          "min_z": 233,
+          "max_z": 237,
+          "columns": 25
+        }
+      ]
+    },
+    {
+      "block": "minecraft:black_concrete",
+      "color": "black",
+      "count": 195,
+      "min_local": [
+        348,
+        22,
+        260
+      ],
+      "max_local": [
+        364,
+        36,
+        271
+      ],
+      "component_count": 1,
+      "components": [
+        {
+          "min_x": 348,
+          "max_x": 364,
+          "min_z": 260,
+          "max_z": 271,
+          "columns": 195
+        }
+      ]
+    },
+    {
+      "block": "minecraft:magenta_terracotta",
+      "color": "magenta",
+      "count": 1211,
+      "min_local": [
+        109,
+        25,
+        50
+      ],
+      "max_local": [
+        314,
+        63,
+        304
+      ],
+      "component_count": 156,
+      "components": [
+        {
+          "min_x": 214,
+          "max_x": 225,
+          "min_z": 120,
+          "max_z": 147,
+          "columns": 108
+        },
+        {
+          "min_x": 133,
+          "max_x": 139,
+          "min_z": 224,
+          "max_z": 243,
+          "columns": 88
+        },
+        {
+          "min_x": 112,
+          "max_x": 127,
+          "min_z": 228,
+          "max_z": 240,
+          "columns": 71
+        },
+        {
+          "min_x": 303,
+          "max_x": 311,
+          "min_z": 56,
+          "max_z": 67,
+          "columns": 45
+        },
+        {
+          "min_x": 300,
+          "max_x": 306,
+          "min_z": 52,
+          "max_z": 59,
+          "columns": 27
+        },
+        {
+          "min_x": 197,
+          "max_x": 203,
+          "min_z": 132,
+          "max_z": 139,
+          "columns": 23
+        },
+        {
+          "min_x": 201,
+          "max_x": 208,
+          "min_z": 141,
+          "max_z": 146,
+          "columns": 21
+        },
+        {
+          "min_x": 121,
+          "max_x": 127,
+          "min_z": 240,
+          "max_z": 245,
+          "columns": 20
+        },
+        {
+          "min_x": 309,
+          "max_x": 314,
+          "min_z": 54,
+          "max_z": 59,
+          "columns": 19
+        },
+        {
+          "min_x": 133,
+          "max_x": 137,
+          "min_z": 219,
+          "max_z": 223,
+          "columns": 15
+        },
+        {
+          "min_x": 198,
+          "max_x": 203,
+          "min_z": 127,
+          "max_z": 130,
+          "columns": 13
+        },
+        {
+          "min_x": 127,
+          "max_x": 132,
+          "min_z": 241,
+          "max_z": 244,
+          "columns": 13
+        },
+        {
+          "min_x": 210,
+          "max_x": 214,
+          "min_z": 146,
+          "max_z": 149,
+          "columns": 12
+        },
+        {
+          "min_x": 150,
+          "max_x": 155,
+          "min_z": 291,
+          "max_z": 296,
+          "columns": 12
+        },
+        {
+          "min_x": 138,
+          "max_x": 141,
+          "min_z": 298,
+          "max_z": 302,
+          "columns": 12
+        },
+        {
+          "min_x": 143,
+          "max_x": 146,
+          "min_z": 299,
+          "max_z": 304,
+          "columns": 12
+        },
+        {
+          "min_x": 198,
+          "max_x": 200,
+          "min_z": 142,
+          "max_z": 148,
+          "columns": 10
+        },
+        {
+          "min_x": 138,
+          "max_x": 141,
+          "min_z": 283,
+          "max_z": 288,
+          "columns": 10
+        },
+        {
+          "min_x": 121,
+          "max_x": 125,
+          "min_z": 224,
+          "max_z": 227,
+          "columns": 9
+        },
+        {
+          "min_x": 134,
+          "max_x": 138,
+          "min_z": 282,
+          "max_z": 285,
+          "columns": 9
+        },
+        {
+          "min_x": 126,
+          "max_x": 129,
+          "min_z": 237,
+          "max_z": 240,
+          "columns": 8
+        },
+        {
+          "min_x": 145,
+          "max_x": 147,
+          "min_z": 280,
+          "max_z": 284,
+          "columns": 8
+        },
+        {
+          "min_x": 134,
+          "max_x": 137,
+          "min_z": 293,
+          "max_z": 297,
+          "columns": 8
+        },
+        {
+          "min_x": 215,
+          "max_x": 217,
+          "min_z": 127,
+          "max_z": 130,
+          "columns": 7
+        },
+        {
+          "min_x": 203,
+          "max_x": 204,
+          "min_z": 139,
+          "max_z": 142,
+          "columns": 6
+        },
+        {
+          "min_x": 109,
+          "max_x": 112,
+          "min_z": 234,
+          "max_z": 236,
+          "columns": 6
+        },
+        {
+          "min_x": 132,
+          "max_x": 135,
+          "min_z": 290,
+          "max_z": 292,
+          "columns": 6
+        },
+        {
+          "min_x": 141,
+          "max_x": 143,
+          "min_z": 290,
+          "max_z": 293,
+          "columns": 6
+        },
+        {
+          "min_x": 154,
+          "max_x": 156,
+          "min_z": 294,
+          "max_z": 297,
+          "columns": 6
+        },
+        {
+          "min_x": 211,
+          "max_x": 212,
+          "min_z": 119,
+          "max_z": 122,
+          "columns": 5
+        },
+        {
+          "min_x": 212,
+          "max_x": 213,
+          "min_z": 135,
+          "max_z": 137,
+          "columns": 5
+        },
+        {
+          "min_x": 129,
+          "max_x": 130,
+          "min_z": 221,
+          "max_z": 223,
+          "columns": 5
+        },
+        {
+          "min_x": 120,
+          "max_x": 121,
+          "min_z": 233,
+          "max_z": 235,
+          "columns": 5
+        },
+        {
+          "min_x": 146,
+          "max_x": 147,
+          "min_z": 296,
+          "max_z": 298,
+          "columns": 5
+        },
+        {
+          "min_x": 225,
+          "max_x": 226,
+          "min_z": 127,
+          "max_z": 129,
+          "columns": 4
+        },
+        {
+          "min_x": 204,
+          "max_x": 205,
+          "min_z": 134,
+          "max_z": 136,
+          "columns": 4
+        },
+        {
+          "min_x": 207,
+          "max_x": 208,
+          "min_z": 146,
+          "max_z": 148,
+          "columns": 4
+        },
+        {
+          "min_x": 142,
+          "max_x": 143,
+          "min_z": 283,
+          "max_z": 285,
+          "columns": 4
+        },
+        {
+          "min_x": 142,
+          "max_x": 144,
+          "min_z": 287,
+          "max_z": 288,
+          "columns": 4
+        },
+        {
+          "min_x": 145,
+          "max_x": 146,
+          "min_z": 293,
+          "max_z": 295,
+          "columns": 4
+        },
+        {
+          "min_x": 142,
+          "max_x": 143,
+          "min_z": 294,
+          "max_z": 296,
+          "columns": 4
+        },
+        {
+          "min_x": 140,
+          "max_x": 142,
+          "min_z": 296,
+          "max_z": 297,
+          "columns": 4
+        },
+        {
+          "min_x": 308,
+          "max_x": 309,
+          "min_z": 53,
+          "max_z": 54,
+          "columns": 3
+        },
+        {
+          "min_x": 313,
+          "max_x": 313,
+          "min_z": 62,
+          "max_z": 64,
+          "columns": 3
+        },
+        {
+          "min_x": 311,
+          "max_x": 312,
+          "min_z": 67,
+          "max_z": 68,
+          "columns": 3
+        },
+        {
+          "min_x": 212,
+          "max_x": 213,
+          "min_z": 125,
+          "max_z": 126,
+          "columns": 3
+        },
+        {
+          "min_x": 215,
+          "max_x": 216,
+          "min_z": 136,
+          "max_z": 137,
+          "columns": 3
+        },
+        {
+          "min_x": 216,
+          "max_x": 217,
+          "min_z": 148,
+          "max_z": 149,
+          "columns": 3
+        },
+        {
+          "min_x": 130,
+          "max_x": 132,
+          "min_z": 220,
+          "max_z": 220,
+          "columns": 3
+        },
+        {
+          "min_x": 124,
+          "max_x": 125,
+          "min_z": 221,
+          "max_z": 222,
+          "columns": 3
+        },
+        {
+          "min_x": 128,
+          "max_x": 128,
+          "min_z": 231,
+          "max_z": 233,
+          "columns": 3
+        },
+        {
+          "min_x": 139,
+          "max_x": 140,
+          "min_z": 232,
+          "max_z": 233,
+          "columns": 3
+        },
+        {
+          "min_x": 130,
+          "max_x": 132,
+          "min_z": 239,
+          "max_z": 239,
+          "columns": 3
+        },
+        {
+          "min_x": 151,
+          "max_x": 153,
+          "min_z": 288,
+          "max_z": 288,
+          "columns": 3
+        },
+        {
+          "min_x": 303,
+          "max_x": 304,
+          "min_z": 51,
+          "max_z": 51,
+          "columns": 2
+        },
+        {
+          "min_x": 309,
+          "max_x": 309,
+          "min_z": 68,
+          "max_z": 69,
+          "columns": 2
+        },
+        {
+          "min_x": 213,
+          "max_x": 214,
+          "min_z": 119,
+          "max_z": 119,
+          "columns": 2
+        },
+        {
+          "min_x": 206,
+          "max_x": 206,
+          "min_z": 124,
+          "max_z": 125,
+          "columns": 2
+        },
+        {
+          "min_x": 202,
+          "max_x": 202,
+          "min_z": 125,
+          "max_z": 126,
+          "columns": 2
+        },
+        {
+          "min_x": 204,
+          "max_x": 204,
+          "min_z": 126,
+          "max_z": 127,
+          "columns": 2
+        },
+        {
+          "min_x": 213,
+          "max_x": 213,
+          "min_z": 129,
+          "max_z": 130,
+          "columns": 2
+        },
+        {
+          "min_x": 206,
+          "max_x": 207,
+          "min_z": 133,
+          "max_z": 133,
+          "columns": 2
+        },
+        {
+          "min_x": 219,
+          "max_x": 219,
+          "min_z": 135,
+          "max_z": 136,
+          "columns": 2
+        },
+        {
+          "min_x": 218,
+          "max_x": 218,
+          "min_z": 137,
+          "max_z": 138,
+          "columns": 2
+        },
+        {
+          "min_x": 205,
+          "max_x": 205,
+          "min_z": 139,
+          "max_z": 140,
+          "columns": 2
+        },
+        {
+          "min_x": 217,
+          "max_x": 217,
+          "min_z": 139,
+          "max_z": 140,
+          "columns": 2
+        },
+        {
+          "min_x": 200,
+          "max_x": 200,
+          "min_z": 142,
+          "max_z": 143,
+          "columns": 2
+        },
+        {
+          "min_x": 204,
+          "max_x": 205,
+          "min_z": 148,
+          "max_z": 148,
+          "columns": 2
+        },
+        {
+          "min_x": 126,
+          "max_x": 127,
+          "min_z": 220,
+          "max_z": 220,
+          "columns": 2
+        },
+        {
+          "min_x": 131,
+          "max_x": 131,
+          "min_z": 233,
+          "max_z": 234,
+          "columns": 2
+        },
+        {
+          "min_x": 126,
+          "max_x": 127,
+          "min_z": 236,
+          "max_z": 236,
+          "columns": 2
+        },
+        {
+          "min_x": 129,
+          "max_x": 130,
+          "min_z": 245,
+          "max_z": 245,
+          "columns": 2
+        },
+        {
+          "min_x": 120,
+          "max_x": 121,
+          "min_z": 246,
+          "max_z": 246,
+          "columns": 2
+        },
+        {
+          "min_x": 141,
+          "max_x": 141,
+          "min_z": 283,
+          "max_z": 284,
+          "columns": 2
+        },
+        {
+          "min_x": 148,
+          "max_x": 148,
+          "min_z": 285,
+          "max_z": 286,
+          "columns": 2
+        },
+        {
+          "min_x": 135,
+          "max_x": 135,
+          "min_z": 287,
+          "max_z": 288,
+          "columns": 2
+        },
+        {
+          "min_x": 138,
+          "max_x": 138,
+          "min_z": 294,
+          "max_z": 295,
+          "columns": 2
+        },
+        {
+          "min_x": 135,
+          "max_x": 135,
+          "min_z": 298,
+          "max_z": 299,
+          "columns": 2
+        },
+        {
+          "min_x": 142,
+          "max_x": 142,
+          "min_z": 299,
+          "max_z": 300,
+          "columns": 2
+        },
+        {
+          "min_x": 302,
+          "max_x": 302,
+          "min_z": 50,
+          "max_z": 50,
+          "columns": 1
+        },
+        {
+          "min_x": 305,
+          "max_x": 305,
+          "min_z": 50,
+          "max_z": 50,
+          "columns": 1
+        },
+        {
+          "min_x": 306,
+          "max_x": 306,
+          "min_z": 51,
+          "max_z": 51,
+          "columns": 1
+        },
+        {
+          "min_x": 307,
+          "max_x": 307,
+          "min_z": 52,
+          "max_z": 52,
+          "columns": 1
+        },
+        {
+          "min_x": 306,
+          "max_x": 306,
+          "min_z": 56,
+          "max_z": 56,
+          "columns": 1
+        },
+        {
+          "min_x": 313,
+          "max_x": 313,
+          "min_z": 58,
+          "max_z": 58,
+          "columns": 1
+        },
+        {
+          "min_x": 302,
+          "max_x": 302,
+          "min_z": 63,
+          "max_z": 63,
+          "columns": 1
+        },
+        {
+          "min_x": 307,
+          "max_x": 307,
+          "min_z": 65,
+          "max_z": 65,
+          "columns": 1
+        },
+        {
+          "min_x": 314,
+          "max_x": 314,
+          "min_z": 65,
+          "max_z": 65,
+          "columns": 1
+        },
+        {
+          "min_x": 306,
+          "max_x": 306,
+          "min_z": 66,
+          "max_z": 66,
+          "columns": 1
+        },
+        {
+          "min_x": 216,
+          "max_x": 216,
+          "min_z": 119,
+          "max_z": 119,
+          "columns": 1
+        },
+        {
+          "min_x": 220,
+          "max_x": 220,
+          "min_z": 120,
+          "max_z": 120,
+          "columns": 1
+        },
+        {
+          "min_x": 204,
+          "max_x": 204,
+          "min_z": 122,
+          "max_z": 122,
+          "columns": 1
+        },
+        {
+          "min_x": 207,
+          "max_x": 207,
+          "min_z": 122,
+          "max_z": 122,
+          "columns": 1
+        },
+        {
+          "min_x": 209,
+          "max_x": 209,
+          "min_z": 123,
+          "max_z": 123,
+          "columns": 1
+        },
+        {
+          "min_x": 200,
+          "max_x": 200,
+          "min_z": 124,
+          "max_z": 124,
+          "columns": 1
+        },
+        {
+          "min_x": 215,
+          "max_x": 215,
+          "min_z": 124,
+          "max_z": 124,
+          "columns": 1
+        },
+        {
+          "min_x": 198,
+          "max_x": 198,
+          "min_z": 125,
+          "max_z": 125,
+          "columns": 1
+        },
+        {
+          "min_x": 217,
+          "max_x": 217,
+          "min_z": 125,
+          "max_z": 125,
+          "columns": 1
+        },
+        {
+          "min_x": 222,
+          "max_x": 222,
+          "min_z": 125,
+          "max_z": 125,
+          "columns": 1
+        },
+        {
+          "min_x": 210,
+          "max_x": 210,
+          "min_z": 128,
+          "max_z": 128,
+          "columns": 1
+        },
+        {
+          "min_x": 221,
+          "max_x": 221,
+          "min_z": 128,
+          "max_z": 128,
+          "columns": 1
+        },
+        {
+          "min_x": 211,
+          "max_x": 211,
+          "min_z": 129,
+          "max_z": 129,
+          "columns": 1
+        },
+        {
+          "min_x": 209,
+          "max_x": 209,
+          "min_z": 130,
+          "max_z": 130,
+          "columns": 1
+        },
+        {
+          "min_x": 210,
+          "max_x": 210,
+          "min_z": 131,
+          "max_z": 131,
+          "columns": 1
+        },
+        {
+          "min_x": 209,
+          "max_x": 209,
+          "min_z": 132,
+          "max_z": 132,
+          "columns": 1
+        },
+        {
+          "min_x": 212,
+          "max_x": 212,
+          "min_z": 132,
+          "max_z": 132,
+          "columns": 1
+        },
+        {
+          "min_x": 216,
+          "max_x": 216,
+          "min_z": 135,
+          "max_z": 135,
+          "columns": 1
+        },
+        {
+          "min_x": 203,
+          "max_x": 203,
+          "min_z": 136,
+          "max_z": 136,
+          "columns": 1
+        },
+        {
+          "min_x": 217,
+          "max_x": 217,
+          "min_z": 136,
+          "max_z": 136,
+          "columns": 1
+        },
+        {
+          "min_x": 196,
+          "max_x": 196,
+          "min_z": 137,
+          "max_z": 137,
+          "columns": 1
+        },
+        {
+          "min_x": 210,
+          "max_x": 210,
+          "min_z": 137,
+          "max_z": 137,
+          "columns": 1
+        },
+        {
+          "min_x": 204,
+          "max_x": 204,
+          "min_z": 138,
+          "max_z": 138,
+          "columns": 1
+        },
+        {
+          "min_x": 208,
+          "max_x": 208,
+          "min_z": 140,
+          "max_z": 140,
+          "columns": 1
+        },
+        {
+          "min_x": 216,
+          "max_x": 216,
+          "min_z": 143,
+          "max_z": 143,
+          "columns": 1
+        },
+        {
+          "min_x": 211,
+          "max_x": 211,
+          "min_z": 144,
+          "max_z": 144,
+          "columns": 1
+        },
+        {
+          "min_x": 215,
+          "max_x": 215,
+          "min_z": 144,
+          "max_z": 144,
+          "columns": 1
+        },
+        {
+          "min_x": 222,
+          "max_x": 222,
+          "min_z": 145,
+          "max_z": 145,
+          "columns": 1
+        },
+        {
+          "min_x": 216,
+          "max_x": 216,
+          "min_z": 146,
+          "max_z": 146,
+          "columns": 1
+        },
+        {
+          "min_x": 201,
+          "max_x": 201,
+          "min_z": 147,
+          "max_z": 147,
+          "columns": 1
+        },
+        {
+          "min_x": 220,
+          "max_x": 220,
+          "min_z": 148,
+          "max_z": 148,
+          "columns": 1
+        },
+        {
+          "min_x": 214,
+          "max_x": 214,
+          "min_z": 150,
+          "max_z": 150,
+          "columns": 1
+        },
+        {
+          "min_x": 123,
+          "max_x": 123,
+          "min_z": 223,
+          "max_z": 223,
+          "columns": 1
+        },
+        {
+          "min_x": 127,
+          "max_x": 127,
+          "min_z": 223,
+          "max_z": 223,
+          "columns": 1
+        },
+        {
+          "min_x": 121,
+          "max_x": 121,
+          "min_z": 224,
+          "max_z": 224,
+          "columns": 1
+        },
+        {
+          "min_x": 129,
+          "max_x": 129,
+          "min_z": 229,
+          "max_z": 229,
+          "columns": 1
+        },
+        {
+          "min_x": 130,
+          "max_x": 130,
+          "min_z": 230,
+          "max_z": 230,
+          "columns": 1
+        },
+        {
+          "min_x": 111,
+          "max_x": 111,
+          "min_z": 233,
+          "max_z": 233,
+          "columns": 1
+        },
+        {
+          "min_x": 113,
+          "max_x": 113,
+          "min_z": 237,
+          "max_z": 237,
+          "columns": 1
+        },
+        {
+          "min_x": 133,
+          "max_x": 133,
+          "min_z": 244,
+          "max_z": 244,
+          "columns": 1
+        },
+        {
+          "min_x": 126,
+          "max_x": 126,
+          "min_z": 247,
+          "max_z": 247,
+          "columns": 1
+        },
+        {
+          "min_x": 144,
+          "max_x": 144,
+          "min_z": 281,
+          "max_z": 281,
+          "columns": 1
+        },
+        {
+          "min_x": 133,
+          "max_x": 133,
+          "min_z": 283,
+          "max_z": 283,
+          "columns": 1
+        },
+        {
+          "min_x": 150,
+          "max_x": 150,
+          "min_z": 284,
+          "max_z": 284,
+          "columns": 1
+        },
+        {
+          "min_x": 133,
+          "max_x": 133,
+          "min_z": 285,
+          "max_z": 285,
+          "columns": 1
+        },
+        {
+          "min_x": 132,
+          "max_x": 132,
+          "min_z": 286,
+          "max_z": 286,
+          "columns": 1
+        },
+        {
+          "min_x": 146,
+          "max_x": 146,
+          "min_z": 286,
+          "max_z": 286,
+          "columns": 1
+        },
+        {
+          "min_x": 147,
+          "max_x": 147,
+          "min_z": 287,
+          "max_z": 287,
+          "columns": 1
+        },
+        {
+          "min_x": 133,
+          "max_x": 133,
+          "min_z": 289,
+          "max_z": 289,
+          "columns": 1
+        },
+        {
+          "min_x": 136,
+          "max_x": 136,
+          "min_z": 290,
+          "max_z": 290,
+          "columns": 1
+        },
+        {
+          "min_x": 139,
+          "max_x": 139,
+          "min_z": 290,
+          "max_z": 290,
+          "columns": 1
+        },
+        {
+          "min_x": 145,
+          "max_x": 145,
+          "min_z": 290,
+          "max_z": 290,
+          "columns": 1
+        },
+        {
+          "min_x": 148,
+          "max_x": 148,
+          "min_z": 290,
+          "max_z": 290,
+          "columns": 1
+        },
+        {
+          "min_x": 155,
+          "max_x": 155,
+          "min_z": 290,
+          "max_z": 290,
+          "columns": 1
+        },
+        {
+          "min_x": 146,
+          "max_x": 146,
+          "min_z": 291,
+          "max_z": 291,
+          "columns": 1
+        },
+        {
+          "min_x": 156,
+          "max_x": 156,
+          "min_z": 291,
+          "max_z": 291,
+          "columns": 1
+        },
+        {
+          "min_x": 140,
+          "max_x": 140,
+          "min_z": 292,
+          "max_z": 292,
+          "columns": 1
+        },
+        {
+          "min_x": 147,
+          "max_x": 147,
+          "min_z": 292,
+          "max_z": 292,
+          "columns": 1
+        },
+        {
+          "min_x": 158,
+          "max_x": 158,
+          "min_z": 293,
+          "max_z": 293,
+          "columns": 1
+        },
+        {
+          "min_x": 132,
+          "max_x": 132,
+          "min_z": 295,
+          "max_z": 295,
+          "columns": 1
+        },
+        {
+          "min_x": 148,
+          "max_x": 148,
+          "min_z": 295,
+          "max_z": 295,
+          "columns": 1
+        },
+        {
+          "min_x": 133,
+          "max_x": 133,
+          "min_z": 296,
+          "max_z": 296,
+          "columns": 1
+        },
+        {
+          "min_x": 150,
+          "max_x": 150,
+          "min_z": 297,
+          "max_z": 297,
+          "columns": 1
+        },
+        {
+          "min_x": 151,
+          "max_x": 151,
+          "min_z": 298,
+          "max_z": 298,
+          "columns": 1
+        },
+        {
+          "min_x": 149,
+          "max_x": 149,
+          "min_z": 299,
+          "max_z": 299,
+          "columns": 1
+        },
+        {
+          "min_x": 136,
+          "max_x": 136,
+          "min_z": 300,
+          "max_z": 300,
+          "columns": 1
+        },
+        {
+          "min_x": 147,
+          "max_x": 147,
+          "min_z": 302,
+          "max_z": 302,
+          "columns": 1
+        }
+      ]
+    },
+    {
+      "block": "minecraft:pink_wool",
+      "color": "pink",
+      "count": 116,
+      "min_local": [
+        113,
+        31,
+        50
+      ],
+      "max_local": [
+        303,
+        58,
+        245
+      ],
+      "component_count": 25,
+      "components": [
+        {
+          "min_x": 127,
+          "max_x": 137,
+          "min_z": 239,
+          "max_z": 244,
+          "columns": 32
+        },
+        {
+          "min_x": 131,
+          "max_x": 135,
+          "min_z": 221,
+          "max_z": 223,
+          "columns": 10
+        },
+        {
+          "min_x": 135,
+          "max_x": 138,
+          "min_z": 235,
+          "max_z": 237,
+          "columns": 8
+        },
+        {
+          "min_x": 126,
+          "max_x": 128,
+          "min_z": 222,
+          "max_z": 223,
+          "columns": 4
+        },
+        {
+          "min_x": 302,
+          "max_x": 303,
+          "min_z": 50,
+          "max_z": 50,
+          "columns": 2
+        },
+        {
+          "min_x": 119,
+          "max_x": 120,
+          "min_z": 232,
+          "max_z": 232,
+          "columns": 2
+        },
+        {
+          "min_x": 113,
+          "max_x": 113,
+          "min_z": 236,
+          "max_z": 237,
+          "columns": 2
+        },
+        {
+          "min_x": 219,
+          "max_x": 219,
+          "min_z": 127,
+          "max_z": 127,
+          "columns": 1
+        },
+        {
+          "min_x": 223,
+          "max_x": 223,
+          "min_z": 132,
+          "max_z": 132,
+          "columns": 1
+        },
+        {
+          "min_x": 210,
+          "max_x": 210,
+          "min_z": 147,
+          "max_z": 147,
+          "columns": 1
+        },
+        {
+          "min_x": 125,
+          "max_x": 125,
+          "min_z": 224,
+          "max_z": 224,
+          "columns": 1
+        },
+        {
+          "min_x": 134,
+          "max_x": 134,
+          "min_z": 225,
+          "max_z": 225,
+          "columns": 1
+        },
+        {
+          "min_x": 122,
+          "max_x": 122,
+          "min_z": 226,
+          "max_z": 226,
+          "columns": 1
+        },
+        {
+          "min_x": 130,
+          "max_x": 130,
+          "min_z": 232,
+          "max_z": 232,
+          "columns": 1
+        },
+        {
+          "min_x": 137,
+          "max_x": 137,
+          "min_z": 232,
+          "max_z": 232,
+          "columns": 1
+        },
+        {
+          "min_x": 118,
+          "max_x": 118,
+          "min_z": 233,
+          "max_z": 233,
+          "columns": 1
+        },
+        {
+          "min_x": 119,
+          "max_x": 119,
+          "min_z": 234,
+          "max_z": 234,
+          "columns": 1
+        },
+        {
+          "min_x": 119,
+          "max_x": 119,
+          "min_z": 236,
+          "max_z": 236,
+          "columns": 1
+        },
+        {
+          "min_x": 114,
+          "max_x": 114,
+          "min_z": 238,
+          "max_z": 238,
+          "columns": 1
+        },
+        {
+          "min_x": 132,
+          "max_x": 132,
+          "min_z": 238,
+          "max_z": 238,
+          "columns": 1
+        },
+        {
+          "min_x": 117,
+          "max_x": 117,
+          "min_z": 239,
+          "max_z": 239,
+          "columns": 1
+        },
+        {
+          "min_x": 137,
+          "max_x": 137,
+          "min_z": 239,
+          "max_z": 239,
+          "columns": 1
+        },
+        {
+          "min_x": 122,
+          "max_x": 122,
+          "min_z": 242,
+          "max_z": 242,
+          "columns": 1
+        },
+        {
+          "min_x": 124,
+          "max_x": 124,
+          "min_z": 243,
+          "max_z": 243,
+          "columns": 1
+        },
+        {
+          "min_x": 124,
+          "max_x": 124,
+          "min_z": 245,
+          "max_z": 245,
+          "columns": 1
+        }
+      ]
+    },
+    {
+      "block": "minecraft:magenta_concrete",
+      "color": "magenta",
+      "count": 442,
+      "min_local": [
+        294,
+        32,
+        237
+      ],
+      "max_local": [
+        315,
+        35,
+        258
+      ],
+      "component_count": 2,
+      "components": [
+        {
+          "min_x": 294,
+          "max_x": 314,
+          "min_z": 238,
+          "max_z": 258,
+          "columns": 441
+        },
+        {
+          "min_x": 315,
+          "max_x": 315,
+          "min_z": 237,
+          "max_z": 237,
+          "columns": 1
+        }
+      ]
+    },
+    {
+      "block": "minecraft:orange_concrete",
+      "color": "orange",
+      "count": 3069,
+      "min_local": [
+        214,
+        37,
+        153
+      ],
+      "max_local": [
+        284,
+        37,
+        205
+      ],
+      "component_count": 1,
+      "components": [
+        {
+          "min_x": 214,
+          "max_x": 284,
+          "min_z": 153,
+          "max_z": 205,
+          "columns": 3069
+        }
+      ]
+    },
+    {
+      "block": "minecraft:blue_concrete",
+      "color": "blue",
+      "count": 609,
+      "min_local": [
+        223,
+        38,
+        252
+      ],
+      "max_local": [
+        251,
+        38,
+        272
+      ],
+      "component_count": 1,
+      "components": [
+        {
+          "min_x": 223,
+          "max_x": 251,
+          "min_z": 252,
+          "max_z": 272,
+          "columns": 609
+        }
+      ]
+    },
+    {
+      "block": "minecraft:purple_concrete",
+      "color": "purple",
+      "count": 1521,
+      "min_local": [
+        223,
+        38,
+        374
+      ],
+      "max_local": [
+        261,
+        38,
+        412
+      ],
+      "component_count": 1,
+      "components": [
+        {
+          "min_x": 223,
+          "max_x": 261,
+          "min_z": 374,
+          "max_z": 412,
+          "columns": 1521
+        }
+      ]
+    },
+    {
+      "block": "minecraft:red_concrete",
+      "color": "red",
+      "count": 639,
+      "min_local": [
+        295,
+        44,
+        298
+      ],
+      "max_local": [
+        317,
+        45,
+        327
+      ],
+      "component_count": 2,
+      "components": [
+        {
+          "min_x": 295,
+          "max_x": 316,
+          "min_z": 298,
+          "max_z": 326,
+          "columns": 638
+        },
+        {
+          "min_x": 317,
+          "max_x": 317,
+          "min_z": 327,
+          "max_z": 327,
+          "columns": 1
+        }
+      ]
+    },
+    {
+      "block": "minecraft:brown_concrete",
+      "color": "brown",
+      "count": 546,
+      "min_local": [
+        218,
+        76,
+        237
+      ],
+      "max_local": [
+        315,
+        76,
+        323
+      ],
+      "component_count": 1,
+      "components": [
+        {
+          "min_x": 218,
+          "max_x": 315,
+          "min_z": 237,
+          "max_z": 323,
+          "columns": 546
+        }
+      ]
+    }
+  ],
+  "candidate_column_local_x250_z235": [
+    {
+      "local_y": 2,
+      "block": "minecraft:stone"
+    },
+    {
+      "local_y": 3,
+      "block": "minecraft:stone"
+    },
+    {
+      "local_y": 4,
+      "block": "minecraft:stone"
+    },
+    {
+      "local_y": 5,
+      "block": "minecraft:stone"
+    },
+    {
+      "local_y": 6,
+      "block": "minecraft:stone"
+    },
+    {
+      "local_y": 7,
+      "block": "minecraft:stone"
+    },
+    {
+      "local_y": 8,
+      "block": "minecraft:stone"
+    },
+    {
+      "local_y": 9,
+      "block": "minecraft:stone"
+    },
+    {
+      "local_y": 10,
+      "block": "minecraft:stone"
+    },
+    {
+      "local_y": 11,
+      "block": "minecraft:stone"
+    },
+    {
+      "local_y": 12,
+      "block": "minecraft:stone"
+    },
+    {
+      "local_y": 13,
+      "block": "minecraft:stone"
+    },
+    {
+      "local_y": 14,
+      "block": "minecraft:stone"
+    },
+    {
+      "local_y": 15,
+      "block": "minecraft:stone"
+    },
+    {
+      "local_y": 16,
+      "block": "minecraft:stone"
+    },
+    {
+      "local_y": 17,
+      "block": "minecraft:stone"
+    },
+    {
+      "local_y": 18,
+      "block": "minecraft:stone"
+    },
+    {
+      "local_y": 19,
+      "block": "minecraft:stone"
+    },
+    {
+      "local_y": 20,
+      "block": "minecraft:stone"
+    },
+    {
+      "local_y": 21,
+      "block": "minecraft:coarse_dirt"
+    }
+  ],
+  "common_blocks": [
+    {
+      "block": "minecraft:stone",
+      "count": 3493814
+    },
+    {
+      "block": "minecraft:water",
+      "count": 147748
+    },
+    {
+      "block": "minecraft:grass_block",
+      "count": 137507
+    },
+    {
+      "block": "minecraft:dirt",
+      "count": 65933
+    },
+    {
+      "block": "minecraft:cherry_leaves",
+      "count": 7133
+    },
+    {
+      "block": "minecraft:cherry_leaves",
+      "count": 6656
+    },
+    {
+      "block": "minecraft:cherry_leaves",
+      "count": 5330
+    },
+    {
+      "block": "minecraft:cherry_leaves",
+      "count": 3607
+    },
+    {
+      "block": "minecraft:cherry_leaves",
+      "count": 3421
+    },
+    {
+      "block": "minecraft:orange_concrete",
+      "count": 3069
+    },
+    {
+      "block": "minecraft:short_grass",
+      "count": 3046
+    },
+    {
+      "block": "minecraft:oak_leaves",
+      "count": 1913
+    },
+    {
+      "block": "minecraft:cherry_leaves",
+      "count": 1864
+    },
+    {
+      "block": "minecraft:gray_concrete",
+      "count": 1650
+    },
+    {
+      "block": "minecraft:purple_concrete",
+      "count": 1521
+    }
+  ],
+  "placement_origin": null,
+  "vegetation_changes": "none",
+  "datapack_changes": "none",
+  "brown_enclosed_columns": 7980,
+  "marker_preview": "C:\\Users\\Bastien\\Desktop\\Les Echo du monde\\outputs\\prologue_plateforme17\\reperes.png"
+}

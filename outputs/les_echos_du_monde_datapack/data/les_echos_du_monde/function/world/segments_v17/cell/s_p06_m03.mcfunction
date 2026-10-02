@@ -1,0 +1,16 @@
+execute if score s_p06_m03 edm_seg_done matches 1 run scoreboard players set #safe edm_seg_tmp 1
+execute if score #budget edm_seg_ctl matches 1 unless score s_p06_m03 edm_seg_done matches 1 unless score s_p06_m03 edm_seg_retry matches 3.. run function les_echos_du_monde:world/segments_v17/segment/s_p06_m03/start
+execute if score #budget edm_seg_ctl matches 1 unless score s_p05_m03 edm_seg_done matches 1 unless score s_p05_m03 edm_seg_retry matches 3.. run function les_echos_du_monde:world/segments_v17/segment/s_p05_m03/start
+execute if score #budget edm_seg_ctl matches 1 unless score s_p06_m04 edm_seg_done matches 1 unless score s_p06_m04 edm_seg_retry matches 3.. run function les_echos_du_monde:world/segments_v17/segment/s_p06_m04/start
+execute if score #budget edm_seg_ctl matches 1 unless score s_p06_m02 edm_seg_done matches 1 unless score s_p06_m02 edm_seg_retry matches 3.. run function les_echos_du_monde:world/segments_v17/segment/s_p06_m02/start
+execute if score #budget edm_seg_ctl matches 1 unless score s_p05_m04 edm_seg_done matches 1 unless score s_p05_m04 edm_seg_retry matches 3.. run function les_echos_du_monde:world/segments_v17/segment/s_p05_m04/start
+execute if score #budget edm_seg_ctl matches 1 unless score s_p05_m02 edm_seg_done matches 1 unless score s_p05_m02 edm_seg_retry matches 3.. run function les_echos_du_monde:world/segments_v17/segment/s_p05_m02/start
+execute if score #budget edm_seg_ctl matches 1 unless score s_p04_m03 edm_seg_done matches 1 unless score s_p04_m03 edm_seg_retry matches 3.. run function les_echos_du_monde:world/segments_v17/segment/s_p04_m03/start
+execute if score #budget edm_seg_ctl matches 1 unless score s_p06_m05 edm_seg_done matches 1 unless score s_p06_m05 edm_seg_retry matches 3.. run function les_echos_du_monde:world/segments_v17/segment/s_p06_m05/start
+execute if score #budget edm_seg_ctl matches 1 unless score s_p06_m01 edm_seg_done matches 1 unless score s_p06_m01 edm_seg_retry matches 3.. run function les_echos_du_monde:world/segments_v17/segment/s_p06_m01/start
+execute if score #budget edm_seg_ctl matches 1 unless score s_p04_m04 edm_seg_done matches 1 unless score s_p04_m04 edm_seg_retry matches 3.. run function les_echos_du_monde:world/segments_v17/segment/s_p04_m04/start
+execute if score #budget edm_seg_ctl matches 1 unless score s_p04_m02 edm_seg_done matches 1 unless score s_p04_m02 edm_seg_retry matches 3.. run function les_echos_du_monde:world/segments_v17/segment/s_p04_m02/start
+execute if score #budget edm_seg_ctl matches 1 unless score s_p05_m05 edm_seg_done matches 1 unless score s_p05_m05 edm_seg_retry matches 3.. run function les_echos_du_monde:world/segments_v17/segment/s_p05_m05/start
+execute if score #budget edm_seg_ctl matches 1 unless score s_p05_m01 edm_seg_done matches 1 unless score s_p05_m01 edm_seg_retry matches 3.. run function les_echos_du_monde:world/segments_v17/segment/s_p05_m01/start
+execute if score #budget edm_seg_ctl matches 1 unless score s_p04_m05 edm_seg_done matches 1 unless score s_p04_m05 edm_seg_retry matches 3.. run function les_echos_du_monde:world/segments_v17/segment/s_p04_m05/start
+execute if score #budget edm_seg_ctl matches 1 unless score s_p04_m01 edm_seg_done matches 1 unless score s_p04_m01 edm_seg_retry matches 3.. run function les_echos_du_monde:world/segments_v17/segment/s_p04_m01/start

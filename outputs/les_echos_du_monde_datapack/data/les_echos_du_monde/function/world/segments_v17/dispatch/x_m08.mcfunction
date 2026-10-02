@@ -1,0 +1,9 @@
+execute if score #pz edm_seg_tmp matches -96..-65 run function les_echos_du_monde:world/segments_v17/cell/s_m08_m03
+execute if score #pz edm_seg_tmp matches -64..-33 run function les_echos_du_monde:world/segments_v17/cell/s_m08_m02
+execute if score #pz edm_seg_tmp matches -32..-1 run function les_echos_du_monde:world/segments_v17/cell/s_m08_m01
+execute if score #pz edm_seg_tmp matches 0..31 run function les_echos_du_monde:world/segments_v17/cell/s_m08_p00
+execute if score #pz edm_seg_tmp matches 32..63 run function les_echos_du_monde:world/segments_v17/cell/s_m08_p01
+execute if score #pz edm_seg_tmp matches 64..95 run function les_echos_du_monde:world/segments_v17/cell/s_m08_p02
+execute if score #pz edm_seg_tmp matches 96..127 run function les_echos_du_monde:world/segments_v17/cell/s_m08_p03
+execute if score #pz edm_seg_tmp matches 128..159 run function les_echos_du_monde:world/segments_v17/cell/s_m08_p04
+execute if score #pz edm_seg_tmp matches 160..191 run function les_echos_du_monde:world/segments_v17/cell/s_m08_p05

@@ -1,0 +1,122 @@
+[
+  {
+    "local": [
+      210,
+      23,
+      221
+    ],
+    "world": [
+      -40,
+      -3,
+      -14
+    ],
+    "state": {
+      "Name": "minecraft:oak_leaves",
+      "Properties": {
+        "waterlogged": "false",
+        "distance": "7",
+        "persistent": "true"
+      }
+    }
+  },
+  {
+    "local": [
+      303,
+      23,
+      176
+    ],
+    "world": [
+      53,
+      -3,
+      -59
+    ],
+    "state": {
+      "Name": "minecraft:oak_leaves",
+      "Properties": {
+        "waterlogged": "false",
+        "distance": "7",
+        "persistent": "true"
+      }
+    }
+  },
+  {
+    "local": [
+      304,
+      23,
+      176
+    ],
+    "world": [
+      54,
+      -3,
+      -59
+    ],
+    "state": {
+      "Name": "minecraft:oak_leaves",
+      "Properties": {
+        "waterlogged": "false",
+        "distance": "7",
+        "persistent": "true"
+      }
+    }
+  },
+  {
+    "local": [
+      279,
+      24,
+      203
+    ],
+    "world": [
+      29,
+      -2,
+      -32
+    ],
+    "state": {
+      "Name": "minecraft:oak_leaves",
+      "Properties": {
+        "waterlogged": "false",
+        "distance": "7",
+        "persistent": "true"
+      }
+    }
+  },
+  {
+    "local": [
+      281,
+      24,
+      201
+    ],
+    "world": [
+      31,
+      -2,
+      -34
+    ],
+    "state": {
+      "Name": "minecraft:oak_leaves",
+      "Properties": {
+        "waterlogged": "false",
+        "distance": "7",
+        "persistent": "true"
+      }
+    }
+  },
+  {
+    "local": [
+      236,
+      25,
+      208
+    ],
+    "world": [
+      -14,
+      -1,
+      -27
+    ],
+    "state": {
+      "Name": "minecraft:oak_leaves",
+      "Properties": {
+        "waterlogged": "false",
+        "distance": "7",
+        "persistent": "true"
+      }
+    }
+  }
+]

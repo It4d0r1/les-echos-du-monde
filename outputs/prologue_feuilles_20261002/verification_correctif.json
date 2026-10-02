@@ -1,0 +1,11 @@
+{
+  "reviewed_orphan_oak_leaves": 109,
+  "other_records_identical": 3905302,
+  "metadata_and_palette_identical": true,
+  "entities_and_block_entities_identical": true,
+  "original_source_unchanged": true,
+  "existing_world_cleanup_positions_match_exactly": true,
+  "cleanup_does_not_replace_segments": true,
+  "persistent_source_orphans": 6,
+  "minecraft_cleanup_tested": false
+}
