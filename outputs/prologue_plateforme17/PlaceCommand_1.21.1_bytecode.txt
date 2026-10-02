@@ -1,0 +1,905 @@
+Compiled from "PlaceCommand.java"
+public class net.minecraft.server.commands.PlaceCommand {
+  private static final com.mojang.brigadier.exceptions.SimpleCommandExceptionType ERROR_FEATURE_FAILED;
+
+  private static final com.mojang.brigadier.exceptions.SimpleCommandExceptionType ERROR_JIGSAW_FAILED;
+
+  private static final com.mojang.brigadier.exceptions.SimpleCommandExceptionType ERROR_STRUCTURE_FAILED;
+
+  private static final com.mojang.brigadier.exceptions.DynamicCommandExceptionType ERROR_TEMPLATE_INVALID;
+
+  private static final com.mojang.brigadier.exceptions.SimpleCommandExceptionType ERROR_TEMPLATE_FAILED;
+
+  private static final com.mojang.brigadier.suggestion.SuggestionProvider<net.minecraft.commands.CommandSourceStack> SUGGEST_TEMPLATES;
+
+  public net.minecraft.server.commands.PlaceCommand();
+    Code:
+         0: aload_0
+         1: invokespecial #29                 // Method java/lang/Object."<init>":()V
+         4: return
+
+  public static void register(com.mojang.brigadier.CommandDispatcher<net.minecraft.commands.CommandSourceStack>);
+    Code:
+         0: aload_0
+         1: ldc           #36                 // String place
+         3: invokestatic  #42                 // Method net/minecraft/commands/Commands.literal:(Ljava/lang/String;)Lcom/mojang/brigadier/builder/LiteralArgumentBuilder;
+         6: invokedynamic #61,  0             // InvokeDynamic #0:test:()Ljava/util/function/Predicate;
+        11: invokevirtual #67                 // Method com/mojang/brigadier/builder/LiteralArgumentBuilder.requires:(Ljava/util/function/Predicate;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+        14: checkcast     #63                 // class com/mojang/brigadier/builder/LiteralArgumentBuilder
+        17: ldc           #69                 // String feature
+        19: invokestatic  #42                 // Method net/minecraft/commands/Commands.literal:(Ljava/lang/String;)Lcom/mojang/brigadier/builder/LiteralArgumentBuilder;
+        22: ldc           #69                 // String feature
+        24: getstatic     #75                 // Field net/minecraft/core/registries/Registries.CONFIGURED_FEATURE:Lnet/minecraft/resources/ResourceKey;
+        27: invokestatic  #81                 // Method net/minecraft/commands/arguments/ResourceKeyArgument.key:(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/commands/arguments/ResourceKeyArgument;
+        30: invokestatic  #85                 // Method net/minecraft/commands/Commands.argument:(Ljava/lang/String;Lcom/mojang/brigadier/arguments/ArgumentType;)Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;
+        33: invokedynamic #95,  0             // InvokeDynamic #1:run:()Lcom/mojang/brigadier/Command;
+        38: invokevirtual #101                // Method com/mojang/brigadier/builder/RequiredArgumentBuilder.executes:(Lcom/mojang/brigadier/Command;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+        41: checkcast     #97                 // class com/mojang/brigadier/builder/RequiredArgumentBuilder
+        44: ldc           #103                // String pos
+        46: invokestatic  #109                // Method net/minecraft/commands/arguments/coordinates/BlockPosArgument.blockPos:()Lnet/minecraft/commands/arguments/coordinates/BlockPosArgument;
+        49: invokestatic  #85                 // Method net/minecraft/commands/Commands.argument:(Ljava/lang/String;Lcom/mojang/brigadier/arguments/ArgumentType;)Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;
+        52: invokedynamic #114,  0            // InvokeDynamic #2:run:()Lcom/mojang/brigadier/Command;
+        57: invokevirtual #101                // Method com/mojang/brigadier/builder/RequiredArgumentBuilder.executes:(Lcom/mojang/brigadier/Command;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+        60: invokevirtual #118                // Method com/mojang/brigadier/builder/RequiredArgumentBuilder.then:(Lcom/mojang/brigadier/builder/ArgumentBuilder;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+        63: invokevirtual #119                // Method com/mojang/brigadier/builder/LiteralArgumentBuilder.then:(Lcom/mojang/brigadier/builder/ArgumentBuilder;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+        66: invokevirtual #119                // Method com/mojang/brigadier/builder/LiteralArgumentBuilder.then:(Lcom/mojang/brigadier/builder/ArgumentBuilder;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+        69: checkcast     #63                 // class com/mojang/brigadier/builder/LiteralArgumentBuilder
+        72: ldc           #121                // String jigsaw
+        74: invokestatic  #42                 // Method net/minecraft/commands/Commands.literal:(Ljava/lang/String;)Lcom/mojang/brigadier/builder/LiteralArgumentBuilder;
+        77: ldc           #123                // String pool
+        79: getstatic     #126                // Field net/minecraft/core/registries/Registries.TEMPLATE_POOL:Lnet/minecraft/resources/ResourceKey;
+        82: invokestatic  #81                 // Method net/minecraft/commands/arguments/ResourceKeyArgument.key:(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/commands/arguments/ResourceKeyArgument;
+        85: invokestatic  #85                 // Method net/minecraft/commands/Commands.argument:(Ljava/lang/String;Lcom/mojang/brigadier/arguments/ArgumentType;)Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;
+        88: ldc           #128                // String target
+        90: invokestatic  #134                // Method net/minecraft/commands/arguments/ResourceLocationArgument.id:()Lnet/minecraft/commands/arguments/ResourceLocationArgument;
+        93: invokestatic  #85                 // Method net/minecraft/commands/Commands.argument:(Ljava/lang/String;Lcom/mojang/brigadier/arguments/ArgumentType;)Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;
+        96: ldc           #136                // String max_depth
+        98: iconst_1
+        99: bipush        20
+       101: invokestatic  #142                // Method com/mojang/brigadier/arguments/IntegerArgumentType.integer:(II)Lcom/mojang/brigadier/arguments/IntegerArgumentType;
+       104: invokestatic  #85                 // Method net/minecraft/commands/Commands.argument:(Ljava/lang/String;Lcom/mojang/brigadier/arguments/ArgumentType;)Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;
+       107: invokedynamic #147,  0            // InvokeDynamic #3:run:()Lcom/mojang/brigadier/Command;
+       112: invokevirtual #101                // Method com/mojang/brigadier/builder/RequiredArgumentBuilder.executes:(Lcom/mojang/brigadier/Command;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+       115: checkcast     #97                 // class com/mojang/brigadier/builder/RequiredArgumentBuilder
+       118: ldc           #149                // String position
+       120: invokestatic  #109                // Method net/minecraft/commands/arguments/coordinates/BlockPosArgument.blockPos:()Lnet/minecraft/commands/arguments/coordinates/BlockPosArgument;
+       123: invokestatic  #85                 // Method net/minecraft/commands/Commands.argument:(Ljava/lang/String;Lcom/mojang/brigadier/arguments/ArgumentType;)Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;
+       126: invokedynamic #154,  0            // InvokeDynamic #4:run:()Lcom/mojang/brigadier/Command;
+       131: invokevirtual #101                // Method com/mojang/brigadier/builder/RequiredArgumentBuilder.executes:(Lcom/mojang/brigadier/Command;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+       134: invokevirtual #118                // Method com/mojang/brigadier/builder/RequiredArgumentBuilder.then:(Lcom/mojang/brigadier/builder/ArgumentBuilder;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+       137: invokevirtual #118                // Method com/mojang/brigadier/builder/RequiredArgumentBuilder.then:(Lcom/mojang/brigadier/builder/ArgumentBuilder;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+       140: invokevirtual #118                // Method com/mojang/brigadier/builder/RequiredArgumentBuilder.then:(Lcom/mojang/brigadier/builder/ArgumentBuilder;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+       143: invokevirtual #119                // Method com/mojang/brigadier/builder/LiteralArgumentBuilder.then:(Lcom/mojang/brigadier/builder/ArgumentBuilder;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+       146: invokevirtual #119                // Method com/mojang/brigadier/builder/LiteralArgumentBuilder.then:(Lcom/mojang/brigadier/builder/ArgumentBuilder;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+       149: checkcast     #63                 // class com/mojang/brigadier/builder/LiteralArgumentBuilder
+       152: ldc           #156                // String structure
+       154: invokestatic  #42                 // Method net/minecraft/commands/Commands.literal:(Ljava/lang/String;)Lcom/mojang/brigadier/builder/LiteralArgumentBuilder;
+       157: ldc           #156                // String structure
+       159: getstatic     #159                // Field net/minecraft/core/registries/Registries.STRUCTURE:Lnet/minecraft/resources/ResourceKey;
+       162: invokestatic  #81                 // Method net/minecraft/commands/arguments/ResourceKeyArgument.key:(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/commands/arguments/ResourceKeyArgument;
+       165: invokestatic  #85                 // Method net/minecraft/commands/Commands.argument:(Ljava/lang/String;Lcom/mojang/brigadier/arguments/ArgumentType;)Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;
+       168: invokedynamic #164,  0            // InvokeDynamic #5:run:()Lcom/mojang/brigadier/Command;
+       173: invokevirtual #101                // Method com/mojang/brigadier/builder/RequiredArgumentBuilder.executes:(Lcom/mojang/brigadier/Command;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+       176: checkcast     #97                 // class com/mojang/brigadier/builder/RequiredArgumentBuilder
+       179: ldc           #103                // String pos
+       181: invokestatic  #109                // Method net/minecraft/commands/arguments/coordinates/BlockPosArgument.blockPos:()Lnet/minecraft/commands/arguments/coordinates/BlockPosArgument;
+       184: invokestatic  #85                 // Method net/minecraft/commands/Commands.argument:(Ljava/lang/String;Lcom/mojang/brigadier/arguments/ArgumentType;)Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;
+       187: invokedynamic #169,  0            // InvokeDynamic #6:run:()Lcom/mojang/brigadier/Command;
+       192: invokevirtual #101                // Method com/mojang/brigadier/builder/RequiredArgumentBuilder.executes:(Lcom/mojang/brigadier/Command;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+       195: invokevirtual #118                // Method com/mojang/brigadier/builder/RequiredArgumentBuilder.then:(Lcom/mojang/brigadier/builder/ArgumentBuilder;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+       198: invokevirtual #119                // Method com/mojang/brigadier/builder/LiteralArgumentBuilder.then:(Lcom/mojang/brigadier/builder/ArgumentBuilder;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+       201: invokevirtual #119                // Method com/mojang/brigadier/builder/LiteralArgumentBuilder.then:(Lcom/mojang/brigadier/builder/ArgumentBuilder;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+       204: checkcast     #63                 // class com/mojang/brigadier/builder/LiteralArgumentBuilder
+       207: ldc           #171                // String template
+       209: invokestatic  #42                 // Method net/minecraft/commands/Commands.literal:(Ljava/lang/String;)Lcom/mojang/brigadier/builder/LiteralArgumentBuilder;
+       212: ldc           #171                // String template
+       214: invokestatic  #134                // Method net/minecraft/commands/arguments/ResourceLocationArgument.id:()Lnet/minecraft/commands/arguments/ResourceLocationArgument;
+       217: invokestatic  #85                 // Method net/minecraft/commands/Commands.argument:(Ljava/lang/String;Lcom/mojang/brigadier/arguments/ArgumentType;)Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;
+       220: getstatic     #173                // Field SUGGEST_TEMPLATES:Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+       223: invokevirtual #177                // Method com/mojang/brigadier/builder/RequiredArgumentBuilder.suggests:(Lcom/mojang/brigadier/suggestion/SuggestionProvider;)Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;
+       226: invokedynamic #182,  0            // InvokeDynamic #7:run:()Lcom/mojang/brigadier/Command;
+       231: invokevirtual #101                // Method com/mojang/brigadier/builder/RequiredArgumentBuilder.executes:(Lcom/mojang/brigadier/Command;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+       234: checkcast     #97                 // class com/mojang/brigadier/builder/RequiredArgumentBuilder
+       237: ldc           #103                // String pos
+       239: invokestatic  #109                // Method net/minecraft/commands/arguments/coordinates/BlockPosArgument.blockPos:()Lnet/minecraft/commands/arguments/coordinates/BlockPosArgument;
+       242: invokestatic  #85                 // Method net/minecraft/commands/Commands.argument:(Ljava/lang/String;Lcom/mojang/brigadier/arguments/ArgumentType;)Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;
+       245: invokedynamic #187,  0            // InvokeDynamic #8:run:()Lcom/mojang/brigadier/Command;
+       250: invokevirtual #101                // Method com/mojang/brigadier/builder/RequiredArgumentBuilder.executes:(Lcom/mojang/brigadier/Command;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+       253: checkcast     #97                 // class com/mojang/brigadier/builder/RequiredArgumentBuilder
+       256: ldc           #189                // String rotation
+       258: invokestatic  #195                // Method net/minecraft/commands/arguments/TemplateRotationArgument.templateRotation:()Lnet/minecraft/commands/arguments/TemplateRotationArgument;
+       261: invokestatic  #85                 // Method net/minecraft/commands/Commands.argument:(Ljava/lang/String;Lcom/mojang/brigadier/arguments/ArgumentType;)Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;
+       264: invokedynamic #200,  0            // InvokeDynamic #9:run:()Lcom/mojang/brigadier/Command;
+       269: invokevirtual #101                // Method com/mojang/brigadier/builder/RequiredArgumentBuilder.executes:(Lcom/mojang/brigadier/Command;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+       272: checkcast     #97                 // class com/mojang/brigadier/builder/RequiredArgumentBuilder
+       275: ldc           #202                // String mirror
+       277: invokestatic  #208                // Method net/minecraft/commands/arguments/TemplateMirrorArgument.templateMirror:()Lnet/minecraft/commands/arguments/StringRepresentableArgument;
+       280: invokestatic  #85                 // Method net/minecraft/commands/Commands.argument:(Ljava/lang/String;Lcom/mojang/brigadier/arguments/ArgumentType;)Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;
+       283: invokedynamic #213,  0            // InvokeDynamic #10:run:()Lcom/mojang/brigadier/Command;
+       288: invokevirtual #101                // Method com/mojang/brigadier/builder/RequiredArgumentBuilder.executes:(Lcom/mojang/brigadier/Command;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+       291: checkcast     #97                 // class com/mojang/brigadier/builder/RequiredArgumentBuilder
+       294: ldc           #215                // String integrity
+       296: fconst_0
+       297: fconst_1
+       298: invokestatic  #221                // Method com/mojang/brigadier/arguments/FloatArgumentType.floatArg:(FF)Lcom/mojang/brigadier/arguments/FloatArgumentType;
+       301: invokestatic  #85                 // Method net/minecraft/commands/Commands.argument:(Ljava/lang/String;Lcom/mojang/brigadier/arguments/ArgumentType;)Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;
+       304: invokedynamic #226,  0            // InvokeDynamic #11:run:()Lcom/mojang/brigadier/Command;
+       309: invokevirtual #101                // Method com/mojang/brigadier/builder/RequiredArgumentBuilder.executes:(Lcom/mojang/brigadier/Command;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+       312: checkcast     #97                 // class com/mojang/brigadier/builder/RequiredArgumentBuilder
+       315: ldc           #228                // String seed
+       317: invokestatic  #231                // Method com/mojang/brigadier/arguments/IntegerArgumentType.integer:()Lcom/mojang/brigadier/arguments/IntegerArgumentType;
+       320: invokestatic  #85                 // Method net/minecraft/commands/Commands.argument:(Ljava/lang/String;Lcom/mojang/brigadier/arguments/ArgumentType;)Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;
+       323: invokedynamic #236,  0            // InvokeDynamic #12:run:()Lcom/mojang/brigadier/Command;
+       328: invokevirtual #101                // Method com/mojang/brigadier/builder/RequiredArgumentBuilder.executes:(Lcom/mojang/brigadier/Command;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+       331: invokevirtual #118                // Method com/mojang/brigadier/builder/RequiredArgumentBuilder.then:(Lcom/mojang/brigadier/builder/ArgumentBuilder;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+       334: invokevirtual #118                // Method com/mojang/brigadier/builder/RequiredArgumentBuilder.then:(Lcom/mojang/brigadier/builder/ArgumentBuilder;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+       337: invokevirtual #118                // Method com/mojang/brigadier/builder/RequiredArgumentBuilder.then:(Lcom/mojang/brigadier/builder/ArgumentBuilder;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+       340: invokevirtual #118                // Method com/mojang/brigadier/builder/RequiredArgumentBuilder.then:(Lcom/mojang/brigadier/builder/ArgumentBuilder;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+       343: invokevirtual #118                // Method com/mojang/brigadier/builder/RequiredArgumentBuilder.then:(Lcom/mojang/brigadier/builder/ArgumentBuilder;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+       346: invokevirtual #119                // Method com/mojang/brigadier/builder/LiteralArgumentBuilder.then:(Lcom/mojang/brigadier/builder/ArgumentBuilder;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+       349: invokevirtual #119                // Method com/mojang/brigadier/builder/LiteralArgumentBuilder.then:(Lcom/mojang/brigadier/builder/ArgumentBuilder;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+       352: checkcast     #63                 // class com/mojang/brigadier/builder/LiteralArgumentBuilder
+       355: invokevirtual #241                // Method com/mojang/brigadier/CommandDispatcher.register:(Lcom/mojang/brigadier/builder/LiteralArgumentBuilder;)Lcom/mojang/brigadier/tree/LiteralCommandNode;
+       358: pop
+       359: return
+
+  public static int placeFeature(net.minecraft.commands.CommandSourceStack, net.minecraft.core.Holder$Reference<net.minecraft.world.level.levelgen.feature.ConfiguredFeature<?, ?>>, net.minecraft.core.BlockPos) throws com.mojang.brigadier.exceptions.CommandSyntaxException;
+    Code:
+         0: aload_0
+         1: invokevirtual #255                // Method net/minecraft/commands/CommandSourceStack.getLevel:()Lnet/minecraft/server/level/ServerLevel;
+         4: astore_3
+         5: aload_1
+         6: invokevirtual #259                // Method net/minecraft/core/Holder$Reference.value:()Ljava/lang/Object;
+         9: checkcast     #261                // class net/minecraft/world/level/levelgen/feature/ConfiguredFeature
+        12: astore        4
+        14: new           #263                // class net/minecraft/world/level/ChunkPos
+        17: dup
+        18: aload_2
+        19: invokespecial #266                // Method net/minecraft/world/level/ChunkPos."<init>":(Lnet/minecraft/core/BlockPos;)V
+        22: astore        5
+        24: aload_3
+        25: new           #263                // class net/minecraft/world/level/ChunkPos
+        28: dup
+        29: aload         5
+        31: getfield      #270                // Field net/minecraft/world/level/ChunkPos.x:I
+        34: iconst_1
+        35: isub
+        36: aload         5
+        38: getfield      #273                // Field net/minecraft/world/level/ChunkPos.z:I
+        41: iconst_1
+        42: isub
+        43: invokespecial #276                // Method net/minecraft/world/level/ChunkPos."<init>":(II)V
+        46: new           #263                // class net/minecraft/world/level/ChunkPos
+        49: dup
+        50: aload         5
+        52: getfield      #270                // Field net/minecraft/world/level/ChunkPos.x:I
+        55: iconst_1
+        56: iadd
+        57: aload         5
+        59: getfield      #273                // Field net/minecraft/world/level/ChunkPos.z:I
+        62: iconst_1
+        63: iadd
+        64: invokespecial #276                // Method net/minecraft/world/level/ChunkPos."<init>":(II)V
+        67: invokestatic  #280                // Method checkLoaded:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/ChunkPos;)V
+        70: aload         4
+        72: aload_3
+        73: aload_3
+        74: invokevirtual #286                // Method net/minecraft/server/level/ServerLevel.getChunkSource:()Lnet/minecraft/server/level/ServerChunkCache;
+        77: invokevirtual #292                // Method net/minecraft/server/level/ServerChunkCache.getGenerator:()Lnet/minecraft/world/level/chunk/ChunkGenerator;
+        80: aload_3
+        81: invokevirtual #296                // Method net/minecraft/server/level/ServerLevel.getRandom:()Lnet/minecraft/util/RandomSource;
+        84: aload_2
+        85: invokevirtual #299                // Method net/minecraft/world/level/levelgen/feature/ConfiguredFeature.place:(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;)Z
+        88: ifne          98
+        91: getstatic     #301                // Field ERROR_FEATURE_FAILED:Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+        94: invokevirtual #307                // Method com/mojang/brigadier/exceptions/SimpleCommandExceptionType.create:()Lcom/mojang/brigadier/exceptions/CommandSyntaxException;
+        97: athrow
+        98: aload_1
+        99: invokevirtual #310                // Method net/minecraft/core/Holder$Reference.key:()Lnet/minecraft/resources/ResourceKey;
+       102: invokevirtual #316                // Method net/minecraft/resources/ResourceKey.location:()Lnet/minecraft/resources/ResourceLocation;
+       105: invokevirtual #322                // Method net/minecraft/resources/ResourceLocation.toString:()Ljava/lang/String;
+       108: astore        6
+       110: aload_0
+       111: aload         6
+       113: aload_2
+       114: invokedynamic #334,  0            // InvokeDynamic #13:get:(Ljava/lang/String;Lnet/minecraft/core/BlockPos;)Ljava/util/function/Supplier;
+       119: iconst_1
+       120: invokevirtual #338                // Method net/minecraft/commands/CommandSourceStack.sendSuccess:(Ljava/util/function/Supplier;Z)V
+       123: iconst_1
+       124: ireturn
+
+  public static int placeJigsaw(net.minecraft.commands.CommandSourceStack, net.minecraft.core.Holder<net.minecraft.world.level.levelgen.structure.pools.StructureTemplatePool>, net.minecraft.resources.ResourceLocation, int, net.minecraft.core.BlockPos) throws com.mojang.brigadier.exceptions.CommandSyntaxException;
+    Code:
+         0: aload_0
+         1: invokevirtual #255                // Method net/minecraft/commands/CommandSourceStack.getLevel:()Lnet/minecraft/server/level/ServerLevel;
+         4: astore        5
+         6: new           #263                // class net/minecraft/world/level/ChunkPos
+         9: dup
+        10: aload         4
+        12: invokespecial #266                // Method net/minecraft/world/level/ChunkPos."<init>":(Lnet/minecraft/core/BlockPos;)V
+        15: astore        6
+        17: aload         5
+        19: aload         6
+        21: aload         6
+        23: invokestatic  #280                // Method checkLoaded:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/ChunkPos;)V
+        26: aload         5
+        28: aload_1
+        29: aload_2
+        30: iload_3
+        31: aload         4
+        33: iconst_0
+        34: invokestatic  #362                // Method net/minecraft/world/level/levelgen/structure/pools/JigsawPlacement.generateJigsaw:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/Holder;Lnet/minecraft/resources/ResourceLocation;ILnet/minecraft/core/BlockPos;Z)Z
+        37: ifne          47
+        40: getstatic     #364                // Field ERROR_JIGSAW_FAILED:Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+        43: invokevirtual #307                // Method com/mojang/brigadier/exceptions/SimpleCommandExceptionType.create:()Lcom/mojang/brigadier/exceptions/CommandSyntaxException;
+        46: athrow
+        47: aload_0
+        48: aload         4
+        50: invokedynamic #374,  0            // InvokeDynamic #14:get:(Lnet/minecraft/core/BlockPos;)Ljava/util/function/Supplier;
+        55: iconst_1
+        56: invokevirtual #338                // Method net/minecraft/commands/CommandSourceStack.sendSuccess:(Ljava/util/function/Supplier;Z)V
+        59: iconst_1
+        60: ireturn
+
+  public static int placeStructure(net.minecraft.commands.CommandSourceStack, net.minecraft.core.Holder$Reference<net.minecraft.world.level.levelgen.structure.Structure>, net.minecraft.core.BlockPos) throws com.mojang.brigadier.exceptions.CommandSyntaxException;
+    Code:
+         0: aload_0
+         1: invokevirtual #255                // Method net/minecraft/commands/CommandSourceStack.getLevel:()Lnet/minecraft/server/level/ServerLevel;
+         4: astore_3
+         5: aload_1
+         6: invokevirtual #259                // Method net/minecraft/core/Holder$Reference.value:()Ljava/lang/Object;
+         9: checkcast     #381                // class net/minecraft/world/level/levelgen/structure/Structure
+        12: astore        4
+        14: aload_3
+        15: invokevirtual #286                // Method net/minecraft/server/level/ServerLevel.getChunkSource:()Lnet/minecraft/server/level/ServerChunkCache;
+        18: invokevirtual #292                // Method net/minecraft/server/level/ServerChunkCache.getGenerator:()Lnet/minecraft/world/level/chunk/ChunkGenerator;
+        21: astore        5
+        23: aload         4
+        25: aload_0
+        26: invokevirtual #385                // Method net/minecraft/commands/CommandSourceStack.registryAccess:()Lnet/minecraft/core/RegistryAccess;
+        29: aload         5
+        31: aload         5
+        33: invokevirtual #391                // Method net/minecraft/world/level/chunk/ChunkGenerator.getBiomeSource:()Lnet/minecraft/world/level/biome/BiomeSource;
+        36: aload_3
+        37: invokevirtual #286                // Method net/minecraft/server/level/ServerLevel.getChunkSource:()Lnet/minecraft/server/level/ServerChunkCache;
+        40: invokevirtual #395                // Method net/minecraft/server/level/ServerChunkCache.randomState:()Lnet/minecraft/world/level/levelgen/RandomState;
+        43: aload_3
+        44: invokevirtual #399                // Method net/minecraft/server/level/ServerLevel.getStructureManager:()Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;
+        47: aload_3
+        48: invokevirtual #403                // Method net/minecraft/server/level/ServerLevel.getSeed:()J
+        51: new           #263                // class net/minecraft/world/level/ChunkPos
+        54: dup
+        55: aload_2
+        56: invokespecial #266                // Method net/minecraft/world/level/ChunkPos."<init>":(Lnet/minecraft/core/BlockPos;)V
+        59: iconst_0
+        60: aload_3
+        61: invokedynamic #410,  0            // InvokeDynamic #15:test:()Ljava/util/function/Predicate;
+        66: invokevirtual #414                // Method net/minecraft/world/level/levelgen/structure/Structure.generate:(Lnet/minecraft/core/RegistryAccess;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/world/level/biome/BiomeSource;Lnet/minecraft/world/level/levelgen/RandomState;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;JLnet/minecraft/world/level/ChunkPos;ILnet/minecraft/world/level/LevelHeightAccessor;Ljava/util/function/Predicate;)Lnet/minecraft/world/level/levelgen/structure/StructureStart;
+        69: astore        6
+        71: aload         6
+        73: invokevirtual #420                // Method net/minecraft/world/level/levelgen/structure/StructureStart.isValid:()Z
+        76: ifne          86
+        79: getstatic     #422                // Field ERROR_STRUCTURE_FAILED:Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+        82: invokevirtual #307                // Method com/mojang/brigadier/exceptions/SimpleCommandExceptionType.create:()Lcom/mojang/brigadier/exceptions/CommandSyntaxException;
+        85: athrow
+        86: aload         6
+        88: invokevirtual #426                // Method net/minecraft/world/level/levelgen/structure/StructureStart.getBoundingBox:()Lnet/minecraft/world/level/levelgen/structure/BoundingBox;
+        91: astore        7
+        93: new           #263                // class net/minecraft/world/level/ChunkPos
+        96: dup
+        97: aload         7
+        99: invokevirtual #432                // Method net/minecraft/world/level/levelgen/structure/BoundingBox.minX:()I
+       102: invokestatic  #438                // Method net/minecraft/core/SectionPos.blockToSectionCoord:(I)I
+       105: aload         7
+       107: invokevirtual #441                // Method net/minecraft/world/level/levelgen/structure/BoundingBox.minZ:()I
+       110: invokestatic  #438                // Method net/minecraft/core/SectionPos.blockToSectionCoord:(I)I
+       113: invokespecial #276                // Method net/minecraft/world/level/ChunkPos."<init>":(II)V
+       116: astore        8
+       118: new           #263                // class net/minecraft/world/level/ChunkPos
+       121: dup
+       122: aload         7
+       124: invokevirtual #444                // Method net/minecraft/world/level/levelgen/structure/BoundingBox.maxX:()I
+       127: invokestatic  #438                // Method net/minecraft/core/SectionPos.blockToSectionCoord:(I)I
+       130: aload         7
+       132: invokevirtual #447                // Method net/minecraft/world/level/levelgen/structure/BoundingBox.maxZ:()I
+       135: invokestatic  #438                // Method net/minecraft/core/SectionPos.blockToSectionCoord:(I)I
+       138: invokespecial #276                // Method net/minecraft/world/level/ChunkPos."<init>":(II)V
+       141: astore        9
+       143: aload_3
+       144: aload         8
+       146: aload         9
+       148: invokestatic  #280                // Method checkLoaded:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/ChunkPos;)V
+       151: aload         8
+       153: aload         9
+       155: invokestatic  #451                // Method net/minecraft/world/level/ChunkPos.rangeClosed:(Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/ChunkPos;)Ljava/util/stream/Stream;
+       158: aload         6
+       160: aload_3
+       161: aload         5
+       163: invokedynamic #464,  0            // InvokeDynamic #16:accept:(Lnet/minecraft/world/level/levelgen/structure/StructureStart;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/chunk/ChunkGenerator;)Ljava/util/function/Consumer;
+       168: invokeinterface #470,  2          // InterfaceMethod java/util/stream/Stream.forEach:(Ljava/util/function/Consumer;)V
+       173: aload_1
+       174: invokevirtual #310                // Method net/minecraft/core/Holder$Reference.key:()Lnet/minecraft/resources/ResourceKey;
+       177: invokevirtual #316                // Method net/minecraft/resources/ResourceKey.location:()Lnet/minecraft/resources/ResourceLocation;
+       180: invokevirtual #322                // Method net/minecraft/resources/ResourceLocation.toString:()Ljava/lang/String;
+       183: astore        10
+       185: aload_0
+       186: aload         10
+       188: aload_2
+       189: invokedynamic #475,  0            // InvokeDynamic #17:get:(Ljava/lang/String;Lnet/minecraft/core/BlockPos;)Ljava/util/function/Supplier;
+       194: iconst_1
+       195: invokevirtual #338                // Method net/minecraft/commands/CommandSourceStack.sendSuccess:(Ljava/util/function/Supplier;Z)V
+       198: iconst_1
+       199: ireturn
+
+  public static int placeTemplate(net.minecraft.commands.CommandSourceStack, net.minecraft.resources.ResourceLocation, net.minecraft.core.BlockPos, net.minecraft.world.level.block.Rotation, net.minecraft.world.level.block.Mirror, float, int) throws com.mojang.brigadier.exceptions.CommandSyntaxException;
+    Code:
+         0: aload_0
+         1: invokevirtual #255                // Method net/minecraft/commands/CommandSourceStack.getLevel:()Lnet/minecraft/server/level/ServerLevel;
+         4: astore        7
+         6: aload         7
+         8: invokevirtual #399                // Method net/minecraft/server/level/ServerLevel.getStructureManager:()Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;
+        11: astore        8
+        13: aload         8
+        15: aload_1
+        16: invokevirtual #493                // Method net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager.get:(Lnet/minecraft/resources/ResourceLocation;)Ljava/util/Optional;
+        19: astore        9
+        21: goto          34
+        24: astore        10
+        26: getstatic     #495                // Field ERROR_TEMPLATE_INVALID:Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+        29: aload_1
+        30: invokevirtual #500                // Method com/mojang/brigadier/exceptions/DynamicCommandExceptionType.create:(Ljava/lang/Object;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;
+        33: athrow
+        34: aload         9
+        36: invokevirtual #509                // Method java/util/Optional.isEmpty:()Z
+        39: ifeq          50
+        42: getstatic     #495                // Field ERROR_TEMPLATE_INVALID:Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+        45: aload_1
+        46: invokevirtual #500                // Method com/mojang/brigadier/exceptions/DynamicCommandExceptionType.create:(Ljava/lang/Object;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;
+        49: athrow
+        50: aload         9
+        52: invokevirtual #511                // Method java/util/Optional.get:()Ljava/lang/Object;
+        55: checkcast     #513                // class net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate
+        58: astore        10
+        60: aload         7
+        62: new           #263                // class net/minecraft/world/level/ChunkPos
+        65: dup
+        66: aload_2
+        67: invokespecial #266                // Method net/minecraft/world/level/ChunkPos."<init>":(Lnet/minecraft/core/BlockPos;)V
+        70: new           #263                // class net/minecraft/world/level/ChunkPos
+        73: dup
+        74: aload_2
+        75: aload         10
+        77: invokevirtual #517                // Method net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate.getSize:()Lnet/minecraft/core/Vec3i;
+        80: invokevirtual #521                // Method net/minecraft/core/BlockPos.offset:(Lnet/minecraft/core/Vec3i;)Lnet/minecraft/core/BlockPos;
+        83: invokespecial #266                // Method net/minecraft/world/level/ChunkPos."<init>":(Lnet/minecraft/core/BlockPos;)V
+        86: invokestatic  #280                // Method checkLoaded:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/ChunkPos;)V
+        89: new           #523                // class net/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings
+        92: dup
+        93: invokespecial #524                // Method net/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings."<init>":()V
+        96: aload         4
+        98: invokevirtual #528                // Method net/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings.setMirror:(Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;
+       101: aload_3
+       102: invokevirtual #532                // Method net/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings.setRotation:(Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;
+       105: astore        11
+       107: fload         5
+       109: fconst_1
+       110: fcmpg
+       111: ifge          141
+       114: aload         11
+       116: invokevirtual #536                // Method net/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings.clearProcessors:()Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;
+       119: new           #538                // class net/minecraft/world/level/levelgen/structure/templatesystem/BlockRotProcessor
+       122: dup
+       123: fload         5
+       125: invokespecial #541                // Method net/minecraft/world/level/levelgen/structure/templatesystem/BlockRotProcessor."<init>":(F)V
+       128: invokevirtual #545                // Method net/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings.addProcessor:(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureProcessor;)Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;
+       131: iload         6
+       133: i2l
+       134: invokestatic  #551                // Method net/minecraft/world/level/block/entity/StructureBlockEntity.createRandom:(J)Lnet/minecraft/util/RandomSource;
+       137: invokevirtual #555                // Method net/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings.setRandom:(Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;
+       140: pop
+       141: aload         10
+       143: aload         7
+       145: aload_2
+       146: aload_2
+       147: aload         11
+       149: iload         6
+       151: i2l
+       152: invokestatic  #551                // Method net/minecraft/world/level/block/entity/StructureBlockEntity.createRandom:(J)Lnet/minecraft/util/RandomSource;
+       155: iconst_2
+       156: invokevirtual #559                // Method net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate.placeInWorld:(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;Lnet/minecraft/util/RandomSource;I)Z
+       159: istore        12
+       161: iload         12
+       163: ifne          173
+       166: getstatic     #561                // Field ERROR_TEMPLATE_FAILED:Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+       169: invokevirtual #307                // Method com/mojang/brigadier/exceptions/SimpleCommandExceptionType.create:()Lcom/mojang/brigadier/exceptions/CommandSyntaxException;
+       172: athrow
+       173: aload_0
+       174: aload_1
+       175: aload_2
+       176: invokedynamic #569,  0            // InvokeDynamic #18:get:(Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/core/BlockPos;)Ljava/util/function/Supplier;
+       181: iconst_1
+       182: invokevirtual #338                // Method net/minecraft/commands/CommandSourceStack.sendSuccess:(Ljava/util/function/Supplier;Z)V
+       185: iconst_1
+       186: ireturn
+      Exception table:
+         from    to  target type
+            13    21    24   Class net/minecraft/ResourceLocationException
+
+  private static void checkLoaded(net.minecraft.server.level.ServerLevel, net.minecraft.world.level.ChunkPos, net.minecraft.world.level.ChunkPos) throws com.mojang.brigadier.exceptions.CommandSyntaxException;
+    Code:
+         0: aload_1
+         1: aload_2
+         2: invokestatic  #451                // Method net/minecraft/world/level/ChunkPos.rangeClosed:(Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/ChunkPos;)Ljava/util/stream/Stream;
+         5: aload_0
+         6: invokedynamic #593,  0            // InvokeDynamic #19:test:(Lnet/minecraft/server/level/ServerLevel;)Ljava/util/function/Predicate;
+        11: invokeinterface #597,  2          // InterfaceMethod java/util/stream/Stream.filter:(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;
+        16: invokeinterface #601,  1          // InterfaceMethod java/util/stream/Stream.findAny:()Ljava/util/Optional;
+        21: invokevirtual #604                // Method java/util/Optional.isPresent:()Z
+        24: ifeq          34
+        27: getstatic     #607                // Field net/minecraft/commands/arguments/coordinates/BlockPosArgument.ERROR_NOT_LOADED:Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+        30: invokevirtual #307                // Method com/mojang/brigadier/exceptions/SimpleCommandExceptionType.create:()Lcom/mojang/brigadier/exceptions/CommandSyntaxException;
+        33: athrow
+        34: return
+
+  private static boolean lambda$checkLoaded$21(net.minecraft.server.level.ServerLevel, net.minecraft.world.level.ChunkPos);
+    Code:
+         0: aload_0
+         1: aload_1
+         2: invokevirtual #611                // Method net/minecraft/world/level/ChunkPos.getWorldPosition:()Lnet/minecraft/core/BlockPos;
+         5: invokevirtual #615                // Method net/minecraft/server/level/ServerLevel.isLoaded:(Lnet/minecraft/core/BlockPos;)Z
+         8: ifne          15
+        11: iconst_1
+        12: goto          16
+        15: iconst_0
+        16: ireturn
+
+  private static net.minecraft.network.chat.Component lambda$placeTemplate$20(net.minecraft.resources.ResourceLocation, net.minecraft.core.BlockPos);
+    Code:
+         0: ldc_w         #617                // String commands.place.template.success
+         3: iconst_4
+         4: anewarray     #4                  // class java/lang/Object
+         7: dup
+         8: iconst_0
+         9: aload_0
+        10: invokestatic  #623                // InterfaceMethod net/minecraft/network/chat/Component.translationArg:(Lnet/minecraft/resources/ResourceLocation;)Lnet/minecraft/network/chat/Component;
+        13: aastore
+        14: dup
+        15: iconst_1
+        16: aload_1
+        17: invokevirtual #626                // Method net/minecraft/core/BlockPos.getX:()I
+        20: invokestatic  #632                // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+        23: aastore
+        24: dup
+        25: iconst_2
+        26: aload_1
+        27: invokevirtual #635                // Method net/minecraft/core/BlockPos.getY:()I
+        30: invokestatic  #632                // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+        33: aastore
+        34: dup
+        35: iconst_3
+        36: aload_1
+        37: invokevirtual #638                // Method net/minecraft/core/BlockPos.getZ:()I
+        40: invokestatic  #632                // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+        43: aastore
+        44: invokestatic  #642                // InterfaceMethod net/minecraft/network/chat/Component.translatable:(Ljava/lang/String;[Ljava/lang/Object;)Lnet/minecraft/network/chat/MutableComponent;
+        47: areturn
+
+  private static net.minecraft.network.chat.Component lambda$placeStructure$19(java.lang.String, net.minecraft.core.BlockPos);
+    Code:
+         0: ldc_w         #644                // String commands.place.structure.success
+         3: iconst_4
+         4: anewarray     #4                  // class java/lang/Object
+         7: dup
+         8: iconst_0
+         9: aload_0
+        10: aastore
+        11: dup
+        12: iconst_1
+        13: aload_1
+        14: invokevirtual #626                // Method net/minecraft/core/BlockPos.getX:()I
+        17: invokestatic  #632                // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+        20: aastore
+        21: dup
+        22: iconst_2
+        23: aload_1
+        24: invokevirtual #635                // Method net/minecraft/core/BlockPos.getY:()I
+        27: invokestatic  #632                // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+        30: aastore
+        31: dup
+        32: iconst_3
+        33: aload_1
+        34: invokevirtual #638                // Method net/minecraft/core/BlockPos.getZ:()I
+        37: invokestatic  #632                // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+        40: aastore
+        41: invokestatic  #642                // InterfaceMethod net/minecraft/network/chat/Component.translatable:(Ljava/lang/String;[Ljava/lang/Object;)Lnet/minecraft/network/chat/MutableComponent;
+        44: areturn
+
+  private static void lambda$placeStructure$18(net.minecraft.world.level.levelgen.structure.StructureStart, net.minecraft.server.level.ServerLevel, net.minecraft.world.level.chunk.ChunkGenerator, net.minecraft.world.level.ChunkPos);
+    Code:
+         0: aload_0
+         1: aload_1
+         2: aload_1
+         3: invokevirtual #648                // Method net/minecraft/server/level/ServerLevel.structureManager:()Lnet/minecraft/world/level/StructureManager;
+         6: aload_2
+         7: aload_1
+         8: invokevirtual #296                // Method net/minecraft/server/level/ServerLevel.getRandom:()Lnet/minecraft/util/RandomSource;
+        11: new           #428                // class net/minecraft/world/level/levelgen/structure/BoundingBox
+        14: dup
+        15: aload_3
+        16: invokevirtual #651                // Method net/minecraft/world/level/ChunkPos.getMinBlockX:()I
+        19: aload_1
+        20: invokevirtual #654                // Method net/minecraft/server/level/ServerLevel.getMinBuildHeight:()I
+        23: aload_3
+        24: invokevirtual #657                // Method net/minecraft/world/level/ChunkPos.getMinBlockZ:()I
+        27: aload_3
+        28: invokevirtual #660                // Method net/minecraft/world/level/ChunkPos.getMaxBlockX:()I
+        31: aload_1
+        32: invokevirtual #663                // Method net/minecraft/server/level/ServerLevel.getMaxBuildHeight:()I
+        35: aload_3
+        36: invokevirtual #666                // Method net/minecraft/world/level/ChunkPos.getMaxBlockZ:()I
+        39: invokespecial #669                // Method net/minecraft/world/level/levelgen/structure/BoundingBox."<init>":(IIIIII)V
+        42: aload_3
+        43: invokevirtual #673                // Method net/minecraft/world/level/levelgen/structure/StructureStart.placeInChunk:(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/world/level/ChunkPos;)V
+        46: return
+
+  private static boolean lambda$placeStructure$17(net.minecraft.core.Holder);
+    Code:
+         0: iconst_1
+         1: ireturn
+
+  private static net.minecraft.network.chat.Component lambda$placeJigsaw$16(net.minecraft.core.BlockPos);
+    Code:
+         0: ldc_w         #675                // String commands.place.jigsaw.success
+         3: iconst_3
+         4: anewarray     #4                  // class java/lang/Object
+         7: dup
+         8: iconst_0
+         9: aload_0
+        10: invokevirtual #626                // Method net/minecraft/core/BlockPos.getX:()I
+        13: invokestatic  #632                // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+        16: aastore
+        17: dup
+        18: iconst_1
+        19: aload_0
+        20: invokevirtual #635                // Method net/minecraft/core/BlockPos.getY:()I
+        23: invokestatic  #632                // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+        26: aastore
+        27: dup
+        28: iconst_2
+        29: aload_0
+        30: invokevirtual #638                // Method net/minecraft/core/BlockPos.getZ:()I
+        33: invokestatic  #632                // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+        36: aastore
+        37: invokestatic  #642                // InterfaceMethod net/minecraft/network/chat/Component.translatable:(Ljava/lang/String;[Ljava/lang/Object;)Lnet/minecraft/network/chat/MutableComponent;
+        40: areturn
+
+  private static net.minecraft.network.chat.Component lambda$placeFeature$15(java.lang.String, net.minecraft.core.BlockPos);
+    Code:
+         0: ldc_w         #677                // String commands.place.feature.success
+         3: iconst_4
+         4: anewarray     #4                  // class java/lang/Object
+         7: dup
+         8: iconst_0
+         9: aload_0
+        10: aastore
+        11: dup
+        12: iconst_1
+        13: aload_1
+        14: invokevirtual #626                // Method net/minecraft/core/BlockPos.getX:()I
+        17: invokestatic  #632                // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+        20: aastore
+        21: dup
+        22: iconst_2
+        23: aload_1
+        24: invokevirtual #635                // Method net/minecraft/core/BlockPos.getY:()I
+        27: invokestatic  #632                // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+        30: aastore
+        31: dup
+        32: iconst_3
+        33: aload_1
+        34: invokevirtual #638                // Method net/minecraft/core/BlockPos.getZ:()I
+        37: invokestatic  #632                // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+        40: aastore
+        41: invokestatic  #642                // InterfaceMethod net/minecraft/network/chat/Component.translatable:(Ljava/lang/String;[Ljava/lang/Object;)Lnet/minecraft/network/chat/MutableComponent;
+        44: areturn
+
+  private static int lambda$register$14(com.mojang.brigadier.context.CommandContext) throws com.mojang.brigadier.exceptions.CommandSyntaxException;
+    Code:
+         0: aload_0
+         1: invokevirtual #682                // Method com/mojang/brigadier/context/CommandContext.getSource:()Ljava/lang/Object;
+         4: checkcast     #251                // class net/minecraft/commands/CommandSourceStack
+         7: aload_0
+         8: ldc           #171                // String template
+        10: invokestatic  #686                // Method net/minecraft/commands/arguments/ResourceLocationArgument.getId:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/resources/ResourceLocation;
+        13: aload_0
+        14: ldc           #103                // String pos
+        16: invokestatic  #690                // Method net/minecraft/commands/arguments/coordinates/BlockPosArgument.getLoadedBlockPos:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/BlockPos;
+        19: aload_0
+        20: ldc           #189                // String rotation
+        22: invokestatic  #694                // Method net/minecraft/commands/arguments/TemplateRotationArgument.getRotation:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/level/block/Rotation;
+        25: aload_0
+        26: ldc           #202                // String mirror
+        28: invokestatic  #698                // Method net/minecraft/commands/arguments/TemplateMirrorArgument.getMirror:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/level/block/Mirror;
+        31: aload_0
+        32: ldc           #215                // String integrity
+        34: invokestatic  #702                // Method com/mojang/brigadier/arguments/FloatArgumentType.getFloat:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)F
+        37: aload_0
+        38: ldc           #228                // String seed
+        40: invokestatic  #706                // Method com/mojang/brigadier/arguments/IntegerArgumentType.getInteger:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)I
+        43: invokestatic  #708                // Method placeTemplate:(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/world/level/block/Mirror;FI)I
+        46: ireturn
+
+  private static int lambda$register$13(com.mojang.brigadier.context.CommandContext) throws com.mojang.brigadier.exceptions.CommandSyntaxException;
+    Code:
+         0: aload_0
+         1: invokevirtual #682                // Method com/mojang/brigadier/context/CommandContext.getSource:()Ljava/lang/Object;
+         4: checkcast     #251                // class net/minecraft/commands/CommandSourceStack
+         7: aload_0
+         8: ldc           #171                // String template
+        10: invokestatic  #686                // Method net/minecraft/commands/arguments/ResourceLocationArgument.getId:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/resources/ResourceLocation;
+        13: aload_0
+        14: ldc           #103                // String pos
+        16: invokestatic  #690                // Method net/minecraft/commands/arguments/coordinates/BlockPosArgument.getLoadedBlockPos:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/BlockPos;
+        19: aload_0
+        20: ldc           #189                // String rotation
+        22: invokestatic  #694                // Method net/minecraft/commands/arguments/TemplateRotationArgument.getRotation:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/level/block/Rotation;
+        25: aload_0
+        26: ldc           #202                // String mirror
+        28: invokestatic  #698                // Method net/minecraft/commands/arguments/TemplateMirrorArgument.getMirror:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/level/block/Mirror;
+        31: aload_0
+        32: ldc           #215                // String integrity
+        34: invokestatic  #702                // Method com/mojang/brigadier/arguments/FloatArgumentType.getFloat:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)F
+        37: iconst_0
+        38: invokestatic  #708                // Method placeTemplate:(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/world/level/block/Mirror;FI)I
+        41: ireturn
+
+  private static int lambda$register$12(com.mojang.brigadier.context.CommandContext) throws com.mojang.brigadier.exceptions.CommandSyntaxException;
+    Code:
+         0: aload_0
+         1: invokevirtual #682                // Method com/mojang/brigadier/context/CommandContext.getSource:()Ljava/lang/Object;
+         4: checkcast     #251                // class net/minecraft/commands/CommandSourceStack
+         7: aload_0
+         8: ldc           #171                // String template
+        10: invokestatic  #686                // Method net/minecraft/commands/arguments/ResourceLocationArgument.getId:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/resources/ResourceLocation;
+        13: aload_0
+        14: ldc           #103                // String pos
+        16: invokestatic  #690                // Method net/minecraft/commands/arguments/coordinates/BlockPosArgument.getLoadedBlockPos:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/BlockPos;
+        19: aload_0
+        20: ldc           #189                // String rotation
+        22: invokestatic  #694                // Method net/minecraft/commands/arguments/TemplateRotationArgument.getRotation:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/level/block/Rotation;
+        25: aload_0
+        26: ldc           #202                // String mirror
+        28: invokestatic  #698                // Method net/minecraft/commands/arguments/TemplateMirrorArgument.getMirror:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/level/block/Mirror;
+        31: fconst_1
+        32: iconst_0
+        33: invokestatic  #708                // Method placeTemplate:(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/world/level/block/Mirror;FI)I
+        36: ireturn
+
+  private static int lambda$register$11(com.mojang.brigadier.context.CommandContext) throws com.mojang.brigadier.exceptions.CommandSyntaxException;
+    Code:
+         0: aload_0
+         1: invokevirtual #682                // Method com/mojang/brigadier/context/CommandContext.getSource:()Ljava/lang/Object;
+         4: checkcast     #251                // class net/minecraft/commands/CommandSourceStack
+         7: aload_0
+         8: ldc           #171                // String template
+        10: invokestatic  #686                // Method net/minecraft/commands/arguments/ResourceLocationArgument.getId:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/resources/ResourceLocation;
+        13: aload_0
+        14: ldc           #103                // String pos
+        16: invokestatic  #690                // Method net/minecraft/commands/arguments/coordinates/BlockPosArgument.getLoadedBlockPos:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/BlockPos;
+        19: aload_0
+        20: ldc           #189                // String rotation
+        22: invokestatic  #694                // Method net/minecraft/commands/arguments/TemplateRotationArgument.getRotation:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/level/block/Rotation;
+        25: getstatic     #712                // Field net/minecraft/world/level/block/Mirror.NONE:Lnet/minecraft/world/level/block/Mirror;
+        28: fconst_1
+        29: iconst_0
+        30: invokestatic  #708                // Method placeTemplate:(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/world/level/block/Mirror;FI)I
+        33: ireturn
+
+  private static int lambda$register$10(com.mojang.brigadier.context.CommandContext) throws com.mojang.brigadier.exceptions.CommandSyntaxException;
+    Code:
+         0: aload_0
+         1: invokevirtual #682                // Method com/mojang/brigadier/context/CommandContext.getSource:()Ljava/lang/Object;
+         4: checkcast     #251                // class net/minecraft/commands/CommandSourceStack
+         7: aload_0
+         8: ldc           #171                // String template
+        10: invokestatic  #686                // Method net/minecraft/commands/arguments/ResourceLocationArgument.getId:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/resources/ResourceLocation;
+        13: aload_0
+        14: ldc           #103                // String pos
+        16: invokestatic  #690                // Method net/minecraft/commands/arguments/coordinates/BlockPosArgument.getLoadedBlockPos:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/BlockPos;
+        19: getstatic     #714                // Field net/minecraft/world/level/block/Rotation.NONE:Lnet/minecraft/world/level/block/Rotation;
+        22: getstatic     #712                // Field net/minecraft/world/level/block/Mirror.NONE:Lnet/minecraft/world/level/block/Mirror;
+        25: fconst_1
+        26: iconst_0
+        27: invokestatic  #708                // Method placeTemplate:(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/world/level/block/Mirror;FI)I
+        30: ireturn
+
+  private static int lambda$register$9(com.mojang.brigadier.context.CommandContext) throws com.mojang.brigadier.exceptions.CommandSyntaxException;
+    Code:
+         0: aload_0
+         1: invokevirtual #682                // Method com/mojang/brigadier/context/CommandContext.getSource:()Ljava/lang/Object;
+         4: checkcast     #251                // class net/minecraft/commands/CommandSourceStack
+         7: aload_0
+         8: ldc           #171                // String template
+        10: invokestatic  #686                // Method net/minecraft/commands/arguments/ResourceLocationArgument.getId:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/resources/ResourceLocation;
+        13: aload_0
+        14: invokevirtual #682                // Method com/mojang/brigadier/context/CommandContext.getSource:()Ljava/lang/Object;
+        17: checkcast     #251                // class net/minecraft/commands/CommandSourceStack
+        20: invokevirtual #718                // Method net/minecraft/commands/CommandSourceStack.getPosition:()Lnet/minecraft/world/phys/Vec3;
+        23: invokestatic  #722                // Method net/minecraft/core/BlockPos.containing:(Lnet/minecraft/core/Position;)Lnet/minecraft/core/BlockPos;
+        26: getstatic     #714                // Field net/minecraft/world/level/block/Rotation.NONE:Lnet/minecraft/world/level/block/Rotation;
+        29: getstatic     #712                // Field net/minecraft/world/level/block/Mirror.NONE:Lnet/minecraft/world/level/block/Mirror;
+        32: fconst_1
+        33: iconst_0
+        34: invokestatic  #708                // Method placeTemplate:(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/world/level/block/Mirror;FI)I
+        37: ireturn
+
+  private static int lambda$register$8(com.mojang.brigadier.context.CommandContext) throws com.mojang.brigadier.exceptions.CommandSyntaxException;
+    Code:
+         0: aload_0
+         1: invokevirtual #682                // Method com/mojang/brigadier/context/CommandContext.getSource:()Ljava/lang/Object;
+         4: checkcast     #251                // class net/minecraft/commands/CommandSourceStack
+         7: aload_0
+         8: ldc           #156                // String structure
+        10: invokestatic  #726                // Method net/minecraft/commands/arguments/ResourceKeyArgument.getStructure:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;
+        13: aload_0
+        14: ldc           #103                // String pos
+        16: invokestatic  #690                // Method net/minecraft/commands/arguments/coordinates/BlockPosArgument.getLoadedBlockPos:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/BlockPos;
+        19: invokestatic  #728                // Method placeStructure:(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/core/Holder$Reference;Lnet/minecraft/core/BlockPos;)I
+        22: ireturn
+
+  private static int lambda$register$7(com.mojang.brigadier.context.CommandContext) throws com.mojang.brigadier.exceptions.CommandSyntaxException;
+    Code:
+         0: aload_0
+         1: invokevirtual #682                // Method com/mojang/brigadier/context/CommandContext.getSource:()Ljava/lang/Object;
+         4: checkcast     #251                // class net/minecraft/commands/CommandSourceStack
+         7: aload_0
+         8: ldc           #156                // String structure
+        10: invokestatic  #726                // Method net/minecraft/commands/arguments/ResourceKeyArgument.getStructure:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;
+        13: aload_0
+        14: invokevirtual #682                // Method com/mojang/brigadier/context/CommandContext.getSource:()Ljava/lang/Object;
+        17: checkcast     #251                // class net/minecraft/commands/CommandSourceStack
+        20: invokevirtual #718                // Method net/minecraft/commands/CommandSourceStack.getPosition:()Lnet/minecraft/world/phys/Vec3;
+        23: invokestatic  #722                // Method net/minecraft/core/BlockPos.containing:(Lnet/minecraft/core/Position;)Lnet/minecraft/core/BlockPos;
+        26: invokestatic  #728                // Method placeStructure:(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/core/Holder$Reference;Lnet/minecraft/core/BlockPos;)I
+        29: ireturn
+
+  private static int lambda$register$6(com.mojang.brigadier.context.CommandContext) throws com.mojang.brigadier.exceptions.CommandSyntaxException;
+    Code:
+         0: aload_0
+         1: invokevirtual #682                // Method com/mojang/brigadier/context/CommandContext.getSource:()Ljava/lang/Object;
+         4: checkcast     #251                // class net/minecraft/commands/CommandSourceStack
+         7: aload_0
+         8: ldc           #123                // String pool
+        10: invokestatic  #731                // Method net/minecraft/commands/arguments/ResourceKeyArgument.getStructureTemplatePool:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;
+        13: aload_0
+        14: ldc           #128                // String target
+        16: invokestatic  #686                // Method net/minecraft/commands/arguments/ResourceLocationArgument.getId:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/resources/ResourceLocation;
+        19: aload_0
+        20: ldc           #136                // String max_depth
+        22: invokestatic  #706                // Method com/mojang/brigadier/arguments/IntegerArgumentType.getInteger:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)I
+        25: aload_0
+        26: ldc           #149                // String position
+        28: invokestatic  #690                // Method net/minecraft/commands/arguments/coordinates/BlockPosArgument.getLoadedBlockPos:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/BlockPos;
+        31: invokestatic  #733                // Method placeJigsaw:(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/core/Holder;Lnet/minecraft/resources/ResourceLocation;ILnet/minecraft/core/BlockPos;)I
+        34: ireturn
+
+  private static int lambda$register$5(com.mojang.brigadier.context.CommandContext) throws com.mojang.brigadier.exceptions.CommandSyntaxException;
+    Code:
+         0: aload_0
+         1: invokevirtual #682                // Method com/mojang/brigadier/context/CommandContext.getSource:()Ljava/lang/Object;
+         4: checkcast     #251                // class net/minecraft/commands/CommandSourceStack
+         7: aload_0
+         8: ldc           #123                // String pool
+        10: invokestatic  #731                // Method net/minecraft/commands/arguments/ResourceKeyArgument.getStructureTemplatePool:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;
+        13: aload_0
+        14: ldc           #128                // String target
+        16: invokestatic  #686                // Method net/minecraft/commands/arguments/ResourceLocationArgument.getId:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/resources/ResourceLocation;
+        19: aload_0
+        20: ldc           #136                // String max_depth
+        22: invokestatic  #706                // Method com/mojang/brigadier/arguments/IntegerArgumentType.getInteger:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)I
+        25: aload_0
+        26: invokevirtual #682                // Method com/mojang/brigadier/context/CommandContext.getSource:()Ljava/lang/Object;
+        29: checkcast     #251                // class net/minecraft/commands/CommandSourceStack
+        32: invokevirtual #718                // Method net/minecraft/commands/CommandSourceStack.getPosition:()Lnet/minecraft/world/phys/Vec3;
+        35: invokestatic  #722                // Method net/minecraft/core/BlockPos.containing:(Lnet/minecraft/core/Position;)Lnet/minecraft/core/BlockPos;
+        38: invokestatic  #733                // Method placeJigsaw:(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/core/Holder;Lnet/minecraft/resources/ResourceLocation;ILnet/minecraft/core/BlockPos;)I
+        41: ireturn
+
+  private static int lambda$register$4(com.mojang.brigadier.context.CommandContext) throws com.mojang.brigadier.exceptions.CommandSyntaxException;
+    Code:
+         0: aload_0
+         1: invokevirtual #682                // Method com/mojang/brigadier/context/CommandContext.getSource:()Ljava/lang/Object;
+         4: checkcast     #251                // class net/minecraft/commands/CommandSourceStack
+         7: aload_0
+         8: ldc           #69                 // String feature
+        10: invokestatic  #736                // Method net/minecraft/commands/arguments/ResourceKeyArgument.getConfiguredFeature:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;
+        13: aload_0
+        14: ldc           #103                // String pos
+        16: invokestatic  #690                // Method net/minecraft/commands/arguments/coordinates/BlockPosArgument.getLoadedBlockPos:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/BlockPos;
+        19: invokestatic  #738                // Method placeFeature:(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/core/Holder$Reference;Lnet/minecraft/core/BlockPos;)I
+        22: ireturn
+
+  private static int lambda$register$3(com.mojang.brigadier.context.CommandContext) throws com.mojang.brigadier.exceptions.CommandSyntaxException;
+    Code:
+         0: aload_0
+         1: invokevirtual #682                // Method com/mojang/brigadier/context/CommandContext.getSource:()Ljava/lang/Object;
+         4: checkcast     #251                // class net/minecraft/commands/CommandSourceStack
+         7: aload_0
+         8: ldc           #69                 // String feature
+        10: invokestatic  #736                // Method net/minecraft/commands/arguments/ResourceKeyArgument.getConfiguredFeature:(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;
+        13: aload_0
+        14: invokevirtual #682                // Method com/mojang/brigadier/context/CommandContext.getSource:()Ljava/lang/Object;
+        17: checkcast     #251                // class net/minecraft/commands/CommandSourceStack
+        20: invokevirtual #718                // Method net/minecraft/commands/CommandSourceStack.getPosition:()Lnet/minecraft/world/phys/Vec3;
+        23: invokestatic  #722                // Method net/minecraft/core/BlockPos.containing:(Lnet/minecraft/core/Position;)Lnet/minecraft/core/BlockPos;
+        26: invokestatic  #738                // Method placeFeature:(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/core/Holder$Reference;Lnet/minecraft/core/BlockPos;)I
+        29: ireturn
+
+  private static boolean lambda$register$2(net.minecraft.commands.CommandSourceStack);
+    Code:
+         0: aload_0
+         1: iconst_2
+         2: invokevirtual #742                // Method net/minecraft/commands/CommandSourceStack.hasPermission:(I)Z
+         5: ireturn
+
+  private static java.util.concurrent.CompletableFuture lambda$static$1(com.mojang.brigadier.context.CommandContext, com.mojang.brigadier.suggestion.SuggestionsBuilder) throws com.mojang.brigadier.exceptions.CommandSyntaxException;
+    Code:
+         0: aload_0
+         1: invokevirtual #682                // Method com/mojang/brigadier/context/CommandContext.getSource:()Ljava/lang/Object;
+         4: checkcast     #251                // class net/minecraft/commands/CommandSourceStack
+         7: invokevirtual #255                // Method net/minecraft/commands/CommandSourceStack.getLevel:()Lnet/minecraft/server/level/ServerLevel;
+        10: invokevirtual #399                // Method net/minecraft/server/level/ServerLevel.getStructureManager:()Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;
+        13: astore_2
+        14: aload_2
+        15: invokevirtual #748                // Method net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager.listTemplates:()Ljava/util/stream/Stream;
+        18: aload_1
+        19: invokestatic  #754                // InterfaceMethod net/minecraft/commands/SharedSuggestionProvider.suggestResource:(Ljava/util/stream/Stream;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+        22: areturn
+
+  private static com.mojang.brigadier.Message lambda$static$0(java.lang.Object);
+    Code:
+         0: ldc_w         #759                // String commands.place.template.invalid
+         3: iconst_1
+         4: anewarray     #4                  // class java/lang/Object
+         7: dup
+         8: iconst_0
+         9: aload_0
+        10: aastore
+        11: invokestatic  #762                // InterfaceMethod net/minecraft/network/chat/Component.translatableEscape:(Ljava/lang/String;[Ljava/lang/Object;)Lnet/minecraft/network/chat/MutableComponent;
+        14: areturn
+
+  static {};
+    Code:
+         0: new           #303                // class com/mojang/brigadier/exceptions/SimpleCommandExceptionType
+         3: dup
+         4: ldc_w         #766                // String commands.place.feature.failed
+         7: invokestatic  #769                // InterfaceMethod net/minecraft/network/chat/Component.translatable:(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;
+        10: invokespecial #772                // Method com/mojang/brigadier/exceptions/SimpleCommandExceptionType."<init>":(Lcom/mojang/brigadier/Message;)V
+        13: putstatic     #301                // Field ERROR_FEATURE_FAILED:Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+        16: new           #303                // class com/mojang/brigadier/exceptions/SimpleCommandExceptionType
+        19: dup
+        20: ldc_w         #774                // String commands.place.jigsaw.failed
+        23: invokestatic  #769                // InterfaceMethod net/minecraft/network/chat/Component.translatable:(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;
+        26: invokespecial #772                // Method com/mojang/brigadier/exceptions/SimpleCommandExceptionType."<init>":(Lcom/mojang/brigadier/Message;)V
+        29: putstatic     #364                // Field ERROR_JIGSAW_FAILED:Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+        32: new           #303                // class com/mojang/brigadier/exceptions/SimpleCommandExceptionType
+        35: dup
+        36: ldc_w         #776                // String commands.place.structure.failed
+        39: invokestatic  #769                // InterfaceMethod net/minecraft/network/chat/Component.translatable:(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;
+        42: invokespecial #772                // Method com/mojang/brigadier/exceptions/SimpleCommandExceptionType."<init>":(Lcom/mojang/brigadier/Message;)V
+        45: putstatic     #422                // Field ERROR_STRUCTURE_FAILED:Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+        48: new           #497                // class com/mojang/brigadier/exceptions/DynamicCommandExceptionType
+        51: dup
+        52: invokedynamic #786,  0            // InvokeDynamic #20:apply:()Ljava/util/function/Function;
+        57: invokespecial #789                // Method com/mojang/brigadier/exceptions/DynamicCommandExceptionType."<init>":(Ljava/util/function/Function;)V
+        60: putstatic     #495                // Field ERROR_TEMPLATE_INVALID:Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+        63: new           #303                // class com/mojang/brigadier/exceptions/SimpleCommandExceptionType
+        66: dup
+        67: ldc_w         #791                // String commands.place.template.failed
+        70: invokestatic  #769                // InterfaceMethod net/minecraft/network/chat/Component.translatable:(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;
+        73: invokespecial #772                // Method com/mojang/brigadier/exceptions/SimpleCommandExceptionType."<init>":(Lcom/mojang/brigadier/Message;)V
+        76: putstatic     #561                // Field ERROR_TEMPLATE_FAILED:Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+        79: invokedynamic #799,  0            // InvokeDynamic #21:getSuggestions:()Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+        84: putstatic     #173                // Field SUGGEST_TEMPLATES:Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+        87: return
+}

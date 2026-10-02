@@ -1,0 +1,370 @@
+Compiled from "LeavesBlock.java"
+public class net.minecraft.world.level.block.LeavesBlock extends net.minecraft.world.level.block.Block implements net.minecraft.world.level.block.SimpleWaterloggedBlock {
+  public static final com.mojang.serialization.MapCodec<net.minecraft.world.level.block.LeavesBlock> CODEC;
+
+  public static final int DECAY_DISTANCE;
+
+  public static final net.minecraft.world.level.block.state.properties.IntegerProperty DISTANCE;
+
+  public static final net.minecraft.world.level.block.state.properties.BooleanProperty PERSISTENT;
+
+  public static final net.minecraft.world.level.block.state.properties.BooleanProperty WATERLOGGED;
+
+  private static final int TICK_DELAY;
+
+  public com.mojang.serialization.MapCodec<? extends net.minecraft.world.level.block.LeavesBlock> codec();
+    Code:
+         0: getstatic     #45                 // Field CODEC:Lcom/mojang/serialization/MapCodec;
+         3: areturn
+
+  public net.minecraft.world.level.block.LeavesBlock(net.minecraft.world.level.block.state.BlockBehaviour$Properties);
+    Code:
+         0: aload_0
+         1: aload_1
+         2: invokespecial #51                 // Method net/minecraft/world/level/block/Block."<init>":(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V
+         5: aload_0
+         6: aload_0
+         7: getfield      #55                 // Field stateDefinition:Lnet/minecraft/world/level/block/state/StateDefinition;
+        10: invokevirtual #59                 // Method net/minecraft/world/level/block/state/StateDefinition.any:()Lnet/minecraft/world/level/block/state/StateHolder;
+        13: checkcast     #61                 // class net/minecraft/world/level/block/state/BlockState
+        16: getstatic     #63                 // Field DISTANCE:Lnet/minecraft/world/level/block/state/properties/IntegerProperty;
+        19: bipush        7
+        21: invokestatic  #69                 // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+        24: invokevirtual #73                 // Method net/minecraft/world/level/block/state/BlockState.setValue:(Lnet/minecraft/world/level/block/state/properties/Property;Ljava/lang/Comparable;)Ljava/lang/Object;
+        27: checkcast     #61                 // class net/minecraft/world/level/block/state/BlockState
+        30: getstatic     #75                 // Field PERSISTENT:Lnet/minecraft/world/level/block/state/properties/BooleanProperty;
+        33: iconst_0
+        34: invokestatic  #80                 // Method java/lang/Boolean.valueOf:(Z)Ljava/lang/Boolean;
+        37: invokevirtual #73                 // Method net/minecraft/world/level/block/state/BlockState.setValue:(Lnet/minecraft/world/level/block/state/properties/Property;Ljava/lang/Comparable;)Ljava/lang/Object;
+        40: checkcast     #61                 // class net/minecraft/world/level/block/state/BlockState
+        43: getstatic     #82                 // Field WATERLOGGED:Lnet/minecraft/world/level/block/state/properties/BooleanProperty;
+        46: iconst_0
+        47: invokestatic  #80                 // Method java/lang/Boolean.valueOf:(Z)Ljava/lang/Boolean;
+        50: invokevirtual #73                 // Method net/minecraft/world/level/block/state/BlockState.setValue:(Lnet/minecraft/world/level/block/state/properties/Property;Ljava/lang/Comparable;)Ljava/lang/Object;
+        53: checkcast     #61                 // class net/minecraft/world/level/block/state/BlockState
+        56: invokevirtual #86                 // Method registerDefaultState:(Lnet/minecraft/world/level/block/state/BlockState;)V
+        59: return
+
+  protected net.minecraft.world.phys.shapes.VoxelShape getBlockSupportShape(net.minecraft.world.level.block.state.BlockState, net.minecraft.world.level.BlockGetter, net.minecraft.core.BlockPos);
+    Code:
+         0: invokestatic  #96                 // Method net/minecraft/world/phys/shapes/Shapes.empty:()Lnet/minecraft/world/phys/shapes/VoxelShape;
+         3: areturn
+
+  protected boolean isRandomlyTicking(net.minecraft.world.level.block.state.BlockState);
+    Code:
+         0: aload_1
+         1: getstatic     #63                 // Field DISTANCE:Lnet/minecraft/world/level/block/state/properties/IntegerProperty;
+         4: invokevirtual #107                // Method net/minecraft/world/level/block/state/BlockState.getValue:(Lnet/minecraft/world/level/block/state/properties/Property;)Ljava/lang/Comparable;
+         7: checkcast     #65                 // class java/lang/Integer
+        10: invokevirtual #111                // Method java/lang/Integer.intValue:()I
+        13: bipush        7
+        15: if_icmpne     38
+        18: aload_1
+        19: getstatic     #75                 // Field PERSISTENT:Lnet/minecraft/world/level/block/state/properties/BooleanProperty;
+        22: invokevirtual #107                // Method net/minecraft/world/level/block/state/BlockState.getValue:(Lnet/minecraft/world/level/block/state/properties/Property;)Ljava/lang/Comparable;
+        25: checkcast     #77                 // class java/lang/Boolean
+        28: invokevirtual #115                // Method java/lang/Boolean.booleanValue:()Z
+        31: ifne          38
+        34: iconst_1
+        35: goto          39
+        38: iconst_0
+        39: ireturn
+
+  protected void randomTick(net.minecraft.world.level.block.state.BlockState, net.minecraft.server.level.ServerLevel, net.minecraft.core.BlockPos, net.minecraft.util.RandomSource);
+    Code:
+         0: aload_0
+         1: aload_1
+         2: invokevirtual #120                // Method decaying:(Lnet/minecraft/world/level/block/state/BlockState;)Z
+         5: ifeq          21
+         8: aload_1
+         9: aload_2
+        10: aload_3
+        11: invokestatic  #124                // Method dropResources:(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)V
+        14: aload_2
+        15: aload_3
+        16: iconst_0
+        17: invokevirtual #130                // Method net/minecraft/server/level/ServerLevel.removeBlock:(Lnet/minecraft/core/BlockPos;Z)Z
+        20: pop
+        21: return
+
+  protected boolean decaying(net.minecraft.world.level.block.state.BlockState);
+    Code:
+         0: aload_1
+         1: getstatic     #75                 // Field PERSISTENT:Lnet/minecraft/world/level/block/state/properties/BooleanProperty;
+         4: invokevirtual #107                // Method net/minecraft/world/level/block/state/BlockState.getValue:(Lnet/minecraft/world/level/block/state/properties/Property;)Ljava/lang/Comparable;
+         7: checkcast     #77                 // class java/lang/Boolean
+        10: invokevirtual #115                // Method java/lang/Boolean.booleanValue:()Z
+        13: ifne          38
+        16: aload_1
+        17: getstatic     #63                 // Field DISTANCE:Lnet/minecraft/world/level/block/state/properties/IntegerProperty;
+        20: invokevirtual #107                // Method net/minecraft/world/level/block/state/BlockState.getValue:(Lnet/minecraft/world/level/block/state/properties/Property;)Ljava/lang/Comparable;
+        23: checkcast     #65                 // class java/lang/Integer
+        26: invokevirtual #111                // Method java/lang/Integer.intValue:()I
+        29: bipush        7
+        31: if_icmpne     38
+        34: iconst_1
+        35: goto          39
+        38: iconst_0
+        39: ireturn
+
+  protected void tick(net.minecraft.world.level.block.state.BlockState, net.minecraft.server.level.ServerLevel, net.minecraft.core.BlockPos, net.minecraft.util.RandomSource);
+    Code:
+         0: aload_2
+         1: aload_3
+         2: aload_1
+         3: aload_2
+         4: aload_3
+         5: invokestatic  #138                // Method updateDistance:(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;
+         8: iconst_3
+         9: invokevirtual #142                // Method net/minecraft/server/level/ServerLevel.setBlock:(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;I)Z
+        12: pop
+        13: return
+
+  protected int getLightBlock(net.minecraft.world.level.block.state.BlockState, net.minecraft.world.level.BlockGetter, net.minecraft.core.BlockPos);
+    Code:
+         0: iconst_1
+         1: ireturn
+
+  protected net.minecraft.world.level.block.state.BlockState updateShape(net.minecraft.world.level.block.state.BlockState, net.minecraft.core.Direction, net.minecraft.world.level.block.state.BlockState, net.minecraft.world.level.LevelAccessor, net.minecraft.core.BlockPos, net.minecraft.core.BlockPos);
+    Code:
+         0: aload_1
+         1: getstatic     #82                 // Field WATERLOGGED:Lnet/minecraft/world/level/block/state/properties/BooleanProperty;
+         4: invokevirtual #107                // Method net/minecraft/world/level/block/state/BlockState.getValue:(Lnet/minecraft/world/level/block/state/properties/Property;)Ljava/lang/Comparable;
+         7: checkcast     #77                 // class java/lang/Boolean
+        10: invokevirtual #115                // Method java/lang/Boolean.booleanValue:()Z
+        13: ifeq          36
+        16: aload         4
+        18: aload         5
+        20: getstatic     #152                // Field net/minecraft/world/level/material/Fluids.WATER:Lnet/minecraft/world/level/material/FlowingFluid;
+        23: getstatic     #152                // Field net/minecraft/world/level/material/Fluids.WATER:Lnet/minecraft/world/level/material/FlowingFluid;
+        26: aload         4
+        28: invokevirtual #158                // Method net/minecraft/world/level/material/FlowingFluid.getTickDelay:(Lnet/minecraft/world/level/LevelReader;)I
+        31: invokeinterface #164,  4          // InterfaceMethod net/minecraft/world/level/LevelAccessor.scheduleTick:(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/Fluid;I)V
+        36: aload_3
+        37: invokestatic  #168                // Method getDistanceAt:(Lnet/minecraft/world/level/block/state/BlockState;)I
+        40: iconst_1
+        41: iadd
+        42: istore        7
+        44: iload         7
+        46: iconst_1
+        47: if_icmpne     68
+        50: aload_1
+        51: getstatic     #63                 // Field DISTANCE:Lnet/minecraft/world/level/block/state/properties/IntegerProperty;
+        54: invokevirtual #107                // Method net/minecraft/world/level/block/state/BlockState.getValue:(Lnet/minecraft/world/level/block/state/properties/Property;)Ljava/lang/Comparable;
+        57: checkcast     #65                 // class java/lang/Integer
+        60: invokevirtual #111                // Method java/lang/Integer.intValue:()I
+        63: iload         7
+        65: if_icmpeq     79
+        68: aload         4
+        70: aload         5
+        72: aload_0
+        73: iconst_1
+        74: invokeinterface #171,  4          // InterfaceMethod net/minecraft/world/level/LevelAccessor.scheduleTick:(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;I)V
+        79: aload_1
+        80: areturn
+
+  private static net.minecraft.world.level.block.state.BlockState updateDistance(net.minecraft.world.level.block.state.BlockState, net.minecraft.world.level.LevelAccessor, net.minecraft.core.BlockPos);
+    Code:
+         0: bipush        7
+         2: istore_3
+         3: new           #14                 // class net/minecraft/core/BlockPos$MutableBlockPos
+         6: dup
+         7: invokespecial #179                // Method net/minecraft/core/BlockPos$MutableBlockPos."<init>":()V
+        10: astore        4
+        12: invokestatic  #185                // Method net/minecraft/core/Direction.values:()[Lnet/minecraft/core/Direction;
+        15: astore        5
+        17: aload         5
+        19: arraylength
+        20: istore        6
+        22: iconst_0
+        23: istore        7
+        25: iload         7
+        27: iload         6
+        29: if_icmpge     80
+        32: aload         5
+        34: iload         7
+        36: aaload
+        37: astore        8
+        39: aload         4
+        41: aload_2
+        42: aload         8
+        44: invokevirtual #191                // Method net/minecraft/core/BlockPos$MutableBlockPos.setWithOffset:(Lnet/minecraft/core/Vec3i;Lnet/minecraft/core/Direction;)Lnet/minecraft/core/BlockPos$MutableBlockPos;
+        47: pop
+        48: iload_3
+        49: aload_1
+        50: aload         4
+        52: invokeinterface #195,  2          // InterfaceMethod net/minecraft/world/level/LevelAccessor.getBlockState:(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;
+        57: invokestatic  #168                // Method getDistanceAt:(Lnet/minecraft/world/level/block/state/BlockState;)I
+        60: iconst_1
+        61: iadd
+        62: invokestatic  #201                // Method java/lang/Math.min:(II)I
+        65: istore_3
+        66: iload_3
+        67: iconst_1
+        68: if_icmpne     74
+        71: goto          80
+        74: iinc          7, 1
+        77: goto          25
+        80: aload_0
+        81: getstatic     #63                 // Field DISTANCE:Lnet/minecraft/world/level/block/state/properties/IntegerProperty;
+        84: iload_3
+        85: invokestatic  #69                 // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+        88: invokevirtual #73                 // Method net/minecraft/world/level/block/state/BlockState.setValue:(Lnet/minecraft/world/level/block/state/properties/Property;Ljava/lang/Comparable;)Ljava/lang/Object;
+        91: checkcast     #61                 // class net/minecraft/world/level/block/state/BlockState
+        94: areturn
+
+  private static int getDistanceAt(net.minecraft.world.level.block.state.BlockState);
+    Code:
+         0: aload_0
+         1: invokestatic  #206                // Method getOptionalDistanceAt:(Lnet/minecraft/world/level/block/state/BlockState;)Ljava/util/OptionalInt;
+         4: bipush        7
+         6: invokevirtual #212                // Method java/util/OptionalInt.orElse:(I)I
+         9: ireturn
+
+  public static java.util.OptionalInt getOptionalDistanceAt(net.minecraft.world.level.block.state.BlockState);
+    Code:
+         0: aload_0
+         1: getstatic     #218                // Field net/minecraft/tags/BlockTags.LOGS:Lnet/minecraft/tags/TagKey;
+         4: invokevirtual #222                // Method net/minecraft/world/level/block/state/BlockState.is:(Lnet/minecraft/tags/TagKey;)Z
+         7: ifeq          15
+        10: iconst_0
+        11: invokestatic  #226                // Method java/util/OptionalInt.of:(I)Ljava/util/OptionalInt;
+        14: areturn
+        15: aload_0
+        16: getstatic     #63                 // Field DISTANCE:Lnet/minecraft/world/level/block/state/properties/IntegerProperty;
+        19: invokevirtual #230                // Method net/minecraft/world/level/block/state/BlockState.hasProperty:(Lnet/minecraft/world/level/block/state/properties/Property;)Z
+        22: ifeq          42
+        25: aload_0
+        26: getstatic     #63                 // Field DISTANCE:Lnet/minecraft/world/level/block/state/properties/IntegerProperty;
+        29: invokevirtual #107                // Method net/minecraft/world/level/block/state/BlockState.getValue:(Lnet/minecraft/world/level/block/state/properties/Property;)Ljava/lang/Comparable;
+        32: checkcast     #65                 // class java/lang/Integer
+        35: invokevirtual #111                // Method java/lang/Integer.intValue:()I
+        38: invokestatic  #226                // Method java/util/OptionalInt.of:(I)Ljava/util/OptionalInt;
+        41: areturn
+        42: invokestatic  #233                // Method java/util/OptionalInt.empty:()Ljava/util/OptionalInt;
+        45: areturn
+
+  protected net.minecraft.world.level.material.FluidState getFluidState(net.minecraft.world.level.block.state.BlockState);
+    Code:
+         0: aload_1
+         1: getstatic     #82                 // Field WATERLOGGED:Lnet/minecraft/world/level/block/state/properties/BooleanProperty;
+         4: invokevirtual #107                // Method net/minecraft/world/level/block/state/BlockState.getValue:(Lnet/minecraft/world/level/block/state/properties/Property;)Ljava/lang/Comparable;
+         7: checkcast     #77                 // class java/lang/Boolean
+        10: invokevirtual #115                // Method java/lang/Boolean.booleanValue:()Z
+        13: ifeq          24
+        16: getstatic     #152                // Field net/minecraft/world/level/material/Fluids.WATER:Lnet/minecraft/world/level/material/FlowingFluid;
+        19: iconst_0
+        20: invokevirtual #239                // Method net/minecraft/world/level/material/FlowingFluid.getSource:(Z)Lnet/minecraft/world/level/material/FluidState;
+        23: areturn
+        24: aload_0
+        25: aload_1
+        26: invokespecial #241                // Method net/minecraft/world/level/block/Block.getFluidState:(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/material/FluidState;
+        29: areturn
+
+  public void animateTick(net.minecraft.world.level.block.state.BlockState, net.minecraft.world.level.Level, net.minecraft.core.BlockPos, net.minecraft.util.RandomSource);
+    Code:
+         0: aload_2
+         1: aload_3
+         2: invokevirtual #247                // Method net/minecraft/core/BlockPos.above:()Lnet/minecraft/core/BlockPos;
+         5: invokevirtual #253                // Method net/minecraft/world/level/Level.isRainingAt:(Lnet/minecraft/core/BlockPos;)Z
+         8: ifne          12
+        11: return
+        12: aload         4
+        14: bipush        15
+        16: invokeinterface #258,  2          // InterfaceMethod net/minecraft/util/RandomSource.nextInt:(I)I
+        21: iconst_1
+        22: if_icmpeq     26
+        25: return
+        26: aload_3
+        27: invokevirtual #261                // Method net/minecraft/core/BlockPos.below:()Lnet/minecraft/core/BlockPos;
+        30: astore        5
+        32: aload_2
+        33: aload         5
+        35: invokevirtual #262                // Method net/minecraft/world/level/Level.getBlockState:(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;
+        38: astore        6
+        40: aload         6
+        42: invokevirtual #265                // Method net/minecraft/world/level/block/state/BlockState.canOcclude:()Z
+        45: ifeq          63
+        48: aload         6
+        50: aload_2
+        51: aload         5
+        53: getstatic     #268                // Field net/minecraft/core/Direction.UP:Lnet/minecraft/core/Direction;
+        56: invokevirtual #272                // Method net/minecraft/world/level/block/state/BlockState.isFaceSturdy:(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;)Z
+        59: ifeq          63
+        62: return
+        63: aload_2
+        64: aload_3
+        65: aload         4
+        67: getstatic     #278                // Field net/minecraft/core/particles/ParticleTypes.DRIPPING_WATER:Lnet/minecraft/core/particles/SimpleParticleType;
+        70: invokestatic  #284                // Method net/minecraft/util/ParticleUtils.spawnParticleBelow:(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/particles/ParticleOptions;)V
+        73: return
+
+  protected void createBlockStateDefinition(net.minecraft.world.level.block.state.StateDefinition$Builder<net.minecraft.world.level.block.Block, net.minecraft.world.level.block.state.BlockState>);
+    Code:
+         0: aload_1
+         1: iconst_3
+         2: anewarray     #290                // class net/minecraft/world/level/block/state/properties/Property
+         5: dup
+         6: iconst_0
+         7: getstatic     #63                 // Field DISTANCE:Lnet/minecraft/world/level/block/state/properties/IntegerProperty;
+        10: aastore
+        11: dup
+        12: iconst_1
+        13: getstatic     #75                 // Field PERSISTENT:Lnet/minecraft/world/level/block/state/properties/BooleanProperty;
+        16: aastore
+        17: dup
+        18: iconst_2
+        19: getstatic     #82                 // Field WATERLOGGED:Lnet/minecraft/world/level/block/state/properties/BooleanProperty;
+        22: aastore
+        23: invokevirtual #294                // Method net/minecraft/world/level/block/state/StateDefinition$Builder.add:([Lnet/minecraft/world/level/block/state/properties/Property;)Lnet/minecraft/world/level/block/state/StateDefinition$Builder;
+        26: pop
+        27: return
+
+  public net.minecraft.world.level.block.state.BlockState getStateForPlacement(net.minecraft.world.item.context.BlockPlaceContext);
+    Code:
+         0: aload_1
+         1: invokevirtual #304                // Method net/minecraft/world/item/context/BlockPlaceContext.getLevel:()Lnet/minecraft/world/level/Level;
+         4: aload_1
+         5: invokevirtual #307                // Method net/minecraft/world/item/context/BlockPlaceContext.getClickedPos:()Lnet/minecraft/core/BlockPos;
+         8: invokevirtual #310                // Method net/minecraft/world/level/Level.getFluidState:(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/material/FluidState;
+        11: astore_2
+        12: aload_0
+        13: invokevirtual #314                // Method defaultBlockState:()Lnet/minecraft/world/level/block/state/BlockState;
+        16: getstatic     #75                 // Field PERSISTENT:Lnet/minecraft/world/level/block/state/properties/BooleanProperty;
+        19: iconst_1
+        20: invokestatic  #80                 // Method java/lang/Boolean.valueOf:(Z)Ljava/lang/Boolean;
+        23: invokevirtual #73                 // Method net/minecraft/world/level/block/state/BlockState.setValue:(Lnet/minecraft/world/level/block/state/properties/Property;Ljava/lang/Comparable;)Ljava/lang/Object;
+        26: checkcast     #61                 // class net/minecraft/world/level/block/state/BlockState
+        29: getstatic     #82                 // Field WATERLOGGED:Lnet/minecraft/world/level/block/state/properties/BooleanProperty;
+        32: aload_2
+        33: invokevirtual #320                // Method net/minecraft/world/level/material/FluidState.getType:()Lnet/minecraft/world/level/material/Fluid;
+        36: getstatic     #152                // Field net/minecraft/world/level/material/Fluids.WATER:Lnet/minecraft/world/level/material/FlowingFluid;
+        39: if_acmpne     46
+        42: iconst_1
+        43: goto          47
+        46: iconst_0
+        47: invokestatic  #80                 // Method java/lang/Boolean.valueOf:(Z)Ljava/lang/Boolean;
+        50: invokevirtual #73                 // Method net/minecraft/world/level/block/state/BlockState.setValue:(Lnet/minecraft/world/level/block/state/properties/Property;Ljava/lang/Comparable;)Ljava/lang/Object;
+        53: checkcast     #61                 // class net/minecraft/world/level/block/state/BlockState
+        56: astore_3
+        57: aload_3
+        58: aload_1
+        59: invokevirtual #304                // Method net/minecraft/world/item/context/BlockPlaceContext.getLevel:()Lnet/minecraft/world/level/Level;
+        62: aload_1
+        63: invokevirtual #307                // Method net/minecraft/world/item/context/BlockPlaceContext.getClickedPos:()Lnet/minecraft/core/BlockPos;
+        66: invokestatic  #138                // Method updateDistance:(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;
+        69: areturn
+
+  static {};
+    Code:
+         0: invokedynamic #342,  0            // InvokeDynamic #0:apply:()Ljava/util/function/Function;
+         5: invokestatic  #346                // Method simpleCodec:(Ljava/util/function/Function;)Lcom/mojang/serialization/MapCodec;
+         8: putstatic     #45                 // Field CODEC:Lcom/mojang/serialization/MapCodec;
+        11: getstatic     #349                // Field net/minecraft/world/level/block/state/properties/BlockStateProperties.DISTANCE:Lnet/minecraft/world/level/block/state/properties/IntegerProperty;
+        14: putstatic     #63                 // Field DISTANCE:Lnet/minecraft/world/level/block/state/properties/IntegerProperty;
+        17: getstatic     #350                // Field net/minecraft/world/level/block/state/properties/BlockStateProperties.PERSISTENT:Lnet/minecraft/world/level/block/state/properties/BooleanProperty;
+        20: putstatic     #75                 // Field PERSISTENT:Lnet/minecraft/world/level/block/state/properties/BooleanProperty;
+        23: getstatic     #351                // Field net/minecraft/world/level/block/state/properties/BlockStateProperties.WATERLOGGED:Lnet/minecraft/world/level/block/state/properties/BooleanProperty;
+        26: putstatic     #82                 // Field WATERLOGGED:Lnet/minecraft/world/level/block/state/properties/BooleanProperty;
+        29: return
+}

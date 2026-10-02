@@ -1,0 +1,16 @@
+{
+  "verified_at_local": "2026-10-02T09:23:55",
+  "files_per_copy": 4860,
+  "prepared_export_live_identical": true,
+  "zip_content_identical": true,
+  "source17_sha256": "1bf0913d429eae1fbebe28d3ed21f314d3fc79678ab89ed1d67bc14d9cda7c78",
+  "source17_unchanged": true,
+  "modpack_file_modified_by_this_sync": "README.md",
+  "no_runtime_function_change_by_this_sync": true,
+  "jar_files_modified": false,
+  "mods_added": false,
+  "minecraft_test_performed": false,
+  "leaf_correction_observed_in_game": false,
+  "hash_manifest": "pack_file_hashes.json",
+  "documentation_backup": "C:\\Users\\Bastien\\Desktop\\Les Echo du monde\\backups\\documentation_sync_20261002_092350"
+}
