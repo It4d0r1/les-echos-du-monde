@@ -2,7 +2,7 @@
 
 ## Dépôt prêt
 
-Le dépôt GitHub privé [It4d0r1/les-echos-du-monde](https://github.com/It4d0r1/les-echos-du-monde) est créé. La copie du PC a été envoyée sur la branche `main`. Le téléphone Android doit maintenant cloner le dépôt une première fois.
+Le dépôt GitHub public [It4d0r1/les-echos-du-monde](https://github.com/It4d0r1/les-echos-du-monde) est créé. La copie du PC a été envoyée sur la branche `main`. Le téléphone Android doit maintenant cloner le dépôt une première fois.
 
 ## Sur Android
 
